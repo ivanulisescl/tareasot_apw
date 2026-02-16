@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gráficos - Control de Parámetros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/graficos.css">
+</head>
+<body>
+  <div class="app app-graficos">
+    <header class="header">
+      <div class="header-content">
+        <a href="index.html" class="back-link">← Inicio</a>
+        <h1 class="logo">Gráficos</h1>
+        <span class="subtitle">Parámetros por día (datos desde JSON)</span>
+      </div>
+    </header>
+
+    <main class="main main-graficos">
+      <div id="loading" class="loading">Cargando datos…</div>
+      <div id="error" class="error" hidden>No se pudieron cargar los datos.</div>
+      <div id="charts" class="charts" hidden>
+        <section class="chart-section">
+          <h2 class="chart-title">Evolución Anual Ofertas de Ingeniería</h2>
+          <div class="chart-wrap">
+            <canvas id="chartOfertasIng"></canvas>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span>Ingeniería · Parámetros OT · datos/tablaDias.json</span>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+  <script src="js/graficos.js"></script>
+</body>
+</html>

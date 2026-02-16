@@ -1,0 +1,11 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE
+.settings/
+.project
+.classpath
+
+# No subir el .js generado (opcional; la app usa solo el JSON)
+# data/tablaDias.js

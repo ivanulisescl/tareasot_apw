@@ -1,0 +1,44 @@
+# Control de Parámetros - Departamento de Ingeniería
+
+Aplicación para monitorear y controlar parámetros del departamento de ingeniería.
+
+**Repositorio:** [https://github.com/ivanulisescl/tareasot_apw](https://github.com/ivanulisescl/tareasot_apw.git)
+
+**Versión:** 1.0.0 (ver archivo `VERSION`)
+
+## Estructura del proyecto
+
+```
+TareasOT_APW/
+├── index.html        # Página principal
+├── graficos.html     # Vista de gráficos (Evolución Anual Ofertas de Ingeniería)
+├── VERSION           # Número de versión
+├── data/
+│   └── tablaDias.json  # Datos para los gráficos
+├── css/
+│   ├── styles.css    # Estilos base
+│   └── graficos.css  # Estilos de la vista gráficos
+├── js/
+│   ├── main.js       # Lógica principal
+│   └── graficos.js   # Carga JSON y construye gráficos
+└── README.md
+```
+
+## Cómo ejecutar
+
+1. Clonar el repositorio (o abrir esta carpeta).
+2. Abrir `index.html` en el navegador, o usar un servidor local, por ejemplo:
+   - Con Python: `python -m http.server 8000` y visitar `http://localhost:8000`
+   - Con Node (npx): `npx serve` y abrir la URL indicada
+
+## Tecnologías
+
+- HTML5
+- CSS3 (variables, flexbox, diseño responsive)
+- JavaScript (vanilla)
+
+## Estado actual
+
+- Interfaz principal con botón **Gráficos**.
+- Vista de gráficos: **Evolución Anual Ofertas de Ingeniería** (datos desde `data/tablaDias.json`).
+- Los gráficos se construyen directamente desde el JSON; es necesario usar un servidor local para cargar los datos.
