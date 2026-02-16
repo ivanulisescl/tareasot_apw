@@ -46,6 +46,12 @@
     return out;
   }
 
+  function getValor(d, campo) {
+    if (d[campo] != null) return Number(d[campo]);
+    var key = Object.keys(d).find(function (k) { return k.replace(/\s/g, '') === campo.replace(/\s/g, ''); });
+    return key != null ? Number(d[key]) : 0;
+  }
+
   function generarDatasetPorAnios(listaDias, campo) {
     var seriesPorAnio = {};
     for (var i = 0; i < listaDias.length; i++) {
@@ -54,7 +60,7 @@
       if (!fecha) continue;
       var anio = fecha.getFullYear();
       var diaDelAnio = dayOfYear(fecha);
-      var valor = d[campo] != null ? Number(d[campo]) : 0;
+      var valor = getValor(d, campo);
       if (!seriesPorAnio[anio]) seriesPorAnio[anio] = [];
       seriesPorAnio[anio].push({ x: diaDelAnio, y: valor });
     }
@@ -159,6 +165,25 @@
       };
     }
 
+    var minY = Infinity, maxY = -Infinity;
+    anios.forEach(function (anio) {
+      seriesPorAnio[anio].forEach(function (p) {
+        if (p.y < minY) minY = p.y;
+        if (p.y > maxY) maxY = p.y;
+      });
+    });
+    if (puntoAhora) {
+      if (puntoAhora.y < minY) minY = puntoAhora.y;
+      if (puntoAhora.y > maxY) maxY = puntoAhora.y;
+    }
+    if (minY === Infinity) minY = 0;
+    if (maxY === -Infinity) maxY = valorEquilibrio;
+    minY = Math.min(minY, valorEquilibrio);
+    maxY = Math.max(maxY, valorEquilibrio);
+    var range = maxY - minY || 1;
+    var yMin = minY - range * 0.05;
+    var yMax = maxY + range * 0.05;
+
     var ctx = document.getElementById(canvasId).getContext('2d');
     var chart = new Chart(ctx, {
       type: 'line',
@@ -211,32 +236,14 @@
           },
           y: {
             type: 'linear',
+            min: yMin,
+            max: yMax,
             grid: { color: COLOR_GRID },
             ticks: { color: COLOR_TEXT_MUTED }
           }
         }
       }
     });
-
-    var minY = Infinity, maxY = -Infinity;
-    anios.forEach(function (anio) {
-      seriesPorAnio[anio].forEach(function (p) {
-        if (p.y < minY) minY = p.y;
-        if (p.y > maxY) maxY = p.y;
-      });
-    });
-    if (puntoAhora) {
-      if (puntoAhora.y < minY) minY = puntoAhora.y;
-      if (puntoAhora.y > maxY) maxY = puntoAhora.y;
-    }
-    if (minY !== Infinity && maxY !== -Infinity) {
-      minY = Math.min(minY, valorEquilibrio);
-      maxY = Math.max(maxY, valorEquilibrio);
-      var range = maxY - minY || 1;
-      chart.options.scales.y.min = minY - range * 0.05;
-      chart.options.scales.y.max = maxY + range * 0.05;
-      chart.update();
-    }
   }
 
   function init(data) {
