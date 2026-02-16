@@ -46,7 +46,7 @@
     return out;
   }
 
-  function generarDatasetPorAnios(listaDias) {
+  function generarDatasetPorAnios(listaDias, campo) {
     var seriesPorAnio = {};
     for (var i = 0; i < listaDias.length; i++) {
       var d = listaDias[i];
@@ -54,7 +54,7 @@
       if (!fecha) continue;
       var anio = fecha.getFullYear();
       var diaDelAnio = dayOfYear(fecha);
-      var valor = d['Ofertas Ing'] != null ? Number(d['Ofertas Ing']) : 0;
+      var valor = d[campo] != null ? Number(d[campo]) : 0;
       if (!seriesPorAnio[anio]) seriesPorAnio[anio] = [];
       seriesPorAnio[anio].push({ x: diaDelAnio, y: valor });
     }
@@ -82,8 +82,8 @@
     chartsEl.hidden = !show;
   }
 
-  function createChartEvolucionOfertasIng(data) {
-    var res = generarDatasetPorAnios(data);
+  function createChartEvolucionAnual(data, campo, titulo, canvasId, valorEquilibrio) {
+    var res = generarDatasetPorAnios(data, campo);
     var seriesPorAnio = res.seriesPorAnio;
     var anios = res.anios;
     if (anios.length === 0) return;
@@ -124,16 +124,16 @@
     }
 
     var annotations = {
-      line100: {
+      lineaEquilibrio: {
         type: 'line',
-        yMin: 100,
-        yMax: 100,
+        yMin: valorEquilibrio,
+        yMax: valorEquilibrio,
         borderColor: 'rgb(100, 100, 100)',
         borderWidth: 2,
         borderDash: [5, 4],
         label: {
           display: true,
-          content: 'Punto de equilibrio: 100',
+          content: 'Punto de equilibrio: ' + valorEquilibrio,
           position: 'end'
         }
       }
@@ -159,7 +159,7 @@
       };
     }
 
-    var ctx = document.getElementById('chartOfertasIng').getContext('2d');
+    var ctx = document.getElementById(canvasId).getContext('2d');
     var chart = new Chart(ctx, {
       type: 'line',
       data: { datasets: datasets },
@@ -230,8 +230,8 @@
       if (puntoAhora.y > maxY) maxY = puntoAhora.y;
     }
     if (minY !== Infinity && maxY !== -Infinity) {
-      minY = Math.min(minY, 100);
-      maxY = Math.max(maxY, 100);
+      minY = Math.min(minY, valorEquilibrio);
+      maxY = Math.max(maxY, valorEquilibrio);
       var range = maxY - minY || 1;
       chart.options.scales.y.min = minY - range * 0.05;
       chart.options.scales.y.max = maxY + range * 0.05;
@@ -243,7 +243,8 @@
     showLoading(false);
     showError(false);
     showCharts(true);
-    createChartEvolucionOfertasIng(data);
+    createChartEvolucionAnual(data, 'Ofertas Ing', 'Evolución Anual Ofertas de Ingeniería', 'chartOfertasIng', 100);
+    createChartEvolucionAnual(data, 'Ofertas Autom', 'Evolución Anual Ofertas de Automáticos', 'chartOfertasAutom', 20);
   }
 
   showLoading(true);

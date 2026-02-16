@@ -4,14 +4,14 @@ Aplicación para monitorear y controlar parámetros del departamento de ingenier
 
 **Repositorio:** [https://github.com/ivanulisescl/tareasot_apw](https://github.com/ivanulisescl/tareasot_apw.git)
 
-**Versión:** 1.0.0 (ver archivo `VERSION`)
+**Versión:** 1.1.0 (ver archivo `VERSION`)
 
 ## Estructura del proyecto
 
 ```
 TareasOT_APW/
 ├── index.html        # Página principal
-├── graficos.html     # Vista de gráficos (Evolución Anual Ofertas de Ingeniería)
+├── graficos.html     # Vista de gráficos (Ofertas Ingeniería + Ofertas Automáticos)
 ├── VERSION           # Número de versión
 ├── data/
 │   └── tablaDias.json  # Datos para los gráficos
@@ -40,5 +40,5 @@ TareasOT_APW/
 ## Estado actual
 
 - Interfaz principal con botón **Gráficos**.
-- Vista de gráficos: **Evolución Anual Ofertas de Ingeniería** (datos desde `data/tablaDias.json`).
+- Vista de gráficos: **Evolución Anual Ofertas de Ingeniería** y **Evolución Anual Ofertas de Automáticos** (datos desde `data/tablaDias.json`).
 - Los gráficos se construyen directamente desde el JSON; es necesario usar un servidor local para cargar los datos.
