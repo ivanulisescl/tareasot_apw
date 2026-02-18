@@ -4,7 +4,7 @@ Aplicación para monitorear y controlar parámetros del departamento de ingenier
 
 **Repositorio:** [https://github.com/ivanulisescl/tareasot_apw](https://github.com/ivanulisescl/tareasot_apw.git)
 
-**Versión:** 1.3.0 (ver archivo `VERSION`)
+**Versión:** 1.4.0 (ver archivo `VERSION`)
 
 ## Estructura del proyecto
 
@@ -39,6 +39,7 @@ TareasOT_APW/
 
 ## Estado actual
 
-- Interfaz principal con botón **Gráficos**.
+- Interfaz principal con botones **Estado Tareas** (panel con totales del último día) y **Gráficos**.
+- Tema día/noche en el encabezado (preferencia guardada en localStorage).
 - Vista de gráficos: **Evolución Anual Ofertas de Ingeniería** y **Evolución Anual Ofertas de Automáticos** (datos desde `data/tablaDias.json`).
-- Los gráficos se construyen directamente desde el JSON; es necesario usar un servidor local para cargar los datos.
+- Los gráficos y el panel Estado Tareas se construyen desde el JSON; es necesario usar un servidor local (o GitHub Pages) para cargar los datos.

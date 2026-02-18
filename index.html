@@ -12,28 +12,65 @@
 <body>
   <div class="app">
     <header class="header">
-      <div class="header-content">
-        <h1 class="logo">Control de Parámetros</h1>
-        <span class="subtitle">Departamento de Ingeniería</span>
-        <span class="version">v1.3.0</span>
+      <div class="header-inner">
+        <div class="header-content">
+          <h1 class="logo">Control de Parámetros</h1>
+          <span class="subtitle">Departamento de Ingeniería</span>
+          <span class="version">v1.4.0</span>
+        </div>
+        <button type="button" class="btn-theme" id="btnTheme" aria-label="Cambiar tema día/noche" title="Cambiar tema">
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+        </button>
       </div>
     </header>
 
     <main class="main">
       <section class="hero">
         <p class="hero-text">Panel de monitoreo y control de parámetros</p>
-        <a href="graficos.html" class="btn-graficos" id="btnGraficos" aria-label="Abrir gráficos">
-          <span class="btn-icon" aria-hidden="true">📊</span>
-          Gráficos
-        </a>
+        <div class="hero-buttons">
+          <button type="button" class="btn btn-secondary" id="btnEstadoTareas">
+            <span class="btn-icon" aria-hidden="true">📋</span>
+            Estado Tareas
+          </button>
+          <a href="graficos.html" class="btn btn-primary" id="btnGraficos" aria-label="Abrir gráficos">
+            <span class="btn-icon" aria-hidden="true">📊</span>
+            Gráficos
+          </a>
+        </div>
       </section>
     </main>
+
+    <div id="panelEstadoTareas" class="panel-estado" hidden aria-modal="true" aria-labelledby="panelEstadoTareasTitle">
+      <div class="panel-estado-backdrop" id="panelEstadoBackdrop"></div>
+      <div class="panel-estado-content">
+        <div class="panel-estado-header">
+          <h2 id="panelEstadoTareasTitle" class="panel-estado-title">Estado Tareas</h2>
+          <button type="button" class="panel-estado-close" id="panelEstadoClose" aria-label="Cerrar">×</button>
+        </div>
+        <div class="panel-estado-body">
+          <p id="panelEstadoFecha" class="panel-estado-fecha"></p>
+          <ul class="panel-estado-list">
+            <li><span class="panel-estado-label">Número tareas total</span><span id="estadoTotal" class="panel-estado-value">—</span></li>
+            <li class="panel-estado-destacado"><span class="panel-estado-label">Número ofertas Ingeniería</span><span id="estadoOfertasIng" class="panel-estado-value">—</span></li>
+            <li class="panel-estado-destacado"><span class="panel-estado-label">Número ofertas automáticos</span><span id="estadoOfertasAutom" class="panel-estado-value">—</span></li>
+            <li><span class="panel-estado-label">Número pedidos ingeniería</span><span id="estadoPedidosIng" class="panel-estado-value">—</span></li>
+            <li><span class="panel-estado-label">Número pedidos automáticos</span><span id="estadoPedidosAutom" class="panel-estado-value">—</span></li>
+            <li><span class="panel-estado-label">Número ofertas ISA</span><span id="estadoOfertasISA" class="panel-estado-value">—</span></li>
+            <li><span class="panel-estado-label">Número pedidos ISA</span><span id="estadoPedidosISA" class="panel-estado-value">—</span></li>
+            <li><span class="panel-estado-label">Número ofertas VE</span><span id="estadoOfertasVE" class="panel-estado-value">—</span></li>
+            <li><span class="panel-estado-label">Número pedidos VE</span><span id="estadoPedidosVE" class="panel-estado-value">—</span></li>
+          </ul>
+        </div>
+        <p id="panelEstadoError" class="panel-estado-error" hidden></p>
+      </div>
+    </div>
 
     <footer class="footer">
       <span>Ingeniería · Parámetros OT</span>
     </footer>
   </div>
 
+  <script src="js/theme.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
