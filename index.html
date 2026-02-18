@@ -16,7 +16,7 @@
         <div class="header-content">
           <h1 class="logo">Control de Parámetros</h1>
           <span class="subtitle">Departamento de Ingeniería</span>
-          <span class="version">v1.4.0</span>
+          <span class="version">v1.5.0</span>
         </div>
         <button type="button" class="btn-theme" id="btnTheme" aria-label="Cambiar tema día/noche" title="Cambiar tema">
           <span class="theme-icon" aria-hidden="true">🌙</span>
@@ -26,15 +26,16 @@
 
     <main class="main">
       <section class="hero">
-        <p class="hero-text">Panel de monitoreo y control de parámetros</p>
-        <div class="hero-buttons">
-          <button type="button" class="btn btn-secondary" id="btnEstadoTareas">
-            <span class="btn-icon" aria-hidden="true">📋</span>
-            Estado Tareas
+        <div class="hero-cards">
+          <button type="button" class="hero-card hero-card-secondary" id="btnEstadoTareas">
+            <span class="hero-card-icon" aria-hidden="true">📋</span>
+            <span class="hero-card-label">Estado Tareas</span>
+            <span class="hero-card-desc">Ver totales y desglose por zona</span>
           </button>
-          <a href="graficos.html" class="btn btn-primary" id="btnGraficos" aria-label="Abrir gráficos">
-            <span class="btn-icon" aria-hidden="true">📊</span>
-            Gráficos
+          <a href="graficos.html" class="hero-card hero-card-primary" id="btnGraficos" aria-label="Abrir evolución temporal">
+            <span class="hero-card-icon" aria-hidden="true">📊</span>
+            <span class="hero-card-label">Evolución temporal</span>
+            <span class="hero-card-desc">Ofertas y series por año</span>
           </a>
         </div>
       </section>
@@ -47,27 +48,34 @@
           <h2 id="panelEstadoTareasTitle" class="panel-estado-title">Estado Tareas</h2>
           <button type="button" class="panel-estado-close" id="panelEstadoClose" aria-label="Cerrar">×</button>
         </div>
-        <div class="panel-estado-body">
-          <p id="panelEstadoFecha" class="panel-estado-fecha"></p>
-          <ul class="panel-estado-list">
-            <li><span class="panel-estado-label">Número tareas total</span><span id="estadoTotal" class="panel-estado-value">—</span></li>
-            <li class="panel-estado-destacado"><span class="panel-estado-label">Número ofertas Ingeniería</span><span id="estadoOfertasIng" class="panel-estado-value">—</span></li>
-            <li class="panel-estado-destacado"><span class="panel-estado-label">Número ofertas automáticos</span><span id="estadoOfertasAutom" class="panel-estado-value">—</span></li>
-            <li><span class="panel-estado-label">Número pedidos ingeniería</span><span id="estadoPedidosIng" class="panel-estado-value">—</span></li>
-            <li><span class="panel-estado-label">Número pedidos automáticos</span><span id="estadoPedidosAutom" class="panel-estado-value">—</span></li>
-            <li><span class="panel-estado-label">Número ofertas ISA</span><span id="estadoOfertasISA" class="panel-estado-value">—</span></li>
-            <li><span class="panel-estado-label">Número pedidos ISA</span><span id="estadoPedidosISA" class="panel-estado-value">—</span></li>
-            <li><span class="panel-estado-label">Número ofertas VE</span><span id="estadoOfertasVE" class="panel-estado-value">—</span></li>
-            <li><span class="panel-estado-label">Número pedidos VE</span><span id="estadoPedidosVE" class="panel-estado-value">—</span></li>
-          </ul>
+        <p id="panelEstadoFecha" class="panel-estado-fecha"></p>
+        <div id="panelEstadoTotal" class="panel-estado-total-bar"></div>
+        <div id="tabla2-content" class="panel-estado-grid">
+          <div class="panel-zona">
+            <h3 class="panel-zona-titulo">Ingeniería</h3>
+            <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2IngOfertas" class="panel-zona-value">—</span></div>
+            <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2IngPedidos" class="panel-zona-value">—</span></div>
+          </div>
+          <div class="panel-zona">
+            <h3 class="panel-zona-titulo">Automáticos</h3>
+            <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2AutomOfertas" class="panel-zona-value">—</span></div>
+            <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2AutomPedidos" class="panel-zona-value">—</span></div>
+          </div>
+          <div class="panel-zona">
+            <h3 class="panel-zona-titulo">ISA's</h3>
+            <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2ISAOfertas" class="panel-zona-value">—</span></div>
+            <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2ISAPedidos" class="panel-zona-value">—</span></div>
+          </div>
+          <div class="panel-zona">
+            <h3 class="panel-zona-titulo">VE</h3>
+            <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2VEOfertas" class="panel-zona-value">—</span></div>
+            <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2VEPedidos" class="panel-zona-value">—</span></div>
+          </div>
         </div>
         <p id="panelEstadoError" class="panel-estado-error" hidden></p>
       </div>
     </div>
 
-    <footer class="footer">
-      <span>Ingeniería · Parámetros OT</span>
-    </footer>
   </div>
 
   <script src="js/theme.js"></script>

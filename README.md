@@ -4,7 +4,7 @@ Aplicación para monitorear y controlar parámetros del departamento de ingenier
 
 **Repositorio:** [https://github.com/ivanulisescl/tareasot_apw](https://github.com/ivanulisescl/tareasot_apw.git)
 
-**Versión:** 1.4.0 (ver archivo `VERSION`)
+**Versión:** 1.5.0 (ver archivo `VERSION`)
 
 ## Estructura del proyecto
 

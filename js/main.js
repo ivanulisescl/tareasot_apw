@@ -12,6 +12,7 @@
   var btnCerrar = document.getElementById('panelEstadoClose');
   var backdrop = document.getElementById('panelEstadoBackdrop');
   var panelError = document.getElementById('panelEstadoError');
+  var panelTotal = document.getElementById('panelEstadoTotal');
 
   function getValor(d, key) {
     if (d[key] != null) return Number(d[key]);
@@ -33,15 +34,18 @@
     var fecha = datos.Fecha || '—';
     document.getElementById('panelEstadoFecha').textContent = 'Datos del ' + fecha;
 
-    document.getElementById('estadoTotal').textContent = totalTareas(datos);
-    document.getElementById('estadoOfertasIng').textContent = getValor(datos, 'Ofertas Ing');
-    document.getElementById('estadoOfertasAutom').textContent = getValor(datos, 'Ofertas Autom');
-    document.getElementById('estadoPedidosIng').textContent = getValor(datos, 'Pedidos Ing');
-    document.getElementById('estadoPedidosAutom').textContent = getValor(datos, 'Pedidos Autom');
-    document.getElementById('estadoOfertasISA').textContent = getValor(datos, 'Ofertas ISA');
-    document.getElementById('estadoPedidosISA').textContent = getValor(datos, 'Pedidos ISA');
-    document.getElementById('estadoOfertasVE').textContent = getValor(datos, 'Ofertas VE');
-    document.getElementById('estadoPedidosVE').textContent = getValor(datos, 'Pedidos VE');
+    if (panelTotal) {
+      panelTotal.textContent = 'Total tareas: ' + totalTareas(datos);
+    }
+
+    document.getElementById('tabla2IngOfertas').textContent = getValor(datos, 'Ofertas Ing');
+    document.getElementById('tabla2IngPedidos').textContent = getValor(datos, 'Pedidos Ing');
+    document.getElementById('tabla2AutomOfertas').textContent = getValor(datos, 'Ofertas Autom');
+    document.getElementById('tabla2AutomPedidos').textContent = getValor(datos, 'Pedidos Autom');
+    document.getElementById('tabla2ISAOfertas').textContent = getValor(datos, 'Ofertas ISA');
+    document.getElementById('tabla2ISAPedidos').textContent = getValor(datos, 'Pedidos ISA');
+    document.getElementById('tabla2VEOfertas').textContent = getValor(datos, 'Ofertas VE');
+    document.getElementById('tabla2VEPedidos').textContent = getValor(datos, 'Pedidos VE');
 
     panel.hidden = false;
   }
@@ -51,15 +55,12 @@
       panelError.textContent = mensaje;
       panelError.hidden = false;
     }
-    document.getElementById('estadoTotal').textContent = '—';
-    document.getElementById('estadoOfertasIng').textContent = '—';
-    document.getElementById('estadoOfertasAutom').textContent = '—';
-    document.getElementById('estadoPedidosIng').textContent = '—';
-    document.getElementById('estadoPedidosAutom').textContent = '—';
-    document.getElementById('estadoOfertasISA').textContent = '—';
-    document.getElementById('estadoPedidosISA').textContent = '—';
-    document.getElementById('estadoOfertasVE').textContent = '—';
-    document.getElementById('estadoPedidosVE').textContent = '—';
+    if (panelTotal) panelTotal.textContent = 'Total tareas: —';
+    var t2 = ['tabla2IngOfertas', 'tabla2IngPedidos', 'tabla2AutomOfertas', 'tabla2AutomPedidos', 'tabla2ISAOfertas', 'tabla2ISAPedidos', 'tabla2VEOfertas', 'tabla2VEPedidos'];
+    t2.forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.textContent = '—';
+    });
     if (panel) panel.hidden = false;
   }
 
