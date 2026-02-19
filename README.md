@@ -10,9 +10,9 @@ Aplicación para monitorear y controlar parámetros del departamento de ingenier
 
 ### Si la app da 404 en GitHub Pages
 
-1. Ve a **Settings** → **Pages** en el repositorio.
-2. En **Build and deployment** → **Source**, selecciona **GitHub Actions**.
-3. Haz un push para que se ejecute el workflow de despliegue.
+1. Ve a **Settings** → **Pages** en el repositorio: https://github.com/ivanulisescl/tareasot_apw/settings/pages
+2. En **Build and deployment** → **Source**, selecciona **GitHub Actions** (no "Deploy from a branch").
+3. Si ya está en GitHub Actions, haz clic en **Actions** → abre el último workflow "Deploy to GitHub Pages" → **Re-run all jobs**.
 
 ## Estructura del proyecto
 
