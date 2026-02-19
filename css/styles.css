@@ -90,7 +90,7 @@ body {
   justify-content: center;
   gap: 1rem;
   position: relative;
-  padding-right: 3rem;
+  padding-right: 5rem;
 }
 
 .header-content {
@@ -101,10 +101,16 @@ body {
   text-align: center;
 }
 
-.btn-theme {
+.header-actions {
   position: absolute;
   top: 0;
   right: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-icon-header {
   width: 2.5rem;
   height: 2.5rem;
   display: flex;
@@ -119,14 +125,68 @@ body {
   transition: background var(--transition), transform var(--transition);
 }
 
-.btn-theme:hover {
+.btn-icon-header:hover {
   background: var(--bg-elevated);
   transform: scale(1.05);
 }
 
-.btn-theme:focus {
+.btn-icon-header:focus {
   outline: none;
   box-shadow: 0 0 0 2px var(--accent);
+}
+
+.icon-gear {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.settings-wrap {
+  position: relative;
+}
+
+.settings-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.35rem;
+  min-width: 12rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 0.35rem 0;
+  z-index: 50;
+}
+
+.settings-dropdown[hidden] {
+  display: none;
+}
+
+.settings-option {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  text-align: left;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+
+.settings-option:hover {
+  background: var(--bg-elevated);
+}
+
+.settings-option:focus {
+  outline: none;
+  background: var(--bg-elevated);
+}
+
+.btn-theme {
+  /* hereda .btn-icon-header */
 }
 
 .theme-icon {
@@ -283,7 +343,7 @@ body {
   }
 
   .header-inner {
-    padding-right: 2.75rem;
+    padding-right: 5rem;
   }
 
   .version {

@@ -19,3 +19,7 @@ Formato: PNG, fondo opaco o transparente según el diseño.
 Si solo tienes una imagen, usa una de 192x192 y nómbrala icon-192.png;
 puedes copiarla también como favicon-32.png y apple-touch-icon.png
 (el navegador la escalará).
+
+Para la instalación PWA (Añadir a la pantalla de inicio) se usa también
+icon-192.png como 512px si no existe icon-512.png. Opcional: añade
+icon-512.png (512x512 px) para mejor calidad al instalar.

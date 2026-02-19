@@ -7,6 +7,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="img/icon-192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f1419">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -18,12 +20,23 @@
       <div class="header-inner">
         <div class="header-content">
           <h1 class="logo">Control de Parámetros</h1>
-          <span class="subtitle">Departamento de Ingeniería</span>
-          <span class="version">v1.9.0</span>
+          <span class="subtitle">Departamento Técnico</span>
+          <span class="version">v1.10.0</span>
         </div>
-        <button type="button" class="btn-theme" id="btnTheme" aria-label="Cambiar tema día/noche" title="Cambiar tema">
-          <span class="theme-icon" aria-hidden="true">🌙</span>
-        </button>
+        <div class="header-actions">
+          <div class="settings-wrap">
+            <button type="button" class="btn-icon-header btn-settings" id="btnSettings" aria-label="Configuración" title="Configuración" aria-expanded="false" aria-haspopup="true">
+              <svg class="icon-gear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </button>
+            <div id="settingsDropdown" class="settings-dropdown" hidden role="menu">
+              <button type="button" class="settings-option" id="settingsRefreshData" role="menuitem">Actualizar datos</button>
+              <button type="button" class="settings-option" id="settingsForceUpdate" role="menuitem">Forzar actualización</button>
+            </div>
+          </div>
+          <button type="button" class="btn-icon-header btn-theme" id="btnTheme" aria-label="Cambiar tema día/noche" title="Cambiar tema">
+            <span class="theme-icon" aria-hidden="true">🌙</span>
+          </button>
+        </div>
       </div>
     </header>
 
@@ -82,6 +95,8 @@
   </div>
 
   <script src="js/theme.js"></script>
+  <script src="js/settings.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/sw-register.js"></script>
 </body>
 </html>

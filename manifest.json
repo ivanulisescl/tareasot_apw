@@ -1,0 +1,25 @@
+{
+  "name": "Control de Parámetros",
+  "short_name": "Parámetros OT",
+  "description": "Panel de estado de tareas y evolución temporal - Departamento Técnico",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0f1419",
+  "background_color": "#0f1419",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon-192.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
