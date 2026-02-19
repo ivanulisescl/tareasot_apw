@@ -101,7 +101,7 @@
 
     var datasets = [];
     anios.forEach(function (anio, idx) {
-      var color = COLORS_SERIES[idx % COLORS_SERIES.length];
+      var color = parseInt(anio, 10) === anioActual ? 'rgb(255, 255, 255)' : COLORS_SERIES[idx % COLORS_SERIES.length];
       datasets.push({
         label: String(anio),
         data: seriesPorAnio[anio],
@@ -119,8 +119,8 @@
       datasets.push({
         label: 'Ahora',
         data: [puntoAhora],
-        borderColor: 'rgb(220, 38, 38)',
-        backgroundColor: 'rgb(220, 38, 38)',
+        borderColor: 'rgb(255, 255, 255)',
+        backgroundColor: 'rgb(255, 255, 255)',
         pointStyle: 'crossRot',
         pointRadius: 8,
         pointHoverRadius: 10,
@@ -136,12 +136,7 @@
         yMax: valorEquilibrio,
         borderColor: 'rgb(100, 100, 100)',
         borderWidth: 2,
-        borderDash: [5, 4],
-        label: {
-          display: true,
-          content: 'Punto de equilibrio: ' + valorEquilibrio,
-          position: 'end'
-        }
+        borderDash: [5, 4]
       }
     };
     monthStarts.forEach(function (day, i) {
@@ -160,8 +155,10 @@
         yValue: puntoAhora.y,
         content: [String(puntoAhora.y)],
         position: 'right',
-        color: 'rgb(220, 38, 38)',
-        font: { size: 12, weight: 'bold' }
+        color: 'rgb(255, 255, 255)',
+        font: { size: 14, weight: 'bold' },
+        backgroundColor: 'rgba(0, 0, 0, 0.6)',
+        padding: 6
       };
     }
 

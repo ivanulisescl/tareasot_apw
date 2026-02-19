@@ -106,55 +106,6 @@
     chartsInstances = [];
   }
 
-  function createBarChart(canvasId, dataAnio, nombreAccion) {
-    var accion = getAccionPorNombre(dataAnio, nombreAccion);
-    var valores = getValoresMes(accion);
-    var ctx = document.getElementById(canvasId);
-    if (!ctx) return;
-
-    var colorBar = 'rgba(59, 130, 246, 0.8)';
-    var colorBarHover = 'rgba(59, 130, 246, 1)';
-
-    var chart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: MESES_LABEL,
-        datasets: [{
-          label: nombreAccion,
-          data: valores,
-          backgroundColor: colorBar,
-          borderColor: colorBarHover,
-          borderWidth: 1
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: true,
-        aspectRatio: 2,
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            callbacks: {
-              label: function (item) { return item.raw; }
-            }
-          }
-        },
-        scales: {
-          x: {
-            grid: { color: 'rgba(148, 163, 184, 0.15)' },
-            ticks: { color: 'rgb(148, 163, 184)', maxRotation: 45 }
-          },
-          y: {
-            beginAtZero: true,
-            grid: { color: 'rgba(148, 163, 184, 0.15)' },
-            ticks: { color: 'rgb(148, 163, 184)' }
-          }
-        }
-      }
-    });
-    chartsInstances.push(chart);
-  }
-
   function createChartComparador(anio1, anio2, categoria) {
     var data1 = getDataAnio(anio1);
     var data2 = getDataAnio(anio2);
@@ -217,21 +168,11 @@
     chartsInstances.push(chart);
   }
 
-  function renderCharts(dataAnio) {
-    destroyCharts();
-    if (!dataAnio || dataAnio.length === 0) return;
-
-    createBarChart('chartFlujoOfertasIng', dataAnio, 'Ofertas Creadas Ingeniería');
-    createBarChart('chartFlujoPedidosIng', dataAnio, 'Pedidos Creados Ingeniería');
-    createBarChart('chartFlujoOfertasAutom', dataAnio, 'Ofertas Creadas Automáticos');
-    createBarChart('chartFlujoPedidosAutom', dataAnio, 'Pedidos Creados Automáticos');
-  }
-
   function actualizarVistaTabla() {
+    destroyCharts();
     var anio = selectAnio.value;
     var dataAnio = getDataAnio(anio);
     renderTabla(dataAnio);
-    renderCharts(dataAnio);
   }
 
   function actualizarVistaComparador() {
@@ -307,9 +248,13 @@
 
     if (aniosDisponibles.length > 0) {
       var ultimo = aniosDisponibles[aniosDisponibles.length - 1];
+      var anioActual = new Date().getFullYear();
+      var anioAnterior = anioActual - 1;
+      var idxActual = aniosDisponibles.indexOf(String(anioActual));
+      var idxAnterior = aniosDisponibles.indexOf(String(anioAnterior));
       selectAnio.value = ultimo;
-      selectAnio1.value = ultimo;
-      selectAnio2.value = aniosDisponibles.length > 1 ? aniosDisponibles[aniosDisponibles.length - 2] : ultimo;
+      selectAnio1.value = idxActual >= 0 ? aniosDisponibles[idxActual] : ultimo;
+      selectAnio2.value = idxAnterior >= 0 ? aniosDisponibles[idxAnterior] : (idxActual > 0 ? aniosDisponibles[idxActual - 1] : (aniosDisponibles.length > 1 ? aniosDisponibles[aniosDisponibles.length - 2] : ultimo));
     }
     if (categoriasDisponibles.length > 0) {
       selectCategoria.value = categoriasDisponibles[0];
