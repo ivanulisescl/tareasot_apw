@@ -86,11 +86,7 @@ body {
 
 .header-inner {
   display: flex;
-  align-items: flex-start;
   justify-content: center;
-  gap: 1rem;
-  position: relative;
-  padding-right: 5rem;
 }
 
 .header-content {
@@ -102,12 +98,11 @@ body {
 }
 
 .header-actions {
-  position: absolute;
-  top: 0;
-  right: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
+  margin-top: 0.75rem;
 }
 
 .btn-icon-header {
@@ -183,6 +178,15 @@ body {
 .settings-option:focus {
   outline: none;
   background: var(--bg-elevated);
+}
+
+.settings-version {
+  padding: 0.6rem 1rem 0.5rem;
+  margin-top: 0.25rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-align: center;
 }
 
 .btn-theme {
@@ -342,9 +346,6 @@ body {
     flex-shrink: 0;
   }
 
-  .header-inner {
-    padding-right: 5rem;
-  }
 
   .version {
     font-size: 1rem;
