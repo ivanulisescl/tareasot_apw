@@ -256,8 +256,9 @@
   showCharts(false);
 
   function tryInit(data) {
-    if (!Array.isArray(data) || data.length === 0) throw new Error('Datos vacíos');
-    init(data);
+    var lista = Array.isArray(data) ? data : (data && data.dias && Array.isArray(data.dias) ? data.dias : null);
+    if (!lista || lista.length === 0) throw new Error('Datos vacíos');
+    init(lista);
   }
 
   // Carga solo desde data/tablaDias.json (sin .js).

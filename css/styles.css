@@ -543,6 +543,40 @@ body {
   border-radius: var(--radius);
 }
 
+.panel-estado-resumen {
+  margin: 0.75rem 1.5rem 0;
+  padding: 0.6rem 1rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.panel-estado-resumen-fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.35rem 0;
+  font-size: 0.9rem;
+}
+
+.panel-estado-estados {
+  margin: 0.75rem 1.5rem 0;
+  padding: 0.75rem 1rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.panel-estado-estados .panel-zona-titulo {
+  margin-bottom: 0.5rem;
+}
+
+.panel-estado-estados-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem 1rem;
+}
+
 .panel-estado-grid {
   padding: 1rem 1.5rem 1.5rem;
   display: grid;

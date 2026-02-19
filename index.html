@@ -29,7 +29,7 @@
               <div id="settingsDropdown" class="settings-dropdown" hidden role="menu">
                 <button type="button" class="settings-option" id="settingsRefreshData" role="menuitem">Actualizar datos</button>
                 <button type="button" class="settings-option" id="settingsForceUpdate" role="menuitem">Forzar actualización</button>
-                <div class="settings-version">v1.14.0</div>
+                <div class="settings-version">v1.15.0</div>
               </div>
             </div>
             <button type="button" class="btn-icon-header btn-theme" id="btnTheme" aria-label="Cambiar tema día/noche" title="Cambiar tema">
@@ -71,6 +71,23 @@
         </div>
         <p id="panelEstadoFecha" class="panel-estado-fecha"></p>
         <div id="panelEstadoTotal" class="panel-estado-total-bar"></div>
+        <div id="panelEstadoResumen" class="panel-estado-resumen" hidden>
+          <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Ofertas total</span><span id="panelEstadoOfertas" class="panel-zona-value">—</span></div>
+          <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Pedidos total</span><span id="panelEstadoPedidos" class="panel-zona-value">—</span></div>
+          <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Tareas internas</span><span id="panelEstadoTareasInternas" class="panel-zona-value">—</span></div>
+        </div>
+        <div id="panelEstadoEstados" class="panel-estado-estados" hidden>
+          <h3 class="panel-zona-titulo">Por estado</h3>
+          <div class="panel-estado-estados-grid">
+            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Nuevas</span><span id="panelEstadoNuevas" class="panel-zona-value">—</span></div>
+            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Incompletas</span><span id="panelEstadoIncompletas" class="panel-zona-value">—</span></div>
+            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Definidas</span><span id="panelEstadoDefinidas" class="panel-zona-value">—</span></div>
+            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Asignadas</span><span id="panelEstadoAsignadas" class="panel-zona-value">—</span></div>
+            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Pdte. rev. comercial</span><span id="panelEstadoPdteRevComercial" class="panel-zona-value">—</span></div>
+            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Calculadas</span><span id="panelEstadoCalculadas" class="panel-zona-value">—</span></div>
+            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Pdte. comercializados</span><span id="panelEstadoPdteComercializados" class="panel-zona-value">—</span></div>
+          </div>
+        </div>
         <div id="tabla2-content" class="panel-estado-grid">
           <div class="panel-zona">
             <h3 class="panel-zona-titulo">Ingeniería</h3>
