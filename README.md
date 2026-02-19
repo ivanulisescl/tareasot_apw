@@ -4,7 +4,15 @@ Aplicación para monitorear y controlar parámetros del departamento de ingenier
 
 **Repositorio:** [https://github.com/ivanulisescl/tareasot_apw](https://github.com/ivanulisescl/tareasot_apw.git)
 
+**URL de la app (GitHub Pages):** [https://ivanulisescl.github.io/tareasot_apw/](https://ivanulisescl.github.io/tareasot_apw/)
+
 **Versión:** 1.14.0 (ver archivo `VERSION`)
+
+### Si la app da 404 en GitHub Pages
+
+1. Ve a **Settings** → **Pages** en el repositorio.
+2. En **Build and deployment** → **Source**, selecciona **GitHub Actions**.
+3. Haz un push para que se ejecute el workflow de despliegue.
 
 ## Estructura del proyecto
 
