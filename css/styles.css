@@ -571,6 +571,11 @@ body {
   margin-bottom: 0.5rem;
 }
 
+/* Ocultar bloque "Por estado" (quitar clase panel-estado-estados-oculto para mostrarlo) */
+.panel-estado-estados.panel-estado-estados-oculto {
+  display: none !important;
+}
+
 .panel-estado-estados-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
