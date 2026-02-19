@@ -551,6 +551,11 @@ body {
   border-radius: var(--radius);
 }
 
+/* Ocultar bloque resumen (Ofertas total, Pedidos total, Tareas internas) */
+.panel-estado-resumen.panel-estado-resumen-oculto {
+  display: none !important;
+}
+
 .panel-estado-resumen-fila {
   display: flex;
   justify-content: space-between;
