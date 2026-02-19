@@ -603,6 +603,71 @@ body {
   flex-direction: column;
 }
 
+.panel-flujo-tabs {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.panel-flujo-tab {
+  padding: 0.5rem 1.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: color var(--transition), background var(--transition), border-color var(--transition);
+}
+
+.panel-flujo-tab:hover {
+  color: var(--text-primary);
+  background: var(--bg-elevated);
+}
+
+.panel-flujo-tab.active {
+  color: var(--accent);
+  background: var(--accent-glow);
+  border-color: var(--accent);
+}
+
+.panel-flujo-vista {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+.panel-flujo-comparador-selects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.panel-flujo-categoria-wrap {
+  flex: 1;
+  min-width: 200px;
+}
+
+.panel-flujo-table-comparador th:nth-child(2),
+.panel-flujo-table-comparador th:nth-child(3),
+.panel-flujo-table-comparador td:nth-child(2),
+.panel-flujo-table-comparador td:nth-child(3) {
+  text-align: right;
+}
+
+.panel-flujo-total-row {
+  font-weight: 600;
+  background: var(--bg-elevated);
+}
+
+.panel-flujo-chart-comparador {
+  margin-top: 1.5rem;
+}
+
 .panel-flujo-body {
   padding: 1rem 1.5rem 1.5rem;
   overflow-y: auto;
