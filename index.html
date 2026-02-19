@@ -29,7 +29,7 @@
               <div id="settingsDropdown" class="settings-dropdown" hidden role="menu">
                 <button type="button" class="settings-option" id="settingsRefreshData" role="menuitem">Actualizar datos</button>
                 <button type="button" class="settings-option" id="settingsForceUpdate" role="menuitem">Forzar actualización</button>
-                <div class="settings-version">v1.11.0</div>
+                <div class="settings-version">v1.12.0</div>
               </div>
             </div>
             <button type="button" class="btn-icon-header btn-theme" id="btnTheme" aria-label="Cambiar tema día/noche" title="Cambiar tema">
@@ -53,6 +53,11 @@
             <span class="hero-card-label">Evolución temporal</span>
             <span class="hero-card-desc">Ofertas y series por año</span>
           </a>
+          <button type="button" class="hero-card hero-card-secondary" id="btnFlujoTareas" aria-label="Abrir flujo de tareas">
+            <span class="hero-card-icon" aria-hidden="true">📈</span>
+            <span class="hero-card-label">Flujo tareas</span>
+            <span class="hero-card-desc">Tareas por mes (numérico y gráfico)</span>
+          </button>
         </div>
       </section>
     </main>
@@ -92,11 +97,52 @@
       </div>
     </div>
 
+    <div id="panelFlujoTareas" class="panel-estado panel-flujo" hidden aria-modal="true" aria-labelledby="panelFlujoTareasTitle">
+      <div class="panel-estado-backdrop" id="panelFlujoBackdrop"></div>
+      <div class="panel-estado-content panel-flujo-content">
+        <div class="panel-estado-header">
+          <h2 id="panelFlujoTareasTitle" class="panel-estado-title">Flujo tareas</h2>
+          <button type="button" class="panel-estado-close" id="panelFlujoClose" aria-label="Cerrar">×</button>
+        </div>
+        <div id="panelFlujoBody" class="panel-flujo-body">
+          <div id="panelFlujoLoading" class="panel-flujo-loading">Cargando datos…</div>
+          <div id="panelFlujoError" class="panel-estado-error" hidden></div>
+          <div id="panelFlujoContent" class="panel-flujo-content-inner" hidden>
+            <div class="panel-flujo-select-wrap">
+              <label for="panelFlujoAnio">Año:</label>
+              <select id="panelFlujoAnio" class="panel-flujo-select"></select>
+            </div>
+            <div id="panelFlujoTabla" class="panel-flujo-tabla"></div>
+            <div class="panel-flujo-charts">
+              <div class="chart-section panel-flujo-chart">
+                <h3 class="chart-title">Ofertas Creadas Ingeniería</h3>
+                <div class="chart-wrap"><canvas id="chartFlujoOfertasIng"></canvas></div>
+              </div>
+              <div class="chart-section panel-flujo-chart">
+                <h3 class="chart-title">Pedidos Creados Ingeniería</h3>
+                <div class="chart-wrap"><canvas id="chartFlujoPedidosIng"></canvas></div>
+              </div>
+              <div class="chart-section panel-flujo-chart">
+                <h3 class="chart-title">Ofertas Creadas Automáticos</h3>
+                <div class="chart-wrap"><canvas id="chartFlujoOfertasAutom"></canvas></div>
+              </div>
+              <div class="chart-section panel-flujo-chart">
+                <h3 class="chart-title">Pedidos Creados Automáticos</h3>
+                <div class="chart-wrap"><canvas id="chartFlujoPedidosAutom"></canvas></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/settings.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/flujo-tareas.js"></script>
   <script src="js/sw-register.js"></script>
 </body>
 </html>

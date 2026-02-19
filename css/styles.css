@@ -595,6 +595,138 @@ body {
   color: #f87171;
 }
 
+/* Panel Flujo Tareas */
+.panel-flujo .panel-flujo-content {
+  max-width: 900px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-flujo-body {
+  padding: 1rem 1.5rem 1.5rem;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+}
+
+.panel-flujo-loading {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.panel-flujo-select-wrap {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.panel-flujo-select-wrap label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.panel-flujo-select {
+  padding: 0.5rem 0.75rem;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.panel-flujo-tabla {
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+}
+
+.panel-flujo-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.panel-flujo-table th,
+.panel-flujo-table td {
+  padding: 0.5rem 0.4rem;
+  text-align: right;
+  border-bottom: 1px solid var(--border);
+}
+
+.panel-flujo-table th {
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-elevated);
+}
+
+.panel-flujo-table th:first-child,
+.panel-flujo-table td:first-child {
+  text-align: left;
+}
+
+.panel-flujo-accion {
+  font-size: 0.8rem;
+  max-width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.panel-flujo-total {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.panel-flujo-tabla-empty {
+  padding: 1rem 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.panel-flujo-charts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.panel-flujo-chart {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+.panel-flujo-chart .chart-title {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.panel-flujo-chart .chart-wrap {
+  min-height: 200px;
+}
+
+@media (max-width: 640px) {
+  .panel-flujo .panel-flujo-content {
+    max-width: 100%;
+    max-height: 95vh;
+  }
+
+  .panel-flujo-table {
+    font-size: 0.75rem;
+  }
+
+  .panel-flujo-accion {
+    max-width: 120px;
+  }
+}
+
 /* Footer */
 .footer {
   width: 100%;
