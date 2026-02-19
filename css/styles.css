@@ -522,18 +522,9 @@ body {
   color: var(--text-primary);
 }
 
-/* Ofertas de Ingeniería y Automáticos: destacado visible */
-.panel-zona:nth-child(-n+2) .panel-zona-fila:first-of-type {
-  background: var(--accent-glow);
-  border-left: 4px solid var(--accent);
-  margin: 0 -0.5rem 0.35rem -0.5rem;
-  padding: 0.5rem 0.5rem 0.35rem;
-  border-radius: 0 var(--radius) var(--radius) 0;
-}
-
+/* Ofertas de Ingeniería y Automáticos: solo el valor en otro color */
 .panel-zona:nth-child(-n+2) .panel-zona-fila:first-of-type .panel-zona-value {
   color: var(--accent);
-  font-size: 1.05em;
 }
 
 .panel-estado-error {
