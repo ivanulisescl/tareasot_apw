@@ -41,6 +41,43 @@
   display: none;
 }
 
+/* Proyecto abierto: solo detalle (lista y filtros ocultos) */
+.visor-content.visor-content--detail-only {
+  grid-template-columns: 1fr;
+}
+
+.visor-content.visor-content--detail-only .visor-list,
+.visor-content.visor-content--detail-only .visor-filters {
+  display: none;
+}
+
+.visor-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.btn-atras {
+  padding: 0.5rem 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.btn-atras:hover {
+  background: var(--bg-card);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .visor-list {
   border-right: 1px solid var(--border);
   background: var(--bg-elevated);
@@ -158,8 +195,9 @@
   font-size: 1.35rem;
   font-weight: 700;
   color: var(--accent);
-  margin: 0 0 1rem 0;
+  margin: 0;
   word-break: break-word;
+  flex: 1;
 }
 
 .visor-tabs {
@@ -293,6 +331,11 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr;
     grid-template-areas: "list" "filters" "detail";
+  }
+
+  .visor-content.visor-content--detail-only {
+    grid-template-rows: 1fr;
+    grid-template-areas: "detail";
   }
 
   .visor-content .visor-detail {

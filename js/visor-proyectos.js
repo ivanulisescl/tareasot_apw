@@ -254,6 +254,7 @@
 
   function showDetail(p) {
     contentEl.classList.remove('visor-content--no-detail');
+    contentEl.classList.add('visor-content--detail-only');
     noSelectionEl.hidden = true;
     detailEl.hidden = false;
     detailTitleEl.textContent = v(p.nombreProyecto) + ' (' + v(p.numeroPedido) + ')';
@@ -265,12 +266,15 @@
   }
 
   function hideDetail() {
+    contentEl.classList.remove('visor-content--detail-only');
     contentEl.classList.add('visor-content--no-detail');
     noSelectionEl.hidden = false;
     detailEl.hidden = true;
     proyectoSeleccionado = null;
     renderList();
   }
+
+  document.getElementById('visorBtnAtras').addEventListener('click', hideDetail);
 
   document.querySelectorAll('.visor-tab').forEach(function (btn) {
     btn.addEventListener('click', function () {
