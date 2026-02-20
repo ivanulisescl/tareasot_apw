@@ -1,7 +1,7 @@
 /**
  * Control de Parámetros - Departamento de Ingeniería
  * Punto de entrada: botón Estado Tareas (panel con totales) y enlace Gráficos.
- * Carga data/tablaDias.json: usa "Actual" (momento actual) si existe, si no el último día de "dias".
+ * Carga data/tablaDias.json: "Actual" y/o "dias". Dos botones: Datos actuales / Última fecha (valor real).
  */
 
 (function () {
@@ -16,6 +16,14 @@
   var panelTotal = document.getElementById('panelEstadoTotal');
   var panelResumen = document.getElementById('panelEstadoResumen');
   var panelEstados = document.getElementById('panelEstadoEstados');
+  var panelTabs = document.getElementById('panelEstadoTabs');
+  var btnActual = document.getElementById('btnEstadoActual');
+  var btnUltimaFecha = document.getElementById('btnEstadoUltimaFecha');
+
+  var datosCargados = null;
+  var datosActual = null;
+  var datosUltimaFecha = null;
+  var ultimaFechaLabel = '';
 
   function getValor(d, key) {
     if (d[key] != null) return Number(d[key]);
@@ -34,11 +42,7 @@
     if (el) el.textContent = value;
   }
 
-  function mostrarPanel(datos, esActual) {
-    if (!panel) return;
-    panelError.hidden = true;
-    panelError.textContent = '';
-
+  function rellenarPanel(datos, esActual) {
     var fecha = esActual ? 'Datos actuales' : (datos.Fecha || '—');
     setText('panelEstadoFecha', esActual ? fecha : 'Datos del ' + fecha);
 
@@ -72,8 +76,28 @@
     setText('tabla2ISAPedidos', getValor(datos, 'Pedidos ISA'));
     setText('tabla2VEOfertas', getValor(datos, 'Ofertas VE'));
     setText('tabla2VEPedidos', getValor(datos, 'Pedidos VE'));
+  }
 
+  function mostrarPanel(datos, esActual) {
+    if (!panel) return;
+    panelError.hidden = true;
+    panelError.textContent = '';
+    rellenarPanel(datos, esActual);
     panel.hidden = false;
+  }
+
+  function setModoActual() {
+    if (!datosActual) return;
+    if (btnActual) btnActual.classList.add('active');
+    if (btnUltimaFecha) btnUltimaFecha.classList.remove('active');
+    rellenarPanel(datosActual, true);
+  }
+
+  function setModoUltimaFecha() {
+    if (!datosUltimaFecha) return;
+    if (btnActual) btnActual.classList.remove('active');
+    if (btnUltimaFecha) btnUltimaFecha.classList.add('active');
+    rellenarPanel(datosUltimaFecha, false);
   }
 
   function mostrarError(mensaje) {
@@ -84,6 +108,7 @@
     if (panelTotal) panelTotal.textContent = 'Total tareas: —';
     if (panelResumen) panelResumen.hidden = true;
     if (panelEstados) panelEstados.hidden = true;
+    if (panelTabs) panelTabs.hidden = true;
     var t2 = ['tabla2IngOfertas', 'tabla2IngPedidos', 'tabla2AutomOfertas', 'tabla2AutomPedidos', 'tabla2ISAOfertas', 'tabla2ISAPedidos', 'tabla2VEOfertas', 'tabla2VEPedidos'];
     t2.forEach(function (id) {
       setText(id, '—');
@@ -95,19 +120,6 @@
     if (panel) panel.hidden = true;
   }
 
-  function obtenerDatosParaPanel(data) {
-    if (data.Actual && typeof data.Actual === 'object') {
-      return { datos: data.Actual, esActual: true };
-    }
-    if (data.dias && Array.isArray(data.dias) && data.dias.length > 0) {
-      return { datos: data.dias[data.dias.length - 1], esActual: false };
-    }
-    if (Array.isArray(data) && data.length > 0) {
-      return { datos: data[data.length - 1], esActual: false };
-    }
-    return null;
-  }
-
   function abrirEstadoTareas() {
     fetch(DATA_URL + '?t=' + Date.now())
       .then(function (res) {
@@ -115,9 +127,37 @@
         return res.json();
       })
       .then(function (data) {
-        var par = obtenerDatosParaPanel(data);
-        if (!par) throw new Error('No hay datos');
-        mostrarPanel(par.datos, par.esActual);
+        datosCargados = data;
+        datosActual = null;
+        datosUltimaFecha = null;
+        ultimaFechaLabel = '';
+
+        var listaDias = data.dias && Array.isArray(data.dias) ? data.dias : (Array.isArray(data) ? data : []);
+        if (data.Actual && typeof data.Actual === 'object') {
+          datosActual = data.Actual;
+        }
+        if (listaDias.length > 0) {
+          datosUltimaFecha = listaDias[listaDias.length - 1];
+          ultimaFechaLabel = datosUltimaFecha.Fecha || '';
+        }
+
+        if (datosActual && datosUltimaFecha) {
+          if (panelTabs) {
+            panelTabs.hidden = false;
+            if (btnUltimaFecha) btnUltimaFecha.textContent = ultimaFechaLabel;
+            btnActual.classList.add('active');
+            btnUltimaFecha.classList.remove('active');
+          }
+          mostrarPanel(datosActual, true);
+        } else if (datosActual) {
+          if (panelTabs) panelTabs.hidden = true;
+          mostrarPanel(datosActual, true);
+        } else if (datosUltimaFecha) {
+          if (panelTabs) panelTabs.hidden = true;
+          mostrarPanel(datosUltimaFecha, false);
+        } else {
+          throw new Error('No hay datos');
+        }
       })
       .catch(function (err) {
         mostrarError(err.message || 'Error al cargar. Usa un servidor local (p. ej. python -m http.server 8000).');
@@ -132,5 +172,11 @@
   }
   if (backdrop) {
     backdrop.addEventListener('click', cerrarPanel);
+  }
+  if (btnActual) {
+    btnActual.addEventListener('click', setModoActual);
+  }
+  if (btnUltimaFecha) {
+    btnUltimaFecha.addEventListener('click', setModoUltimaFecha);
   }
 })();

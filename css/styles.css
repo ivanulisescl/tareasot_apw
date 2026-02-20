@@ -524,6 +524,36 @@ body {
   background: var(--bg-elevated);
 }
 
+.panel-estado-tabs {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem 0;
+}
+
+.panel-estado-tab {
+  padding: 0.45rem 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: color var(--transition), background var(--transition), border-color var(--transition);
+}
+
+.panel-estado-tab:hover {
+  color: var(--text-primary);
+  background: var(--bg-elevated);
+}
+
+.panel-estado-tab.active {
+  color: var(--accent);
+  background: var(--accent-glow);
+  border-color: var(--accent);
+}
+
 .panel-estado-fecha {
   padding: 0.75rem 1.5rem 0;
   font-size: 0.9rem;
@@ -538,8 +568,8 @@ body {
   font-weight: 600;
   color: var(--text-primary);
   text-align: center;
-  background: var(--accent-glow);
-  border: 1px solid var(--accent);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
   border-radius: var(--radius);
 }
 
