@@ -536,8 +536,8 @@ body {
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--text-secondary);
-  background: transparent;
-  border: 1px solid transparent;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
   border-radius: var(--radius);
   cursor: pointer;
   transition: color var(--transition), background var(--transition), border-color var(--transition);
@@ -562,7 +562,7 @@ body {
 }
 
 .panel-estado-total-bar {
-  margin: 0.75rem 1.5rem 0;
+  margin: 0.75rem 1.5rem 1rem;
   padding: 0.6rem 1rem;
   font-size: 1rem;
   font-weight: 600;

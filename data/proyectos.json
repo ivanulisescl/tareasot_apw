@@ -1,0 +1,56 @@
+{
+  "fechaHoraActualizacion": "2026-02-20T10:00:00",
+  "proyectos": [
+    {
+      "idProyecto": 1,
+      "estado": "En curso",
+      "numeroPedido": "PV_1430",
+      "ofertaReferencia": "OF-2025-001",
+      "nombreProyecto": "Proyecto ejemplo automático",
+      "pais": "España",
+      "fechaVenta": "2025-01-15",
+      "cliente": "Cliente Ejemplo S.L.",
+      "integrador": "Integrador XYZ",
+      "importeEur": 125000.50,
+      "pesoKg": 5200.25,
+      "ratioEurKg": 24.04,
+      "sistema": "Sistema A",
+      "tipoInstalacion": "Tipo 1",
+      "numeroPaletas": 12,
+      "alturaTotalMm": 11500,
+      "jefeProyecto": "Juan Pérez",
+      "delineantePrincipal": "María García",
+      "delineanteApoyo1": "Luis López",
+      "delineanteApoyo2": "",
+      "inicioMontaje": "2025-03-01",
+      "duracionMontajeDias": 25,
+      "tipoTransporte": "Camión",
+      "transitoDias": 5,
+      "planoValidacion": "Sí",
+      "fechaValidacionPlano": "2025-02-10",
+      "entregadoProduccionPorc": 75,
+      "planosMontajeRealizadosPorc": 85,
+      "planosMontajePublicadosPorc": 80,
+      "observacionesGlobal": "Observaciones de ejemplo para el proyecto.",
+      "entregasMRP": [
+        {
+          "estado": "Entregado",
+          "nEntrega": "1",
+          "entrega": "Entrega 1",
+          "pesoTotalEstructura": 1500.5
+        },
+        {
+          "estado": "En proceso",
+          "nEntrega": "2",
+          "entrega": "Entrega 2",
+          "pesoTotalEstructura": 1200.0
+        }
+      ],
+      "tiempos": [
+        { "tecnico": "Juan Pérez", "horas": 42.5 },
+        { "tecnico": "María García", "horas": 28.0 },
+        { "tecnico": "Luis López", "horas": 15.5 }
+      ]
+    }
+  ]
+}

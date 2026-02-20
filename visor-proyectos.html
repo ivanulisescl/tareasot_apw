@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visor proyectos - Control de Parámetros</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f1419">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/visor-proyectos.css">
+</head>
+<body>
+  <div class="app app-visor">
+    <header class="header">
+      <div class="header-inner">
+        <div class="header-content">
+          <a href="index.html" class="back-link">← Inicio</a>
+          <h1 class="logo">Visor proyectos</h1>
+          <span class="subtitle">Datos técnicos y estado de proyectos automáticos</span>
+          <div class="header-actions">
+            <button type="button" class="btn-icon-header btn-theme" id="btnTheme" aria-label="Cambiar tema" title="Cambiar tema">
+              <span class="theme-icon" aria-hidden="true">🌙</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main main-visor">
+      <div id="visorLoading" class="visor-loading">Cargando proyectos…</div>
+      <div id="visorError" class="visor-error" hidden></div>
+      <div id="visorContent" class="visor-content" hidden>
+        <aside class="visor-list">
+          <h2 class="visor-list-title">Proyectos</h2>
+          <div id="visorList" class="visor-list-buttons"></div>
+        </aside>
+        <section class="visor-detail">
+          <div id="visorNoSelection" class="visor-no-selection">Seleccione un proyecto de la lista.</div>
+          <div id="visorDetail" class="visor-detail-inner" hidden>
+            <h2 id="visorDetailTitle" class="visor-detail-title"></h2>
+            <div class="visor-tabs">
+              <button type="button" class="visor-tab active" data-tab="resumen">Ficha Resumen</button>
+              <button type="button" class="visor-tab" data-tab="entregas">Entregas MRP</button>
+              <button type="button" class="visor-tab" data-tab="tiempos">Tiempos</button>
+            </div>
+            <div id="visorTabResumen" class="visor-tab-panel"></div>
+            <div id="visorTabEntregas" class="visor-tab-panel" hidden></div>
+            <div id="visorTabTiempos" class="visor-tab-panel" hidden></div>
+          </div>
+        </section>
+        <aside class="visor-filters">
+          <h2 class="visor-filters-title">Filtros</h2>
+          <label for="visorSearch">Buscar por nombre/pedido:</label>
+          <input type="text" id="visorSearch" class="visor-input" placeholder="Buscar…">
+          <label for="visorEstado">Estado:</label>
+          <select id="visorEstado" class="visor-select"></select>
+          <label for="visorTipo">Tipo instalación:</label>
+          <select id="visorTipo" class="visor-select"></select>
+          <label for="visorPlano">Plano validado:</label>
+          <select id="visorPlano" class="visor-select"></select>
+        </aside>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/theme.js"></script>
+  <script src="js/visor-proyectos.js"></script>
+</body>
+</html>

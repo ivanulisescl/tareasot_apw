@@ -1,0 +1,65 @@
+{
+  "fechaHoraActualizacion": "2026-02-20T10:00:00",
+  "proyectos": [
+    {
+      "idProyecto": 1,
+      "estado": "En curso",
+      "numeroPedido": "PED_ebc280b0be",
+      "ofertaReferencia": "OF_162954c96a",
+      "nombreProyecto": "PRJ_11cb51142b",
+      "pais": "España",
+      "fechaVenta": "2025-01-15",
+      "cliente": "CLI_8d67994e8f",
+      "integrador": "INT_145a36e9b8",
+      "importeEur": 125000.5,
+      "pesoKg": 5200.25,
+      "ratioEurKg": 24.04,
+      "sistema": "Sistema A",
+      "tipoInstalacion": "Tipo 1",
+      "numeroPaletas": 12,
+      "alturaTotalMm": 11500,
+      "jefeProyecto": "USR_48eb9c8263",
+      "delineantePrincipal": "USR_2d3eb1e990",
+      "delineanteApoyo1": "USR_a6749a5eeb",
+      "delineanteApoyo2": "",
+      "inicioMontaje": "2025-03-01",
+      "duracionMontajeDias": 25,
+      "tipoTransporte": "Camión",
+      "transitoDias": 5,
+      "planoValidacion": "Sí",
+      "fechaValidacionPlano": "2025-02-10",
+      "entregadoProduccionPorc": 75,
+      "planosMontajeRealizadosPorc": 85,
+      "planosMontajePublicadosPorc": 80,
+      "observacionesGlobal": "[REDACTED]",
+      "entregasMRP": [
+        {
+          "estado": "Entregado",
+          "nEntrega": "1",
+          "entrega": "Entrega 1",
+          "pesoTotalEstructura": 1500.5
+        },
+        {
+          "estado": "En proceso",
+          "nEntrega": "2",
+          "entrega": "Entrega 2",
+          "pesoTotalEstructura": 1200.0
+        }
+      ],
+      "tiempos": [
+        {
+          "tecnico": "USR_48eb9c8263",
+          "horas": 42.5
+        },
+        {
+          "tecnico": "USR_2d3eb1e990",
+          "horas": 28.0
+        },
+        {
+          "tecnico": "USR_a6749a5eeb",
+          "horas": 15.5
+        }
+      ]
+    }
+  ]
+}

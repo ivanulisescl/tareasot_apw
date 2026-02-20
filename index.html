@@ -29,7 +29,7 @@
               <div id="settingsDropdown" class="settings-dropdown" hidden role="menu">
                 <button type="button" class="settings-option" id="settingsRefreshData" role="menuitem">Actualizar datos</button>
                 <button type="button" class="settings-option" id="settingsForceUpdate" role="menuitem">Forzar actualización</button>
-                <div class="settings-version">v1.19.0</div>
+                <div class="settings-version">v1.20.0</div>
               </div>
             </div>
             <button type="button" class="btn-icon-header btn-theme" id="btnTheme" aria-label="Cambiar tema día/noche" title="Cambiar tema">
@@ -58,6 +58,11 @@
             <span class="hero-card-label">Flujo tareas</span>
             <span class="hero-card-desc">Número de tareas por mes</span>
           </button>
+          <a href="visor-proyectos.html" class="hero-card hero-card-secondary" id="btnVisorProyectos" aria-label="Abrir visor de proyectos">
+            <span class="hero-card-icon" aria-hidden="true">🗂️</span>
+            <span class="hero-card-label">Visor proyectos</span>
+            <span class="hero-card-desc">Datos técnicos y estado de proyectos automáticos</span>
+          </a>
         </div>
       </section>
     </main>
@@ -74,7 +79,6 @@
           <button type="button" class="panel-estado-tab" id="btnEstadoUltimaFecha" data-mode="ultima"></button>
         </div>
         <p id="panelEstadoFecha" class="panel-estado-fecha"></p>
-        <div id="panelEstadoTotal" class="panel-estado-total-bar"></div>
         <div id="panelEstadoResumen" class="panel-estado-resumen panel-estado-resumen-oculto" hidden>
           <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Ofertas total</span><span id="panelEstadoOfertas" class="panel-zona-value">—</span></div>
           <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Pedidos total</span><span id="panelEstadoPedidos" class="panel-zona-value">—</span></div>
@@ -114,6 +118,7 @@
             <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2VEPedidos" class="panel-zona-value">—</span></div>
           </div>
         </div>
+        <div id="panelEstadoTotal" class="panel-estado-total-bar"></div>
         <p id="panelEstadoError" class="panel-estado-error" hidden></p>
       </div>
     </div>
