@@ -24,6 +24,22 @@
   var datosActual = null;
   var datosUltimaFecha = null;
   var ultimaFechaLabel = '';
+  var fechaHoraActualizacion = null;
+
+  function formatearFechaHora(date) {
+    var d = date.getDate();
+    var m = date.getMonth() + 1;
+    var y = date.getFullYear();
+    var h = date.getHours();
+    var min = date.getMinutes();
+    return (d < 10 ? '0' : '') + d + '/' + (m < 10 ? '0' : '') + m + '/' + y + ' a las ' + (h < 10 ? '0' : '') + h + ':' + (min < 10 ? '0' : '') + min;
+  }
+
+  function parsearFechaHora(str) {
+    if (!str) return null;
+    var d = new Date(str);
+    return isNaN(d.getTime()) ? null : d;
+  }
 
   function getValor(d, key) {
     if (d[key] != null) return Number(d[key]);
@@ -43,8 +59,14 @@
   }
 
   function rellenarPanel(datos, esActual) {
-    var fecha = esActual ? 'Datos actuales' : (datos.Fecha || '—');
-    setText('panelEstadoFecha', esActual ? fecha : 'Datos del ' + fecha);
+    var textoFecha;
+    if (esActual) {
+      var fh = fechaHoraActualizacion || new Date();
+      textoFecha = 'Datos del ' + formatearFechaHora(fh);
+    } else {
+      textoFecha = 'Datos del ' + (datos.Fecha || '—');
+    }
+    setText('panelEstadoFecha', textoFecha);
 
     if (panelTotal) {
       panelTotal.textContent = 'Total tareas: ' + totalTareas(datos);
@@ -131,6 +153,8 @@
         datosActual = null;
         datosUltimaFecha = null;
         ultimaFechaLabel = '';
+        var fh = parsearFechaHora(data.fechaHoraActualizacion || data.fechaHoraCreacion);
+        fechaHoraActualizacion = fh || new Date();
 
         var listaDias = data.dias && Array.isArray(data.dias) ? data.dias : (Array.isArray(data) ? data : []);
         if (data.Actual && typeof data.Actual === 'object') {
