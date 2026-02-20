@@ -253,6 +253,7 @@
   }
 
   function showDetail(p) {
+    contentEl.classList.remove('visor-content--no-detail');
     noSelectionEl.hidden = true;
     detailEl.hidden = false;
     detailTitleEl.textContent = v(p.nombreProyecto) + ' (' + v(p.numeroPedido) + ')';
@@ -264,6 +265,7 @@
   }
 
   function hideDetail() {
+    contentEl.classList.add('visor-content--no-detail');
     noSelectionEl.hidden = false;
     detailEl.hidden = true;
     proyectoSeleccionado = null;
@@ -283,12 +285,7 @@
     applyFilters();
     renderList();
     initFilters();
-    if (proyectosFiltrados.length > 0) {
-      proyectoSeleccionado = proyectosFiltrados[0];
-      showDetail(proyectoSeleccionado);
-    } else {
-      hideDetail();
-    }
+    hideDetail();
   }
 
   fetch(DATA_URL + '?t=' + Date.now())

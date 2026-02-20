@@ -26,10 +26,19 @@
 .visor-content {
   flex: 1;
   display: grid;
-  grid-template-columns: 260px 1fr 200px;
+  grid-template-columns: 260px 1fr 220px;
   grid-template-rows: 1fr;
   min-height: 0;
   border-top: 1px solid var(--border);
+}
+
+/* Sin proyecto seleccionado: solo lista + filtros (2 columnas) */
+.visor-content.visor-content--no-detail {
+  grid-template-columns: 260px 1fr;
+}
+
+.visor-content.visor-content--no-detail .visor-detail {
+  display: none;
 }
 
 .visor-list {
@@ -86,6 +95,7 @@
   background: var(--bg-elevated);
   padding: 1rem;
   overflow-y: auto;
+  min-width: 0;
 }
 
 .visor-filters-title {
@@ -95,24 +105,30 @@
   margin: 0 0 0.75rem 0;
 }
 
-.visor-filters label {
-  display: block;
-  font-size: 0.85rem;
-  color: var(--text-secondary);
+.visor-filter-row {
   margin-top: 0.75rem;
-  margin-bottom: 0.25rem;
 }
 
-.visor-filters label:first-of-type {
+.visor-filter-row:first-of-type {
   margin-top: 0;
+}
+
+.visor-filters label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.35rem;
+  line-height: 1.3;
+  word-wrap: break-word;
 }
 
 .visor-input,
 .visor-select {
   width: 100%;
+  box-sizing: border-box;
   padding: 0.5rem 0.5rem;
   font-family: var(--font-sans);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -272,10 +288,19 @@
 }
 
 @media (max-width: 900px) {
-  .visor-content {
+  .visor-content,
+  .visor-content.visor-content--no-detail {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr;
     grid-template-areas: "list" "filters" "detail";
+  }
+
+  .visor-content .visor-detail {
+    display: block;
+  }
+
+  .visor-content.visor-content--no-detail .visor-detail {
+    display: none;
   }
 
   .visor-list {
@@ -289,13 +314,12 @@
     grid-area: filters;
     border-left: none;
     border-bottom: 1px solid var(--border);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
   }
 
-  .visor-filters label {
-    margin-top: 0;
+  .visor-filters .visor-filter-row {
+    margin-top: 0.75rem;
   }
 
   .visor-detail {
