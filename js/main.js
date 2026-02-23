@@ -61,8 +61,7 @@
   function rellenarPanel(datos, esActual) {
     var textoFecha;
     if (esActual) {
-      var fh = fechaHoraActualizacion || new Date();
-      textoFecha = 'Datos del ' + formatearFechaHora(fh);
+      textoFecha = fechaHoraActualizacion ? 'Datos del ' + fechaHoraActualizacion : 'Datos actuales';
     } else {
       textoFecha = 'Datos del ' + (datos.Fecha || '—');
     }
@@ -153,9 +152,6 @@
         datosActual = null;
         datosUltimaFecha = null;
         ultimaFechaLabel = '';
-        var fh = parsearFechaHora(data.fechaHoraActualizacion || data.fechaHoraCreacion);
-        fechaHoraActualizacion = fh || new Date();
-
         var listaDias = data.dias && Array.isArray(data.dias) ? data.dias : (Array.isArray(data) ? data : []);
         if (data.Actual && typeof data.Actual === 'object') {
           datosActual = data.Actual;
@@ -163,6 +159,16 @@
         if (listaDias.length > 0) {
           datosUltimaFecha = listaDias[listaDias.length - 1];
           ultimaFechaLabel = datosUltimaFecha.Fecha || '';
+        }
+
+        var fh = parsearFechaHora(data.fechaHoraActualizacion || data.fechaHoraCreacion);
+        if (fh) {
+          fechaHoraActualizacion = formatearFechaHora(fh);
+        } else if (datosUltimaFecha && datosUltimaFecha.Fecha) {
+          var hora = data.Hora || datosUltimaFecha.Hora;
+          fechaHoraActualizacion = datosUltimaFecha.Fecha + (hora ? ' a las ' + hora : '');
+        } else {
+          fechaHoraActualizacion = null;
         }
 
         if (datosActual && datosUltimaFecha) {
