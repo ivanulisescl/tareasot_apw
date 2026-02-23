@@ -145,9 +145,14 @@
     fetch(DATA_URL + '?t=' + Date.now())
       .then(function (res) {
         if (!res.ok) throw new Error('No se pudieron cargar los datos');
-        return res.json();
+        var lastModified = res.headers.get('Last-Modified');
+        return res.json().then(function (data) {
+          return { data: data, lastModified: lastModified };
+        });
       })
-      .then(function (data) {
+      .then(function (result) {
+        var data = result.data;
+        var lastModified = result.lastModified;
         datosCargados = data;
         datosActual = null;
         datosUltimaFecha = null;
@@ -164,6 +169,9 @@
         var fh = parsearFechaHora(data.fechaHoraActualizacion || data.fechaHoraCreacion);
         if (fh) {
           fechaHoraActualizacion = formatearFechaHora(fh);
+        } else if (lastModified) {
+          var d = new Date(lastModified);
+          fechaHoraActualizacion = isNaN(d.getTime()) ? null : formatearFechaHora(d);
         } else if (datosUltimaFecha && datosUltimaFecha.Fecha) {
           var hora = data.Hora || datosUltimaFecha.Hora;
           fechaHoraActualizacion = datosUltimaFecha.Fecha + (hora ? ' a las ' + hora : '');
