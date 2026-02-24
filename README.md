@@ -6,7 +6,7 @@ Aplicación para monitorear y controlar parámetros del departamento de ingenier
 
 **URL de la app (GitLab Pages):** [https://ivan.ulises.cl.gitlab.io/tareasot_apw/](https://ivan.ulises.cl.gitlab.io/tareasot_apw/)
 
-**Versión:** 1.29.0 (ver archivo `VERSION`)
+**Versión:** 1.30.0 (ver archivo `VERSION`)
 
 ## Estructura del proyecto
 
