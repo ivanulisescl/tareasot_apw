@@ -1,5 +1,5 @@
-/* Service worker mínimo para que la PWA sea instalable */
-const CACHE = 'tareasot-v1';
+/* Service worker mínimo para que la PWA sea instalable. Cambiar VERSION al publicar. */
+const CACHE = 'tareasot-v2';
 
 self.addEventListener('install', function (event) {
   event.waitUntil(
@@ -10,7 +10,15 @@ self.addEventListener('install', function (event) {
 });
 
 self.addEventListener('activate', function (event) {
-  event.waitUntil(self.clients.claim());
+  event.waitUntil(
+    caches.keys().then(function (names) {
+      return Promise.all(
+        names.filter(function (name) { return name !== CACHE; }).map(function (name) {
+          return caches.delete(name);
+        })
+      );
+    }).then(function () { return self.clients.claim(); })
+  );
 });
 
 self.addEventListener('fetch', function (event) {

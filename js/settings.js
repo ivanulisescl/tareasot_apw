@@ -40,17 +40,11 @@
 
   function forceUpdate() {
     closeDropdown();
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistration().then(function (reg) {
-        if (reg) {
-          reg.update().then(function () {
-            window.location.reload();
-          }).catch(function () {
-            window.location.reload();
-          });
-        } else {
-          window.location.reload();
-        }
+    if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
+      navigator.serviceWorker.getRegistrations().then(function (regs) {
+        return Promise.all(regs.map(function (reg) { return reg.unregister(); }));
+      }).then(function () {
+        window.location.reload();
       }).catch(function () {
         window.location.reload();
       });
