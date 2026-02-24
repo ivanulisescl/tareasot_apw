@@ -219,6 +219,12 @@
   }
 
   if (document.body.dataset.page === 'estado-tareas') {
-    abrirEstadoTareas();
+    var panelEl = document.getElementById('panelEstadoTareas');
+    if (panelEl) panelEl.removeAttribute('hidden');
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', abrirEstadoTareas);
+    } else {
+      abrirEstadoTareas();
+    }
   }
 })();

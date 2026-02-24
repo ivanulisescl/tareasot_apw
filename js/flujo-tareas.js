@@ -302,7 +302,13 @@
   if (backdrop) backdrop.addEventListener('click', cerrarPanel);
 
   if (document.body.dataset.page === 'flujo-tareas') {
-    abrirFlujoTareas();
+    var panelEl = document.getElementById('panelFlujoTareas');
+    if (panelEl) panelEl.removeAttribute('hidden');
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', abrirFlujoTareas);
+    } else {
+      abrirFlujoTareas();
+    }
   }
   if (selectAnio) selectAnio.addEventListener('change', actualizarVistaTabla);
   if (selectAnio1) selectAnio1.addEventListener('change', actualizarVistaComparador);

@@ -205,9 +205,12 @@ body {
   color: var(--text-primary);
 }
 
-/* Header en subpáginas (Evolución temporal, Visor proyectos): solo título, subtítulo y Volver (icono) */
+/* Header en subpáginas (Evolución temporal, Visor proyectos, Estado/Flujo tareas): título, subtítulo y Volver (icono) */
 .header--subpage .header-inner {
   width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
 }
 
 .header--subpage .header-content--subpage {
@@ -216,17 +219,23 @@ body {
   align-items: flex-start;
   text-align: left;
   width: 100%;
+  max-width: 100%;
   gap: 1rem;
+  flex-wrap: nowrap;
 }
 
 .header--subpage .header-titles {
   min-width: 0;
+  flex: 1 1 auto;
+  overflow: hidden;
 }
 
 .header--subpage .back-link--icon {
   flex-shrink: 0;
   width: 2.5rem;
   height: 2.5rem;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -542,6 +551,9 @@ body {
   padding: 1.5rem;
   align-items: flex-start;
   justify-content: flex-start;
+  min-height: 200px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .panel-estado-backdrop {
