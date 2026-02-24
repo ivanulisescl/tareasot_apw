@@ -1,18 +1,12 @@
 # Control de Parámetros - Departamento de Ingeniería
 
-Aplicación para monitorear y controlar parámetros del departamento de ingeniería.
+Aplicación para monitorear y controlar parámetros del departamento de ingeniería. Repositorio y despliegue solo en GitLab.
 
-**Repositorio:** [https://github.com/ivanulisescl/tareasot_apw](https://github.com/ivanulisescl/tareasot_apw.git)
+**Repositorio (GitLab):** [https://gitlab.com/ivan.ulises.cl/tareasot_apw](https://gitlab.com/ivan.ulises.cl/tareasot_apw)
 
-**URL de la app (GitHub Pages):** [https://ivanulisescl.github.io/tareasot_apw/](https://ivanulisescl.github.io/tareasot_apw/)
+**URL de la app (GitLab Pages):** [https://ivan.ulises.cl.gitlab.io/tareasot_apw/](https://ivan.ulises.cl.gitlab.io/tareasot_apw/)
 
 **Versión:** 1.26.0 (ver archivo `VERSION`)
-
-### Si la app da 404 en GitHub Pages
-
-1. Ve a **Settings** → **Pages** en el repositorio: https://github.com/ivanulisescl/tareasot_apw/settings/pages
-2. En **Build and deployment** → **Source**, selecciona **GitHub Actions** (no "Deploy from a branch").
-3. Si ya está en GitHub Actions, haz clic en **Actions** → abre el último workflow "Deploy to GitHub Pages" → **Re-run all jobs**.
 
 ## Estructura del proyecto
 
@@ -50,4 +44,4 @@ TareasOT_APW/
 - Interfaz principal con botones **Estado Tareas** (panel con totales del último día) y **Gráficos**.
 - Tema día/noche en el encabezado (preferencia guardada en localStorage).
 - Vista de gráficos: **Evolución Anual Ofertas de Ingeniería** y **Evolución Anual Ofertas de Automáticos** (datos desde `data/tablaDias.json`).
-- Los gráficos y el panel Estado Tareas se construyen desde el JSON; es necesario usar un servidor local (o GitHub Pages) para cargar los datos.
+- Los gráficos y el panel Estado Tareas se construyen desde el JSON; es necesario usar un servidor local o GitLab Pages para cargar los datos.
