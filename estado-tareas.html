@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Estado Tareas - Control de Parámetros</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f1419">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="estado-tareas">
+  <div class="app">
+    <header class="header header--subpage">
+      <div class="header-inner">
+        <div class="header-content header-content--subpage">
+          <div class="header-titles">
+            <h1 class="logo">Estado Tareas</h1>
+            <span class="subtitle">Totales y desglose por áreas</span>
+          </div>
+          <a href="index.html" class="back-link back-link--icon" aria-label="Volver al inicio" title="Volver al inicio">
+            <svg class="icon-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main main-estado">
+      <div id="panelEstadoTareas" class="panel-estado panel-estado--page">
+        <div class="panel-estado-content">
+          <div id="panelEstadoTabs" class="panel-estado-tabs" hidden>
+            <button type="button" class="panel-estado-tab active" id="btnEstadoActual" data-mode="actual">Datos actuales</button>
+            <button type="button" class="panel-estado-tab" id="btnEstadoUltimaFecha" data-mode="ultima"></button>
+          </div>
+          <p id="panelEstadoFecha" class="panel-estado-fecha"></p>
+          <div id="panelEstadoResumen" class="panel-estado-resumen panel-estado-resumen-oculto" hidden>
+            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Ofertas total</span><span id="panelEstadoOfertas" class="panel-zona-value">—</span></div>
+            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Pedidos total</span><span id="panelEstadoPedidos" class="panel-zona-value">—</span></div>
+            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Tareas internas</span><span id="panelEstadoTareasInternas" class="panel-zona-value">—</span></div>
+          </div>
+          <div id="panelEstadoEstados" class="panel-estado-estados panel-estado-estados-oculto" hidden>
+            <h3 class="panel-zona-titulo">Por estado</h3>
+            <div class="panel-estado-estados-grid">
+              <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Nuevas</span><span id="panelEstadoNuevas" class="panel-zona-value">—</span></div>
+              <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Incompletas</span><span id="panelEstadoIncompletas" class="panel-zona-value">—</span></div>
+              <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Definidas</span><span id="panelEstadoDefinidas" class="panel-zona-value">—</span></div>
+              <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Asignadas</span><span id="panelEstadoAsignadas" class="panel-zona-value">—</span></div>
+              <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Pdte. rev. comercial</span><span id="panelEstadoPdteRevComercial" class="panel-zona-value">—</span></div>
+              <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Calculadas</span><span id="panelEstadoCalculadas" class="panel-zona-value">—</span></div>
+              <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Pdte. comercializados</span><span id="panelEstadoPdteComercializados" class="panel-zona-value">—</span></div>
+            </div>
+          </div>
+          <div id="tabla2-content" class="panel-estado-grid">
+            <div class="panel-zona">
+              <h3 class="panel-zona-titulo">Ingeniería</h3>
+              <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2IngOfertas" class="panel-zona-value">—</span></div>
+              <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2IngPedidos" class="panel-zona-value">—</span></div>
+            </div>
+            <div class="panel-zona">
+              <h3 class="panel-zona-titulo">Automáticos</h3>
+              <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2AutomOfertas" class="panel-zona-value">—</span></div>
+              <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2AutomPedidos" class="panel-zona-value">—</span></div>
+            </div>
+            <div class="panel-zona">
+              <h3 class="panel-zona-titulo">ISA's</h3>
+              <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2ISAOfertas" class="panel-zona-value">—</span></div>
+              <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2ISAPedidos" class="panel-zona-value">—</span></div>
+            </div>
+            <div class="panel-zona">
+              <h3 class="panel-zona-titulo">VE</h3>
+              <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2VEOfertas" class="panel-zona-value">—</span></div>
+              <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2VEPedidos" class="panel-zona-value">—</span></div>
+            </div>
+          </div>
+          <div id="panelEstadoTotal" class="panel-estado-total-bar"></div>
+          <p id="panelEstadoError" class="panel-estado-error" hidden></p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/theme.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/sw-register.js"></script>
+</body>
+</html>

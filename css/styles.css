@@ -205,6 +205,57 @@ body {
   color: var(--text-primary);
 }
 
+/* Header en subpáginas (Evolución temporal, Visor proyectos): solo título, subtítulo y Volver (icono) */
+.header--subpage .header-inner {
+  width: 100%;
+}
+
+.header--subpage .header-content--subpage {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+  gap: 1rem;
+}
+
+.header--subpage .header-titles {
+  min-width: 0;
+}
+
+.header--subpage .back-link--icon {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: background var(--transition), transform var(--transition);
+}
+
+.header--subpage .back-link--icon:hover {
+  background: var(--bg-elevated);
+  transform: scale(1.05);
+  color: var(--text-primary);
+}
+
+.header--subpage .back-link--icon:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--accent);
+}
+
+.header--subpage .icon-back {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
 .subtitle {
   font-size: 0.95rem;
   color: var(--text-secondary);
@@ -468,6 +519,29 @@ body {
 
 .panel-estado[hidden] {
   display: none;
+}
+
+/* Panel como página (Estado Tareas / Flujo tareas en su propia URL) */
+.panel-estado--page {
+  position: static;
+  inset: auto;
+  z-index: auto;
+  display: block;
+  padding: 0;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.panel-estado--page .panel-estado-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main-estado,
+.main-flujo {
+  padding: 1.5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .panel-estado-backdrop {

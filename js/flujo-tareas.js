@@ -300,6 +300,10 @@
   if (btnAbrir) btnAbrir.addEventListener('click', abrirFlujoTareas);
   if (btnCerrar) btnCerrar.addEventListener('click', cerrarPanel);
   if (backdrop) backdrop.addEventListener('click', cerrarPanel);
+
+  if (document.body.dataset.page === 'flujo-tareas') {
+    abrirFlujoTareas();
+  }
   if (selectAnio) selectAnio.addEventListener('change', actualizarVistaTabla);
   if (selectAnio1) selectAnio1.addEventListener('change', actualizarVistaComparador);
   if (selectAnio2) selectAnio2.addEventListener('change', actualizarVistaComparador);

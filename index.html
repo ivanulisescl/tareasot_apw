@@ -29,7 +29,7 @@
               <div id="settingsDropdown" class="settings-dropdown" hidden role="menu">
                 <button type="button" class="settings-option" id="settingsRefreshData" role="menuitem">Actualizar datos</button>
                 <button type="button" class="settings-option" id="settingsForceUpdate" role="menuitem">Forzar actualización</button>
-                <div class="settings-version">v1.24.0</div>
+                <div class="settings-version">v1.25.0</div>
               </div>
             </div>
             <button type="button" class="btn-icon-header btn-theme" id="btnTheme" aria-label="Cambiar tema día/noche" title="Cambiar tema">
@@ -43,21 +43,21 @@
     <main class="main">
       <section class="hero">
         <div class="hero-cards">
-          <button type="button" class="hero-card hero-card-secondary" id="btnEstadoTareas">
+          <a href="estado-tareas.html" class="hero-card hero-card-secondary" aria-label="Abrir estado de tareas">
             <span class="hero-card-icon" aria-hidden="true">📋</span>
             <span class="hero-card-label">Estado Tareas</span>
             <span class="hero-card-desc">Ver totales y desglose por áreas</span>
-          </button>
+          </a>
           <a href="graficos.html" class="hero-card hero-card-secondary" id="btnGraficos" aria-label="Abrir evolución temporal">
             <span class="hero-card-icon" aria-hidden="true">📊</span>
             <span class="hero-card-label">Evolución temporal</span>
             <span class="hero-card-desc">Número de ofertas a lo largo del tiempo</span>
           </a>
-          <button type="button" class="hero-card hero-card-secondary" id="btnFlujoTareas" aria-label="Abrir flujo de tareas">
+          <a href="flujo-tareas.html" class="hero-card hero-card-secondary" aria-label="Abrir flujo de tareas">
             <span class="hero-card-icon" aria-hidden="true">📈</span>
             <span class="hero-card-label">Flujo tareas</span>
             <span class="hero-card-desc">Número de tareas por mes</span>
-          </button>
+          </a>
           <a href="visor-proyectos.html" class="hero-card hero-card-secondary" id="btnVisorProyectos" aria-label="Abrir visor de proyectos">
             <span class="hero-card-icon" aria-hidden="true">🗂️</span>
             <span class="hero-card-label">Visor proyectos</span>
@@ -67,119 +67,10 @@
       </section>
     </main>
 
-    <div id="panelEstadoTareas" class="panel-estado" hidden aria-modal="true" aria-labelledby="panelEstadoTareasTitle">
-      <div class="panel-estado-backdrop" id="panelEstadoBackdrop"></div>
-      <div class="panel-estado-content">
-        <div class="panel-estado-header">
-          <h2 id="panelEstadoTareasTitle" class="panel-estado-title">Estado Tareas</h2>
-          <button type="button" class="panel-estado-close" id="panelEstadoClose" aria-label="Cerrar">×</button>
-        </div>
-        <div id="panelEstadoTabs" class="panel-estado-tabs" hidden>
-          <button type="button" class="panel-estado-tab active" id="btnEstadoActual" data-mode="actual">Datos actuales</button>
-          <button type="button" class="panel-estado-tab" id="btnEstadoUltimaFecha" data-mode="ultima"></button>
-        </div>
-        <p id="panelEstadoFecha" class="panel-estado-fecha"></p>
-        <div id="panelEstadoResumen" class="panel-estado-resumen panel-estado-resumen-oculto" hidden>
-          <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Ofertas total</span><span id="panelEstadoOfertas" class="panel-zona-value">—</span></div>
-          <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Pedidos total</span><span id="panelEstadoPedidos" class="panel-zona-value">—</span></div>
-          <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Tareas internas</span><span id="panelEstadoTareasInternas" class="panel-zona-value">—</span></div>
-        </div>
-        <div id="panelEstadoEstados" class="panel-estado-estados panel-estado-estados-oculto" hidden>
-          <h3 class="panel-zona-titulo">Por estado</h3>
-          <div class="panel-estado-estados-grid">
-            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Nuevas</span><span id="panelEstadoNuevas" class="panel-zona-value">—</span></div>
-            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Incompletas</span><span id="panelEstadoIncompletas" class="panel-zona-value">—</span></div>
-            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Definidas</span><span id="panelEstadoDefinidas" class="panel-zona-value">—</span></div>
-            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Asignadas</span><span id="panelEstadoAsignadas" class="panel-zona-value">—</span></div>
-            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Pdte. rev. comercial</span><span id="panelEstadoPdteRevComercial" class="panel-zona-value">—</span></div>
-            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Calculadas</span><span id="panelEstadoCalculadas" class="panel-zona-value">—</span></div>
-            <div class="panel-estado-resumen-fila"><span class="panel-zona-label">Pdte. comercializados</span><span id="panelEstadoPdteComercializados" class="panel-zona-value">—</span></div>
-          </div>
-        </div>
-        <div id="tabla2-content" class="panel-estado-grid">
-          <div class="panel-zona">
-            <h3 class="panel-zona-titulo">Ingeniería</h3>
-            <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2IngOfertas" class="panel-zona-value">—</span></div>
-            <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2IngPedidos" class="panel-zona-value">—</span></div>
-          </div>
-          <div class="panel-zona">
-            <h3 class="panel-zona-titulo">Automáticos</h3>
-            <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2AutomOfertas" class="panel-zona-value">—</span></div>
-            <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2AutomPedidos" class="panel-zona-value">—</span></div>
-          </div>
-          <div class="panel-zona">
-            <h3 class="panel-zona-titulo">ISA's</h3>
-            <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2ISAOfertas" class="panel-zona-value">—</span></div>
-            <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2ISAPedidos" class="panel-zona-value">—</span></div>
-          </div>
-          <div class="panel-zona">
-            <h3 class="panel-zona-titulo">VE</h3>
-            <div class="panel-zona-fila"><span class="panel-zona-label">Ofertas</span><span id="tabla2VEOfertas" class="panel-zona-value">—</span></div>
-            <div class="panel-zona-fila"><span class="panel-zona-label">Pedidos</span><span id="tabla2VEPedidos" class="panel-zona-value">—</span></div>
-          </div>
-        </div>
-        <div id="panelEstadoTotal" class="panel-estado-total-bar"></div>
-        <p id="panelEstadoError" class="panel-estado-error" hidden></p>
-      </div>
-    </div>
-
-    <div id="panelFlujoTareas" class="panel-estado panel-flujo" hidden aria-modal="true" aria-labelledby="panelFlujoTareasTitle">
-      <div class="panel-estado-backdrop" id="panelFlujoBackdrop"></div>
-      <div class="panel-estado-content panel-flujo-content">
-        <div class="panel-estado-header">
-          <h2 id="panelFlujoTareasTitle" class="panel-estado-title">Flujo tareas</h2>
-          <button type="button" class="panel-estado-close" id="panelFlujoClose" aria-label="Cerrar">×</button>
-        </div>
-        <div id="panelFlujoBody" class="panel-flujo-body">
-          <div id="panelFlujoLoading" class="panel-flujo-loading">Cargando datos…</div>
-          <div id="panelFlujoError" class="panel-estado-error" hidden></div>
-          <div id="panelFlujoContent" class="panel-flujo-content-inner" hidden>
-            <div class="panel-flujo-tabs">
-              <button type="button" class="panel-flujo-tab active" id="btnFlujoTabla" data-view="tabla">Tabla</button>
-              <button type="button" class="panel-flujo-tab" id="btnFlujoComparador" data-view="comparador">Comparador</button>
-            </div>
-
-            <div id="vistaTabla" class="panel-flujo-vista">
-              <div class="panel-flujo-select-wrap">
-                <label for="panelFlujoAnio">Año:</label>
-                <select id="panelFlujoAnio" class="panel-flujo-select"></select>
-              </div>
-              <div id="panelFlujoTabla" class="panel-flujo-tabla"></div>
-            </div>
-
-            <div id="vistaComparador" class="panel-flujo-vista" hidden>
-              <div class="panel-flujo-comparador-selects">
-                <div class="panel-flujo-select-wrap">
-                  <label for="panelFlujoAnio1">Año 1:</label>
-                  <select id="panelFlujoAnio1" class="panel-flujo-select"></select>
-                </div>
-                <div class="panel-flujo-select-wrap">
-                  <label for="panelFlujoAnio2">Año 2:</label>
-                  <select id="panelFlujoAnio2" class="panel-flujo-select"></select>
-                </div>
-                <div class="panel-flujo-select-wrap panel-flujo-categoria-wrap">
-                  <label for="panelFlujoCategoria">Categoría:</label>
-                  <select id="panelFlujoCategoria" class="panel-flujo-select"></select>
-                </div>
-              </div>
-              <div id="panelFlujoTablaComparador" class="panel-flujo-tabla"></div>
-              <div class="panel-flujo-chart panel-flujo-chart-comparador">
-                <h3 class="chart-title">Comparativa año vs año</h3>
-                <div class="chart-wrap"><canvas id="chartFlujoComparador"></canvas></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/settings.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/flujo-tareas.js"></script>
   <script src="js/sw-register.js"></script>
 </body>
 </html>

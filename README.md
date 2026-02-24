@@ -6,7 +6,7 @@ Aplicación para monitorear y controlar parámetros del departamento de ingenier
 
 **URL de la app (GitHub Pages):** [https://ivanulisescl.github.io/tareasot_apw/](https://ivanulisescl.github.io/tareasot_apw/)
 
-**Versión:** 1.24.0 (ver archivo `VERSION`)
+**Versión:** 1.25.0 (ver archivo `VERSION`)
 
 ### Si la app da 404 en GitHub Pages
 

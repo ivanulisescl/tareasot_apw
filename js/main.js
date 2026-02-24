@@ -217,4 +217,8 @@
   if (btnUltimaFecha) {
     btnUltimaFecha.addEventListener('click', setModoUltimaFecha);
   }
+
+  if (document.body.dataset.page === 'estado-tareas') {
+    abrirEstadoTareas();
+  }
 })();

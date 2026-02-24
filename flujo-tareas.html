@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Flujo tareas - Control de Parámetros</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0f1419">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="flujo-tareas">
+  <div class="app">
+    <header class="header header--subpage">
+      <div class="header-inner">
+        <div class="header-content header-content--subpage">
+          <div class="header-titles">
+            <h1 class="logo">Flujo tareas</h1>
+            <span class="subtitle">Número de tareas por mes</span>
+          </div>
+          <a href="index.html" class="back-link back-link--icon" aria-label="Volver al inicio" title="Volver al inicio">
+            <svg class="icon-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main main-flujo">
+      <div id="panelFlujoTareas" class="panel-estado panel-flujo panel-estado--page">
+        <div class="panel-estado-content panel-flujo-content">
+          <div id="panelFlujoBody" class="panel-flujo-body">
+            <div id="panelFlujoLoading" class="panel-flujo-loading">Cargando datos…</div>
+            <div id="panelFlujoError" class="panel-estado-error" hidden></div>
+            <div id="panelFlujoContent" class="panel-flujo-content-inner" hidden>
+              <div class="panel-flujo-tabs">
+                <button type="button" class="panel-flujo-tab active" id="btnFlujoTabla" data-view="tabla">Tabla</button>
+                <button type="button" class="panel-flujo-tab" id="btnFlujoComparador" data-view="comparador">Comparador</button>
+              </div>
+
+              <div id="vistaTabla" class="panel-flujo-vista">
+                <div class="panel-flujo-select-wrap">
+                  <label for="panelFlujoAnio">Año:</label>
+                  <select id="panelFlujoAnio" class="panel-flujo-select"></select>
+                </div>
+                <div id="panelFlujoTabla" class="panel-flujo-tabla"></div>
+              </div>
+
+              <div id="vistaComparador" class="panel-flujo-vista" hidden>
+                <div class="panel-flujo-comparador-selects">
+                  <div class="panel-flujo-select-wrap">
+                    <label for="panelFlujoAnio1">Año 1:</label>
+                    <select id="panelFlujoAnio1" class="panel-flujo-select"></select>
+                  </div>
+                  <div class="panel-flujo-select-wrap">
+                    <label for="panelFlujoAnio2">Año 2:</label>
+                    <select id="panelFlujoAnio2" class="panel-flujo-select"></select>
+                  </div>
+                  <div class="panel-flujo-select-wrap panel-flujo-categoria-wrap">
+                    <label for="panelFlujoCategoria">Categoría:</label>
+                    <select id="panelFlujoCategoria" class="panel-flujo-select"></select>
+                  </div>
+                </div>
+                <div id="panelFlujoTablaComparador" class="panel-flujo-tabla"></div>
+                <div class="panel-flujo-chart panel-flujo-chart-comparador">
+                  <h3 class="chart-title">Comparativa año vs año</h3>
+                  <div class="chart-wrap"><canvas id="chartFlujoComparador"></canvas></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/flujo-tareas.js"></script>
+  <script src="js/sw-register.js"></script>
+</body>
+</html>
