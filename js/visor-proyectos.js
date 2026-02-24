@@ -1,10 +1,10 @@
 /**
- * Visor proyectos - Carga proyectos_anonimizados.json, lista, filtros y detalle con 3 pestañas.
+ * Visor proyectos - Carga proyectos.json, lista, filtros y detalle con 3 pestañas.
  */
 (function () {
   'use strict';
 
-  var DATA_URL = 'data/proyectos_anonimizados.json';
+  var DATA_URL = 'data/proyectos.json';
   var loadingEl = document.getElementById('visorLoading');
   var errorEl = document.getElementById('visorError');
   var contentEl = document.getElementById('visorContent');
