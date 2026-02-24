@@ -26,28 +26,27 @@
 .visor-content {
   flex: 1;
   display: grid;
-  grid-template-columns: 260px 1fr 220px;
+  grid-template-columns: 280px 1fr;
   grid-template-rows: 1fr;
   min-height: 0;
   border-top: 1px solid var(--border);
 }
 
-/* Sin proyecto seleccionado: solo lista + filtros (2 columnas) */
+/* Sin proyecto seleccionado: solo lista (con filtros arriba) */
 .visor-content.visor-content--no-detail {
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 280px 1fr;
 }
 
 .visor-content.visor-content--no-detail .visor-detail {
   display: none;
 }
 
-/* Proyecto abierto: solo detalle (lista y filtros ocultos) */
+/* Proyecto abierto: solo detalle (lista oculta) */
 .visor-content.visor-content--detail-only {
   grid-template-columns: 1fr;
 }
 
-.visor-content.visor-content--detail-only .visor-list,
-.visor-content.visor-content--detail-only .visor-filters {
+.visor-content.visor-content--detail-only .visor-list {
   display: none;
 }
 
@@ -86,11 +85,38 @@
   min-width: 0;
 }
 
+.visor-filters-top {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.visor-filters-top .visor-filter-row {
+  margin: 0;
+}
+
+.visor-filters-top label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.visor-filters-top .visor-input,
+.visor-filters-top .visor-select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.45rem 0.5rem;
+  font-size: 0.85rem;
+}
+
 .visor-list-title {
   font-size: 1rem;
   font-weight: 600;
   color: var(--text-primary);
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   margin: 0;
   border-bottom: 1px solid var(--border);
 }
@@ -329,8 +355,8 @@
   .visor-content,
   .visor-content.visor-content--no-detail {
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto 1fr;
-    grid-template-areas: "list" "filters" "detail";
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "list" "detail";
   }
 
   .visor-content.visor-content--detail-only {
@@ -348,21 +374,9 @@
 
   .visor-list {
     grid-area: list;
-    max-height: 200px;
+    max-height: 320px;
     border-right: none;
     border-bottom: 1px solid var(--border);
-  }
-
-  .visor-filters {
-    grid-area: filters;
-    border-left: none;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    flex-direction: column;
-  }
-
-  .visor-filters .visor-filter-row {
-    margin-top: 0.75rem;
   }
 
   .visor-detail {

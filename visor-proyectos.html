@@ -36,6 +36,16 @@
       <div id="visorError" class="visor-error" hidden></div>
       <div id="visorContent" class="visor-content visor-content--no-detail" hidden>
         <aside class="visor-list">
+          <div class="visor-filters-top">
+            <div class="visor-filter-row">
+              <label for="visorSearch">Buscar</label>
+              <input type="text" id="visorSearch" class="visor-input" placeholder="Nombre o pedido…">
+            </div>
+            <div class="visor-filter-row">
+              <label for="visorEstado">Estado</label>
+              <select id="visorEstado" class="visor-select"></select>
+            </div>
+          </div>
           <h2 class="visor-list-title">Proyectos</h2>
           <div id="visorList" class="visor-list-buttons"></div>
         </aside>
@@ -56,25 +66,6 @@
             <div id="visorTabTiempos" class="visor-tab-panel" hidden></div>
           </div>
         </section>
-        <aside class="visor-filters">
-          <h2 class="visor-filters-title">Filtros</h2>
-          <div class="visor-filter-row">
-            <label for="visorSearch">Buscar</label>
-            <input type="text" id="visorSearch" class="visor-input" placeholder="Nombre o pedido…">
-          </div>
-          <div class="visor-filter-row">
-            <label for="visorEstado">Estado</label>
-            <select id="visorEstado" class="visor-select"></select>
-          </div>
-          <div class="visor-filter-row">
-            <label for="visorTipo">Tipo instalación</label>
-            <select id="visorTipo" class="visor-select"></select>
-          </div>
-          <div class="visor-filter-row">
-            <label for="visorPlano">Plano validado</label>
-            <select id="visorPlano" class="visor-select"></select>
-          </div>
-        </aside>
       </div>
     </main>
   </div>

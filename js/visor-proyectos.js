@@ -56,8 +56,6 @@
   function applyFilters() {
     var search = (document.getElementById('visorSearch').value || '').toLowerCase().trim();
     var estado = (document.getElementById('visorEstado').value || '').trim();
-    var tipo = (document.getElementById('visorTipo').value || '').trim();
-    var plano = (document.getElementById('visorPlano').value || '').trim();
 
     proyectosFiltrados = (datosCompletos.proyectos || []).filter(function (p) {
       if (search) {
@@ -65,8 +63,6 @@
         if (text.indexOf(search) === -1) return false;
       }
       if (estado && v(p.estado) !== estado) return false;
-      if (tipo && v(p.tipoInstalacion) !== tipo) return false;
-      if (plano && v(p.planoValidacion) !== plano) return false;
       return true;
     });
   }
@@ -104,8 +100,6 @@
   function initFilters() {
     var proyectos = datosCompletos.proyectos || [];
     fillFilterSelect('visorEstado', getUniqueValues(proyectos, 'estado'));
-    fillFilterSelect('visorTipo', getUniqueValues(proyectos, 'tipoInstalacion'));
-    fillFilterSelect('visorPlano', getUniqueValues(proyectos, 'planoValidacion'));
 
     document.getElementById('visorSearch').addEventListener('input', function () {
       renderList();
@@ -116,8 +110,6 @@
       }
     });
     document.getElementById('visorEstado').addEventListener('change', function () { renderList(); });
-    document.getElementById('visorTipo').addEventListener('change', function () { renderList(); });
-    document.getElementById('visorPlano').addEventListener('change', function () { renderList(); });
   }
 
   function addSection(parent, title, fields) {
