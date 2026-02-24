@@ -1,5 +1,5 @@
 {
-  "fechaHoraCreacion": "2026-02-24T10:22:40.9650989",
+  "fechaHoraCreacion": "2026-02-24T11:50:36.2493991",
   "tareasPorAnio": {
     "2024": [
       {
@@ -489,7 +489,7 @@
       {
         "accion": "Ofertas Creadas Ingeniería",
         "enero": 210,
-        "febrero": 184,
+        "febrero": 185,
         "marzo": 0,
         "abril": 0,
         "mayo": 0,
@@ -504,7 +504,7 @@
       {
         "accion": "Ofertas Desarrolladas Ingeniería",
         "enero": 190,
-        "febrero": 149,
+        "febrero": 150,
         "marzo": 0,
         "abril": 0,
         "mayo": 0,
@@ -519,7 +519,7 @@
       {
         "accion": "Pedidos Creados Ingeniería",
         "enero": 159,
-        "febrero": 171,
+        "febrero": 172,
         "marzo": 0,
         "abril": 0,
         "mayo": 0,
@@ -534,7 +534,7 @@
       {
         "accion": "Pedidos Desarrollados Ingeniería",
         "enero": 138,
-        "febrero": 136,
+        "febrero": 139,
         "marzo": 0,
         "abril": 0,
         "mayo": 0,
@@ -549,7 +549,7 @@
       {
         "accion": "Ofertas Creadas Automáticos",
         "enero": 38,
-        "febrero": 42,
+        "febrero": 43,
         "marzo": 0,
         "abril": 0,
         "mayo": 0,
@@ -564,7 +564,7 @@
       {
         "accion": "Ofertas Desarrolladas Automáticos",
         "enero": 29,
-        "febrero": 32,
+        "febrero": 33,
         "marzo": 0,
         "abril": 0,
         "mayo": 0,
@@ -699,7 +699,7 @@
       {
         "accion": "Pedidos Desarrollados ISAs",
         "enero": 12,
-        "febrero": 10,
+        "febrero": 11,
         "marzo": 0,
         "abril": 0,
         "mayo": 0,
