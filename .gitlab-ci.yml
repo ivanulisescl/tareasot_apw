@@ -1,0 +1,15 @@
+# GitLab Pages: publica la app estática (HTML, CSS, JS, data/)
+# La URL quedará: https://TU_USUARIO.gitlab.io/tareasot_apw/
+
+pages:
+  stage: deploy
+  script:
+    - mkdir -p public
+    - cp index.html graficos.html estado-tareas.html flujo-tareas.html visor-proyectos.html 404.html manifest.json sw.js public/ 2>/dev/null || true
+    - cp -r css js img data public/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master"
+    - if: $CI_COMMIT_BRANCH == "main"
