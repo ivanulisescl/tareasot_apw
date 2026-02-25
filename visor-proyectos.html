@@ -13,9 +13,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <link rel="stylesheet" href="css/styles.css?v=1.32.0">
-  <link rel="stylesheet" href="css/visor-proyectos.css?v=1.32.0">
+  <link rel="stylesheet" href="css/styles.css?v=1.34.0">
+  <link rel="stylesheet" href="css/visor-proyectos.css?v=1.34.0">
 </head>
 <body>
   <div class="app app-visor">
@@ -33,26 +32,47 @@
       </div>
     </header>
 
-    <div class="visor-toolbar">
-      <div class="visor-toolbar-left">
-        <label for="visorSearch" class="visor-toolbar-label">Buscar</label>
-        <input type="search" id="visorSearch" class="visor-toolbar-input" placeholder="Nombre o pedido…" autocomplete="off">
-      </div>
-      <div class="visor-toolbar-right">
-        <label for="visorEstado" class="visor-toolbar-label">Estado</label>
-        <select id="visorEstado" class="visor-toolbar-select"></select>
-      </div>
-    </div>
-
     <main class="main main-visor">
       <div id="visorLoading" class="visor-loading">Cargando proyectos…</div>
       <div id="visorError" class="visor-error" hidden></div>
-      <div id="visorList" class="visor-list" hidden></div>
+      <div id="visorContent" class="visor-content visor-content--no-detail" hidden>
+        <aside class="visor-list">
+          <div class="visor-filters-top">
+            <div class="panel-flujo-select-wrap">
+              <label for="visorSearch">Buscar:</label>
+              <input type="text" id="visorSearch" class="panel-flujo-select" placeholder="Nombre o pedido…">
+            </div>
+            <div class="panel-flujo-select-wrap">
+              <label for="visorEstado">Estado:</label>
+              <select id="visorEstado" class="panel-flujo-select"></select>
+            </div>
+          </div>
+          <h2 class="visor-list-title">Proyectos</h2>
+          <div id="visorList" class="visor-list-wrap"></div>
+        </aside>
+        <section class="visor-detail">
+          <div id="visorNoSelection" class="visor-no-selection">Seleccione un proyecto de la lista.</div>
+          <div id="visorDetail" class="visor-detail-inner" hidden>
+            <div class="visor-detail-header">
+              <button type="button" id="visorBtnAtras" class="btn-atras">← Atrás</button>
+              <h2 id="visorDetailTitle" class="visor-detail-title"></h2>
+            </div>
+            <div class="visor-tabs">
+              <button type="button" class="visor-tab active" data-tab="resumen">Ficha Resumen</button>
+              <button type="button" class="visor-tab" data-tab="entregas">Entregas MRP</button>
+              <button type="button" class="visor-tab" data-tab="tiempos">Tiempos</button>
+            </div>
+            <div id="visorTabResumen" class="visor-tab-panel"></div>
+            <div id="visorTabEntregas" class="visor-tab-panel" hidden></div>
+            <div id="visorTabTiempos" class="visor-tab-panel" hidden></div>
+          </div>
+        </section>
+      </div>
     </main>
   </div>
 
-  <script src="js/theme.js?v=1.32.0"></script>
-  <script src="js/sw-register.js?v=2"></script>
-  <script src="js/visor-proyectos.js?v=1.32.0"></script>
+  <script src="js/theme.js?v=1.34.0"></script>
+  <script src="js/sw-register.js?v=3"></script>
+  <script src="js/visor-proyectos.js?v=1.34.0"></script>
 </body>
 </html>
