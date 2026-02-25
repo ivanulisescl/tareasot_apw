@@ -296,14 +296,14 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 0;
-  padding: 2rem 1rem;
+  padding: 0.675rem 1rem;
   width: 100%;
 }
 
 .hero-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 0.675rem;
   max-width: 560px;
   width: 100%;
 }
@@ -313,8 +313,8 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 2rem 1.5rem;
-  border-radius: var(--radius-lg);
+  padding: 0.81rem 1rem;
+  border-radius: var(--radius);
   cursor: pointer;
   text-decoration: none;
   font-family: var(--font-sans);
@@ -327,21 +327,21 @@ body {
 }
 
 .hero-card-icon {
-  font-size: 2.5rem;
+  font-size: 1.575rem;
   line-height: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 0.315rem;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .hero-card-label {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.18rem;
 }
 
 .hero-card-desc {
-  font-size: 0.85rem;
+  font-size: 0.675rem;
   font-weight: 500;
   opacity: 0.85;
 }
@@ -387,12 +387,12 @@ body {
   transform: translateY(-2px);
 }
 
-/* Móvil: layout en flujo para que todo se vea siempre */
+/* Móvil: layout compacto para que los 4 botones quepan sin scroll */
 @media (max-width: 520px) {
   body {
-    padding: 0.75rem;
-    padding-top: max(0.75rem, env(safe-area-inset-top));
-    padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+    padding: 0.4rem 0.5rem;
+    padding-top: max(0.4rem, env(safe-area-inset-top));
+    padding-bottom: max(0.4rem, env(safe-area-inset-bottom));
   }
 
   .app {
@@ -402,14 +402,25 @@ body {
   }
 
   .header {
-    padding: 1rem 0;
+    padding: 0.4rem 0;
     flex-shrink: 0;
   }
 
+  .header-content {
+    gap: 0.15rem;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+  }
 
   .version {
-    font-size: 1rem;
-    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    margin-top: 0.35rem;
     display: block;
     color: var(--accent);
   }
@@ -417,7 +428,7 @@ body {
   .main {
     display: block;
     flex: none;
-    padding: 1.5rem 0 2rem;
+    padding: 0.25rem 0 0.5rem;
     min-height: 0;
   }
 
@@ -432,26 +443,26 @@ body {
     flex-direction: column;
     grid-template-columns: unset;
     max-width: 100%;
-    gap: 1rem;
+    gap: 0.315rem;
   }
 
   .hero-card {
-    padding: 1.5rem 1.25rem;
+    padding: 0.45rem 0.85rem;
     width: 100%;
     box-sizing: border-box;
   }
 
   .hero-card-icon {
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
+    font-size: 1.035rem;
+    margin-bottom: 0.135rem;
   }
 
   .hero-card-label {
-    font-size: 1.1rem;
+    font-size: 0.81rem;
   }
 
   .hero-card-desc {
-    font-size: 0.8rem;
+    font-size: 0.585rem;
   }
 }
 
