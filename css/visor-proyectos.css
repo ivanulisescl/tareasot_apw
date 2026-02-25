@@ -1,7 +1,10 @@
-/* Visor proyectos - Layout 3 columnas: lista | filtros | detalle */
+/* Visor proyectos - Layout: lista izquierda | detalle derecha */
 
 .app-visor {
   max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-visor {
@@ -32,13 +35,13 @@
   border-top: 1px solid var(--border);
 }
 
-/* Sin proyecto seleccionado: solo lista (con filtros arriba) */
+/* Sin proyecto seleccionado: lista + mensaje "Seleccione un proyecto" */
 .visor-content.visor-content--no-detail {
   grid-template-columns: 280px 1fr;
 }
 
 .visor-content.visor-content--no-detail .visor-detail {
-  display: none;
+  display: block;
 }
 
 /* Proyecto abierto: solo detalle (lista oculta) */
@@ -83,6 +86,8 @@
   display: flex;
   flex-direction: column;
   min-width: 0;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .visor-filters-top {
@@ -90,26 +95,22 @@
   border-bottom: 1px solid var(--border);
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.5rem;
 }
 
-.visor-filters-top .visor-filter-row {
-  margin: 0;
+.visor-filters-top .panel-flujo-select-wrap {
+  margin-bottom: 0;
 }
 
-.visor-filters-top label {
-  display: block;
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  margin-bottom: 0.25rem;
-}
-
-.visor-filters-top .visor-input,
-.visor-filters-top .visor-select {
-  width: 100%;
+.visor-filters-top .panel-flujo-select-wrap .panel-flujo-select,
+.visor-filters-top .panel-flujo-select-wrap input.panel-flujo-select {
+  flex: 1;
+  min-width: 0;
   box-sizing: border-box;
-  padding: 0.45rem 0.5rem;
-  font-size: 0.85rem;
+}
+
+.visor-filters-top input.panel-flujo-select {
+  cursor: text;
 }
 
 .visor-list-title {
@@ -121,83 +122,39 @@
   border-bottom: 1px solid var(--border);
 }
 
-.visor-list-buttons {
+.visor-list-wrap {
   flex: 1;
   min-height: 0;
   overflow-y: auto;
-  padding: 0.5rem;
 }
 
-.visor-list-btn {
-  display: block;
+.visor-list-table {
   width: 100%;
-  padding: 0.6rem 0.75rem;
-  margin-bottom: 0.35rem;
-  text-align: left;
-  font-family: var(--font-sans);
+  border-collapse: collapse;
   font-size: 0.85rem;
-  color: var(--text-primary);
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
+}
+
+.visor-list-row {
   cursor: pointer;
-  transition: background var(--transition), border-color var(--transition);
+  transition: background var(--transition);
 }
 
-.visor-list-btn:hover {
+.visor-list-row td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.visor-list-row:hover {
   background: var(--bg-elevated);
-  border-color: var(--text-secondary);
 }
 
-.visor-list-btn.active {
-  border-color: var(--accent);
+.visor-list-row.active td {
   background: var(--accent-glow);
-}
-
-.visor-filters {
-  border-left: 1px solid var(--border);
-  background: var(--bg-elevated);
-  padding: 1rem;
-  overflow-y: auto;
-  min-width: 0;
-}
-
-.visor-filters-title {
-  font-size: 1rem;
+  border-left: 3px solid var(--accent);
   font-weight: 600;
-  color: var(--text-primary);
-  margin: 0 0 0.75rem 0;
 }
 
-.visor-filter-row {
-  margin-top: 0.75rem;
-}
-
-.visor-filter-row:first-of-type {
-  margin-top: 0;
-}
-
-.visor-filters label {
-  display: block;
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  margin-bottom: 0.35rem;
-  line-height: 1.3;
-  word-wrap: break-word;
-}
-
-.visor-input,
-.visor-select {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0.5rem 0.5rem;
-  font-family: var(--font-sans);
-  font-size: 0.85rem;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  color: var(--text-primary);
-}
 
 .visor-detail {
   background: var(--bg-dark);
@@ -276,6 +233,11 @@
   margin: 0 0 0.75rem 0;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--border);
+}
+
+.visor-section-fields {
+  display: grid;
+  gap: 0.5rem;
 }
 
 .visor-field {
@@ -360,6 +322,10 @@
     grid-template-areas: "list" "detail";
   }
 
+  .visor-content.visor-content--no-detail {
+    grid-template-areas: "list" "detail";
+  }
+
   .visor-content.visor-content--detail-only {
     grid-template-rows: 1fr;
     grid-template-areas: "detail";
@@ -369,13 +335,9 @@
     display: block;
   }
 
-  .visor-content.visor-content--no-detail .visor-detail {
-    display: none;
-  }
-
   .visor-list {
     grid-area: list;
-    max-height: 320px;
+    min-height: 0;
     border-right: none;
     border-bottom: 1px solid var(--border);
   }
