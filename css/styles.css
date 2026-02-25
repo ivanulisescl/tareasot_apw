@@ -296,14 +296,14 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 0;
-  padding: 0.75rem 1rem;
+  padding: 2rem 1rem;
   width: 100%;
 }
 
 .hero-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0.75rem;
+  gap: 1.5rem;
   max-width: 560px;
   width: 100%;
 }
@@ -313,8 +313,8 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 0.9rem 1rem;
-  border-radius: var(--radius);
+  padding: 2rem 1.5rem;
+  border-radius: var(--radius-lg);
   cursor: pointer;
   text-decoration: none;
   font-family: var(--font-sans);
@@ -327,21 +327,21 @@ body {
 }
 
 .hero-card-icon {
-  font-size: 1.75rem;
+  font-size: 2.5rem;
   line-height: 1;
-  margin-bottom: 0.35rem;
+  margin-bottom: 1rem;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .hero-card-label {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.35rem;
 }
 
 .hero-card-desc {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 500;
   opacity: 0.85;
 }
@@ -387,82 +387,33 @@ body {
   transform: translateY(-2px);
 }
 
-/* Móvil: layout compacto para que los 4 botones quepan sin scroll */
+/* Móvil */
 @media (max-width: 520px) {
-  body {
-    padding: 0.4rem 0.5rem;
-    padding-top: max(0.4rem, env(safe-area-inset-top));
-    padding-bottom: max(0.4rem, env(safe-area-inset-bottom));
-  }
-
-  .app {
-    display: block;
-    flex: none;
-    min-height: 0;
-  }
-
-  .header {
-    padding: 0.4rem 0;
-    flex-shrink: 0;
-  }
-
-  .header-content {
-    gap: 0.15rem;
-  }
-
-  .logo {
-    font-size: 1.25rem;
-  }
-
-  .subtitle {
-    font-size: 0.8rem;
-  }
-
-  .version {
-    font-size: 0.9rem;
-    margin-top: 0.35rem;
-    display: block;
-    color: var(--accent);
-  }
-
-  .main {
-    display: block;
-    flex: none;
-    padding: 0.25rem 0 0.5rem;
-    min-height: 0;
-  }
-
-  .hero {
-    display: block;
-    padding: 0;
-    min-height: 0;
-  }
-
   .hero-cards {
     display: flex;
     flex-direction: column;
     grid-template-columns: unset;
     max-width: 100%;
-    gap: 0.35rem;
+    gap: 1rem;
   }
 
   .hero-card {
-    padding: 0.5rem 0.85rem;
+    padding: 1.5rem 1.25rem;
     width: 100%;
     box-sizing: border-box;
   }
 
   .hero-card-icon {
-    font-size: 1.15rem;
-    margin-bottom: 0.15rem;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
   }
 
   .hero-card-label {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
   .hero-card-desc {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
 }
 
