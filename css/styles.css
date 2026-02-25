@@ -326,13 +326,6 @@ body {
   outline: none;
 }
 
-.hero-card-icon {
-  font-size: 2.5rem;
-  line-height: 1;
-  margin-bottom: 1rem;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
-}
-
 .hero-card-label {
   font-size: 1.2rem;
   font-weight: 700;
@@ -401,11 +394,6 @@ body {
     padding: 1.5rem 1.25rem;
     width: 100%;
     box-sizing: border-box;
-  }
-
-  .hero-card-icon {
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
   }
 
   .hero-card-label {

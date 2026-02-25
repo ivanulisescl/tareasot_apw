@@ -3,18 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Parámetros OT">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>Control de Parámetros - Ingeniería</title>
   <link rel="icon" type="image/png" sizes="32x32" href="https://ivan.ulises.cl.gitlab.io/tareasot_apw/img/favicon-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="https://ivan.ulises.cl.gitlab.io/tareasot_apw/img/icon-192.png">
+  <link rel="apple-touch-icon" href="https://ivan.ulises.cl.gitlab.io/tareasot_apw/img/icon-192.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://ivan.ulises.cl.gitlab.io/tareasot_apw/img/icon-192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="https://ivan.ulises.cl.gitlab.io/tareasot_apw/img/icon-192.png">
-  <link rel="apple-touch-icon" sizes="192x192" href="https://ivan.ulises.cl.gitlab.io/tareasot_apw/img/icon-192.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://ivan.ulises.cl.gitlab.io/tareasot_apw/img/icon-192.png">
+  <link rel="apple-touch-icon-precomposed" href="https://ivan.ulises.cl.gitlab.io/tareasot_apw/img/icon-192.png">
   <link rel="manifest" href="https://ivan.ulises.cl.gitlab.io/tareasot_apw/manifest.json">
   <meta name="theme-color" content="#0f1419">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <link rel="stylesheet" href="css/styles.css?v=1.37.0">
+  <link rel="stylesheet" href="css/styles.css?v=1.38.0">
 </head>
 <body>
   <div class="app">
@@ -31,7 +37,7 @@
               <div id="settingsDropdown" class="settings-dropdown" hidden role="menu">
                 <button type="button" class="settings-option" id="settingsRefreshData" role="menuitem">Actualizar datos</button>
                 <button type="button" class="settings-option" id="settingsForceUpdate" role="menuitem">Forzar actualización</button>
-                <div class="settings-version">v1.37.0</div>
+                <div class="settings-version">v1.38.0</div>
               </div>
             </div>
             <button type="button" class="btn-icon-header btn-theme" id="btnTheme" aria-label="Cambiar tema día/noche" title="Cambiar tema">
@@ -46,22 +52,18 @@
       <section class="hero">
         <div class="hero-cards">
           <a href="estado-tareas.html" class="hero-card hero-card-secondary" aria-label="Abrir estado de tareas">
-            <span class="hero-card-icon" aria-hidden="true">📋</span>
             <span class="hero-card-label">Estado Tareas</span>
             <span class="hero-card-desc">Ver totales y desglose por áreas</span>
           </a>
           <a href="graficos.html" class="hero-card hero-card-secondary" id="btnGraficos" aria-label="Abrir evolución temporal">
-            <span class="hero-card-icon" aria-hidden="true">📊</span>
             <span class="hero-card-label">Evolución temporal</span>
             <span class="hero-card-desc">Número de ofertas a lo largo del tiempo</span>
           </a>
           <a href="flujo-tareas.html" class="hero-card hero-card-secondary" aria-label="Abrir flujo de tareas">
-            <span class="hero-card-icon" aria-hidden="true">📈</span>
             <span class="hero-card-label">Flujo tareas</span>
             <span class="hero-card-desc">Número de tareas por mes</span>
           </a>
           <a href="visor-proyectos.html" class="hero-card hero-card-secondary" id="btnVisorProyectos" aria-label="Abrir visor de proyectos">
-            <span class="hero-card-icon" aria-hidden="true">🗂️</span>
             <span class="hero-card-label">Visor proyectos</span>
             <span class="hero-card-desc">Datos técnicos y estado de proyectos automáticos</span>
           </a>
@@ -71,8 +73,8 @@
 
   </div>
 
-  <script src="js/theme.js?v=1.37.0"></script>
-  <script src="js/settings.js?v=1.37.0"></script>
+  <script src="js/theme.js?v=1.38.0"></script>
+  <script src="js/settings.js?v=1.38.0"></script>
   <script src="js/sw-register.js?v=3"></script>
 </body>
 </html>
