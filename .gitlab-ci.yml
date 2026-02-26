@@ -1,6 +1,5 @@
-# GitLab Pages: publica la app estática (HTML, CSS, JS, data/)
+# GitLab Pages: publica la app estática
 # URL: https://ivan.ulises.cl.gitlab.io/tareasot_apw/
-# Re-run pipeline (cuenta verificada)
 
 image: alpine:latest
 
