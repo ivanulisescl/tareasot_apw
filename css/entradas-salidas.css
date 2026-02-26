@@ -1,13 +1,5 @@
 /* Entradas/Salidas - Estilos específicos */
 
-[data-page="entradas-salidas"] {
-  padding: 0.5rem !important;
-}
-
-[data-page="entradas-salidas"] .main-estado {
-  padding: 0.75rem 0.5rem;
-}
-
 [data-page="entradas-salidas"] .panel-estado--page .panel-estado-content {
   max-width: 500px;
   width: 100%;
@@ -16,25 +8,18 @@
 }
 
 [data-page="entradas-salidas"] .panel-estado-grid {
-  padding: 0.75rem 0.5rem 1rem;
-  gap: 0.5rem;
+  padding: 1rem 1.25rem 1.25rem;
+  gap: 0.75rem;
 }
 
 [data-page="entradas-salidas"] .panel-zona {
-  padding: 0.6rem;
+  padding: 0.85rem;
   min-width: 0;
   overflow: hidden;
 }
 
-[data-page="entradas-salidas"] .panel-zona-titulo {
-  font-size: 0.9rem;
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.35rem;
-}
-
 [data-page="entradas-salidas"] .panel-zona-fila {
-  font-size: 0.8rem;
-  padding: 0.25rem 0;
+  padding: 0.3rem 0;
 }
 
 [data-page="entradas-salidas"] .panel-zona-label {
@@ -46,8 +31,8 @@
 }
 
 .es-resumen {
-  margin: 0.5rem 0.5rem 0;
-  padding: 0.5rem 0.75rem;
+  margin: 0.75rem 1.25rem 0;
+  padding: 0.6rem 1rem;
   background: var(--bg-elevated);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -57,23 +42,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.3rem 0;
-  font-size: 0.85rem;
+  padding: 0.35rem 0;
+  font-size: 0.9rem;
 }
 
 .es-values {
   display: flex;
-  gap: 0.25rem;
+  gap: 0.35rem;
   align-items: center;
   flex-shrink: 0;
 }
 
 .es-val {
   font-weight: 700;
-  font-size: 0.8rem;
-  min-width: 1.6rem;
+  font-size: 0.85rem;
+  min-width: 1.8rem;
   text-align: center;
-  padding: 0.1rem 0.25rem;
+  padding: 0.15rem 0.35rem;
   border-radius: 5px;
 }
 
@@ -101,7 +86,7 @@
   display: flex;
   gap: 1.25rem;
   justify-content: center;
-  padding: 0.5rem 0.5rem 0;
+  padding: 0.5rem 1.25rem 0;
   font-size: 0.8rem;
   color: var(--text-secondary);
 }
@@ -128,5 +113,5 @@
 }
 
 [data-page="entradas-salidas"] .panel-estado-fecha {
-  padding: 0.5rem 0.5rem 0;
+  padding: 0.75rem 1.25rem 0;
 }
