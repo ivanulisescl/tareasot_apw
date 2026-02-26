@@ -1,0 +1,29 @@
+{
+  "fechaHoraActualizacion": "2026-02-19T09:00:00",
+  "categorias": {
+    "Ingeniería": {
+      "ofertasEntradas": 2,
+      "ofertasSalidas": 1,
+      "pedidosEntradas": 1,
+      "pedidosSalidas": 0
+    },
+    "Automáticos": {
+      "ofertasEntradas": 1,
+      "ofertasSalidas": 0,
+      "pedidosEntradas": 0,
+      "pedidosSalidas": 1
+    },
+    "ISAs": {
+      "ofertasEntradas": 0,
+      "ofertasSalidas": 0,
+      "pedidosEntradas": 0,
+      "pedidosSalidas": 0
+    },
+    "VE": {
+      "ofertasEntradas": 1,
+      "ofertasSalidas": 2,
+      "pedidosEntradas": 0,
+      "pedidosSalidas": 0
+    }
+  }
+}

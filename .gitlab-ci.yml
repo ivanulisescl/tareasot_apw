@@ -7,7 +7,7 @@ pages:
   stage: deploy
   script:
     - mkdir -p public
-    - cp index.html graficos.html estado-tareas.html flujo-tareas.html visor-proyectos.html 404.html manifest.json sw.js public/ 2>/dev/null || true
+    - cp index.html graficos.html estado-tareas.html entradas-salidas.html flujo-tareas.html visor-proyectos.html 404.html manifest.json sw.js public/ 2>/dev/null || true
     - for dir in css js img data; do [ -d "$dir" ] && cp -r "$dir" public/; done
   artifacts:
     paths:

@@ -1,0 +1,86 @@
+/* Entradas/Salidas - Estilos específicos */
+
+.es-resumen {
+  margin: 0.75rem 1.5rem 0;
+  padding: 0.6rem 1rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.es-resumen-fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.35rem 0;
+  font-size: 0.9rem;
+}
+
+.es-values {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.es-val {
+  font-weight: 700;
+  font-size: 0.95rem;
+  min-width: 2.5rem;
+  text-align: center;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+}
+
+.es-in {
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.12);
+}
+
+.es-out {
+  color: #22c55e;
+  background: rgba(34, 197, 94, 0.12);
+}
+
+[data-theme="light"] .es-in {
+  color: #dc2626;
+  background: rgba(220, 38, 38, 0.1);
+}
+
+[data-theme="light"] .es-out {
+  color: #16a34a;
+  background: rgba(22, 163, 74, 0.1);
+}
+
+.es-legend {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  padding: 0.5rem 1.5rem 0;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.es-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.es-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.es-legend-dot--in {
+  background: #ef4444;
+}
+
+.es-legend-dot--out {
+  background: #22c55e;
+}
+
+.panel-zona-fila .es-values .es-val {
+  font-size: 0.9rem;
+}
