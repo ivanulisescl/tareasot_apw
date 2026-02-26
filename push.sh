@@ -17,7 +17,7 @@ git checkout -b gh-public
 cp data/proyectos.json.public data/proyectos.json
 git add data/proyectos.json
 git commit -m "Public: sin datos de proyectos"
-git push github gh-public:main --force
+git push github gh-public:master --force
 git checkout master
 git branch -D gh-public
 
