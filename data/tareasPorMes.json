@@ -1,5 +1,5 @@
 {
-  "fechaHoraCreacion": "2026-02-26T17:22:33.5045007",
+  "fechaHoraCreacion": "2026-02-26T17:52:33.5083546",
   "tareasPorAnio": {
     "2024": [
       {
@@ -595,21 +595,6 @@
         "accion": "Pedidos Desarrollados Automáticos",
         "enero": 27,
         "febrero": 27,
-        "marzo": 0,
-        "abril": 0,
-        "mayo": 0,
-        "junio": 0,
-        "julio": 0,
-        "agosto": 0,
-        "septiembre": 0,
-        "octubre": 0,
-        "noviembre": 0,
-        "diciembre": 0
-      },
-      {
-        "accion": "Ofertas Creadas ISAs",
-        "enero": 0,
-        "febrero": 1,
         "marzo": 0,
         "abril": 0,
         "mayo": 0,
