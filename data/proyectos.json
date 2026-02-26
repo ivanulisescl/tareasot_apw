@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-02-25T17:44:36.7052564",
+  "fechaHoraActualizacion": "2026-02-26T16:04:19.3029956",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -152,13 +152,13 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Compras",
+          "estado": "Registrada",
           "nEntrega": "8",
           "entrega": "VALLADO SUELO Y MALLAS",
           "pesoTotalEstructura": 1330.0
         },
         {
-          "estado": "Compras",
+          "estado": "Registrada",
           "nEntrega": "9",
           "entrega": "MALLAS NYLON",
           "pesoTotalEstructura": 3008.0
@@ -547,7 +547,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 84.583333
+          "horas": 91.5
         }
       ]
     },
@@ -657,7 +657,7 @@
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 13.5
+          "horas": 21.75
         }
       ]
     },
