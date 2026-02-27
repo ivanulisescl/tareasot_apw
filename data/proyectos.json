@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-02-27T11:55:29.6921337",
+  "fechaHoraActualizacion": "2026-02-27T12:25:30.0530022",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -534,10 +534,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "13",
           "entrega": "ESCALERA INTERIOR",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 14077.0
         }
       ],
       "tiempos": [
