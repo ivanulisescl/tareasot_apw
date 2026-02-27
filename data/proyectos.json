@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-02-27T10:27:52.7089489",
+  "fechaHoraActualizacion": "2026-02-27T11:55:29.6921337",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -2166,6 +2166,12 @@
           "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "Total",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "15",
+          "entrega": "VALLADO PERIMETRAL 2",
           "pesoTotalEstructura": 0.0
         }
       ],
