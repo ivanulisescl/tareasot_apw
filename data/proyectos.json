@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-02T17:08:35.6367982",
+  "fechaHoraActualizacion": "2026-03-02T17:39:02.6192089",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -37,7 +37,12 @@
           "pesoTotalEstructura": 0.0
         }
       ],
-      "tiempos": []
+      "tiempos": [
+        {
+          "tecnico": "Fernando Bereguiain",
+          "horas": 1.25
+        }
+      ]
     },
     {
       "idProyecto": 53,
@@ -528,10 +533,10 @@
           "pesoTotalEstructura": 34162.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "12",
           "entrega": "PISOS METALICOS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 41766.0
         },
         {
           "estado": "Registrada",
