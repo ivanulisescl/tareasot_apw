@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-02T16:38:36.2994086",
+  "fechaHoraActualizacion": "2026-03-02T17:08:35.6367982",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -31,7 +31,7 @@
       "observacionesGlobal": "Empezamos con él la semana del 23 de febrero",
       "entregasMRP": [
         {
-          "estado": "Nueva",
+          "estado": "Asignada",
           "nEntrega": "1",
           "entrega": "Total",
           "pesoTotalEstructura": 0.0
@@ -528,7 +528,7 @@
           "pesoTotalEstructura": 34162.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "12",
           "entrega": "PISOS METALICOS",
           "pesoTotalEstructura": 0.0
@@ -538,6 +538,12 @@
           "nEntrega": "13",
           "entrega": "ESCALERA INTERIOR",
           "pesoTotalEstructura": 14161.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "14",
+          "entrega": "CERCHAS Y CORREAS",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -657,7 +663,7 @@
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 33.25
+          "horas": 35.25
         }
       ]
     },
@@ -2178,7 +2184,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 475.75
+          "horas": 476.25
         },
         {
           "tecnico": "David Alonso",
