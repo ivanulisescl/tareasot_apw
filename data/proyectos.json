@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-02-27T13:25:30.0479788",
+  "fechaHoraActualizacion": "2026-03-02T08:37:52.6927943",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -534,7 +534,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "RevisarOT",
           "nEntrega": "13",
           "entrega": "ESCALERA INTERIOR",
           "pesoTotalEstructura": 14077.0
@@ -547,7 +547,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 91.5
+          "horas": 104.75
         }
       ]
     },
@@ -2178,7 +2178,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 474.75
+          "horas": 475.75
         },
         {
           "tecnico": "David Alonso",
