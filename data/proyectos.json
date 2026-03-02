@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-02T13:21:01.2764983",
+  "fechaHoraActualizacion": "2026-03-02T15:48:06.0184819",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -146,7 +146,7 @@
           "pesoTotalEstructura": 4722.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 0.0
@@ -2169,10 +2169,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Compras",
           "nEntrega": "15",
           "entrega": "VALLADO PERIMETRAL 2",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 582.0
         }
       ],
       "tiempos": [
