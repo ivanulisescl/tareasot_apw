@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-02T16:08:34.4658894",
+  "fechaHoraActualizacion": "2026-03-02T16:38:36.2994086",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -657,7 +657,7 @@
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 27.75
+          "horas": 33.25
         }
       ]
     },
