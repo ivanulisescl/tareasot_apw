@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-02T15:48:06.0184819",
+  "fechaHoraActualizacion": "2026-03-02T16:08:34.4658894",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -146,10 +146,10 @@
           "pesoTotalEstructura": 4722.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 2837.0
         },
         {
           "estado": "Registrada",
@@ -167,7 +167,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 195.916666
+          "horas": 202.916666
         }
       ]
     },
