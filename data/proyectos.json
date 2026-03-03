@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-03T10:27:19.6038802",
+  "fechaHoraActualizacion": "2026-03-03T10:57:18.8628527",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -98,7 +98,7 @@
       "ofertaReferencia": "",
       "nombreProyecto": "Almacén automático Esnova",
       "pais": "España",
-      "fechaVenta": "2025-12-24",
+      "fechaVenta": "2025-12-22",
       "cliente": "ESNOVA RACKS S.A.",
       "integrador": "Signode",
       "ratioEurKg": 1.8,
@@ -112,7 +112,8 @@
       "tipoTransporte": "",
       "planoValidacion": "Sí",
       "fechaValidacionPlano": "",
-      "observacionesGlobal": "Terminamos la semana del 23 de febrero.",
+      "entregadoProduccionPorc": 100,
+      "observacionesGlobal": "",
       "entregasMRP": [
         {
           "estado": "Registrada",
