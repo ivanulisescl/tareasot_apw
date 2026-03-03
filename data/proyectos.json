@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-03T12:59:27.4412942",
+  "fechaHoraActualizacion": "2026-03-03T16:26:11.0461479",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -152,7 +152,7 @@
           "pesoTotalEstructura": 4722.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "RevisarOT",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 2837.0
@@ -2181,7 +2181,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "RevisarOT",
           "nEntrega": "15",
           "entrega": "VALLADO PERIMETRAL 2",
           "pesoTotalEstructura": 582.0
