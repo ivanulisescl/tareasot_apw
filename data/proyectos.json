@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-02T17:48:23.6661708",
+  "fechaHoraActualizacion": "2026-03-03T08:27:28.341902",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -533,7 +533,7 @@
           "pesoTotalEstructura": 34162.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "12",
           "entrega": "PISOS METALICOS",
           "pesoTotalEstructura": 41766.0
@@ -558,7 +558,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 104.75
+          "horas": 113.0
         }
       ]
     },
