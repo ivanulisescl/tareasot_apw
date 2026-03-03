@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-03T11:59:27.5214105",
+  "fechaHoraActualizacion": "2026-03-03T12:29:27.7225636",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -152,7 +152,7 @@
           "pesoTotalEstructura": 4722.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 2837.0
@@ -534,7 +534,7 @@
           "pesoTotalEstructura": 34162.0
         },
         {
-          "estado": "Compras",
+          "estado": "AsignadaComp",
           "nEntrega": "12",
           "entrega": "PISOS METALICOS",
           "pesoTotalEstructura": 41766.0
@@ -2181,7 +2181,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Compras",
+          "estado": "AsignadaProg",
           "nEntrega": "15",
           "entrega": "VALLADO PERIMETRAL 2",
           "pesoTotalEstructura": 582.0
