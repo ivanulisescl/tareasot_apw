@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-03T12:29:27.7225636",
+  "fechaHoraActualizacion": "2026-03-03T12:59:27.4412942",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -534,7 +534,7 @@
           "pesoTotalEstructura": 34162.0
         },
         {
-          "estado": "AsignadaComp",
+          "estado": "AsignadaProg",
           "nEntrega": "12",
           "entrega": "PISOS METALICOS",
           "pesoTotalEstructura": 41766.0
