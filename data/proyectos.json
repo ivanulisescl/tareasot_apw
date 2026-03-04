@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-04T11:46:49.8430892",
+  "fechaHoraActualizacion": "2026-03-04T12:09:10.4608614",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -602,10 +602,10 @@
       "observacionesGlobal": "Desarrollado casi al 100%. Enviaremos validación y si dan el ok queda listo. Empezará Gianluca cuando termine Viscon.",
       "entregasMRP": [
         {
-          "estado": "Aprobada",
+          "estado": "AsignadaProg",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 508368.0
         },
         {
           "estado": "Asignada",
@@ -614,19 +614,19 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "AsignadaProg",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 347212.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "3",
           "entrega": "CARRILES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 383394.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "4",
           "entrega": "TORRE ARRIOSTRADO",
           "pesoTotalEstructura": 0.0
