@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-04T12:46:49.688317",
+  "fechaHoraActualizacion": "2026-03-04T13:16:49.5721247",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -152,7 +152,7 @@
           "pesoTotalEstructura": 4722.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 2822.0
@@ -602,7 +602,7 @@
       "observacionesGlobal": "Desarrollado casi al 100%. Enviaremos validación y si dan el ok queda listo. Empezará Gianluca cuando termine Viscon.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 508368.0
@@ -614,13 +614,13 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 347212.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "3",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 383394.0
@@ -632,7 +632,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "5",
           "entrega": "DISTANCIADORES",
           "pesoTotalEstructura": 0.0
