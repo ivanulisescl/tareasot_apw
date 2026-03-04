@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-03T17:56:02.3591808",
+  "fechaHoraActualizacion": "2026-03-04T10:22:36.9740871",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -152,7 +152,7 @@
           "pesoTotalEstructura": 4722.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 2822.0
@@ -534,7 +534,7 @@
           "pesoTotalEstructura": 34162.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "12",
           "entrega": "PISOS METALICOS",
           "pesoTotalEstructura": 41766.0
@@ -546,16 +546,22 @@
           "pesoTotalEstructura": 14161.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "14",
           "entrega": "CERCHAS Y CORREAS",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "15",
+          "entrega": "FACHADAS",
           "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Nuria Suárez",
-          "horas": 288.0
+          "horas": 296.75
         },
         {
           "tecnico": "Alba Fernández",
@@ -596,7 +602,7 @@
       "observacionesGlobal": "Desarrollado casi al 100%. Enviaremos validación y si dan el ok queda listo. Empezará Gianluca cuando termine Viscon.",
       "entregasMRP": [
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 0.0
@@ -608,7 +614,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 0.0
@@ -2170,7 +2176,7 @@
         },
         {
           "estado": "Registrada",
-          "nEntrega": "13",
+          "nEntrega": "15",
           "entrega": "DPTS Y LARGUEROS ESCALERA",
           "pesoTotalEstructura": 380.0
         },
@@ -2181,8 +2187,8 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "RevisarOT",
-          "nEntrega": "15",
+          "estado": "Registrada",
+          "nEntrega": "16",
           "entrega": "VALLADO PERIMETRAL 2",
           "pesoTotalEstructura": 582.0
         }
