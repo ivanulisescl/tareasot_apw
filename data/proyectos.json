@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-04T16:00:00.1163465",
+  "fechaHoraActualizacion": "2026-03-04T16:45:37.2687713",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -638,19 +638,19 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 141412.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "RevisarOT",
           "nEntrega": "7",
           "entrega": "BUFFER",
           "pesoTotalEstructura": 14122.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "8",
           "entrega": "ESCALERAS",
           "pesoTotalEstructura": 14652.0
@@ -675,7 +675,7 @@
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 43.5
+          "horas": 51.75
         }
       ]
     },
