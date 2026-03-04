@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-04T13:16:49.5721247",
+  "fechaHoraActualizacion": "2026-03-04T16:00:00.1163465",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -614,10 +614,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Registrada",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
-          "pesoTotalEstructura": 347212.0
+          "pesoTotalEstructura": 340619.0
         },
         {
           "estado": "Registrada",
@@ -626,40 +626,40 @@
           "pesoTotalEstructura": 383394.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Registrada",
           "nEntrega": "4",
           "entrega": "TORRE ARRIOSTRADO",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 20158.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Registrada",
           "nEntrega": "5",
           "entrega": "DISTANCIADORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Asignada",
+          "estado": "AsignadaProg",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 141412.0
         },
         {
-          "estado": "Asignada",
+          "estado": "AsignadaProg",
           "nEntrega": "7",
           "entrega": "BUFFER",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 14122.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "8",
           "entrega": "ESCALERAS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 14652.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Compras",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 73440.0
         },
         {
           "estado": "Asignada",
