@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-04T11:16:50.7007861",
+  "fechaHoraActualizacion": "2026-03-04T11:46:49.8430892",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -602,7 +602,7 @@
       "observacionesGlobal": "Desarrollado casi al 100%. Enviaremos validación y si dan el ok queda listo. Empezará Gianluca cuando termine Viscon.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 0.0
@@ -614,13 +614,13 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "3",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 0.0
