@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-05T12:53:45.7025466",
+  "fechaHoraActualizacion": "2026-03-05T13:13:24.6964138",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -486,10 +486,10 @@
           "pesoTotalEstructura": 33442.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Definida",
           "nEntrega": "5",
           "entrega": "CARRILES",
-          "pesoTotalEstructura": 113531.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
@@ -546,7 +546,7 @@
           "pesoTotalEstructura": 14161.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "14",
           "entrega": "CERCHAS Y CORREAS",
           "pesoTotalEstructura": 0.0
@@ -638,19 +638,19 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 141412.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "7",
           "entrega": "BUFFER",
           "pesoTotalEstructura": 7487.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "RevisarOT",
           "nEntrega": "8",
           "entrega": "ESCALERAS",
           "pesoTotalEstructura": 14652.0
