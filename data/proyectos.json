@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-05T13:13:24.6964138",
+  "fechaHoraActualizacion": "2026-03-05T16:57:51.0626088",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -486,10 +486,10 @@
           "pesoTotalEstructura": 33442.0
         },
         {
-          "estado": "Definida",
+          "estado": "Registrada",
           "nEntrega": "5",
           "entrega": "CARRILES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 110961.0
         },
         {
           "estado": "Registrada",
@@ -546,10 +546,10 @@
           "pesoTotalEstructura": 14161.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "AsignadaProg",
           "nEntrega": "14",
           "entrega": "CERCHAS Y CORREAS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 31113.0
         },
         {
           "estado": "Asignada",
@@ -561,7 +561,7 @@
       "tiempos": [
         {
           "tecnico": "Nuria Suárez",
-          "horas": 302.25
+          "horas": 310.5
         },
         {
           "tecnico": "Alba Fernández",
@@ -650,7 +650,7 @@
           "pesoTotalEstructura": 7487.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "Registrada",
           "nEntrega": "8",
           "entrega": "ESCALERAS",
           "pesoTotalEstructura": 14652.0
@@ -671,11 +671,11 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 328.0
+          "horas": 336.25
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 51.75
+          "horas": 60.0
         }
       ]
     },
