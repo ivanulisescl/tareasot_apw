@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-05T10:08:30.9981553",
+  "fechaHoraActualizacion": "2026-03-05T10:23:46.3234569",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -644,7 +644,7 @@
           "pesoTotalEstructura": 141412.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "7",
           "entrega": "BUFFER",
           "pesoTotalEstructura": 7487.0
