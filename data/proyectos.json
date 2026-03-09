@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-09T16:49:48.0845963",
+  "fechaHoraActualizacion": "2026-03-09T17:19:49.1371612",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -40,7 +40,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 19.0
+          "horas": 21.0
         }
       ]
     },
@@ -567,7 +567,7 @@
       "tiempos": [
         {
           "tecnico": "Nuria Suárez",
-          "horas": 316.5
+          "horas": 324.75
         },
         {
           "tecnico": "Alba Fernández",
@@ -681,7 +681,7 @@
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 71.5
+          "horas": 73.5
         }
       ]
     },
