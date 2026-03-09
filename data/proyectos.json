@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-09T11:09:33.7144997",
+  "fechaHoraActualizacion": "2026-03-09T15:49:49.1585875",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -558,7 +558,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "16",
           "entrega": "TOPES PALETA",
           "pesoTotalEstructura": 1995.0
@@ -571,7 +571,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 135.5
+          "horas": 142.416666
         }
       ]
     },
@@ -681,7 +681,7 @@
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 66.0
+          "horas": 71.5
         }
       ]
     },
