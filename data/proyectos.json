@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-06T11:19:26.027096",
+  "fechaHoraActualizacion": "2026-03-09T08:24:50.8273281",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -40,7 +40,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 18.0
+          "horas": 19.0
         }
       ]
     },
@@ -528,7 +528,7 @@
           "pesoTotalEstructura": 24465.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Registrada",
           "nEntrega": "11",
           "entrega": "PORTICO",
           "pesoTotalEstructura": 34162.0
@@ -546,7 +546,7 @@
           "pesoTotalEstructura": 14161.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "14",
           "entrega": "CERCHAS Y CORREAS",
           "pesoTotalEstructura": 31113.0
@@ -556,16 +556,22 @@
           "nEntrega": "15",
           "entrega": "FACHADAS",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "AsignadaProg",
+          "nEntrega": "16",
+          "entrega": "TOPES PALETA",
+          "pesoTotalEstructura": 1995.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Nuria Suárez",
-          "horas": 310.5
+          "horas": 316.5
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 129.5
+          "horas": 135.5
         }
       ]
     },
@@ -675,7 +681,7 @@
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 60.0
+          "horas": 66.0
         }
       ]
     },
