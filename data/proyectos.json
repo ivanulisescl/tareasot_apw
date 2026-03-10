@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-10T12:53:43.7139087",
+  "fechaHoraActualizacion": "2026-03-10T17:33:15.3040178",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -40,7 +40,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 21.0
+          "horas": 29.416666
         }
       ]
     },
@@ -681,7 +681,7 @@
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 73.5
+          "horas": 81.75
         }
       ]
     },
