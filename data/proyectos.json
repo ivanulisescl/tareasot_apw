@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-10T17:33:15.3040178",
+  "fechaHoraActualizacion": "2026-03-10T18:03:05.92842",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -83,7 +83,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 20.25
+          "horas": 28.5
         },
         {
           "tecnico": "Manuel Díaz",
@@ -571,7 +571,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 142.416666
+          "horas": 150.5
         }
       ]
     },
