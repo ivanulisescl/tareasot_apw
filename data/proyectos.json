@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-11T13:03:49.6908644",
+  "fechaHoraActualizacion": "2026-03-11T17:54:18.5081965",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -67,7 +67,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 29.416666
+          "horas": 37.666666
         }
       ]
     },
@@ -110,7 +110,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 28.5
+          "horas": 35.75
         },
         {
           "tecnico": "Manuel Díaz",
@@ -594,7 +594,7 @@
       "tiempos": [
         {
           "tecnico": "Nuria Suárez",
-          "horas": 333.0
+          "horas": 338.5
         },
         {
           "tecnico": "Alba Fernández",
@@ -689,7 +689,7 @@
           "pesoTotalEstructura": 14652.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "Pdte.Codificar",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 73440.0
@@ -704,11 +704,11 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 336.25
+          "horas": 337.25
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 81.75
+          "horas": 90.0
         }
       ]
     },
