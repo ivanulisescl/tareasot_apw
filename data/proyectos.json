@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-10T18:03:05.92842",
+  "fechaHoraActualizacion": "2026-03-11T08:41:17.3245189",
   "proyectos": [
     {
       "idProyecto": 54,
@@ -567,7 +567,7 @@
       "tiempos": [
         {
           "tecnico": "Nuria Suárez",
-          "horas": 324.75
+          "horas": 333.0
         },
         {
           "tecnico": "Alba Fernández",
