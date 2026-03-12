@@ -1,5 +1,5 @@
 {
-  "fechaHoraCreacion": "2026-03-12T09:04:07.1498318",
+  "fechaHoraCreacion": "2026-03-12T09:29:39.6562867",
   "tareasPorAnio": {
     "2024": [
       {
@@ -490,7 +490,7 @@
         "accion": "Ofertas Creadas Ingeniería",
         "enero": 210,
         "febrero": 223,
-        "marzo": 96,
+        "marzo": 95,
         "abril": 0,
         "mayo": 0,
         "junio": 0,
@@ -550,7 +550,7 @@
         "accion": "Ofertas Creadas Automáticos",
         "enero": 38,
         "febrero": 52,
-        "marzo": 16,
+        "marzo": 17,
         "abril": 0,
         "mayo": 0,
         "junio": 0,
@@ -610,7 +610,7 @@
         "accion": "Ofertas Creadas ISAs",
         "enero": 0,
         "febrero": 0,
-        "marzo": 3,
+        "marzo": 4,
         "abril": 0,
         "mayo": 0,
         "junio": 0,
