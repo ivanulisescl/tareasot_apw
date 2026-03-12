@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-12T17:18:38.8787731",
+  "fechaHoraActualizacion": "2026-03-12T17:48:39.6034959",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -110,7 +110,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 35.75
+          "horas": 43.0
         },
         {
           "tecnico": "Manuel Díaz",
@@ -695,7 +695,7 @@
           "pesoTotalEstructura": 73440.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "10",
           "entrega": "ENTREPLANTA",
           "pesoTotalEstructura": 0.0
@@ -704,7 +704,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 337.25
+          "horas": 338.25
         },
         {
           "tecnico": "Gianluca Franceschini",
