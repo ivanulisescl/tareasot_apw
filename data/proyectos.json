@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-12T16:48:57.8194463",
+  "fechaHoraActualizacion": "2026-03-12T17:18:38.8787731",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -67,7 +67,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 37.666666
+          "horas": 45.916666
         }
       ]
     },
