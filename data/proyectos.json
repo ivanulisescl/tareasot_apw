@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-11T17:54:18.5081965",
+  "fechaHoraActualizacion": "2026-03-12T08:04:42.9629696",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -598,7 +598,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 150.5
+          "horas": 158.583333
         }
       ]
     },
@@ -689,7 +689,7 @@
           "pesoTotalEstructura": 14652.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Compras",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 73440.0

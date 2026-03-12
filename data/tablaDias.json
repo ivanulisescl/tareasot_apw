@@ -1,23 +1,23 @@
 {
   "Actual": {
-    "Nuevas": 26,
-    "Incompletas": 15,
-    "Definidas": 177,
+    "Nuevas": 8,
+    "Incompletas": 17,
+    "Definidas": 193,
     "Asignadas": 80,
-    "PdteRevComercial": 20,
+    "PdteRevComercial": 21,
     "Calculadas": 0,
     "PdteComercializados": 0,
-    "Ofertas": 121,
-    "Pedidos": 46,
+    "Ofertas": 122,
+    "Pedidos": 45,
     "Tareas Internas": 0,
-    "Ofertas Ing": 104,
+    "Ofertas Ing": 105,
     "Ofertas Autom": 17,
-    "Pedidos Ing": 36,
+    "Pedidos Ing": 35,
     "Pedidos Autom": 10,
     "Ofertas ISA": 3,
     "Pedidos ISA": 137,
     "Ofertas VE": 2,
-    "Pedidos VE": 9
+    "Pedidos VE": 10
   },
   "dias": [
     {
@@ -10623,6 +10623,27 @@
       "Definidas": 185,
       "Ofertas": 124,
       "Ofertas Ing": 107,
+      "Incompletas": 15
+    },
+    {
+      "Fecha": "12/03/2026",
+      "Ofertas ISA": 3,
+      "Pedidos ISA": 137,
+      "Pedidos Autom": 10,
+      "Ofertas VE": 2,
+      "Asignadas": 80,
+      "Ofertas Autom": 17,
+      "Pedidos VE": 9,
+      "Nuevas": 24,
+      "Pedidos": 46,
+      "Calculadas": 0,
+      "Pedidos Ing": 36,
+      "Tareas Internas": 0,
+      "PdteRevComercial": 20,
+      "PdteComercializados": 0,
+      "Definidas": 181,
+      "Ofertas": 123,
+      "Ofertas Ing": 106,
       "Incompletas": 15
     }
   ]
