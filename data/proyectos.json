@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-12T17:58:40.4794464",
+  "fechaHoraActualizacion": "2026-03-13T08:14:14.5942501",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -594,11 +594,11 @@
       "tiempos": [
         {
           "tecnico": "Nuria Suárez",
-          "horas": 338.5
+          "horas": 346.75
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 166.666666
+          "horas": 172.666666
         }
       ]
     },
@@ -695,7 +695,7 @@
           "pesoTotalEstructura": 73440.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "10",
           "entrega": "ENTREPLANTA",
           "pesoTotalEstructura": 0.0
