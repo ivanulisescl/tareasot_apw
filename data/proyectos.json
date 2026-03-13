@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-13T11:51:42.4914653",
+  "fechaHoraActualizacion": "2026-03-13T13:00:37.1564859",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -195,6 +195,12 @@
           "nEntrega": "9",
           "entrega": "MALLAS NYLON",
           "pesoTotalEstructura": 3008.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "0",
+          "entrega": "Planos de montaje",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -695,7 +701,7 @@
           "pesoTotalEstructura": 73440.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "10",
           "entrega": "ENTREPLANTA",
           "pesoTotalEstructura": 32000.0
@@ -708,7 +714,7 @@
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 97.25
+          "horas": 103.25
         }
       ]
     },
