@@ -1,5 +1,5 @@
 {
-  "fechaHoraCreacion": "2026-03-13T11:21:41.0774611",
+  "fechaHoraCreacion": "2026-03-13T11:51:41.0885393",
   "tareasPorAnio": {
     "2024": [
       {
@@ -490,7 +490,7 @@
         "accion": "Ofertas Creadas Ingeniería",
         "enero": 210,
         "febrero": 224,
-        "marzo": 105,
+        "marzo": 106,
         "abril": 0,
         "mayo": 0,
         "junio": 0,
@@ -520,7 +520,7 @@
         "accion": "Pedidos Creados Ingeniería",
         "enero": 159,
         "febrero": 208,
-        "marzo": 117,
+        "marzo": 119,
         "abril": 0,
         "mayo": 0,
         "junio": 0,
@@ -550,7 +550,7 @@
         "accion": "Ofertas Creadas Automáticos",
         "enero": 38,
         "febrero": 52,
-        "marzo": 19,
+        "marzo": 21,
         "abril": 0,
         "mayo": 0,
         "junio": 0,
