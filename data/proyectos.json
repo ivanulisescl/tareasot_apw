@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-16T17:33:38.2989736",
+  "fechaHoraActualizacion": "2026-03-16T17:56:23.3321118",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -104,10 +104,10 @@
       "observacionesGlobal": "Terminamos el 9 de abril",
       "entregasMRP": [
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 26367.0
         },
         {
           "estado": "Asignada",
@@ -659,7 +659,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 172.666666
+          "horas": 180.666666
         }
       ]
     },
@@ -720,10 +720,10 @@
           "pesoTotalEstructura": 383394.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "4",
           "entrega": "TORRE ARRIOSTRADO",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 45897.0
         },
         {
           "estado": "Registrada",
@@ -732,10 +732,10 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 144389.0
         },
         {
           "estado": "Registrada",
