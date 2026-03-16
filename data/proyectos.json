@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-16T13:10:53.8396832",
+  "fechaHoraActualizacion": "2026-03-16T15:56:19.1948543",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -101,7 +101,7 @@
       "observacionesGlobal": "Empezamos la semana del 23 de febrero a trabajar en él.",
       "entregasMRP": [
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 0.0
@@ -129,12 +129,36 @@
           "nEntrega": "5",
           "entrega": "TORRE ARRIOSTRADO",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "6",
+          "entrega": "PORTICO",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "7",
+          "entrega": "VIGAS TRANVERSALES Y CARRILES GS",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "8",
+          "entrega": "VOLADIZO",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "9",
+          "entrega": "COMERCIALIZADOS",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 48.5
+          "horas": 53.0
         },
         {
           "tecnico": "Manuel Díaz",
@@ -693,10 +717,10 @@
           "pesoTotalEstructura": 383394.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Asignada",
           "nEntrega": "4",
           "entrega": "TORRE ARRIOSTRADO",
-          "pesoTotalEstructura": 20158.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
@@ -705,10 +729,10 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Asignada",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
-          "pesoTotalEstructura": 141536.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
@@ -738,11 +762,11 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 339.25
+          "horas": 341.25
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 103.25
+          "horas": 111.5
         }
       ]
     },
