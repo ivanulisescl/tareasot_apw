@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-16T17:03:38.8348706",
+  "fechaHoraActualizacion": "2026-03-16T17:33:38.2989736",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -655,7 +655,7 @@
       "tiempos": [
         {
           "tecnico": "Nuria Suárez",
-          "horas": 352.75
+          "horas": 361.0
         },
         {
           "tecnico": "Alba Fernández",
@@ -1400,7 +1400,7 @@
         },
         {
           "tecnico": "Alberto Acebedo",
-          "horas": 111.0
+          "horas": 113.0
         },
         {
           "tecnico": "Eduardo Gargantiel",
