@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-16T12:35:44.6125269",
+  "fechaHoraActualizacion": "2026-03-16T13:05:44.2888008",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -103,7 +103,31 @@
         {
           "estado": "Asignada",
           "nEntrega": "1",
-          "entrega": "Total",
+          "entrega": "BASTIDORES",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "2",
+          "entrega": "RIGIDIZADORES",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "3",
+          "entrega": "LARGUEROS",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "4",
+          "entrega": "CARRILES",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "5",
+          "entrega": "TORRE ARRIOSTRADO",
           "pesoTotalEstructura": 0.0
         }
       ],
