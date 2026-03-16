@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-16T15:56:19.1948543",
+  "fechaHoraActualizacion": "2026-03-16T16:26:19.5661288",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -158,7 +158,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 53.0
+          "horas": 53.5
         },
         {
           "tecnico": "Manuel Díaz",
@@ -717,7 +717,7 @@
           "pesoTotalEstructura": 383394.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "4",
           "entrega": "TORRE ARRIOSTRADO",
           "pesoTotalEstructura": 0.0
@@ -729,7 +729,7 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 0.0
