@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-13T13:00:37.1564859",
+  "fechaHoraActualizacion": "2026-03-16T08:21:58.6720407",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -67,7 +67,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 45.916666
+          "horas": 51.916666
         }
       ]
     },
@@ -110,7 +110,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 43.0
+          "horas": 48.0
         },
         {
           "tecnico": "Manuel Díaz",
@@ -207,6 +207,10 @@
         {
           "tecnico": "Fernando Bereguiain",
           "horas": 202.916666
+        },
+        {
+          "tecnico": "Eduardo Gargantiel",
+          "horas": 6.0
         }
       ]
     },
@@ -600,7 +604,7 @@
       "tiempos": [
         {
           "tecnico": "Nuria Suárez",
-          "horas": 346.75
+          "horas": 352.75
         },
         {
           "tecnico": "Alba Fernández",
@@ -677,10 +681,10 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "AsignadaProg",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 141536.0
         },
         {
           "estado": "Registrada",
@@ -710,7 +714,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 338.25
+          "horas": 339.25
         },
         {
           "tecnico": "Gianluca Franceschini",
