@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-17T08:44:14.6531432",
+  "fechaHoraActualizacion": "2026-03-17T09:47:48.7320487",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -720,7 +720,7 @@
           "pesoTotalEstructura": 383394.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "4",
           "entrega": "TORRE ARRIOSTRADO",
           "pesoTotalEstructura": 45897.0
@@ -732,7 +732,7 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 144389.0
