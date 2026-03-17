@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-17T11:48:00.0772713",
+  "fechaHoraActualizacion": "2026-03-17T12:06:40.00886",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -104,7 +104,7 @@
       "observacionesGlobal": "Terminamos el 9 de abril",
       "entregasMRP": [
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 26367.0
@@ -720,7 +720,7 @@
           "pesoTotalEstructura": 383394.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "4",
           "entrega": "TORRE ARRIOSTRADO",
           "pesoTotalEstructura": 45897.0
@@ -732,7 +732,7 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 144389.0
