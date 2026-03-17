@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-17T12:36:39.8043064",
+  "fechaHoraActualizacion": "2026-03-17T15:39:37.1432873",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -78,7 +78,7 @@
       "ofertaReferencia": "OF2503148",
       "nombreProyecto": "PASA FABRICACION",
       "pais": "España",
-      "fechaVenta": "2026-01-25",
+      "fechaVenta": "2026-01-23",
       "cliente": "Viastore",
       "integrador": "Viastore",
       "importeEur": 325000.0,
@@ -92,19 +92,19 @@
       "delineantePrincipal": "Rubén S.",
       "delineanteApoyo1": "",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2026-03-31",
+      "inicioMontaje": "2026-05-16",
       "duracionMontajeDias": 30,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
-      "planoValidacion": "No",
-      "fechaValidacionPlano": "",
-      "entregadoProduccionPorc": 0,
+      "planoValidacion": "Sí",
+      "fechaValidacionPlano": "2026-03-15",
+      "entregadoProduccionPorc": 25,
       "planosMontajeRealizadosPorc": 0,
       "planosMontajePublicadosPorc": 0,
       "observacionesGlobal": "Terminamos el 9 de abril",
       "entregasMRP": [
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 26367.0
@@ -659,7 +659,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 180.666666
+          "horas": 186.833333
         }
       ]
     },
