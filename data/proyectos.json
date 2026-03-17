@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-17T12:06:40.00886",
+  "fechaHoraActualizacion": "2026-03-17T12:36:39.8043064",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -104,7 +104,7 @@
       "observacionesGlobal": "Terminamos el 9 de abril",
       "entregasMRP": [
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 26367.0
