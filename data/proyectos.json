@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-17T16:39:36.9546511",
+  "fechaHoraActualizacion": "2026-03-17T17:09:36.9759501",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -67,7 +67,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 51.916666
+          "horas": 60.5
         }
       ]
     },
@@ -110,7 +110,7 @@
           "pesoTotalEstructura": 26367.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "RevisarOT",
           "nEntrega": "2",
           "entrega": "RIGIDIZADORES",
           "pesoTotalEstructura": 1924.0
@@ -769,7 +769,7 @@
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 111.5
+          "horas": 119.75
         }
       ]
     },
