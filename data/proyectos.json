@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-17T15:39:37.1432873",
+  "fechaHoraActualizacion": "2026-03-17T16:09:36.8892892",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -110,7 +110,7 @@
           "pesoTotalEstructura": 26367.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "2",
           "entrega": "RIGIDIZADORES",
           "pesoTotalEstructura": 0.0
@@ -161,7 +161,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 53.5
+          "horas": 59.0
         },
         {
           "tecnico": "Manuel Díaz",
