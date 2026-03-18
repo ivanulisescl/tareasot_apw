@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-18T12:12:03.5252176",
+  "fechaHoraActualizacion": "2026-03-18T17:05:51.7406551",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -110,7 +110,7 @@
           "pesoTotalEstructura": 26367.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "2",
           "entrega": "RIGIDIZADORES",
           "pesoTotalEstructura": 1924.0
