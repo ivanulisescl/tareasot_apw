@@ -1,5 +1,5 @@
 {
-  "fechaHoraCreacion": "2026-03-19T11:37:04.0341112",
+  "fechaHoraCreacion": "2026-03-19T12:07:04.0750609",
   "tareasPorAnio": {
     "2024": [
       {
@@ -490,7 +490,7 @@
         "accion": "Ofertas Creadas Ingeniería",
         "enero": 210,
         "febrero": 223,
-        "marzo": 150,
+        "marzo": 149,
         "abril": 0,
         "mayo": 0,
         "junio": 0,
@@ -520,7 +520,7 @@
         "accion": "Pedidos Creados Ingeniería",
         "enero": 159,
         "febrero": 208,
-        "marzo": 163,
+        "marzo": 164,
         "abril": 0,
         "mayo": 0,
         "junio": 0,
@@ -535,7 +535,7 @@
         "accion": "Pedidos Desarrollados Ingeniería",
         "enero": 138,
         "febrero": 180,
-        "marzo": 132,
+        "marzo": 135,
         "abril": 0,
         "mayo": 0,
         "junio": 0,
@@ -655,7 +655,7 @@
         "accion": "Ofertas Creadas VEs",
         "enero": 0,
         "febrero": 1,
-        "marzo": 0,
+        "marzo": 1,
         "abril": 0,
         "mayo": 0,
         "junio": 0,
