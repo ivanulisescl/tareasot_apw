@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-19T13:10:31.1143485",
+  "fechaHoraActualizacion": "2026-03-19T16:41:26.2535506",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -122,7 +122,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "4",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 0.0
@@ -161,7 +161,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 73.0
+          "horas": 78.25
         },
         {
           "tecnico": "Manuel Díaz",
@@ -261,7 +261,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 6.0
+          "horas": 14.25
         }
       ]
     },
@@ -750,7 +750,7 @@
           "pesoTotalEstructura": 14652.0
         },
         {
-          "estado": "Compras",
+          "estado": "Registrada",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 73440.0
