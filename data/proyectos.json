@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-20T12:33:49.8135079",
+  "fechaHoraActualizacion": "2026-03-20T13:03:50.2135884",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -116,7 +116,7 @@
           "pesoTotalEstructura": 1924.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "RevisarOT",
           "nEntrega": "3",
           "entrega": "LARGUEROS",
           "pesoTotalEstructura": 22946.0
