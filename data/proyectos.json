@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-19T17:41:26.7587914",
+  "fechaHoraActualizacion": "2026-03-20T08:06:42.2092323",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -116,13 +116,13 @@
           "pesoTotalEstructura": 1924.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "3",
           "entrega": "LARGUEROS",
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "4",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 0.0
@@ -655,7 +655,7 @@
       "tiempos": [
         {
           "tecnico": "Nuria Suárez",
-          "horas": 374.75
+          "horas": 383.0
         },
         {
           "tecnico": "Alba Fernández",
