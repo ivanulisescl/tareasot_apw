@@ -1,11 +1,11 @@
 {
-  "fechaHoraActualizacion": "2026-03-20T08:21:21.4209564",
+  "fechaHoraActualizacion": "2026-03-20T08:51:20.4271159",
   "categorias": {
     "Ingeniería": {
       "ofertasEntradas": 0,
-      "ofertasSalidas": 2,
-      "pedidosEntradas": 1,
-      "pedidosSalidas": 1
+      "ofertasSalidas": 3,
+      "pedidosEntradas": 0,
+      "pedidosSalidas": 2
     },
     "Automáticos": {
       "ofertasEntradas": 1,
@@ -22,8 +22,8 @@
     "VE": {
       "ofertasEntradas": 0,
       "ofertasSalidas": 0,
-      "pedidosEntradas": 0,
-      "pedidosSalidas": 1
+      "pedidosEntradas": 1,
+      "pedidosSalidas": 2
     }
   }
 }
