@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-20T13:03:50.2135884",
+  "fechaHoraActualizacion": "2026-03-20T13:33:49.7004012",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -116,10 +116,10 @@
           "pesoTotalEstructura": 1924.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "AsignadaProg",
           "nEntrega": "3",
           "entrega": "LARGUEROS",
-          "pesoTotalEstructura": 22946.0
+          "pesoTotalEstructura": 23592.0
         },
         {
           "estado": "Pdte.Registrar",
@@ -261,7 +261,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 14.25
+          "horas": 20.25
         }
       ]
     },
@@ -650,12 +650,22 @@
           "nEntrega": "16",
           "entrega": "TOPES PALETA",
           "pesoTotalEstructura": 1995.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "17",
+          "entrega": "PASARELA EXTERIOR",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
+          "tecnico": "Gianluca Franceschini",
+          "horas": 6.0
+        },
+        {
           "tecnico": "Nuria Suárez",
-          "horas": 383.0
+          "horas": 389.0
         },
         {
           "tecnico": "Alba Fernández",
