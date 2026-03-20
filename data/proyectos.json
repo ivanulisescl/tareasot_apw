@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-20T10:51:12.4916459",
+  "fechaHoraActualizacion": "2026-03-20T12:33:49.8135079",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -116,13 +116,13 @@
           "pesoTotalEstructura": 1924.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "AsignadaProg",
           "nEntrega": "3",
           "entrega": "LARGUEROS",
           "pesoTotalEstructura": 22946.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "4",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 23634.0
@@ -161,7 +161,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 78.25
+          "horas": 80.25
         },
         {
           "tecnico": "Manuel Díaz",
@@ -765,7 +765,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 341.25
+          "horas": 344.75
         },
         {
           "tecnico": "Gianluca Franceschini",
@@ -2134,7 +2134,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 324.0
+          "horas": 324.5
         },
         {
           "tecnico": "Alba Fernández",
