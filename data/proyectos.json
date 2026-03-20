@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-20T10:21:12.4304495",
+  "fechaHoraActualizacion": "2026-03-20T10:51:12.4916459",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -116,13 +116,13 @@
           "pesoTotalEstructura": 1924.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "RevisarOT",
           "nEntrega": "3",
           "entrega": "LARGUEROS",
           "pesoTotalEstructura": 22946.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "4",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 23634.0
