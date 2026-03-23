@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-20T13:33:49.7004012",
+  "fechaHoraActualizacion": "2026-03-23T08:30:53.9632412",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -116,13 +116,13 @@
           "pesoTotalEstructura": 1924.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "3",
           "entrega": "LARGUEROS",
           "pesoTotalEstructura": 23592.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "4",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 23634.0
@@ -669,7 +669,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 202.916666
+          "horas": 208.666666
         }
       ]
     },
