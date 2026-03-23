@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-23T16:00:57.8228258",
+  "fechaHoraActualizacion": "2026-03-23T17:07:21.3182696",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -261,7 +261,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 20.25
+          "horas": 28.5
         }
       ]
     },
@@ -661,7 +661,7 @@
       "tiempos": [
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 6.0
+          "horas": 13.75
         },
         {
           "tecnico": "Nuria Suárez",
