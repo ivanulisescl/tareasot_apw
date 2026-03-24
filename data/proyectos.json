@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-24T09:40:48.5870261",
+  "fechaHoraActualizacion": "2026-03-24T10:10:48.235616",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -680,7 +680,7 @@
       "ofertaReferencia": "OF2404529R11",
       "nombreProyecto": "AUSTRALIA",
       "pais": "AUSTRALIA",
-      "fechaVenta": "2025-08-16",
+      "fechaVenta": "2025-08-14",
       "cliente": "KIN GROUP",
       "integrador": "KIN GROUP",
       "importeEur": 5041784.0,
@@ -694,16 +694,16 @@
       "delineantePrincipal": "Rubén S.",
       "delineanteApoyo1": "Gianluca F.",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2026-07-28",
+      "inicioMontaje": "2026-07-26",
       "duracionMontajeDias": 270,
       "tipoTransporte": "Marítimo",
       "transitoDias": 91,
       "planoValidacion": "Sí",
-      "fechaValidacionPlano": "2026-01-15",
+      "fechaValidacionPlano": "2026-01-13",
       "entregadoProduccionPorc": 100,
-      "planosMontajeRealizadosPorc": 70,
-      "planosMontajePublicadosPorc": 0,
-      "observacionesGlobal": "Desarrollado casi al 100%. Enviaremos validación y si dan el ok queda listo. Empezará Gianluca cuando termine Viscon.",
+      "planosMontajeRealizadosPorc": 90,
+      "planosMontajePublicadosPorc": 40,
+      "observacionesGlobal": "Queda completado la semana del 23/03/26",
       "entregasMRP": [
         {
           "estado": "Registrada",
