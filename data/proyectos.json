@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-24T13:10:34.6881516",
+  "fechaHoraActualizacion": "2026-03-25T09:02:18.2780318",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -122,10 +122,10 @@
           "pesoTotalEstructura": 23592.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Registrada",
           "nEntrega": "4",
           "entrega": "CARRILES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 23634.0
         },
         {
           "estado": "Asignada",
@@ -161,7 +161,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 86.25
+          "horas": 91.5
         },
         {
           "tecnico": "Manuel Díaz",
@@ -258,11 +258,11 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 203.5
+          "horas": 204.5
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 28.5
+          "horas": 36.75
         }
       ]
     },
@@ -670,7 +670,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 215.416666
+          "horas": 220.916666
         }
       ]
     },
@@ -776,11 +776,11 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 346.5
+          "horas": 349.5
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 130.25
+          "horas": 132.25
         }
       ]
     },
@@ -2025,7 +2025,7 @@
         },
         {
           "tecnico": "Manuel Díaz",
-          "horas": 47.75
+          "horas": 52.75
         },
         {
           "tecnico": "Daniel Rodriguez",
