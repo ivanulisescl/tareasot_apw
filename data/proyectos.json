@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-25T16:29:43.3176796",
+  "fechaHoraActualizacion": "2026-03-25T16:45:47.518502",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -262,7 +262,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 36.75
+          "horas": 45.0
         }
       ]
     },
@@ -617,7 +617,7 @@
           "pesoTotalEstructura": 24465.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "11",
           "entrega": "PORTICO",
           "pesoTotalEstructura": 34151.0
