@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-26T12:29:48.6837472",
+  "fechaHoraActualizacion": "2026-03-26T14:53:27.1216608",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -152,7 +152,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 2540.0
@@ -161,7 +161,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 100.25
+          "horas": 103.75
         },
         {
           "tecnico": "Manuel Díaz",
@@ -641,7 +641,7 @@
           "pesoTotalEstructura": 31113.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "15",
           "entrega": "FACHADAS",
           "pesoTotalEstructura": 0.0
@@ -653,9 +653,15 @@
           "pesoTotalEstructura": 1995.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "17",
-          "entrega": "PASARELA EXTERIOR",
+          "entrega": "ESCALERA INTERIOR - LARGUEROS PASILLO",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "18",
+          "entrega": "CORREAS CASETON",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -670,7 +676,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 222.416666
+          "horas": 225.833333
         }
       ]
     },
@@ -2149,7 +2155,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 169.083333
+          "horas": 171.166666
         },
         {
           "tecnico": "Victor Fueyo",
