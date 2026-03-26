@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-25T17:15:46.9223676",
+  "fechaHoraActualizacion": "2026-03-26T08:49:00.4096198",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -152,7 +152,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 0.0
@@ -670,7 +670,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 220.916666
+          "horas": 222.416666
         }
       ]
     },
@@ -2149,7 +2149,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 168.583333
+          "horas": 169.083333
         },
         {
           "tecnico": "Victor Fueyo",
