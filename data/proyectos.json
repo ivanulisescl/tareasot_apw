@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-26T08:49:00.4096198",
+  "fechaHoraActualizacion": "2026-03-26T10:09:39.3291734",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -152,16 +152,16 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Compras",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 2540.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 99.75
+          "horas": 100.25
         },
         {
           "tecnico": "Manuel Díaz",
