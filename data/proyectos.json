@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-26T15:23:19.2175635",
+  "fechaHoraActualizacion": "2026-03-26T16:09:41.8808975",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -152,7 +152,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 2540.0
@@ -641,7 +641,7 @@
           "pesoTotalEstructura": 31113.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "15",
           "entrega": "FACHADAS",
           "pesoTotalEstructura": 0.0
@@ -653,7 +653,7 @@
           "pesoTotalEstructura": 1995.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "17",
           "entrega": "ESCALERA INTERIOR - LARGUEROS PASILLO",
           "pesoTotalEstructura": 0.0
