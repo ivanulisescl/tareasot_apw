@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-26T11:09:39.4075427",
+  "fechaHoraActualizacion": "2026-03-26T11:59:48.4647153",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -152,7 +152,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Compras",
+          "estado": "AsignadaComp",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 2540.0
