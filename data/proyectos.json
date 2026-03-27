@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-26T17:57:22.2108498",
+  "fechaHoraActualizacion": "2026-03-27T08:39:38.7567131",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -134,7 +134,7 @@
           "pesoTotalEstructura": 4130.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "6",
           "entrega": "PORTICO",
           "pesoTotalEstructura": 0.0
@@ -646,7 +646,7 @@
           "pesoTotalEstructura": 31113.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "15",
           "entrega": "FACHADAS",
           "pesoTotalEstructura": 31753.0
@@ -658,7 +658,7 @@
           "pesoTotalEstructura": 1995.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Compras",
           "nEntrega": "17",
           "entrega": "ESCALERA INTERIOR - LARGUEROS PASILLO",
           "pesoTotalEstructura": 1671.0
@@ -681,7 +681,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 225.833333
+          "horas": 226.5
         }
       ]
     },
@@ -2160,7 +2160,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 172.916666
+          "horas": 174.25
         },
         {
           "tecnico": "Victor Fueyo",
