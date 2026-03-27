@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-27T12:01:45.8951869",
+  "fechaHoraActualizacion": "2026-03-27T12:31:46.1520649",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -646,7 +646,7 @@
           "pesoTotalEstructura": 31113.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "15",
           "entrega": "FACHADAS",
           "pesoTotalEstructura": 31753.0
@@ -2160,7 +2160,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 174.25
+          "horas": 176.416666
         },
         {
           "tecnico": "Victor Fueyo",
