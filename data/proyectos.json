@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-27T11:31:46.7441057",
+  "fechaHoraActualizacion": "2026-03-27T12:01:45.8951869",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -646,7 +646,7 @@
           "pesoTotalEstructura": 31113.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "15",
           "entrega": "FACHADAS",
           "pesoTotalEstructura": 31753.0
@@ -658,7 +658,7 @@
           "pesoTotalEstructura": 1995.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "RevisarOT",
           "nEntrega": "17",
           "entrega": "ESCALERA INTERIOR - LARGUEROS PASILLO",
           "pesoTotalEstructura": 1671.0
