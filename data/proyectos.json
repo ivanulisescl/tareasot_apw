@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-30T12:32:07.2662886",
+  "fechaHoraActualizacion": "2026-03-30T15:57:06.2478641",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -664,9 +664,15 @@
           "pesoTotalEstructura": 1671.0
         },
         {
-          "estado": "Asignada",
+          "estado": "AsignadaProg",
           "nEntrega": "18",
           "entrega": "CORREAS CASETON",
+          "pesoTotalEstructura": 416.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "19",
+          "entrega": "PASARELA EXTERIOR",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -787,7 +793,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 353.25
+          "horas": 361.0
         },
         {
           "tecnico": "Gianluca Franceschini",
