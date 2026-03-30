@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-27T12:31:46.1520649",
+  "fechaHoraActualizacion": "2026-03-30T08:30:25.7840456",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -134,10 +134,10 @@
           "pesoTotalEstructura": 4130.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Registrada",
           "nEntrega": "6",
           "entrega": "PORTICO",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 705.0
         },
         {
           "estado": "Asignada",
@@ -161,7 +161,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 107.5
+          "horas": 108.5
         },
         {
           "tecnico": "Manuel Díaz",
@@ -305,7 +305,7 @@
       "tiempos": [
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 2.75
+          "horas": 4.25
         }
       ]
     },
@@ -658,7 +658,7 @@
           "pesoTotalEstructura": 1995.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "Pdte.Registrar",
           "nEntrega": "17",
           "entrega": "ESCALERA INTERIOR - LARGUEROS PASILLO",
           "pesoTotalEstructura": 1671.0
@@ -787,11 +787,11 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 351.0
+          "horas": 353.25
         },
         {
           "tecnico": "Gianluca Franceschini",
-          "horas": 140.5
+          "horas": 146.5
         }
       ]
     },
@@ -2160,7 +2160,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 176.416666
+          "horas": 176.0
         },
         {
           "tecnico": "Victor Fueyo",
