@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-31T11:55:12.3210422",
+  "fechaHoraActualizacion": "2026-03-31T12:36:01.0206516",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -687,7 +687,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 227.333333
+          "horas": 230.833333
         }
       ]
     },
