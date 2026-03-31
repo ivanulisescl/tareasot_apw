@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-31T17:29:28.4067935",
+  "fechaHoraActualizacion": "2026-03-31T18:13:13.9566257",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -68,6 +68,10 @@
         {
           "tecnico": "Fernando Bereguiain",
           "horas": 60.5
+        },
+        {
+          "tecnico": "Javier Rodríguez",
+          "horas": 3.0
         }
       ]
     },
@@ -687,7 +691,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 230.833333
+          "horas": 234.25
         }
       ]
     },
