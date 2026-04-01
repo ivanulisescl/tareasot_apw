@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-01T12:16:21.92815",
+  "fechaHoraActualizacion": "2026-04-01T16:21:11.0152847",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -160,12 +160,18 @@
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 2540.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "0",
+          "entrega": "Planos de montaje",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 110.25
+          "horas": 114.25
         },
         {
           "tecnico": "Manuel Díaz",
@@ -691,7 +697,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 234.25
+          "horas": 240.25
         }
       ]
     },
@@ -734,7 +740,7 @@
           "pesoTotalEstructura": 508368.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
@@ -785,7 +791,7 @@
           "estado": "Registrada",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
-          "pesoTotalEstructura": 73440.0
+          "pesoTotalEstructura": 81118.0
         },
         {
           "estado": "Registrada",
@@ -794,7 +800,7 @@
           "pesoTotalEstructura": 32000.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "11",
           "entrega": "MATERIAL EXTRA",
           "pesoTotalEstructura": 966.0
@@ -803,7 +809,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 367.5
+          "horas": 371.75
         },
         {
           "tecnico": "Gianluca Franceschini",
