@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-03-31T18:13:13.9566257",
+  "fechaHoraActualizacion": "2026-04-01T10:29:52.7828325",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -253,7 +253,7 @@
           "pesoTotalEstructura": 3008.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
@@ -794,7 +794,7 @@
           "pesoTotalEstructura": 32000.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "11",
           "entrega": "MATERIAL EXTRA",
           "pesoTotalEstructura": 966.0
