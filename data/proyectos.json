@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-07T08:35:18.8923258",
+  "fechaHoraActualizacion": "2026-04-07T11:51:25.0787608",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -571,7 +571,7 @@
       "observacionesGlobal": "Sólo quedaría la entreplanta exterior y la escalera exterior.",
       "entregasMRP": [
         {
-          "estado": "RevisarOT",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 270666.0
@@ -637,7 +637,7 @@
           "pesoTotalEstructura": 24465.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "Registrada",
           "nEntrega": "11",
           "entrega": "PORTICO",
           "pesoTotalEstructura": 33241.0
@@ -649,10 +649,10 @@
           "pesoTotalEstructura": 41766.0
         },
         {
-          "estado": "Nueva",
+          "estado": "Registrada",
           "nEntrega": "13",
           "entrega": "ESCALERA INTERIOR",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 12402.0
         },
         {
           "estado": "Registrada",
@@ -691,7 +691,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "20",
           "entrega": "CONJUNTOS PUNTAL REFUERZO",
           "pesoTotalEstructura": 138938.0
@@ -708,7 +708,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 246.416666
+          "horas": 248.25
         }
       ]
     },
