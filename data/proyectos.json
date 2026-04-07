@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-07T13:21:25.5771522",
+  "fechaHoraActualizacion": "2026-04-07T15:58:55.6243833",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -144,7 +144,7 @@
           "pesoTotalEstructura": 705.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "7",
           "entrega": "VIGAS TRANVERSALES Y CARRILES GS",
           "pesoTotalEstructura": 0.0
@@ -708,7 +708,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 248.25
+          "horas": 250.75
         }
       ]
     },
