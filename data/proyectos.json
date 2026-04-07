@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-07T15:58:55.6243833",
+  "fechaHoraActualizacion": "2026-04-07T16:28:55.8063279",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -144,7 +144,7 @@
           "pesoTotalEstructura": 705.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "7",
           "entrega": "VIGAS TRANVERSALES Y CARRILES GS",
           "pesoTotalEstructura": 0.0
