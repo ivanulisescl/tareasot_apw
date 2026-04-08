@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-08T12:18:53.0229751",
+  "fechaHoraActualizacion": "2026-04-08T16:46:11.724617",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -144,13 +144,13 @@
           "pesoTotalEstructura": 705.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "7",
           "entrega": "VIGAS TRANVERSALES Y CARRILES GS",
           "pesoTotalEstructura": 2450.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "8",
           "entrega": "VOLADIZO",
           "pesoTotalEstructura": 149.0
@@ -661,7 +661,7 @@
           "pesoTotalEstructura": 31113.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Registrada",
           "nEntrega": "15",
           "entrega": "FACHADAS",
           "pesoTotalEstructura": 31753.0
@@ -695,6 +695,12 @@
           "nEntrega": "20",
           "entrega": "CONJUNTOS PUNTAL REFUERZO",
           "pesoTotalEstructura": 138938.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "21",
+          "entrega": "ESCALERA EXTERIOR",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
