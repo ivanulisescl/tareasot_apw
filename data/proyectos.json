@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-08T11:42:41.3729241",
+  "fechaHoraActualizacion": "2026-04-08T12:18:53.0229751",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -150,10 +150,10 @@
           "pesoTotalEstructura": 2450.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "8",
           "entrega": "VOLADIZO",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 149.0
         },
         {
           "estado": "Registrada",
@@ -661,7 +661,7 @@
           "pesoTotalEstructura": 31113.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "Pdte.Codificar",
           "nEntrega": "15",
           "entrega": "FACHADAS",
           "pesoTotalEstructura": 31753.0
