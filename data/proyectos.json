@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-08T17:16:14.0408139",
+  "fechaHoraActualizacion": "2026-04-08T17:46:15.0156429",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -709,6 +709,10 @@
       ],
       "tiempos": [
         {
+          "tecnico": "Rubén Suárez",
+          "horas": 4.75
+        },
+        {
           "tecnico": "Gianluca Franceschini",
           "horas": 16.75
         },
@@ -718,7 +722,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 250.75
+          "horas": 259.0
         }
       ]
     },
