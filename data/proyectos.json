@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-07T17:58:56.5590409",
+  "fechaHoraActualizacion": "2026-04-08T08:46:33.085533",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -661,10 +661,10 @@
           "pesoTotalEstructura": 31113.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Nueva",
           "nEntrega": "15",
           "entrega": "FACHADAS",
-          "pesoTotalEstructura": 31753.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
