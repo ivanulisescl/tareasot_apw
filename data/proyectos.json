@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-08T16:46:11.724617",
+  "fechaHoraActualizacion": "2026-04-08T17:12:57.7929442",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -150,7 +150,7 @@
           "pesoTotalEstructura": 2450.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "8",
           "entrega": "VOLADIZO",
           "pesoTotalEstructura": 149.0
@@ -180,6 +180,10 @@
         {
           "tecnico": "Gianluca Franceschini",
           "horas": 1.75
+        },
+        {
+          "tecnico": "Eduardo Gargantiel",
+          "horas": 6.25
         }
       ]
     },
