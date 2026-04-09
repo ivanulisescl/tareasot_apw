@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-09T17:01:01.0536895",
+  "fechaHoraActualizacion": "2026-04-09T17:31:01.6320247",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -67,7 +67,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 60.5
+          "horas": 69.25
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -710,7 +710,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 4.75
+          "horas": 13.0
         },
         {
           "tecnico": "Gianluca Franceschini",
