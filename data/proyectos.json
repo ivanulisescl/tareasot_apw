@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-09T17:31:01.6320247",
+  "fechaHoraActualizacion": "2026-04-10T08:13:35.3594351",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -71,7 +71,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 7.0
+          "horas": 9.0
         }
       ]
     },
@@ -722,7 +722,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 261.5
+          "horas": 265.0
         }
       ]
     },
