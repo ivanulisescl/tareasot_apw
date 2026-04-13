@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-13T16:13:41.8933224",
+  "fechaHoraActualizacion": "2026-04-13T16:43:40.9346072",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -183,7 +183,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 19.5
+          "horas": 27.75
         }
       ]
     },
