@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-14T11:41:05.4547287",
+  "fechaHoraActualizacion": "2026-04-14T12:11:05.0934755",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -61,6 +61,12 @@
           "estado": "Asignada",
           "nEntrega": "1",
           "entrega": "Total",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "2",
+          "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 0.0
         }
       ],
