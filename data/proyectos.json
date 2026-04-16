@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-16T10:02:40.8875311",
+  "fechaHoraActualizacion": "2026-04-16T12:09:03.6434363",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -156,10 +156,10 @@
           "pesoTotalEstructura": 2450.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "8",
           "entrega": "VOLADIZO",
-          "pesoTotalEstructura": 149.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
@@ -728,7 +728,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 295.75
+          "horas": 304.0
         }
       ]
     },
