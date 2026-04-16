@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-16T12:09:03.6434363",
+  "fechaHoraActualizacion": "2026-04-16T16:10:00.8798791",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -156,10 +156,10 @@
           "pesoTotalEstructura": 2450.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Registrada",
           "nEntrega": "8",
           "entrega": "VOLADIZO",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 152.0
         },
         {
           "estado": "Registrada",
@@ -177,7 +177,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 136.25
+          "horas": 138.25
         },
         {
           "tecnico": "Manuel Díaz",
@@ -716,7 +716,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 39.5
+          "horas": 42.5
         },
         {
           "tecnico": "Gianluca Franceschini",
