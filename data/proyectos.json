@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-16T17:22:09.9848839",
+  "fechaHoraActualizacion": "2026-04-16T17:52:11.3253752",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -177,7 +177,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 138.25
+          "horas": 140.25
         },
         {
           "tecnico": "Manuel Díaz",
@@ -716,7 +716,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 42.5
+          "horas": 43.75
         },
         {
           "tecnico": "Gianluca Franceschini",
