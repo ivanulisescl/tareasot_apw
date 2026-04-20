@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-20T16:30:42.5411605",
+  "fechaHoraActualizacion": "2026-04-20T17:00:42.4319298",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -728,7 +728,11 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 310.0
+          "horas": 318.25
+        },
+        {
+          "tecnico": "Eduardo Gargantiel",
+          "horas": 5.75
         }
       ]
     },
@@ -3878,6 +3882,10 @@
         {
           "tecnico": "Gerard Acin",
           "horas": 10.0
+        },
+        {
+          "tecnico": "Fernando Nieto",
+          "horas": 2.25
         },
         {
           "tecnico": "Fernando Bereguiain",
