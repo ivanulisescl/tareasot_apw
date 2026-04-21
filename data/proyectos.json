@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-21T08:50:24.0984796",
+  "fechaHoraActualizacion": "2026-04-21T09:39:38.0133068",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -43,6 +43,12 @@
           "nEntrega": "3",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 91994.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "4",
+          "entrega": "TORRES ARRIOSTRADO",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
