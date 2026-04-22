@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-21T12:19:50.2237853",
+  "fechaHoraActualizacion": "2026-04-22T07:57:26.4992057",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -33,10 +33,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "RevisarOT",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 105232.0
         },
         {
           "estado": "Registrada",
@@ -54,11 +54,11 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 36.5
+          "horas": 45.166666
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 2.0
+          "horas": 4.0
         }
       ]
     },
@@ -364,7 +364,7 @@
       "tiempos": [
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 4.25
+          "horas": 8.0
         }
       ]
     },
@@ -750,7 +750,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 57.0
+          "horas": 65.25
         },
         {
           "tecnico": "Gianluca Franceschini",
@@ -762,11 +762,11 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 318.25
+          "horas": 326.5
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 5.75
+          "horas": 10.25
         }
       ]
     },
