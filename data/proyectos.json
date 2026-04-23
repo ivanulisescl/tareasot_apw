@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-23T10:07:27.4805976",
+  "fechaHoraActualizacion": "2026-04-23T12:40:17.5194747",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -27,7 +27,7 @@
       "observacionesGlobal": "Antes era el PVP_1468",
       "entregasMRP": [
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 0.0
