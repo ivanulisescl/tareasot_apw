@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-27T08:39:38.5377388",
+  "fechaHoraActualizacion": "2026-04-27T09:50:56.7736829",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -1394,7 +1394,7 @@
           "pesoTotalEstructura": 32000.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "12",
           "entrega": "PERFILES CZ42 ",
           "pesoTotalEstructura": 697.0
