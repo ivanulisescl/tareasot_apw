@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-27T11:26:46.6344746",
+  "fechaHoraActualizacion": "2026-04-27T11:56:45.0573687",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -8,7 +8,7 @@
       "ofertaReferencia": "OF2503430R6",
       "nombreProyecto": "SEMARK",
       "pais": "España",
-      "fechaVenta": "2026-03-01",
+      "fechaVenta": "2026-02-27",
       "cliente": "Semark AC Group",
       "integrador": "System Logistics Spain",
       "importeEur": 1575000.0,
@@ -18,7 +18,7 @@
       "alturaTotalMm": 16500,
       "jefeProyecto": "Javier R.",
       "delineantePrincipal": "Fernando B.",
-      "delineanteApoyo1": "",
+      "delineanteApoyo1": "Eduardo G.",
       "delineanteApoyo2": "",
       "inicioMontaje": "",
       "tipoTransporte": "",
@@ -597,7 +597,7 @@
       "ofertaReferencia": "OF2402815R5",
       "nombreProyecto": "FÉLIX SOLÍS",
       "pais": "ESPAÑA",
-      "fechaVenta": "2025-08-04",
+      "fechaVenta": "2025-08-02",
       "cliente": "SIGNODE",
       "integrador": "SIGNODE",
       "importeEur": 2700000.0,
@@ -611,15 +611,15 @@
       "delineantePrincipal": "Nuria S.",
       "delineanteApoyo1": "Alba F.",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2026-01-06",
+      "inicioMontaje": "2026-01-04",
       "duracionMontajeDias": 180,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
       "planoValidacion": "Sí",
-      "fechaValidacionPlano": "2025-08-11",
+      "fechaValidacionPlano": "2025-08-09",
       "entregadoProduccionPorc": 90,
       "planosMontajeRealizadosPorc": 90,
-      "planosMontajePublicadosPorc": 70,
+      "planosMontajePublicadosPorc": 90,
       "observacionesGlobal": "Sólo quedaría la entreplanta exterior y la escalera exterior. Previsto finalizar esta semana",
       "entregasMRP": [
         {
