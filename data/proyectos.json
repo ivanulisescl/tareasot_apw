@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-28T17:21:13.6300557",
+  "fechaHoraActualizacion": "2026-04-28T17:55:28.3702209",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -58,7 +58,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 74.816666
+          "horas": 83.733333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -370,6 +370,10 @@
         }
       ],
       "tiempos": [
+        {
+          "tecnico": "Rubén Suárez",
+          "horas": 5.75
+        },
         {
           "tecnico": "Eduardo Gargantiel",
           "horas": 10.0
@@ -758,7 +762,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 90.0
+          "horas": 92.5
         },
         {
           "tecnico": "Gianluca Franceschini",
