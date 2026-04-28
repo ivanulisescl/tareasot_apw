@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-28T15:27:48.7503763",
+  "fechaHoraActualizacion": "2026-04-28T15:51:13.0089364",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -770,7 +770,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 357.25
+          "horas": 365.5
         },
         {
           "tecnico": "Eduardo Gargantiel",
