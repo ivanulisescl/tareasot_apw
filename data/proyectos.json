@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-29T16:52:10.881904",
+  "fechaHoraActualizacion": "2026-04-30T08:58:03.9685492",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -49,6 +49,12 @@
           "nEntrega": "4",
           "entrega": "TORRES ARRIOSTRADO",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "5",
+          "entrega": "CARRIL SUPERIOR",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -58,7 +64,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 83.733333
+          "horas": 92.233333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -119,7 +125,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 27.0
+          "horas": 29.0
         }
       ]
     },
