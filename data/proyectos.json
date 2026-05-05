@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-04-30T12:54:47.7672965",
+  "fechaHoraActualizacion": "2026-05-05T08:36:03.7220338",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -55,6 +55,12 @@
           "nEntrega": "5",
           "entrega": "CARRIL SUPERIOR",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "0",
+          "entrega": "Planos de montaje",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -64,11 +70,11 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 92.233333
+          "horas": 105.4
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 22.25
+          "horas": 27.25
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -121,11 +127,11 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 83.25
+          "horas": 89.75
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 29.0
+          "horas": 33.0
         }
       ]
     },
@@ -759,16 +765,16 @@
           "pesoTotalEstructura": 138938.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Compras",
           "nEntrega": "21",
           "entrega": "ESCALERA EXTERIOR",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 23978.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 92.5
+          "horas": 93.0
         },
         {
           "tecnico": "Gianluca Franceschini",
@@ -780,7 +786,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 382.0
+          "horas": 390.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -896,7 +902,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 371.75
+          "horas": 376.25
         },
         {
           "tecnico": "Gianluca Franceschini",
