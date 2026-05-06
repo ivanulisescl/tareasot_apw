@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-05T17:51:27.2318758",
+  "fechaHoraActualizacion": "2026-05-06T09:29:55.5003158",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -70,7 +70,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 105.4
+          "horas": 110.65
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -127,11 +127,11 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 89.75
+          "horas": 91.75
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 33.0
+          "horas": 34.0
         }
       ]
     },
@@ -765,10 +765,10 @@
           "pesoTotalEstructura": 138938.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "Pdte.Codificar",
           "nEntrega": "21",
           "entrega": "ESCALERA EXTERIOR",
-          "pesoTotalEstructura": 23978.0
+          "pesoTotalEstructura": 23985.0
         }
       ],
       "tiempos": [
