@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-07T12:38:03.0891609",
+  "fechaHoraActualizacion": "2026-05-07T16:19:52.6859811",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -29,7 +29,7 @@
         {
           "estado": "Rechazada",
           "nEntrega": "1",
-          "entrega": "BASTIDORES",
+          "entrega": "BASTIDORES RACK",
           "pesoTotalEstructura": 0.0
         },
         {
@@ -47,7 +47,7 @@
         {
           "estado": "Asignada",
           "nEntrega": "4",
-          "entrega": "TORRES ARRIOSTRADO",
+          "entrega": "TORRES ARRIOSTRADO RACK",
           "pesoTotalEstructura": 0.0
         },
         {
@@ -60,6 +60,18 @@
           "estado": "Asignada",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "6",
+          "entrega": "BASTIDORES SHUTTLE",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "7",
+          "entrega": "TORRES SHUTTLE",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -786,7 +798,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 404.166666
+          "horas": 412.416666
         },
         {
           "tecnico": "Eduardo Gargantiel",
