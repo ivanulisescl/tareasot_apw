@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-08T08:33:24.537899",
+  "fechaHoraActualizacion": "2026-05-08T09:03:24.1128406",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -777,10 +777,10 @@
           "pesoTotalEstructura": 138938.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Nueva",
           "nEntrega": "21",
           "entrega": "ESCALERA EXTERIOR",
-          "pesoTotalEstructura": 23985.0
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
