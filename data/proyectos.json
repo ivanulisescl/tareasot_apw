@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-08T12:30:48.0227192",
+  "fechaHoraActualizacion": "2026-05-08T13:00:48.4213218",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -27,10 +27,10 @@
       "observacionesGlobal": "Antes era el PVP_1468",
       "entregasMRP": [
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "1",
           "entrega": "BASTIDORES RACK",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 32192.0
         },
         {
           "estado": "Registrada",
@@ -777,7 +777,7 @@
           "pesoTotalEstructura": 138938.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "21",
           "entrega": "ESCALERA EXTERIOR",
           "pesoTotalEstructura": 23989.0
