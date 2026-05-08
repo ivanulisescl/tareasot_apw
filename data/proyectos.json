@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-08T13:00:48.4213218",
+  "fechaHoraActualizacion": "2026-05-08T13:30:48.1581832",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -82,7 +82,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 122.15
+          "horas": 128.233333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -798,7 +798,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 412.416666
+          "horas": 414.833333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -2293,7 +2293,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 185.416666
+          "horas": 189.0
         },
         {
           "tecnico": "Victor Fueyo",
