@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-11T08:53:52.6883307",
+  "fechaHoraActualizacion": "2026-05-11T10:06:50.4325358",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -126,7 +126,7 @@
         {
           "estado": "Asignada",
           "nEntrega": "1",
-          "entrega": "Total",
+          "entrega": "BASTIDORES",
           "pesoTotalEstructura": 0.0
         },
         {
