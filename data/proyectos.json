@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-11T16:14:48.0141093",
+  "fechaHoraActualizacion": "2026-05-12T08:38:11.3245508",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -45,10 +45,10 @@
           "pesoTotalEstructura": 91994.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "4",
           "entrega": "TORRES ARRIOSTRADO RACK",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 9140.0
         },
         {
           "estado": "Asignada",
@@ -82,7 +82,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 128.233333
+          "horas": 136.483333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -138,12 +138,16 @@
       ],
       "tiempos": [
         {
+          "tecnico": "Rubén Suárez",
+          "horas": 8.25
+        },
+        {
           "tecnico": "Fernando Bereguiain",
           "horas": 97.25
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 37.0
+          "horas": 43.0
         }
       ]
     },
@@ -798,7 +802,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 414.833333
+          "horas": 423.083333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -2956,6 +2960,10 @@
         {
           "tecnico": "Fernando Bereguiain",
           "horas": 194.95
+        },
+        {
+          "tecnico": "Eduardo Gargantiel",
+          "horas": 1.75
         }
       ]
     },
