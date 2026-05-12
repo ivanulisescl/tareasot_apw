@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-12T12:54:51.8139971",
+  "fechaHoraActualizacion": "2026-05-12T17:06:38.7868733",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -45,7 +45,7 @@
           "pesoTotalEstructura": 91994.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "4",
           "entrega": "TORRES ARRIOSTRADO RACK",
           "pesoTotalEstructura": 9140.0
@@ -57,7 +57,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Rechazada",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
@@ -785,6 +785,12 @@
           "nEntrega": "21",
           "entrega": "ESCALERA EXTERIOR",
           "pesoTotalEstructura": 23989.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "22",
+          "entrega": "FACHADA H5- MATERIAL ADICIONAL",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -879,7 +885,7 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Compras",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 152764.0
@@ -2946,7 +2952,7 @@
           "pesoTotalEstructura": 318804.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
@@ -2963,7 +2969,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 5.25
+          "horas": 10.0
         }
       ]
     },
