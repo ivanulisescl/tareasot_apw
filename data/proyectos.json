@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-12T10:26:26.7899141",
+  "fechaHoraActualizacion": "2026-05-12T11:24:50.5937196",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -45,7 +45,7 @@
           "pesoTotalEstructura": 91994.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "4",
           "entrega": "TORRES ARRIOSTRADO RACK",
           "pesoTotalEstructura": 9140.0
@@ -2963,7 +2963,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 1.75
+          "horas": 5.25
         }
       ]
     },
