@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-13T09:05:13.79746",
+  "fechaHoraActualizacion": "2026-05-13T09:35:13.092713",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -45,7 +45,7 @@
           "pesoTotalEstructura": 91994.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "4",
           "entrega": "TORRES ARRIOSTRADO RACK",
           "pesoTotalEstructura": 9165.0
