@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-13T09:35:13.092713",
+  "fechaHoraActualizacion": "2026-05-13T10:36:27.2584121",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -72,6 +72,18 @@
           "estado": "Asignada",
           "nEntrega": "7",
           "entrega": "TORRES SHUTTLE",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "8",
+          "entrega": "COMPLEMENTOS",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "9",
+          "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 0.0
         }
       ],
