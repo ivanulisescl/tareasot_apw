@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-13T13:26:00.5857856",
+  "fechaHoraActualizacion": "2026-05-14T13:08:38.8684506",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -102,7 +102,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 9.0
+          "horas": 10.0
         }
       ]
     },
@@ -151,7 +151,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 16.5
+          "horas": 24.75
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -159,7 +159,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 47.5
+          "horas": 49.5
         }
       ]
     },
@@ -799,10 +799,10 @@
           "pesoTotalEstructura": 23989.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Registrada",
           "nEntrega": "22",
           "entrega": "FACHADA H5- MATERIAL ADICIONAL",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 232.0
         }
       ],
       "tiempos": [
@@ -820,7 +820,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 430.333333
+          "horas": 438.583333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -897,16 +897,16 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Compras",
+          "estado": "Registrada",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 152764.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Asignada",
           "nEntrega": "7",
           "entrega": "BUFFER",
-          "pesoTotalEstructura": 7487.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
@@ -1053,6 +1053,12 @@
           "nEntrega": "12",
           "entrega": "BASES NUEVAS",
           "pesoTotalEstructura": 76.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "13",
+          "entrega": "PELDAÑOS FOSO",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
