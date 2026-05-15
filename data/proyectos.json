@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-14T13:08:38.8684506",
+  "fechaHoraActualizacion": "2026-05-15T08:52:29.2441433",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -94,7 +94,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 151.816666
+          "horas": 160.066666
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -151,7 +151,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 24.75
+          "horas": 33.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -820,7 +820,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 438.583333
+          "horas": 446.833333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -903,10 +903,10 @@
           "pesoTotalEstructura": 152764.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Registrada",
           "nEntrega": "7",
           "entrega": "BUFFER",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 7487.0
         },
         {
           "estado": "Registrada",
@@ -2970,7 +2970,7 @@
           "pesoTotalEstructura": 318804.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Montajes",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
