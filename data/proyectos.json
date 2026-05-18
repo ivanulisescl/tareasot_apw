@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-18T13:09:23.2785751",
+  "fechaHoraActualizacion": "2026-05-18T16:05:15.2499541",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -136,10 +136,10 @@
       "observacionesGlobal": "",
       "entregasMRP": [
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 21430.0
         },
         {
           "estado": "Asignada",
@@ -163,7 +163,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 36.0
+          "horas": 44.25
         },
         {
           "tecnico": "Fernando Bereguiain",
