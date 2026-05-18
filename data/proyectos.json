@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-18T10:17:39.3007794",
+  "fechaHoraActualizacion": "2026-05-18T12:39:23.5278154",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -151,6 +151,12 @@
           "estado": "Asignada",
           "nEntrega": "3",
           "entrega": "PASILLO CENTRAL",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "4",
+          "entrega": "CARRILES",
           "pesoTotalEstructura": 0.0
         }
       ],
