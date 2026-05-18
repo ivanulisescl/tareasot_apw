@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-18T08:39:44.2647525",
+  "fechaHoraActualizacion": "2026-05-18T09:47:39.4581349",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -136,7 +136,7 @@
       "observacionesGlobal": "",
       "entregasMRP": [
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 0.0
@@ -145,6 +145,12 @@
           "estado": "Asignada",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "3",
+          "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 0.0
         }
       ],
