@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-18T17:16:30.9095445",
+  "fechaHoraActualizacion": "2026-05-18T17:46:30.8543259",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -94,7 +94,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 166.066666
+          "horas": 174.483333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -136,7 +136,7 @@
       "observacionesGlobal": "",
       "entregasMRP": [
         {
-          "estado": "RevisarOT",
+          "estado": "Pdte.Codificar",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 21430.0
