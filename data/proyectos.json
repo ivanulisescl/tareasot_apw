@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-18T12:39:23.5278154",
+  "fechaHoraActualizacion": "2026-05-18T13:09:23.2785751",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -136,7 +136,7 @@
       "observacionesGlobal": "",
       "entregasMRP": [
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 0.0
