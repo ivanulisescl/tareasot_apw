@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-18T17:46:30.8543259",
+  "fechaHoraActualizacion": "2026-05-19T08:36:46.6718799",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -102,7 +102,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 10.0
+          "horas": 12.0
         }
       ]
     },
@@ -136,7 +136,7 @@
       "observacionesGlobal": "",
       "entregasMRP": [
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 21430.0
@@ -171,7 +171,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 49.5
+          "horas": 52.5
         }
       ]
     },
