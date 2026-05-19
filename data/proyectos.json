@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-19T11:25:18.321453",
+  "fechaHoraActualizacion": "2026-05-19T11:55:19.395149",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -51,7 +51,7 @@
           "pesoTotalEstructura": 9165.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "5",
           "entrega": "CARRIL SUPERIOR",
           "pesoTotalEstructura": 0.0
