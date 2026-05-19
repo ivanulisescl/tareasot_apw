@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-19T12:58:19.672714",
+  "fechaHoraActualizacion": "2026-05-19T17:28:50.1857998",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -94,7 +94,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 174.483333
+          "horas": 183.066666
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -136,7 +136,7 @@
       "observacionesGlobal": "",
       "entregasMRP": [
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 21430.0
@@ -163,7 +163,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 44.25
+          "horas": 50.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -220,13 +220,13 @@
           "pesoTotalEstructura": 1924.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Nueva",
           "nEntrega": "3",
           "entrega": "LARGUEROS",
-          "pesoTotalEstructura": 23592.0
+          "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Pdte.Revisar",
           "nEntrega": "4",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 23634.0
@@ -266,12 +266,18 @@
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "10",
+          "entrega": "NUEVOS POSTIZOS",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 143.25
+          "horas": 145.25
         },
         {
           "tecnico": "Manuel Díaz",
@@ -425,6 +431,10 @@
         {
           "tecnico": "Rubén Suárez",
           "horas": 5.75
+        },
+        {
+          "tecnico": "Daniel Rodriguez",
+          "horas": 8.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
