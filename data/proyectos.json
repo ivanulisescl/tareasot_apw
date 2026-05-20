@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-20T11:36:17.8219054",
+  "fechaHoraActualizacion": "2026-05-20T12:06:17.2753713",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -163,7 +163,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 50.5
+          "horas": 51.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -268,16 +268,16 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "10",
           "entrega": "NUEVOS POSTIZOS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 3246.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 147.25
+          "horas": 147.75
         },
         {
           "tecnico": "Manuel Díaz",
