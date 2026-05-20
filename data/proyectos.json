@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-19T17:58:50.060631",
+  "fechaHoraActualizacion": "2026-05-20T08:46:26.5370852",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -51,7 +51,7 @@
           "pesoTotalEstructura": 9165.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "5",
           "entrega": "CARRIL SUPERIOR",
           "pesoTotalEstructura": 0.0
@@ -226,10 +226,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Revisar",
+          "estado": "Nueva",
           "nEntrega": "4",
           "entrega": "CARRILES",
-          "pesoTotalEstructura": 23634.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
