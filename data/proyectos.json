@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-20T09:16:26.0412467",
+  "fechaHoraActualizacion": "2026-05-20T09:50:17.8388682",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -220,16 +220,16 @@
           "pesoTotalEstructura": 1924.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "AsignadaProg",
           "nEntrega": "3",
           "entrega": "LARGUEROS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 20540.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "AsignadaProg",
           "nEntrega": "4",
           "entrega": "CARRILES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 23424.0
         },
         {
           "estado": "Registrada",
@@ -277,7 +277,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 145.25
+          "horas": 147.25
         },
         {
           "tecnico": "Manuel Díaz",
