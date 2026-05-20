@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-20T12:36:16.8597757",
+  "fechaHoraActualizacion": "2026-05-20T15:49:46.4936322",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -51,7 +51,7 @@
           "pesoTotalEstructura": 9165.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "5",
           "entrega": "CARRIL SUPERIOR",
           "pesoTotalEstructura": 19933.0
@@ -142,7 +142,7 @@
           "pesoTotalEstructura": 21430.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 24092.0
@@ -163,7 +163,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 51.0
+          "horas": 56.25
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -268,7 +268,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Registrada",
           "nEntrega": "10",
           "entrega": "NUEVOS POSTIZOS",
           "pesoTotalEstructura": 3246.0
