@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-20T11:06:17.1211824",
+  "fechaHoraActualizacion": "2026-05-20T11:36:17.8219054",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -51,10 +51,10 @@
           "pesoTotalEstructura": 9165.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "AsignadaProg",
           "nEntrega": "5",
           "entrega": "CARRIL SUPERIOR",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 19933.0
         },
         {
           "estado": "Asignada",
@@ -142,10 +142,10 @@
           "pesoTotalEstructura": 21430.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 24092.0
         },
         {
           "estado": "Asignada",
@@ -220,13 +220,13 @@
           "pesoTotalEstructura": 1924.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "3",
           "entrega": "LARGUEROS",
           "pesoTotalEstructura": 20540.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "4",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 23424.0
@@ -268,7 +268,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "10",
           "entrega": "NUEVOS POSTIZOS",
           "pesoTotalEstructura": 0.0
