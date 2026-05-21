@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-21T08:57:18.6715953",
+  "fechaHoraActualizacion": "2026-05-21T10:00:28.0240411",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -63,7 +63,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "6",
           "entrega": "BASTIDORES SHUTTLE",
           "pesoTotalEstructura": 0.0
