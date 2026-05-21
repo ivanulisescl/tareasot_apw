@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-21T13:07:59.4408449",
+  "fechaHoraActualizacion": "2026-05-21T15:57:53.6999406",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -63,10 +63,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "6",
           "entrega": "BASTIDORES SHUTTLE",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 104822.0
         },
         {
           "estado": "Asignada",
@@ -102,7 +102,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 16.0
+          "horas": 19.0
         }
       ]
     },
@@ -142,7 +142,7 @@
           "pesoTotalEstructura": 21430.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 24092.0
