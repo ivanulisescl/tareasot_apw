@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-21T10:30:28.0774369",
+  "fechaHoraActualizacion": "2026-05-21T13:07:59.4408449",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -63,7 +63,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "6",
           "entrega": "BASTIDORES SHUTTLE",
           "pesoTotalEstructura": 0.0
@@ -142,7 +142,7 @@
           "pesoTotalEstructura": 21430.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 24092.0
