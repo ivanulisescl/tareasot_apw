@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-22T12:14:58.364436",
+  "fechaHoraActualizacion": "2026-05-25T08:35:21.0065573",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -63,7 +63,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "6",
           "entrega": "BASTIDORES SHUTTLE",
           "pesoTotalEstructura": 104822.0
@@ -94,11 +94,11 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 199.9
+          "horas": 205.983333
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 36.25
+          "horas": 42.25
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -163,7 +163,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 64.5
+          "horas": 70.5
         },
         {
           "tecnico": "Fernando Bereguiain",
