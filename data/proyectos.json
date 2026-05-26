@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-26T12:01:45.2778723",
+  "fechaHoraActualizacion": "2026-05-26T12:31:46.2247919",
   "proyectos": [
     {
       "idProyecto": 55,
@@ -8,10 +8,12 @@
       "ofertaReferencia": "OF2503430R6",
       "nombreProyecto": "SEMARK",
       "pais": "España",
-      "fechaVenta": "2026-02-25",
+      "fechaVenta": "2026-02-23",
       "cliente": "Semark AC Group",
       "integrador": "System Logistics Spain",
       "importeEur": 1575000.0,
+      "pesoKg": 598751.0,
+      "ratioEurKg": 2.63,
       "sistema": "Carro satélite con transelevador",
       "tipoInstalacion": "Interior de nave",
       "numeroPaletas": 9040,
@@ -20,8 +22,10 @@
       "delineantePrincipal": "Fernando B.",
       "delineanteApoyo1": "Eduardo G.",
       "delineanteApoyo2": "",
-      "inicioMontaje": "",
-      "tipoTransporte": "",
+      "inicioMontaje": "2026-07-11",
+      "duracionMontajeDias": 90,
+      "tipoTransporte": "Terrestre",
+      "transitoDias": 3,
       "planoValidacion": "Sí",
       "fechaValidacionPlano": "",
       "entregadoProduccionPorc": 60,
