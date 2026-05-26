@@ -1,6 +1,46 @@
 {
-  "fechaHoraActualizacion": "2026-05-26T12:31:46.2247919",
+  "fechaHoraActualizacion": "2026-05-26T13:01:45.2166805",
   "proyectos": [
+    {
+      "idProyecto": 57,
+      "estado": "En desarrollo",
+      "numeroPedido": "PVP_1469",
+      "ofertaReferencia": "OF255186R4",
+      "nombreProyecto": "PAPASTRATOS",
+      "pais": "Grecia",
+      "fechaVenta": "2026-03-10",
+      "cliente": "Papastratos",
+      "integrador": "Viastore (Toyota)",
+      "importeEur": 892000.0,
+      "pesoKg": 265091.0,
+      "ratioEurKg": 3.36,
+      "sistema": "Carro satélite con lanzadera",
+      "tipoInstalacion": "Interior de nave",
+      "numeroPaletas": 4264,
+      "alturaTotalMm": 9000,
+      "jefeProyecto": "Manuel D.",
+      "delineantePrincipal": "Fernando B.",
+      "delineanteApoyo1": "",
+      "delineanteApoyo2": "",
+      "inicioMontaje": "2026-09-13",
+      "duracionMontajeDias": 45,
+      "tipoTransporte": "Marítimo",
+      "planoValidacion": "Sí",
+      "fechaValidacionPlano": "2026-05-23",
+      "entregadoProduccionPorc": 0,
+      "planosMontajeRealizadosPorc": 0,
+      "planosMontajePublicadosPorc": 0,
+      "observacionesGlobal": "",
+      "entregasMRP": [
+        {
+          "estado": "Nueva",
+          "nEntrega": "1",
+          "entrega": "Total",
+          "pesoTotalEstructura": 0.0
+        }
+      ],
+      "tiempos": []
+    },
     {
       "idProyecto": 55,
       "estado": "En desarrollo",

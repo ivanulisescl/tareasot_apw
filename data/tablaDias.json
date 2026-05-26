@@ -1,10 +1,10 @@
 {
   "Actual": {
-    "Nuevas": 14,
+    "Nuevas": 13,
     "Incompletas": 13,
     "Definidas": 131,
-    "Asignadas": 112,
-    "PdteRevComercial": 21,
+    "Asignadas": 115,
+    "PdteRevComercial": 20,
     "Calculadas": 0,
     "PdteComercializados": 2,
     "Ofertas": 103,
@@ -17,7 +17,7 @@
     "Ofertas ISA": 2,
     "Pedidos ISA": 119,
     "Ofertas VE": 3,
-    "Pedidos VE": 13
+    "Pedidos VE": 14
   },
   "dias": [
     {
