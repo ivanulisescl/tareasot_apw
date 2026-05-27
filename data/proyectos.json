@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-27T17:00:39.084886",
+  "fechaHoraActualizacion": "2026-05-27T17:30:39.1190926",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -141,7 +141,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 222.65
+          "horas": 231.066666
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -192,10 +192,10 @@
           "pesoTotalEstructura": 21430.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 23064.0
         },
         {
           "estado": "Asignada",
@@ -213,7 +213,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 78.75
+          "horas": 87.0
         },
         {
           "tecnico": "Fernando Bereguiain",
