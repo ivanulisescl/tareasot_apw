@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-27T11:31:46.6482936",
+  "fechaHoraActualizacion": "2026-05-27T12:01:46.8593998",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -192,7 +192,7 @@
           "pesoTotalEstructura": 21430.0
         },
         {
-          "estado": "Nueva",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 0.0
