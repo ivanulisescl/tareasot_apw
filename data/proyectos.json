@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-26T17:30:13.9340277",
+  "fechaHoraActualizacion": "2026-05-27T08:31:46.8561693",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -149,7 +149,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 19.0
+          "horas": 21.0
         }
       ]
     },
@@ -213,7 +213,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 70.5
+          "horas": 78.75
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -499,7 +499,7 @@
       "ofertaReferencia": "OF2500882R4",
       "nombreProyecto": "TOMELLOSO",
       "pais": "ESPAÑA",
-      "fechaVenta": "2025-09-16",
+      "fechaVenta": "2025-09-14",
       "cliente": "VIRGEN DE LAS VIÑAS",
       "integrador": "SIGNODE",
       "importeEur": 2445000.0,
@@ -510,10 +510,10 @@
       "numeroPaletas": 7150,
       "alturaTotalMm": 35500,
       "jefeProyecto": "Silvia R.",
-      "delineantePrincipal": "Daniel R.",
+      "delineantePrincipal": "Nuria S.",
       "delineanteApoyo1": "",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2026-02-13",
+      "inicioMontaje": "2026-02-11",
       "duracionMontajeDias": 150,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
