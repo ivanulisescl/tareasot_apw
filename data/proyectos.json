@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-28T08:40:04.4283601",
+  "fechaHoraActualizacion": "2026-05-28T09:49:14.4884214",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -3962,8 +3962,116 @@
       "planosMontajeRealizadosPorc": 100,
       "planosMontajePublicadosPorc": 100,
       "observacionesGlobal": "",
-      "entregasMRP": [],
-      "tiempos": []
+      "entregasMRP": [
+        {
+          "estado": "Registrada",
+          "nEntrega": "1",
+          "entrega": "BASTIDORES Y ANCLAJES",
+          "pesoTotalEstructura": 66117.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "2",
+          "entrega": "LARGUEROS DE CARGA",
+          "pesoTotalEstructura": 76162.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "3",
+          "entrega": "CARRILES",
+          "pesoTotalEstructura": 67671.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "4",
+          "entrega": "BUFFER Y PASILLOS",
+          "pesoTotalEstructura": 12740.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "5",
+          "entrega": "NUCLEO ESCALERA",
+          "pesoTotalEstructura": 3222.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "6",
+          "entrega": "COMERCIALIALIZADOS",
+          "pesoTotalEstructura": 8606.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "7",
+          "entrega": "MALLAS LATERALES",
+          "pesoTotalEstructura": 708.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "8",
+          "entrega": "ampliar parte de una calle de carga",
+          "pesoTotalEstructura": 603.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "9",
+          "entrega": "peldaño interior - soporte pasillo",
+          "pesoTotalEstructura": 52.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "10",
+          "entrega": "MALLA",
+          "pesoTotalEstructura": 1470.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "11",
+          "entrega": "LINEA DE VIDA",
+          "pesoTotalEstructura": 105.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "12",
+          "entrega": "material adicional",
+          "pesoTotalEstructura": 32.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "13",
+          "entrega": "Adicional 2",
+          "pesoTotalEstructura": 238.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "14",
+          "entrega": "MALLAS DE NYLON COLOR BLANCO",
+          "pesoTotalEstructura": 125.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "15",
+          "entrega": "FORROS BUFFER",
+          "pesoTotalEstructura": 65.0
+        }
+      ],
+      "tiempos": [
+        {
+          "tecnico": "Yago Fernandez",
+          "horas": 91.6
+        },
+        {
+          "tecnico": "Gerard Acin",
+          "horas": 10.0
+        },
+        {
+          "tecnico": "Fernando Nieto",
+          "horas": 2.25
+        },
+        {
+          "tecnico": "Fernando Bereguiain",
+          "horas": 123.4
+        }
+      ]
     },
     {
       "idProyecto": 16,
