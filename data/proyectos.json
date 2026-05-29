@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-05-28T17:17:26.0528554",
+  "fechaHoraActualizacion": "2026-05-29T09:16:06.0405862",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -116,7 +116,7 @@
           "pesoTotalEstructura": 104822.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Rechazada",
           "nEntrega": "7",
           "entrega": "TORRES SHUTTLE",
           "pesoTotalEstructura": 0.0
@@ -149,7 +149,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 29.0
+          "horas": 34.0
         }
       ]
     },
