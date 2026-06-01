@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-01T16:31:21.1490869",
+  "fechaHoraActualizacion": "2026-06-01T17:01:21.0073397",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -132,6 +132,12 @@
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "10",
+          "entrega": "PORTICOS SHUTTLE",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -141,7 +147,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 245.4
+          "horas": 253.65
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -1009,7 +1015,7 @@
           "pesoTotalEstructura": 966.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "12",
           "entrega": "NUEVOS POSTIZOS",
           "pesoTotalEstructura": 0.0
