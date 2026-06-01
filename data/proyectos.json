@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-01T13:03:39.0381918",
+  "fechaHoraActualizacion": "2026-06-01T16:01:21.3875838",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -949,10 +949,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Revisar",
+          "estado": "Nueva",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
-          "pesoTotalEstructura": 340619.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
@@ -973,10 +973,10 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Pdte.Revisar",
+          "estado": "Nueva",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
-          "pesoTotalEstructura": 152764.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
