@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-01T10:33:38.9701241",
+  "fechaHoraActualizacion": "2026-06-01T11:03:39.1839378",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -973,7 +973,7 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Pdte.Revisar",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 152764.0
