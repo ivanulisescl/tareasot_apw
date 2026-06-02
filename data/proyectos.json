@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-02T16:01:02.0508004",
+  "fechaHoraActualizacion": "2026-06-02T16:31:01.8747114",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -219,7 +219,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 107.0
+          "horas": 115.25
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -1143,7 +1143,7 @@
           "pesoTotalEstructura": 76.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Anulada",
           "nEntrega": "13",
           "entrega": "PELDAÑOS FOSO",
           "pesoTotalEstructura": 0.0
