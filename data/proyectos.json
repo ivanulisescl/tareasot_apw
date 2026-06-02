@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-01T17:31:21.0642254",
+  "fechaHoraActualizacion": "2026-06-02T10:04:30.2203529",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -219,7 +219,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 101.25
+          "horas": 107.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -227,7 +227,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 58.5
+          "horas": 62.5
         }
       ]
     },
@@ -955,7 +955,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 340483.0
@@ -979,7 +979,7 @@
           "pesoTotalEstructura": 85527.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "6",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 151970.0
@@ -1015,7 +1015,7 @@
           "pesoTotalEstructura": 966.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "12",
           "entrega": "NUEVOS POSTIZOS",
           "pesoTotalEstructura": 1098.0
@@ -1024,7 +1024,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 391.0
+          "horas": 393.5
         },
         {
           "tecnico": "Gianluca Franceschini",
