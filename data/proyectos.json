@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-03T16:24:42.7041124",
+  "fechaHoraActualizacion": "2026-06-03T16:54:41.8136773",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -151,7 +151,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 67.0
+          "horas": 69.5
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -811,10 +811,10 @@
           "pesoTotalEstructura": 29956.0
         },
         {
-          "estado": "Nueva",
+          "estado": "Pdte.Registrar",
           "nEntrega": "10",
           "entrega": "PASILLO CENTRAL",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 24216.0
         },
         {
           "estado": "Registrada",
