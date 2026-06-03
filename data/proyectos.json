@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-03T13:19:53.0114747",
+  "fechaHoraActualizacion": "2026-06-03T16:24:42.7041124",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -204,22 +204,28 @@
           "pesoTotalEstructura": 23064.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "3",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "4",
           "entrega": "CARRILES",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "5",
+          "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 115.25
+          "horas": 121.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -490,7 +496,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 15.75
+          "horas": 24.0
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -805,10 +811,10 @@
           "pesoTotalEstructura": 29956.0
         },
         {
-          "estado": "Pdte.Revisar",
+          "estado": "Nueva",
           "nEntrega": "10",
           "entrega": "PASILLO CENTRAL",
-          "pesoTotalEstructura": 24465.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
@@ -883,7 +889,7 @@
           "pesoTotalEstructura": 232.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "23",
           "entrega": "ARANDELAS PASILLO",
           "pesoTotalEstructura": 675.0
