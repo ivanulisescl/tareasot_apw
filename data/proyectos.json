@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-03T17:24:42.1538996",
+  "fechaHoraActualizacion": "2026-06-04T08:30:14.1849263",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -219,6 +219,12 @@
           "estado": "Asignada",
           "nEntrega": "5",
           "entrega": "NUCLEO ESCALERA",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "0",
+          "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -811,7 +817,7 @@
           "pesoTotalEstructura": 29956.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "RevisarOT",
           "nEntrega": "10",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 24216.0
