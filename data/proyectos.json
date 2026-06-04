@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-04T11:26:53.9648965",
+  "fechaHoraActualizacion": "2026-06-04T12:02:04.4190571",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -898,7 +898,7 @@
           "estado": "AsignadaProg",
           "nEntrega": "23",
           "entrega": "ARANDELAS PASILLO",
-          "pesoTotalEstructura": 675.0
+          "pesoTotalEstructura": 360.0
         }
       ],
       "tiempos": [
