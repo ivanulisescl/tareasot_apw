@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-04T08:30:14.1849263",
+  "fechaHoraActualizacion": "2026-06-04T10:26:53.3020879",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -817,7 +817,7 @@
           "pesoTotalEstructura": 29956.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "Anulada",
           "nEntrega": "10",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 24216.0
