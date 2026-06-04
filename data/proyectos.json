@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-04T16:17:51.9985384",
+  "fechaHoraActualizacion": "2026-06-04T16:47:50.9987755",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -151,7 +151,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 69.5
+          "horas": 71.0
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -502,7 +502,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 24.0
+          "horas": 32.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
