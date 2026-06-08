@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-08T10:20:34.04506",
+  "fechaHoraActualizacion": "2026-06-08T11:31:44.0013489",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -210,7 +210,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Rechazada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "4",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 0.0
@@ -231,7 +231,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 137.75
+          "horas": 140.75
         },
         {
           "tecnico": "Fernando Bereguiain",
