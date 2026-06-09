@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-09T11:08:52.1293285",
+  "fechaHoraActualizacion": "2026-06-09T11:38:52.3263813",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -116,7 +116,7 @@
           "pesoTotalEstructura": 104822.0
         },
         {
-          "estado": "Rechazada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "7",
           "entrega": "TORRES SHUTTLE",
           "pesoTotalEstructura": 0.0
@@ -204,13 +204,13 @@
           "pesoTotalEstructura": 23064.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Rechazada",
           "nEntrega": "3",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "4",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 0.0
@@ -225,6 +225,12 @@
           "estado": "Asignada",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "6",
+          "entrega": "PMZ, ZONAS DE PASO Y MANTENIMIENTO",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -470,7 +476,7 @@
       "ofertaReferencia": "OF2407171R10",
       "nombreProyecto": "DITSCH",
       "pais": "ALEMANIA",
-      "fechaVenta": "2025-12-14",
+      "fechaVenta": "2025-12-12",
       "cliente": "DITSCH",
       "integrador": "WESTFALIA ALEMANIA",
       "importeEur": 1285000.0,
@@ -484,7 +490,7 @@
       "delineantePrincipal": "Daniel R.",
       "delineanteApoyo1": "Eduardo G.",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2026-06-15",
+      "inicioMontaje": "2026-08-26",
       "duracionMontajeDias": 90,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
