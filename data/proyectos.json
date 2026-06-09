@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-09T11:38:52.3263813",
+  "fechaHoraActualizacion": "2026-06-09T12:08:51.7653303",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -116,7 +116,7 @@
           "pesoTotalEstructura": 104822.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "7",
           "entrega": "TORRES SHUTTLE",
           "pesoTotalEstructura": 0.0
@@ -204,16 +204,16 @@
           "pesoTotalEstructura": 23064.0
         },
         {
-          "estado": "Rechazada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "3",
           "entrega": "PASILLO CENTRAL",
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "AsignadaProg",
           "nEntrega": "4",
           "entrega": "CARRILES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 38692.0
         },
         {
           "estado": "Asignada",
