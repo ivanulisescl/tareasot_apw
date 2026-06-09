@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-09T09:38:52.3031227",
+  "fechaHoraActualizacion": "2026-06-09T10:08:51.7267911",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -48,7 +48,7 @@
       "ofertaReferencia": "OF2503430R6",
       "nombreProyecto": "SEMARK",
       "pais": "España",
-      "fechaVenta": "2026-02-23",
+      "fechaVenta": "2026-02-21",
       "cliente": "Semark AC Group",
       "integrador": "System Logistics Spain",
       "importeEur": 1575000.0,
@@ -62,7 +62,7 @@
       "delineantePrincipal": "Fernando B.",
       "delineanteApoyo1": "Eduardo G.",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2026-07-11",
+      "inicioMontaje": "2026-08-29",
       "duracionMontajeDias": 90,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
