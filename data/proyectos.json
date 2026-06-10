@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-10T16:36:26.8033685",
+  "fechaHoraActualizacion": "2026-06-10T17:09:31.1789223",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -74,22 +74,22 @@
       "observacionesGlobal": "Antes era el PVP_1468. Falta una semana de desarrollo.",
       "entregasMRP": [
         {
-          "estado": "Aprobada",
+          "estado": "AsignadaProg",
           "nEntrega": "1",
           "entrega": "BASTIDORES RACK",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 33824.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 107069.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "AsignadaProg",
           "nEntrega": "3",
           "entrega": "CARRILES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 91621.0
         },
         {
           "estado": "Registrada",
@@ -237,7 +237,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 154.25
+          "horas": 162.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -245,7 +245,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 21.416666
+          "horas": 26.916666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -516,11 +516,11 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 1.0
+          "horas": 3.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 10.0
+          "horas": 13.25
         }
       ]
     },
