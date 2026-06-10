@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-10T13:21:09.1005998",
+  "fechaHoraActualizacion": "2026-06-10T16:36:26.8033685",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -74,7 +74,7 @@
       "observacionesGlobal": "Antes era el PVP_1468. Falta una semana de desarrollo.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "1",
           "entrega": "BASTIDORES RACK",
           "pesoTotalEstructura": 0.0
@@ -86,7 +86,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "3",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 0.0
@@ -930,7 +930,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 446.833333
+          "horas": 449.083333
         },
         {
           "tecnico": "Pablo Pérez",
