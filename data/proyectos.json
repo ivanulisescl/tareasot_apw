@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-10T09:18:53.1828451",
+  "fechaHoraActualizacion": "2026-06-10T09:48:53.4025644",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -136,7 +136,7 @@
         {
           "estado": "Asignada",
           "nEntrega": "10",
-          "entrega": "PORTICOS SHUTTLE",
+          "entrega": "COMERCIALIZADOS II",
           "pesoTotalEstructura": 0.0
         }
       ],
