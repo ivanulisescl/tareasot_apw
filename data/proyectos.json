@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-10T17:09:31.1789223",
+  "fechaHoraActualizacion": "2026-06-11T08:32:58.0537007",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -86,7 +86,7 @@
           "pesoTotalEstructura": 107069.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "3",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 91621.0
@@ -98,10 +98,10 @@
           "pesoTotalEstructura": 9165.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Registrar",
           "nEntrega": "5",
           "entrega": "CARRIL SUPERIOR",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 20223.0
         },
         {
           "estado": "Asignada",
@@ -110,10 +110,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "6",
           "entrega": "BASTIDORES SHUTTLE",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 106785.0
         },
         {
           "estado": "Pdte.Registrar",
@@ -147,7 +147,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 299.733333
+          "horas": 308.233333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -155,7 +155,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 34.0
+          "horas": 39.0
         }
       ]
     },
