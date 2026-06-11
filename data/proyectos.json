@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-11T12:03:06.5777452",
+  "fechaHoraActualizacion": "2026-06-11T16:03:17.7772777",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -110,7 +110,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "6",
           "entrega": "BASTIDORES SHUTTLE",
           "pesoTotalEstructura": 106785.0
@@ -128,7 +128,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 0.0
@@ -419,7 +419,7 @@
           "estado": "Registrada",
           "nEntrega": "4",
           "entrega": "PASILLOS",
-          "pesoTotalEstructura": 7070.0
+          "pesoTotalEstructura": 12741.0
         },
         {
           "estado": "Registrada",
