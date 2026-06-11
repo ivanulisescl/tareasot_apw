@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-11T11:33:06.5342559",
+  "fechaHoraActualizacion": "2026-06-11T12:03:06.5777452",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -80,7 +80,7 @@
           "pesoTotalEstructura": 33824.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 107069.0
@@ -192,7 +192,7 @@
       "observacionesGlobal": "Más o menos vamos en planning.",
       "entregasMRP": [
         {
-          "estado": "Nueva",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 0.0
