@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-11T09:53:56.9902327",
+  "fechaHoraActualizacion": "2026-06-11T10:23:56.7850074",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -74,7 +74,7 @@
       "observacionesGlobal": "Antes era el PVP_1468. Falta una semana de desarrollo.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "BASTIDORES RACK",
           "pesoTotalEstructura": 33824.0
