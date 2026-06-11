@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-11T16:03:17.7772777",
+  "fechaHoraActualizacion": "2026-06-11T16:33:17.233518",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -216,7 +216,7 @@
           "pesoTotalEstructura": 38692.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "5",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 0.0
@@ -232,12 +232,24 @@
           "nEntrega": "6",
           "entrega": "PMZ, ZONAS DE PASO Y MANTENIMIENTO",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "7",
+          "entrega": "BASTIDORES 2",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "8",
+          "entrega": "ZONA ELEVADOR",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 162.5
+          "horas": 170.75
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -512,7 +524,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 54.75
+          "horas": 63.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
