@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-12T09:56:09.6811978",
+  "fechaHoraActualizacion": "2026-06-12T10:26:09.6898329",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -128,7 +128,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Compras",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 1965.0
@@ -192,7 +192,7 @@
       "observacionesGlobal": "Más o menos vamos en planning.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 21579.0
