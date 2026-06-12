@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-11T17:03:17.3777494",
+  "fechaHoraActualizacion": "2026-06-12T08:30:03.3695525",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -116,7 +116,7 @@
           "pesoTotalEstructura": 106785.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "7",
           "entrega": "TORRES SHUTTLE",
           "pesoTotalEstructura": 23013.0
@@ -128,10 +128,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 1965.0
         },
         {
           "estado": "Asignada",
@@ -942,7 +942,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 449.083333
+          "horas": 454.583333
         },
         {
           "tecnico": "Pablo Pérez",
