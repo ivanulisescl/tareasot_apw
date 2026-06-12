@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-12T10:26:09.6898329",
+  "fechaHoraActualizacion": "2026-06-12T11:30:48.1957502",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -192,7 +192,7 @@
       "observacionesGlobal": "Más o menos vamos en planning.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 21579.0
@@ -543,7 +543,7 @@
       "ofertaReferencia": "OF2500882R4",
       "nombreProyecto": "TOMELLOSO",
       "pais": "ESPAÑA",
-      "fechaVenta": "2025-09-12",
+      "fechaVenta": "2025-09-10",
       "cliente": "VIRGEN DE LAS VIÑAS",
       "integrador": "SIGNODE",
       "importeEur": 2445000.0,
@@ -557,7 +557,7 @@
       "delineantePrincipal": "Nuria S.",
       "delineanteApoyo1": "",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2026-02-09",
+      "inicioMontaje": "2026-12-30",
       "duracionMontajeDias": 150,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
@@ -566,7 +566,7 @@
       "entregadoProduccionPorc": 0,
       "planosMontajeRealizadosPorc": 0,
       "planosMontajePublicadosPorc": 0,
-      "observacionesGlobal": "Empezamos a sacar en breve.",
+      "observacionesGlobal": "Se retrasa el proyecto debido a la obra civil, hasta enero o febrero de 2027. Empezamos a sacar en breve.",
       "entregasMRP": [
         {
           "estado": "Asignada",
