@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-12T08:30:03.3695525",
+  "fechaHoraActualizacion": "2026-06-12T09:26:10.4085602",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -192,10 +192,10 @@
       "observacionesGlobal": "Más o menos vamos en planning.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 21579.0
         },
         {
           "estado": "Registrada",
@@ -216,10 +216,10 @@
           "pesoTotalEstructura": 38692.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "5",
           "entrega": "NUCLEO ESCALERA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 2647.0
         },
         {
           "estado": "Asignada",
