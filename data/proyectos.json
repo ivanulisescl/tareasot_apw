@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-12T12:00:48.1828898",
+  "fechaHoraActualizacion": "2026-06-17T09:55:49.7479154",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -33,13 +33,18 @@
       "observacionesGlobal": "",
       "entregasMRP": [
         {
-          "estado": "Nueva",
+          "estado": "Asignada",
           "nEntrega": "1",
           "entrega": "Total",
           "pesoTotalEstructura": 0.0
         }
       ],
-      "tiempos": []
+      "tiempos": [
+        {
+          "tecnico": "Fernando Bereguiain",
+          "horas": 10.0
+        }
+      ]
     },
     {
       "idProyecto": 55,
@@ -128,7 +133,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Compras",
+          "estado": "Registrada",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 1965.0
@@ -147,7 +152,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 316.733333
+          "horas": 329.233333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -204,10 +209,10 @@
           "pesoTotalEstructura": 23064.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Registrada",
           "nEntrega": "3",
           "entrega": "PASILLO CENTRAL",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 38694.0
         },
         {
           "estado": "Registrada",
@@ -216,7 +221,7 @@
           "pesoTotalEstructura": 38692.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Registrada",
           "nEntrega": "5",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 2647.0
@@ -244,12 +249,18 @@
           "nEntrega": "8",
           "entrega": "ZONA ELEVADOR",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "9",
+          "entrega": "COMERCIALIZADOS",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 170.75
+          "horas": 193.25
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -261,7 +272,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 73.5
+          "horas": 79.5
         }
       ]
     },
@@ -511,9 +522,39 @@
       "observacionesGlobal": "Empezamos con MRP´s el lunes 1 de junio. Pendiente realizar planning.",
       "entregasMRP": [
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "1",
-          "entrega": "Total",
+          "entrega": "BASTIDORES Y RIGIDIZADORES",
+          "pesoTotalEstructura": 140324.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "2",
+          "entrega": "LARGUEROS DE CARGA",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "3",
+          "entrega": "ZONA CONVEYORS ",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "4",
+          "entrega": "CARRILES Y PASILLO",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "5",
+          "entrega": "TORRE DE ARRIOSTRADO",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "0",
+          "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -524,15 +565,15 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 63.0
+          "horas": 85.5
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 12.0
+          "horas": 33.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 21.5
+          "horas": 44.0
         }
       ]
     },
@@ -942,7 +983,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 454.583333
+          "horas": 476.583333
         },
         {
           "tecnico": "Pablo Pérez",
