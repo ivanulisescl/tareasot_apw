@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-22T10:03:02.7223159",
+  "fechaHoraActualizacion": "2026-06-22T19:53:29.3119706",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -42,7 +42,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 32.85
+          "horas": 41.183333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -170,7 +170,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 39.0
+          "horas": 41.0
         }
       ]
     },
@@ -231,10 +231,10 @@
           "pesoTotalEstructura": 38692.0
         },
         {
-          "estado": "Registrada",
+          "estado": "AsignadaProg",
           "nEntrega": "5",
           "entrega": "NUCLEO ESCALERA",
-          "pesoTotalEstructura": 2647.0
+          "pesoTotalEstructura": 2646.0
         },
         {
           "estado": "Asignada",
@@ -265,12 +265,18 @@
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Pdte.Aprobacion",
+          "nEntrega": "10",
+          "entrega": "ESCALERA DE GATO",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 201.5
+          "horas": 203.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -532,19 +538,19 @@
       "observacionesGlobal": "Empezamos con MRP´s el lunes 1 de junio. Pendiente realizar planning.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "1",
           "entrega": "BASTIDORES Y RIGIDIZADORES",
           "pesoTotalEstructura": 140324.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "3",
           "entrega": "ZONA CONVEYORS ",
           "pesoTotalEstructura": 0.0
@@ -603,11 +609,11 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 51.75
+          "horas": 56.0
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 64.5
+          "horas": 72.75
         }
       ]
     },
