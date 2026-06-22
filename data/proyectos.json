@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-19T09:02:57.5211288",
+  "fechaHoraActualizacion": "2026-06-22T10:03:02.7223159",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -42,7 +42,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 26.85
+          "horas": 32.85
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -143,10 +143,16 @@
           "pesoTotalEstructura": 1965.0
         },
         {
-          "estado": "Compras",
+          "estado": "Registrada",
           "nEntrega": "10",
           "entrega": "COMERCIALIZADOS II",
           "pesoTotalEstructura": 5653.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "11",
+          "entrega": "ENTREPLANTAS MOVIESTAN",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -532,7 +538,7 @@
           "pesoTotalEstructura": 140324.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 0.0
@@ -560,6 +566,30 @@
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "6",
+          "entrega": "NÚCLEO DE ESCALERA",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "7",
+          "entrega": "CERCHAS",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "8",
+          "entrega": "FACHADAS",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "9",
+          "entrega": "COMERCIALIZADOS",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -569,15 +599,15 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 102.25
+          "horas": 108.25
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 49.75
+          "horas": 51.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 58.5
+          "horas": 64.5
         }
       ]
     },
