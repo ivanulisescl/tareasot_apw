@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-22T19:53:29.3119706",
+  "fechaHoraActualizacion": "2026-06-23T09:18:04.0761904",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -131,7 +131,7 @@
           "pesoTotalEstructura": 23013.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "8",
           "entrega": "COMPLEMENTOS",
           "pesoTotalEstructura": 0.0
@@ -231,7 +231,7 @@
           "pesoTotalEstructura": 38692.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "5",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 2646.0
@@ -538,10 +538,10 @@
       "observacionesGlobal": "Empezamos con MRP´s el lunes 1 de junio. Pendiente realizar planning.",
       "entregasMRP": [
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "1",
           "entrega": "BASTIDORES Y RIGIDIZADORES",
-          "pesoTotalEstructura": 140324.0
+          "pesoTotalEstructura": 140483.0
         },
         {
           "estado": "Aprobada",
