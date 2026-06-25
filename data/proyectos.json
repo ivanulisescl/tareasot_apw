@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-24T08:36:23.426406",
+  "fechaHoraActualizacion": "2026-06-25T09:50:51.78928",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -37,12 +37,24 @@
           "nEntrega": "1",
           "entrega": "Total",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "2",
+          "entrega": "LARGUEROS",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "3",
+          "entrega": "CARRILES",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 49.516666
+          "horas": 57.933333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -131,7 +143,7 @@
           "pesoTotalEstructura": 23013.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Registrada",
           "nEntrega": "8",
           "entrega": "COMPLEMENTOS",
           "pesoTotalEstructura": 34300.0
@@ -249,7 +261,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "7",
           "entrega": "BASTIDORES 2",
           "pesoTotalEstructura": 0.0
@@ -267,16 +279,16 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Compras",
           "nEntrega": "10",
           "entrega": "ESCALERA DE GATO",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 886.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 208.0
+          "horas": 216.25
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -538,10 +550,10 @@
       "observacionesGlobal": "Empezamos con MRP´s el lunes 1 de junio. Pendiente realizar planning.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Aprobada",
           "nEntrega": "1",
           "entrega": "BASTIDORES Y RIGIDIZADORES",
-          "pesoTotalEstructura": 140483.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
@@ -605,15 +617,15 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 116.5
+          "horas": 124.75
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 60.25
+          "horas": 67.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 81.0
+          "horas": 89.25
         }
       ]
     },
