@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-25T13:39:55.7392921",
+  "fechaHoraActualizacion": "2026-06-26T10:28:43.7961504",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -54,7 +54,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 57.933333
+          "horas": 66.266666
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -161,7 +161,7 @@
           "pesoTotalEstructura": 5653.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "11",
           "entrega": "ENTREPLANTAS MOVIESTAN",
           "pesoTotalEstructura": 0.0
@@ -279,7 +279,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Compras",
           "nEntrega": "10",
           "entrega": "ESCALERA DE GATO",
           "pesoTotalEstructura": 886.0
@@ -288,7 +288,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 216.25
+          "horas": 224.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -300,7 +300,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 82.5
+          "horas": 84.5
         }
       ]
     },
@@ -550,7 +550,7 @@
       "observacionesGlobal": "Empezamos con MRP´s el lunes 1 de junio. Pendiente realizar planning.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "BASTIDORES Y RIGIDIZADORES",
           "pesoTotalEstructura": 141242.0
@@ -562,7 +562,7 @@
           "pesoTotalEstructura": 43625.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "3",
           "entrega": "ZONA CONVEYORS ",
           "pesoTotalEstructura": 37513.0
@@ -617,11 +617,11 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 124.75
+          "horas": 133.5
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 67.25
+          "horas": 70.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
