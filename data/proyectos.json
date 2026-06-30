@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-26T10:28:43.7961504",
+  "fechaHoraActualizacion": "2026-06-30T08:09:46.4437748",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -54,7 +54,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 66.266666
+          "horas": 72.266666
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -161,7 +161,7 @@
           "pesoTotalEstructura": 5653.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "11",
           "entrega": "ENTREPLANTAS MOVIESTAN",
           "pesoTotalEstructura": 0.0
@@ -288,7 +288,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 224.5
+          "horas": 230.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -296,7 +296,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 26.916666
+          "horas": 28.416666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -617,7 +617,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 133.5
+          "horas": 139.75
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -1018,6 +1018,12 @@
           "nEntrega": "23",
           "entrega": "ARANDELAS PASILLO",
           "pesoTotalEstructura": 360.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "24",
+          "entrega": "FORROS EXTRA ESCALERA EXTERIOR",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
