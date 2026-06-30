@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-30T08:39:46.195522",
+  "fechaHoraActualizacion": "2026-06-30T09:47:14.6614997",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -161,10 +161,10 @@
           "pesoTotalEstructura": 5653.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Compras",
           "nEntrega": "11",
           "entrega": "ENTREPLANTAS MOVIESTAN",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 128000.0
         }
       ],
       "tiempos": [
