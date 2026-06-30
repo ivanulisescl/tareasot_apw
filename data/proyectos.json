@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-30T13:03:46.0084864",
+  "fechaHoraActualizacion": "2026-06-30T16:54:08.6877062",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -285,7 +285,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "10",
           "entrega": "ESCALERA DE GATO",
           "pesoTotalEstructura": 886.0
@@ -627,7 +627,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 70.75
+          "horas": 71.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
