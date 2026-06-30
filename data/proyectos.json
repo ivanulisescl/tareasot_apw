@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-30T12:03:44.2677984",
+  "fechaHoraActualizacion": "2026-06-30T12:33:45.918291",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -285,7 +285,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Compras",
+          "estado": "Pdte.Registrar",
           "nEntrega": "10",
           "entrega": "ESCALERA DE GATO",
           "pesoTotalEstructura": 886.0
