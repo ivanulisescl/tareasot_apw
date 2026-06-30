@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-06-30T11:03:52.3196155",
+  "fechaHoraActualizacion": "2026-06-30T11:33:44.7336244",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -165,6 +165,12 @@
           "nEntrega": "11",
           "entrega": "ENTREPLANTAS MOVIESTAN",
           "pesoTotalEstructura": 128000.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "12",
+          "entrega": "MALLAS LATERALES ",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
