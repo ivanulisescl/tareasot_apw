@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-01T09:48:34.1833982",
+  "fechaHoraActualizacion": "2026-07-01T10:18:33.6443012",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -261,7 +261,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "6",
           "entrega": "PMZ, ZONAS DE PASO Y MANTENIMIENTO",
           "pesoTotalEstructura": 0.0
