@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-01T16:50:47.0776567",
+  "fechaHoraActualizacion": "2026-07-01T17:20:47.325824",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -54,7 +54,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 78.766666
+          "horas": 87.266666
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -161,7 +161,7 @@
           "pesoTotalEstructura": 5653.0
         },
         {
-          "estado": "Compras",
+          "estado": "AsignadaProg",
           "nEntrega": "11",
           "entrega": "ENTREPLANTAS MOVIESTAN",
           "pesoTotalEstructura": 128000.0
@@ -180,7 +180,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 330.983333
+          "horas": 328.65
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -302,7 +302,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 28.416666
+          "horas": 30.666666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -627,7 +627,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 71.25
+          "horas": 76.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
