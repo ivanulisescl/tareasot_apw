@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-01T12:39:57.076268",
+  "fechaHoraActualizacion": "2026-07-01T15:50:47.8443697",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -261,13 +261,13 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "6",
           "entrega": "PMZ, ZONAS DE PASO Y MANTENIMIENTO",
           "pesoTotalEstructura": 8323.0
         },
         {
-          "estado": "Rechazada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "7",
           "entrega": "BASTIDORES 2",
           "pesoTotalEstructura": 0.0
@@ -294,7 +294,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 238.75
+          "horas": 247.0
         },
         {
           "tecnico": "Fernando Bereguiain",
