@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-01T15:50:47.8443697",
+  "fechaHoraActualizacion": "2026-07-01T16:20:47.1169771",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -167,10 +167,10 @@
           "pesoTotalEstructura": 128000.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Registrar",
           "nEntrega": "12",
           "entrega": "MALLAS LATERALES ",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 1314.0
         }
       ],
       "tiempos": [
@@ -267,10 +267,10 @@
           "pesoTotalEstructura": 8323.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "7",
           "entrega": "BASTIDORES 2",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 3935.0
         },
         {
           "estado": "Asignada",
