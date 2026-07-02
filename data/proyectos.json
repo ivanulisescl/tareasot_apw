@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-02T12:28:15.7413095",
+  "fechaHoraActualizacion": "2026-07-02T16:31:59.7517736",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -267,7 +267,7 @@
           "pesoTotalEstructura": 8323.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "7",
           "entrega": "BASTIDORES 2",
           "pesoTotalEstructura": 3935.0
