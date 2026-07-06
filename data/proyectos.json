@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-06T16:25:17.6212981",
+  "fechaHoraActualizacion": "2026-07-06T16:55:19.5567471",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -54,7 +54,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 101.766666
+          "horas": 110.016666
         },
         {
           "tecnico": "Eduardo Gargantiel",
