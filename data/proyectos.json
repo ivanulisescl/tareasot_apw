@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-13T15:51:45.0128367",
+  "fechaHoraActualizacion": "2026-07-13T16:21:44.3430435",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -623,7 +623,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 139.75
+          "horas": 148.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
