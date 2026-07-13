@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-13T12:07:32.2784498",
+  "fechaHoraActualizacion": "2026-07-13T12:37:33.0035265",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -8,7 +8,7 @@
       "ofertaReferencia": "OF255186R4",
       "nombreProyecto": "PAPASTRATOS",
       "pais": "Grecia",
-      "fechaVenta": "2026-03-08",
+      "fechaVenta": "2026-03-06",
       "cliente": "Papastratos",
       "integrador": "Viastore (Toyota)",
       "importeEur": 892000.0,
@@ -22,15 +22,15 @@
       "delineantePrincipal": "Fernando B.",
       "delineanteApoyo1": "",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2026-09-11",
+      "inicioMontaje": "2026-09-09",
       "duracionMontajeDias": 45,
       "tipoTransporte": "Marítimo",
       "planoValidacion": "Sí",
-      "fechaValidacionPlano": "2026-05-21",
+      "fechaValidacionPlano": "2026-05-19",
       "entregadoProduccionPorc": 0,
       "planosMontajeRealizadosPorc": 0,
       "planosMontajePublicadosPorc": 0,
-      "observacionesGlobal": "50% de los MRP´s a la espera de aprobación",
+      "observacionesGlobal": "50% de los MRP´s a la espera de aprobación. Esperamos a la vuelta de Fernando.",
       "entregasMRP": [
         {
           "estado": "Asignada",
@@ -642,7 +642,7 @@
       "ofertaReferencia": "OF2500882R4",
       "nombreProyecto": "TOMELLOSO",
       "pais": "ESPAÑA",
-      "fechaVenta": "2025-09-10",
+      "fechaVenta": "2025-09-08",
       "cliente": "VIRGEN DE LAS VIÑAS",
       "integrador": "SIGNODE",
       "importeEur": 2445000.0,
@@ -656,7 +656,7 @@
       "delineantePrincipal": "Nuria S.",
       "delineanteApoyo1": "",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2026-12-30",
+      "inicioMontaje": "2026-12-28",
       "duracionMontajeDias": 150,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
@@ -665,7 +665,7 @@
       "entregadoProduccionPorc": 0,
       "planosMontajeRealizadosPorc": 0,
       "planosMontajePublicadosPorc": 0,
-      "observacionesGlobal": "Se retrasa el proyecto debido a la obra civil, hasta enero o febrero de 2027. Empezamos a sacar en breve.",
+      "observacionesGlobal": "Se retrasa el proyecto debido a la obra civil, hasta enero o febrero de 2027. Empezamos a sacar en breve, pero estamos a la espera de la aprobación explícita del plano.",
       "entregasMRP": [
         {
           "estado": "Asignada",
