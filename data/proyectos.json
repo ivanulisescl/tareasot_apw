@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-10T13:14:08.2972314",
+  "fechaHoraActualizacion": "2026-07-13T08:42:50.6769687",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -273,7 +273,7 @@
           "pesoTotalEstructura": 3935.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "8",
           "entrega": "ZONA ELEVADOR",
           "pesoTotalEstructura": 0.0
@@ -294,7 +294,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 270.5
+          "horas": 275.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -302,7 +302,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 75.416666
+          "horas": 79.416666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -556,10 +556,10 @@
       "observacionesGlobal": "Todos los MRP´s preparados salvo los comercializados. Pendiente publicarlos cuando nos los aprueben.",
       "entregasMRP": [
         {
-          "estado": "Registrada",
+          "estado": "AsignadaProg",
           "nEntrega": "1",
           "entrega": "BASTIDORES Y RIGIDIZADORES",
-          "pesoTotalEstructura": 141242.0
+          "pesoTotalEstructura": 141254.0
         },
         {
           "estado": "Registrada",
@@ -627,7 +627,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 76.25
+          "horas": 78.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
