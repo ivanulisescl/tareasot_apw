@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-15T16:11:27.262071",
+  "fechaHoraActualizacion": "2026-07-15T16:41:27.1938908",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -273,7 +273,7 @@
           "pesoTotalEstructura": 3935.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "8",
           "entrega": "ZONA ELEVADOR",
           "pesoTotalEstructura": 2339.0
@@ -623,7 +623,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 156.25
+          "horas": 164.5
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
