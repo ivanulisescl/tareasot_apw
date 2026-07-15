@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-14T13:13:30.0291762",
+  "fechaHoraActualizacion": "2026-07-15T08:54:35.0238635",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -273,10 +273,10 @@
           "pesoTotalEstructura": 3935.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "AsignadaProg",
           "nEntrega": "8",
           "entrega": "ZONA ELEVADOR",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 2339.0
         },
         {
           "estado": "Asignada",
@@ -294,7 +294,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 283.75
+          "horas": 293.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -623,7 +623,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 148.0
+          "horas": 156.25
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
