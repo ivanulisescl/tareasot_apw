@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-16T12:53:46.5231071",
+  "fechaHoraActualizacion": "2026-07-16T16:01:11.0264924",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -574,10 +574,10 @@
           "pesoTotalEstructura": 37513.0
         },
         {
-          "estado": "Asignada",
+          "estado": "AsignadaProg",
           "nEntrega": "4",
           "entrega": "CARRILES Y PASILLO",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 25433.0
         },
         {
           "estado": "Asignada",
@@ -623,7 +623,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 164.5
+          "horas": 172.75
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
