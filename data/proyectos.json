@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-17T11:22:22.268412",
+  "fechaHoraActualizacion": "2026-07-17T12:03:20.884117",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -574,10 +574,10 @@
           "pesoTotalEstructura": 37513.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Nueva",
           "nEntrega": "4",
           "entrega": "CARRILES Y PASILLO",
-          "pesoTotalEstructura": 25433.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Asignada",
