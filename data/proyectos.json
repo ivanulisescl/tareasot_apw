@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-16T16:31:11.0979668",
+  "fechaHoraActualizacion": "2026-07-17T08:33:20.6320275",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -294,7 +294,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 293.0
+          "horas": 295.25
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -574,7 +574,7 @@
           "pesoTotalEstructura": 37513.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "4",
           "entrega": "CARRILES Y PASILLO",
           "pesoTotalEstructura": 25433.0
