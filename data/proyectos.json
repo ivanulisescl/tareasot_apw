@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-20T12:58:35.6386399",
+  "fechaHoraActualizacion": "2026-07-20T15:56:27.7656339",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -294,7 +294,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 301.25
+          "horas": 303.75
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -1035,7 +1035,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 95.5
+          "horas": 96.5
         },
         {
           "tecnico": "Gianluca Franceschini",
@@ -1173,7 +1173,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 393.5
+          "horas": 394.0
         },
         {
           "tecnico": "Gianluca Franceschini",
@@ -2554,7 +2554,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 327.0
+          "horas": 327.5
         },
         {
           "tecnico": "Alba Fernández",
