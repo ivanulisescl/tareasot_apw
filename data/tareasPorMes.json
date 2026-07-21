@@ -1,5 +1,5 @@
 {
-  "fechaHoraCreacion": "2026-07-20T16:56:25.0085587",
+  "fechaHoraCreacion": "2026-07-21T08:36:40.0589725",
   "tareasPorAnio": {
     "2024": [
       {
@@ -282,12 +282,12 @@
         "abril": 166,
         "mayo": 195,
         "junio": 158,
-        "julio": 176,
+        "julio": 175,
         "agosto": 128,
         "septiembre": 161,
         "octubre": 222,
         "noviembre": 183,
-        "diciembre": 174
+        "diciembre": 173
       },
       {
         "accion": "Pedidos Desarrollados Ingeniería",
@@ -298,11 +298,11 @@
         "mayo": 150,
         "junio": 138,
         "julio": 148,
-        "agosto": 114,
+        "agosto": 113,
         "septiembre": 144,
         "octubre": 191,
         "noviembre": 165,
-        "diciembre": 165
+        "diciembre": 164
       },
       {
         "accion": "Ofertas Creadas Automáticos",
@@ -447,12 +447,12 @@
         "abril": 3,
         "mayo": 10,
         "junio": 7,
-        "julio": 6,
+        "julio": 7,
         "agosto": 6,
         "septiembre": 2,
         "octubre": 7,
         "noviembre": 5,
-        "diciembre": 3
+        "diciembre": 4
       },
       {
         "accion": "Pedidos Desarrollados VEs",
@@ -463,11 +463,11 @@
         "mayo": 5,
         "junio": 6,
         "julio": 9,
-        "agosto": 6,
+        "agosto": 7,
         "septiembre": 3,
         "octubre": 2,
         "noviembre": 5,
-        "diciembre": 0
+        "diciembre": 1
       },
       {
         "accion": "Pedidos Desarrollados ISAs",
@@ -509,7 +509,7 @@
         "abril": 251,
         "mayo": 198,
         "junio": 224,
-        "julio": 138,
+        "julio": 139,
         "agosto": 0,
         "septiembre": 0,
         "octubre": 0,
@@ -524,7 +524,7 @@
         "abril": 196,
         "mayo": 194,
         "junio": 197,
-        "julio": 105,
+        "julio": 106,
         "agosto": 0,
         "septiembre": 0,
         "octubre": 0,
@@ -554,7 +554,7 @@
         "abril": 64,
         "mayo": 56,
         "junio": 55,
-        "julio": 39,
+        "julio": 40,
         "agosto": 0,
         "septiembre": 0,
         "octubre": 0,
@@ -569,7 +569,7 @@
         "abril": 55,
         "mayo": 53,
         "junio": 53,
-        "julio": 34,
+        "julio": 35,
         "agosto": 0,
         "septiembre": 0,
         "octubre": 0,
