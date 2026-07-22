@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-21T16:30:01.0132414",
+  "fechaHoraActualizacion": "2026-07-22T08:13:50.1800188",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -289,12 +289,18 @@
           "nEntrega": "10",
           "entrega": "ESCALERA DE GATO",
           "pesoTotalEstructura": 886.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "11",
+          "entrega": "MATERIAL EXTRA",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 303.75
+          "horas": 309.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -627,7 +633,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 86.75
+          "horas": 95.0
         },
         {
           "tecnico": "Eduardo Gargantiel",
