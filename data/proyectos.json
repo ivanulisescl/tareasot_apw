@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-22T13:20:04.056508",
+  "fechaHoraActualizacion": "2026-07-22T13:50:03.9474344",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -586,7 +586,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "5",
           "entrega": "TORRE DE ARRIOSTRADO",
           "pesoTotalEstructura": 0.0
