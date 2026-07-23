@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-23T11:40:00.3395685",
+  "fechaHoraActualizacion": "2026-07-23T12:09:59.4359919",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -622,10 +622,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Compras",
           "nEntrega": "10",
           "entrega": "ENTREPLANTA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 5500.0
         }
       ],
       "tiempos": [
