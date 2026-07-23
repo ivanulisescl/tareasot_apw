@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-23T13:09:59.6646099",
+  "fechaHoraActualizacion": "2026-07-23T16:13:41.0360982",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -54,7 +54,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 148.516666
+          "horas": 155.766666
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -586,7 +586,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "5",
           "entrega": "TORRE DE ARRIOSTRADO",
           "pesoTotalEstructura": 11988.0
@@ -610,7 +610,7 @@
           "pesoTotalEstructura": 6375.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "8",
           "entrega": "FACHADAS",
           "pesoTotalEstructura": 7458.0
