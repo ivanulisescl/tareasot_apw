@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-23T16:13:41.0360982",
+  "fechaHoraActualizacion": "2026-07-23T16:43:39.7661833",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -610,7 +610,7 @@
           "pesoTotalEstructura": 6375.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "8",
           "entrega": "FACHADAS",
           "pesoTotalEstructura": 7458.0
@@ -635,7 +635,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 187.0
+          "horas": 195.25
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
