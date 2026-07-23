@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-23T09:54:53.1215149",
+  "fechaHoraActualizacion": "2026-07-23T10:39:59.6761899",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -562,7 +562,7 @@
       "observacionesGlobal": "Todos los MRP´s preparados salvo los comercializados. Pendiente publicarlos cuando nos los aprueben.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "BASTIDORES Y RIGIDIZADORES",
           "pesoTotalEstructura": 141367.0
