@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-23T08:38:48.7538582",
+  "fechaHoraActualizacion": "2026-07-23T08:50:04.3079199",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -2557,20 +2557,7 @@
           "pesoTotalEstructura": 43.0
         }
       ],
-      "tiempos": [
-        {
-          "tecnico": "Rubén Suárez",
-          "horas": 327.5
-        },
-        {
-          "tecnico": "Alba Fernández",
-          "horas": 189.5
-        },
-        {
-          "tecnico": "Victor Fueyo",
-          "horas": 2.0
-        }
-      ]
+      "tiempos": []
     },
     {
       "idProyecto": 29,
@@ -2603,142 +2590,8 @@
       "planosMontajeRealizadosPorc": 100,
       "planosMontajePublicadosPorc": 100,
       "observacionesGlobal": "",
-      "entregasMRP": [
-        {
-          "estado": "Registrada",
-          "nEntrega": "1",
-          "entrega": "BASTIDORES",
-          "pesoTotalEstructura": 222543.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "2",
-          "entrega": "LARGUEROS",
-          "pesoTotalEstructura": 233611.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "3",
-          "entrega": "CARRILES",
-          "pesoTotalEstructura": 136578.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "4",
-          "entrega": "PASILLOS",
-          "pesoTotalEstructura": 42276.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "5",
-          "entrega": "BUFFER",
-          "pesoTotalEstructura": 2266.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "6",
-          "entrega": "ESCALERA",
-          "pesoTotalEstructura": 9975.0
-        },
-        {
-          "estado": "Pdte.Montajes",
-          "nEntrega": "0",
-          "entrega": "Planos de montaje",
-          "pesoTotalEstructura": 0.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "7",
-          "entrega": "COMERCIALIZADOS",
-          "pesoTotalEstructura": 38927.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "8",
-          "entrega": "ENTREPLANTA",
-          "pesoTotalEstructura": 14500.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "9",
-          "entrega": "BARRERA DE HUMO",
-          "pesoTotalEstructura": 34397.0
-        },
-        {
-          "estado": "Anulada",
-          "nEntrega": "10",
-          "entrega": "AMPLIACIÓN ALINEACION 1",
-          "pesoTotalEstructura": 0.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "11",
-          "entrega": "TUNEL",
-          "pesoTotalEstructura": 789.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "12",
-          "entrega": "MATERIAL ADICIONAL BARRERAS DE HUMO",
-          "pesoTotalEstructura": 1.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "13",
-          "entrega": "MUESTRAS CHAPAS BARRERAS DE HUMO",
-          "pesoTotalEstructura": 87.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "14",
-          "entrega": "CHAPAS BARRERAS DE HUMO",
-          "pesoTotalEstructura": 7021.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "15",
-          "entrega": "DPTS Y LARGUEROS ESCALERA",
-          "pesoTotalEstructura": 380.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "1",
-          "entrega": "Total",
-          "pesoTotalEstructura": 0.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "16",
-          "entrega": "VALLADO PERIMETRAL 2",
-          "pesoTotalEstructura": 582.0
-        }
-      ],
-      "tiempos": [
-        {
-          "tecnico": "Rubén Suárez",
-          "horas": 476.25
-        },
-        {
-          "tecnico": "David Alonso",
-          "horas": 105.5
-        },
-        {
-          "tecnico": "Manuel Díaz",
-          "horas": 4.5
-        },
-        {
-          "tecnico": "Gianluca Franceschini",
-          "horas": 3.5
-        },
-        {
-          "tecnico": "Daniel Rodriguez",
-          "horas": 114.75
-        },
-        {
-          "tecnico": "Eduardo Gargantiel",
-          "horas": 99.75
-        }
-      ]
+      "entregasMRP": [],
+      "tiempos": []
     },
     {
       "idProyecto": 28,
@@ -2771,112 +2624,8 @@
       "planosMontajeRealizadosPorc": 100,
       "planosMontajePublicadosPorc": 100,
       "observacionesGlobal": "",
-      "entregasMRP": [
-        {
-          "estado": "Registrada",
-          "nEntrega": "1",
-          "entrega": "Total",
-          "pesoTotalEstructura": 31182.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "2",
-          "entrega": "LARGUEROS DE CARGA",
-          "pesoTotalEstructura": 13911.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "3",
-          "entrega": "CARRILES",
-          "pesoTotalEstructura": 24773.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "4",
-          "entrega": "PASILLOS",
-          "pesoTotalEstructura": 7280.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "5",
-          "entrega": "TORRES ARRIOSTRADO",
-          "pesoTotalEstructura": 3879.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "6",
-          "entrega": "BUFFER",
-          "pesoTotalEstructura": 588.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "7",
-          "entrega": "TRAMEX",
-          "pesoTotalEstructura": 14480.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "8",
-          "entrega": "MALLAS",
-          "pesoTotalEstructura": 1374.0
-        },
-        {
-          "estado": "Pdte.Montajes",
-          "nEntrega": "0",
-          "entrega": "Planos de montaje",
-          "pesoTotalEstructura": 0.0
-        },
-        {
-          "estado": "Anulada",
-          "nEntrega": "11",
-          "entrega": "ANULADA",
-          "pesoTotalEstructura": 0.0
-        },
-        {
-          "estado": "Anulada",
-          "nEntrega": "10",
-          "entrega": "ANULADA",
-          "pesoTotalEstructura": 0.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "9",
-          "entrega": "ESCALERAS",
-          "pesoTotalEstructura": 3119.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "12",
-          "entrega": "MATERIAL EXTRA",
-          "pesoTotalEstructura": 14.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "13",
-          "entrega": "BASES TORRE",
-          "pesoTotalEstructura": 520.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "14",
-          "entrega": "FORROS CARRILES",
-          "pesoTotalEstructura": 18.0
-        }
-      ],
-      "tiempos": [
-        {
-          "tecnico": "Gianluca Franceschini",
-          "horas": 126.0
-        },
-        {
-          "tecnico": "Victor Fueyo",
-          "horas": 7.25
-        },
-        {
-          "tecnico": "Fernando Bereguiain",
-          "horas": 115.933333
-        }
-      ]
+      "entregasMRP": [],
+      "tiempos": []
     },
     {
       "idProyecto": 27,
