@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-23T11:09:59.4618385",
+  "fechaHoraActualizacion": "2026-07-23T11:40:00.3395685",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -300,7 +300,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 316.5
+          "horas": 322.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -619,6 +619,12 @@
           "estado": "Asignada",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "10",
+          "entrega": "ENTREPLANTA",
           "pesoTotalEstructura": 0.0
         }
       ],
