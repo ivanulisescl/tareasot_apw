@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-23T17:18:45.0707765",
+  "fechaHoraActualizacion": "2026-07-24T10:03:41.6875547",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -48,6 +48,12 @@
           "estado": "Asignada",
           "nEntrega": "3",
           "entrega": "CARRILES",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "4",
+          "entrega": "ENTREPLANTAS",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -639,7 +645,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 103.25
+          "horas": 111.5
         },
         {
           "tecnico": "Eduardo Gargantiel",
