@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-24T12:08:12.7396257",
+  "fechaHoraActualizacion": "2026-07-24T12:42:59.5798881",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -51,7 +51,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Compras",
           "nEntrega": "4",
           "entrega": "ENTREPLANTAS",
           "pesoTotalEstructura": 15000.0
@@ -628,7 +628,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Compras",
+          "estado": "Pdte.Registrar",
           "nEntrega": "10",
           "entrega": "ENTREPLANTA",
           "pesoTotalEstructura": 5500.0
