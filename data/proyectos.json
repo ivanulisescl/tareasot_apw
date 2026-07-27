@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-27T16:01:02.4825398",
+  "fechaHoraActualizacion": "2026-07-27T16:49:32.5420216",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -51,7 +51,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Compras",
+          "estado": "Registrada",
           "nEntrega": "4",
           "entrega": "ENTREPLANTAS",
           "pesoTotalEstructura": 15000.0
@@ -568,7 +568,7 @@
       "observacionesGlobal": "Todos los MRP´s preparados salvo los comercializados. Pendiente publicarlos cuando nos los aprueben.",
       "entregasMRP": [
         {
-          "estado": "Nueva",
+          "estado": "Asignada",
           "nEntrega": "1",
           "entrega": "BASTIDORES Y RIGIDIZADORES",
           "pesoTotalEstructura": 0.0
@@ -592,7 +592,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Nueva",
+          "estado": "Asignada",
           "nEntrega": "5",
           "entrega": "TORRE DE ARRIOSTRADO",
           "pesoTotalEstructura": 0.0
@@ -641,7 +641,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 201.25
+          "horas": 209.5
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
