@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-27T13:21:02.4363701",
+  "fechaHoraActualizacion": "2026-07-27T16:01:02.4825398",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -60,7 +60,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 161.766666
+          "horas": 169.1
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -273,7 +273,7 @@
           "pesoTotalEstructura": 8323.0
         },
         {
-          "estado": "Nueva",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "7",
           "entrega": "BASTIDORES 2",
           "pesoTotalEstructura": 0.0
