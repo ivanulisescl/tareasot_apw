@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-27T10:19:10.5791072",
+  "fechaHoraActualizacion": "2026-07-27T11:01:44.1368289",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -568,10 +568,10 @@
       "observacionesGlobal": "Todos los MRP´s preparados salvo los comercializados. Pendiente publicarlos cuando nos los aprueben.",
       "entregasMRP": [
         {
-          "estado": "Registrada",
+          "estado": "Nueva",
           "nEntrega": "1",
           "entrega": "BASTIDORES Y RIGIDIZADORES",
-          "pesoTotalEstructura": 141367.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
@@ -592,7 +592,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Pdte.Revisar",
           "nEntrega": "5",
           "entrega": "TORRE DE ARRIOSTRADO",
           "pesoTotalEstructura": 11988.0
