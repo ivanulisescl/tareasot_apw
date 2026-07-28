@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-28T13:01:09.6776646",
+  "fechaHoraActualizacion": "2026-07-28T16:00:34.0596494",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -60,7 +60,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 169.1
+          "horas": 176.35
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -279,7 +279,7 @@
           "pesoTotalEstructura": 3932.0
         },
         {
-          "estado": "Nueva",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "8",
           "entrega": "ZONA ELEVADOR",
           "pesoTotalEstructura": 0.0
