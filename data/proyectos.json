@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-27T17:19:31.8650813",
+  "fechaHoraActualizacion": "2026-07-28T08:38:41.4502803",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -231,10 +231,10 @@
       "observacionesGlobal": "Pendiente zona elevadores y comercializados.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Registrar",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 21570.0
         },
         {
           "estado": "Registrada",
@@ -273,16 +273,16 @@
           "pesoTotalEstructura": 8323.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Registrar",
           "nEntrega": "7",
           "entrega": "BASTIDORES 2",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 3932.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Nueva",
           "nEntrega": "8",
           "entrega": "ZONA ELEVADOR",
-          "pesoTotalEstructura": 2339.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Asignada",
@@ -1196,6 +1196,10 @@
         {
           "tecnico": "Gianluca Franceschini",
           "horas": 162.25
+        },
+        {
+          "tecnico": "Pablo Jesús Rodríguez",
+          "horas": 1.0
         }
       ]
     },
