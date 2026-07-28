@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-28T08:38:41.4502803",
+  "fechaHoraActualizacion": "2026-07-28T09:31:10.0675758",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -231,7 +231,7 @@
       "observacionesGlobal": "Pendiente zona elevadores y comercializados.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 21570.0
@@ -273,7 +273,7 @@
           "pesoTotalEstructura": 8323.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "7",
           "entrega": "BASTIDORES 2",
           "pesoTotalEstructura": 3932.0
