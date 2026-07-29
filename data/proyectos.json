@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-29T10:09:03.6322869",
+  "fechaHoraActualizacion": "2026-07-29T10:39:03.8416987",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -33,7 +33,7 @@
       "observacionesGlobal": "50% de los MRP´s a la espera de aprobación. Esperamos a la vuelta de Fernando.",
       "entregasMRP": [
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "1",
           "entrega": "Total",
           "pesoTotalEstructura": 0.0
