@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-29T11:09:03.7425514",
+  "fechaHoraActualizacion": "2026-07-29T12:22:30.27892",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -45,7 +45,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "3",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 0.0
