@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-28T17:30:33.8018708",
+  "fechaHoraActualizacion": "2026-07-29T08:18:19.2931025",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -314,11 +314,11 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 87.666666
+          "horas": 93.416666
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 87.5
+          "horas": 91.5
         }
       ]
     },
@@ -1199,7 +1199,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 1.0
+          "horas": 3.5
         }
       ]
     },
