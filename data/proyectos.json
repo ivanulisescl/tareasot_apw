@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-29T12:52:30.5556342",
+  "fechaHoraActualizacion": "2026-07-29T16:27:20.4899114",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -33,10 +33,10 @@
       "observacionesGlobal": "50% de los MRP´s a la espera de aprobación. Esperamos a la vuelta de Fernando.",
       "entregasMRP": [
         {
-          "estado": "Aprobada",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "Total",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 67065.0
         },
         {
           "estado": "Asignada",
@@ -45,22 +45,34 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Registrada",
           "nEntrega": "3",
           "entrega": "CARRILES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 68060.0
         },
         {
           "estado": "Registrada",
           "nEntrega": "4",
           "entrega": "ENTREPLANTAS",
           "pesoTotalEstructura": 15000.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "5",
+          "entrega": "ZONA ELEVADORES",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "6",
+          "entrega": "PASILLOS",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 176.35
+          "horas": 183.6
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -279,10 +291,10 @@
           "pesoTotalEstructura": 3932.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "8",
           "entrega": "ZONA ELEVADOR",
-          "pesoTotalEstructura": 2425.0
+          "pesoTotalEstructura": 2497.0
         },
         {
           "estado": "Asignada",
@@ -318,7 +330,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 91.5
+          "horas": 93.5
         }
       ]
     },
@@ -641,7 +653,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 217.75
+          "horas": 226.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
