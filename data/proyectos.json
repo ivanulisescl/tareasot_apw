@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-29T09:39:03.7856715",
+  "fechaHoraActualizacion": "2026-07-29T10:09:03.6322869",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -279,10 +279,10 @@
           "pesoTotalEstructura": 3932.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "AsignadaProg",
           "nEntrega": "8",
           "entrega": "ZONA ELEVADOR",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 2425.0
         },
         {
           "estado": "Asignada",
