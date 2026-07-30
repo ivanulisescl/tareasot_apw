@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-30T12:57:34.7469251",
+  "fechaHoraActualizacion": "2026-07-30T16:01:24.3009995",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -72,7 +72,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 183.6
+          "horas": 190.85
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -309,9 +309,9 @@
           "pesoTotalEstructura": 886.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "11",
-          "entrega": "MATERIAL EXTRA",
+          "entrega": "PLATAFORMA",
           "pesoTotalEstructura": 0.0
         }
       ],
