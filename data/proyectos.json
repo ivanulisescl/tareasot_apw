@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-07-31T11:09:30.1426823",
+  "fechaHoraActualizacion": "2026-07-31T13:03:50.6414255",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -309,10 +309,10 @@
           "pesoTotalEstructura": 886.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "11",
           "entrega": "PLATAFORMA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 3135.0
         }
       ],
       "tiempos": [
