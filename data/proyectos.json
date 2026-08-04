@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-04T10:22:42.4432227",
+  "fechaHoraActualizacion": "2026-08-04T11:07:09.9165905",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -39,7 +39,7 @@
           "pesoTotalEstructura": 67065.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "2",
           "entrega": "LARGUEROS",
           "pesoTotalEstructura": 0.0
@@ -580,10 +580,10 @@
       "observacionesGlobal": "Todos los MRP´s preparados salvo los comercializados. Pendiente publicarlos cuando nos los aprueben.",
       "entregasMRP": [
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "1",
           "entrega": "BASTIDORES Y RIGIDIZADORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 142603.0
         },
         {
           "estado": "Registrada",
