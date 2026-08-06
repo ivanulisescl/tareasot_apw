@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-06T10:36:22.2126047",
+  "fechaHoraActualizacion": "2026-08-06T13:12:43.8823288",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -189,6 +189,12 @@
           "nEntrega": "12",
           "entrega": "MALLAS LATERALES ",
           "pesoTotalEstructura": 1314.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "13",
+          "entrega": "COMPLEMENTOS II",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -318,7 +324,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 322.5
+          "horas": 325.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -598,10 +604,10 @@
           "pesoTotalEstructura": 37513.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "4",
           "entrega": "CARRILES Y PASILLO",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 25511.0
         },
         {
           "estado": "Asignada",
@@ -653,7 +659,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 233.0
+          "horas": 240.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -1203,7 +1209,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 395.25
+          "horas": 396.75
         },
         {
           "tecnico": "Gianluca Franceschini",
