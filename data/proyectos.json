@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-06T13:12:43.8823288",
+  "fechaHoraActualizacion": "2026-08-06T13:42:43.3399209",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -604,7 +604,7 @@
           "pesoTotalEstructura": 37513.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "4",
           "entrega": "CARRILES Y PASILLO",
           "pesoTotalEstructura": 25511.0
