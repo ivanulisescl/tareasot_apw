@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-07T08:46:23.3959481",
+  "fechaHoraActualizacion": "2026-08-07T09:42:18.3167307",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -586,10 +586,10 @@
       "observacionesGlobal": "Todos los MRP´s preparados salvo los comercializados. Pendiente publicarlos cuando nos los aprueben.",
       "entregasMRP": [
         {
-          "estado": "Registrada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "1",
           "entrega": "BASTIDORES Y RIGIDIZADORES",
-          "pesoTotalEstructura": 142603.0
+          "pesoTotalEstructura": 143412.0
         },
         {
           "estado": "Registrada",
@@ -604,7 +604,7 @@
           "pesoTotalEstructura": 37513.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "4",
           "entrega": "CARRILES Y PASILLO",
           "pesoTotalEstructura": 25511.0
