@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-07T13:22:19.2577241",
+  "fechaHoraActualizacion": "2026-08-10T08:28:05.6519198",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -72,7 +72,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 217.85
+          "horas": 224.85
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -324,7 +324,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 325.5
+          "horas": 331.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -332,7 +332,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 132.166666
+          "horas": 139.166666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -586,7 +586,7 @@
       "observacionesGlobal": "Todos los MRP´s preparados salvo los comercializados. Pendiente publicarlos cuando nos los aprueben.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "1",
           "entrega": "BASTIDORES Y RIGIDIZADORES",
           "pesoTotalEstructura": 143412.0
@@ -667,7 +667,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 95.5
+          "horas": 102.5
         }
       ]
     },
