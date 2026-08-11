@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-11T13:38:40.138456",
+  "fechaHoraActualizacion": "2026-08-11T13:44:26.8989237",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -39,7 +39,7 @@
           "pesoTotalEstructura": 67065.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "2",
           "entrega": "LARGUEROS",
           "pesoTotalEstructura": 56965.0
