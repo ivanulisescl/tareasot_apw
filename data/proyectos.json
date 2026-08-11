@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-10T12:58:06.79994",
+  "fechaHoraActualizacion": "2026-08-11T08:14:51.2206348",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -39,7 +39,7 @@
           "pesoTotalEstructura": 67065.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "2",
           "entrega": "LARGUEROS",
           "pesoTotalEstructura": 42531.0
@@ -72,7 +72,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 224.85
+          "horas": 231.85
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -315,7 +315,7 @@
           "pesoTotalEstructura": 886.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "11",
           "entrega": "PLATAFORMA",
           "pesoTotalEstructura": 3135.0
@@ -330,7 +330,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 331.5
+          "horas": 337.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -338,7 +338,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 139.166666
+          "horas": 144.666666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -665,7 +665,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 247.0
+          "horas": 254.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -673,7 +673,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 102.5
+          "horas": 109.5
         }
       ]
     },
@@ -1223,7 +1223,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 3.5
+          "horas": 4.5
         }
       ]
     },
