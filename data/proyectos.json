@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-11T13:44:26.8989237",
+  "fechaHoraActualizacion": "2026-08-12T08:34:37.7611178",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -72,7 +72,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 231.85
+          "horas": 238.933333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -330,7 +330,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 337.5
+          "horas": 343.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -338,7 +338,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 144.666666
+          "horas": 151.666666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -616,7 +616,7 @@
           "pesoTotalEstructura": 25511.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "RevisarOT",
           "nEntrega": "5",
           "entrega": "TORRE DE ARRIOSTRADO",
           "pesoTotalEstructura": 12487.0
@@ -628,7 +628,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "6",
           "entrega": "NÚCLEO DE ESCALERA",
           "pesoTotalEstructura": 0.0
@@ -673,7 +673,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 109.5
+          "horas": 116.5
         }
       ]
     },
