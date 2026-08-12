@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-12T11:50:42.8407863",
+  "fechaHoraActualizacion": "2026-08-12T12:20:42.3459601",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -327,7 +327,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "13",
           "entrega": "CARRILES 2",
           "pesoTotalEstructura": 73.0
