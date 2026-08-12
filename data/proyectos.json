@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-12T12:20:42.3459601",
+  "fechaHoraActualizacion": "2026-08-12T12:53:57.1818438",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -336,7 +336,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 343.5
+          "horas": 346.5
         },
         {
           "tecnico": "Fernando Bereguiain",
