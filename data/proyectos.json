@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-13T12:45:19.2573695",
+  "fechaHoraActualizacion": "2026-08-13T13:15:19.8273222",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -658,7 +658,7 @@
           "pesoTotalEstructura": 7458.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 33404.0
