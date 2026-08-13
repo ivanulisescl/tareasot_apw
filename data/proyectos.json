@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-13T10:37:34.2606567",
+  "fechaHoraActualizacion": "2026-08-13T11:15:19.6473435",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -327,13 +327,13 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "13",
           "entrega": "CARRILES 2",
           "pesoTotalEstructura": 73.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "14",
           "entrega": "ESCALERA SUELO",
           "pesoTotalEstructura": 141.0
@@ -658,10 +658,10 @@
           "pesoTotalEstructura": 7458.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Compras",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 33404.0
         },
         {
           "estado": "Registrada",
@@ -1086,7 +1086,7 @@
           "pesoTotalEstructura": 360.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "24",
           "entrega": "FORROS EXTRA ESCALERA EXTERIOR",
           "pesoTotalEstructura": 0.0
@@ -1107,7 +1107,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 490.0
+          "horas": 492.5
         },
         {
           "tecnico": "Pablo Pérez",
