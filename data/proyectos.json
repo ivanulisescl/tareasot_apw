@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-13T08:39:00.3550527",
+  "fechaHoraActualizacion": "2026-08-13T09:09:00.4867229",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -331,6 +331,12 @@
           "nEntrega": "13",
           "entrega": "CARRILES 2",
           "pesoTotalEstructura": 73.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "14",
+          "entrega": "ESCALERA SUELO",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -634,7 +640,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "6",
           "entrega": "NÚCLEO DE ESCALERA",
           "pesoTotalEstructura": 5644.0
