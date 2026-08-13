@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-13T09:09:00.4867229",
+  "fechaHoraActualizacion": "2026-08-13T10:07:33.8923263",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -333,16 +333,16 @@
           "pesoTotalEstructura": 73.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Registrar",
           "nEntrega": "14",
           "entrega": "ESCALERA SUELO",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 141.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 349.5
+          "horas": 351.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -640,7 +640,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Compras",
           "nEntrega": "6",
           "entrega": "NÚCLEO DE ESCALERA",
           "pesoTotalEstructura": 5644.0
