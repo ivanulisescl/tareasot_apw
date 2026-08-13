@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-12T13:53:58.3881793",
+  "fechaHoraActualizacion": "2026-08-13T08:39:00.3550527",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -72,7 +72,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 238.933333
+          "horas": 245.933333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -327,7 +327,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "13",
           "entrega": "CARRILES 2",
           "pesoTotalEstructura": 73.0
@@ -336,7 +336,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 346.5
+          "horas": 349.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -344,7 +344,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 151.666666
+          "horas": 158.666666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -652,7 +652,7 @@
           "pesoTotalEstructura": 7458.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "9",
           "entrega": "COMERCIALIZADOS",
           "pesoTotalEstructura": 0.0
@@ -685,7 +685,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 116.5
+          "horas": 123.5
         }
       ]
     },
@@ -1101,7 +1101,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 489.5
+          "horas": 490.0
         },
         {
           "tecnico": "Pablo Pérez",
