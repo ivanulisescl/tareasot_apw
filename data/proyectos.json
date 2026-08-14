@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-14T11:40:36.2202449",
+  "fechaHoraActualizacion": "2026-08-14T12:10:36.044121",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -1086,7 +1086,7 @@
           "pesoTotalEstructura": 360.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "24",
           "entrega": "FORROS EXTRA ESCALERA EXTERIOR",
           "pesoTotalEstructura": 6.0
