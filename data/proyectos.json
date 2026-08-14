@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-14T13:24:27.0657388",
+  "fechaHoraActualizacion": "2026-08-14T13:56:57.5294377",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -75,10 +75,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Compras",
           "nEntrega": "8",
           "entrega": "COMERCIALIZADOS (TRAMEX)",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 15539.0
         }
       ],
       "tiempos": [
