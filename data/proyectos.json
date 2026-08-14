@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-14T12:10:36.044121",
+  "fechaHoraActualizacion": "2026-08-14T13:24:27.0657388",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -66,6 +66,18 @@
           "estado": "Asignada",
           "nEntrega": "6",
           "entrega": "PASILLOS",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "7",
+          "entrega": "NUCLEO ESCALERA",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "8",
+          "entrega": "COMERCIALIZADOS (TRAMEX)",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -683,7 +695,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 275.0
+          "horas": 282.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
