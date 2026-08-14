@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-13T13:15:19.8273222",
+  "fechaHoraActualizacion": "2026-08-14T08:40:38.178164",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -72,7 +72,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 245.933333
+          "horas": 249.933333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -204,7 +204,7 @@
         },
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 328.65
+          "horas": 331.65
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -342,7 +342,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 351.0
+          "horas": 354.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -350,7 +350,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 158.666666
+          "horas": 165.666666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -640,7 +640,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "Compras",
           "nEntrega": "6",
           "entrega": "NÚCLEO DE ESCALERA",
           "pesoTotalEstructura": 5644.0
@@ -683,7 +683,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 268.0
+          "horas": 275.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -691,7 +691,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 123.5
+          "horas": 130.5
         }
       ]
     },
@@ -1095,7 +1095,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 96.5
+          "horas": 98.0
         },
         {
           "tecnico": "Gianluca Franceschini",
