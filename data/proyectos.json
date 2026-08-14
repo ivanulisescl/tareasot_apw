@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-14T08:40:38.178164",
+  "fechaHoraActualizacion": "2026-08-14T09:10:36.0240242",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -640,7 +640,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Compras",
+          "estado": "AsignadaComp",
           "nEntrega": "6",
           "entrega": "NÚCLEO DE ESCALERA",
           "pesoTotalEstructura": 5644.0
