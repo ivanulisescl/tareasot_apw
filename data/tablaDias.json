@@ -1,23 +1,23 @@
 {
   "Actual": {
-    "Nuevas": 13,
+    "Nuevas": 14,
     "Incompletas": 11,
     "Definidas": 100,
-    "Asignadas": 107,
+    "Asignadas": 105,
     "PdteRevComercial": 27,
     "Calculadas": 0,
     "PdteComercializados": 1,
-    "Ofertas": 75,
+    "Ofertas": 73,
     "Pedidos": 58,
     "Tareas Internas": 1,
-    "Ofertas Ing": 55,
-    "Ofertas Autom": 20,
+    "Ofertas Ing": 52,
+    "Ofertas Autom": 21,
     "Pedidos Ing": 43,
     "Pedidos Autom": 15,
     "Ofertas ISA": 1,
     "Pedidos ISA": 110,
     "Ofertas VE": 1,
-    "Pedidos VE": 13
+    "Pedidos VE": 14
   },
   "dias": [
     {
