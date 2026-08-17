@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-17T12:40:16.0953668",
+  "fechaHoraActualizacion": "2026-08-17T16:06:37.9754183",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -333,10 +333,10 @@
           "pesoTotalEstructura": 3135.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "12",
           "entrega": "MATERIAL EXTRA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 289.0
         },
         {
           "estado": "Registrada",
@@ -354,7 +354,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 360.0
+          "horas": 365.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -652,10 +652,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Compras",
           "nEntrega": "6",
           "entrega": "NÚCLEO DE ESCALERA",
-          "pesoTotalEstructura": 5644.0
+          "pesoTotalEstructura": 5604.0
         },
         {
           "estado": "Registrada",
@@ -691,11 +691,11 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 5.75
+          "horas": 7.75
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 282.0
+          "horas": 290.25
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -1119,7 +1119,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 492.5
+          "horas": 492.75
         },
         {
           "tecnico": "Pablo Pérez",
