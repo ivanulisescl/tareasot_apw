@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-17T16:06:37.9754183",
+  "fechaHoraActualizacion": "2026-08-17T16:36:38.4677676",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -75,7 +75,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Compras",
+          "estado": "AsignadaProg",
           "nEntrega": "8",
           "entrega": "COMERCIALIZADOS (TRAMEX)",
           "pesoTotalEstructura": 15539.0
@@ -703,7 +703,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 135.5
+          "horas": 143.75
         }
       ]
     },
