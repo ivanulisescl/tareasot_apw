@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-20T16:18:35.1762469",
+  "fechaHoraActualizacion": "2026-08-20T16:51:10.8623485",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -640,10 +640,10 @@
           "pesoTotalEstructura": 25511.0
         },
         {
-          "estado": "RevisarOT",
+          "estado": "Pdte.Codificar",
           "nEntrega": "5",
           "entrega": "TORRE DE ARRIOSTRADO",
-          "pesoTotalEstructura": 12487.0
+          "pesoTotalEstructura": 13889.0
         },
         {
           "estado": "Asignada",
@@ -682,10 +682,10 @@
           "pesoTotalEstructura": 5500.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "11",
           "entrega": "VARIOS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 1798.0
         },
         {
           "estado": "Asignada",
@@ -709,7 +709,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 160.25
+          "horas": 168.5
         }
       ]
     },
