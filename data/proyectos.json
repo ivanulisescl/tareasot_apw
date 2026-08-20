@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-20T16:51:10.8623485",
+  "fechaHoraActualizacion": "2026-08-20T17:21:11.2123703",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -593,7 +593,7 @@
       "ofertaReferencia": "OF2407171R10",
       "nombreProyecto": "DITSCH",
       "pais": "ALEMANIA",
-      "fechaVenta": "2025-12-10",
+      "fechaVenta": "2025-12-08",
       "cliente": "DITSCH",
       "integrador": "WESTFALIA ALEMANIA",
       "importeEur": 1285000.0,
@@ -607,13 +607,16 @@
       "delineantePrincipal": "Daniel R.",
       "delineanteApoyo1": "Eduardo G.",
       "delineanteApoyo2": "Nuria S.",
-      "inicioMontaje": "2026-08-24",
+      "inicioMontaje": "2026-08-22",
       "duracionMontajeDias": 90,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
       "planoValidacion": "Sí",
       "fechaValidacionPlano": "",
-      "observacionesGlobal": "Todos los MRP´s preparados salvo los comercializados. Pendiente publicarlos cuando nos los aprueben.",
+      "entregadoProduccionPorc": 95,
+      "planosMontajeRealizadosPorc": 90,
+      "planosMontajePublicadosPorc": 40,
+      "observacionesGlobal": "Todos los MRP´s preparados salvo la escalera de gato, que está pendiente del proveedor.",
       "entregasMRP": [
         {
           "estado": "Registrada",
