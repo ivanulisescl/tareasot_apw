@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-18T12:13:55.0254888",
+  "fechaHoraActualizacion": "2026-08-20T15:48:45.8239106",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -330,7 +330,7 @@
           "estado": "Registrada",
           "nEntrega": "11",
           "entrega": "PLATAFORMA",
-          "pesoTotalEstructura": 3135.0
+          "pesoTotalEstructura": 3146.0
         },
         {
           "estado": "Registrada",
@@ -362,7 +362,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 172.666666
+          "horas": 189.166666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -686,16 +686,22 @@
           "nEntrega": "11",
           "entrega": "VARIOS",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "12",
+          "entrega": "ESCALERA DE GATO",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 7.75
+          "horas": 28.75
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 290.25
+          "horas": 306.75
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -703,7 +709,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 143.75
+          "horas": 160.25
         }
       ]
     },
