@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-20T17:21:11.2123703",
+  "fechaHoraActualizacion": "2026-08-21T08:13:47.8055028",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -362,7 +362,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 189.166666
+          "horas": 197.416666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -685,7 +685,7 @@
           "pesoTotalEstructura": 5500.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Compras",
           "nEntrega": "11",
           "entrega": "VARIOS",
           "pesoTotalEstructura": 1798.0
