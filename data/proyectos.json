@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-24T08:47:43.8287342",
+  "fechaHoraActualizacion": "2026-08-24T12:00:55.1273273",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -315,9 +315,9 @@
           "pesoTotalEstructura": 2497.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "9",
-          "entrega": "COMERCIALIZADOS",
+          "entrega": "TRAMEX",
           "pesoTotalEstructura": 0.0
         },
         {
@@ -349,6 +349,12 @@
           "nEntrega": "14",
           "entrega": "ESCALERA SUELO",
           "pesoTotalEstructura": 141.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "15",
+          "entrega": "MALLA ANTICAIDA",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -643,7 +649,7 @@
           "pesoTotalEstructura": 25511.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "5",
           "entrega": "TORRE DE ARRIOSTRADO",
           "pesoTotalEstructura": 14254.0
