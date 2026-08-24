@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-21T08:13:47.8055028",
+  "fechaHoraActualizacion": "2026-08-24T08:46:21.3171989",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -354,7 +354,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 365.0
+          "horas": 371.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -362,7 +362,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 197.416666
+          "horas": 203.416666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -643,10 +643,10 @@
           "pesoTotalEstructura": 25511.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "5",
           "entrega": "TORRE DE ARRIOSTRADO",
-          "pesoTotalEstructura": 13889.0
+          "pesoTotalEstructura": 14254.0
         },
         {
           "estado": "Asignada",
@@ -685,7 +685,7 @@
           "pesoTotalEstructura": 5500.0
         },
         {
-          "estado": "Compras",
+          "estado": "Registrada",
           "nEntrega": "11",
           "entrega": "VARIOS",
           "pesoTotalEstructura": 1798.0
@@ -712,7 +712,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 168.5
+          "horas": 174.5
         }
       ]
     },
