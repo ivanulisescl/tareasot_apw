@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-24T12:00:55.1273273",
+  "fechaHoraActualizacion": "2026-08-24T16:41:17.2494312",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -315,10 +315,10 @@
           "pesoTotalEstructura": 2497.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Compras",
           "nEntrega": "9",
           "entrega": "TRAMEX",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 1629.0
         },
         {
           "estado": "Registrada",
@@ -360,7 +360,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 371.0
+          "horas": 376.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -649,7 +649,7 @@
           "pesoTotalEstructura": 25511.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "5",
           "entrega": "TORRE DE ARRIOSTRADO",
           "pesoTotalEstructura": 14254.0
@@ -710,7 +710,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 306.75
+          "horas": 315.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
