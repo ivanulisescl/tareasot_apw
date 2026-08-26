@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-25T11:02:22.6949122",
+  "fechaHoraActualizacion": "2026-08-26T18:08:25.8863441",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -84,7 +84,7 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 265.266666
+          "horas": 281.85
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -220,11 +220,11 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 2.25
+          "horas": 18.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 93.0
+          "horas": 107.75
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -714,7 +714,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 315.0
+          "horas": 331.5
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -722,7 +722,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 182.75
+          "horas": 184.5
         }
       ]
     },
@@ -766,6 +766,10 @@
         }
       ],
       "tiempos": [
+        {
+          "tecnico": "Rubén Suárez",
+          "horas": 14.0
+        },
         {
           "tecnico": "Javier de la Cruz",
           "horas": 7.75
@@ -931,6 +935,12 @@
           "nEntrega": "4",
           "entrega": "Fill strips \u0026 Nylon",
           "pesoTotalEstructura": 479.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "5",
+          "entrega": "CERRADURAS",
+          "pesoTotalEstructura": 7924.0
         }
       ],
       "tiempos": [
