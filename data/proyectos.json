@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-27T17:22:19.2284551",
+  "fechaHoraActualizacion": "2026-08-28T09:52:33.907374",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -203,10 +203,10 @@
           "pesoTotalEstructura": 1314.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "13",
           "entrega": "COMPLEMENTOS II",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 354.0
         }
       ],
       "tiempos": [
@@ -220,7 +220,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 18.75
+          "horas": 27.0
         },
         {
           "tecnico": "Eduardo Gargantiel",
