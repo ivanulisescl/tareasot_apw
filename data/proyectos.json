@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-08-28T09:52:33.907374",
+  "fechaHoraActualizacion": "2026-09-01T19:14:27.0984473",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -45,10 +45,10 @@
           "pesoTotalEstructura": 56965.0
         },
         {
-          "estado": "Registrada",
+          "estado": "Definida",
           "nEntrega": "3",
           "entrega": "CARRILES",
-          "pesoTotalEstructura": 68060.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
@@ -84,11 +84,15 @@
       "tiempos": [
         {
           "tecnico": "Fernando Bereguiain",
-          "horas": 290.183333
+          "horas": 296.183333
+        },
+        {
+          "tecnico": "Pablo Jesús Rodríguez",
+          "horas": 11.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 2.0
+          "horas": 16.25
         }
       ]
     },
@@ -155,7 +159,7 @@
           "pesoTotalEstructura": 20223.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Montajes",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
@@ -203,7 +207,7 @@
           "pesoTotalEstructura": 1314.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Registrada",
           "nEntrega": "13",
           "entrega": "COMPLEMENTOS II",
           "pesoTotalEstructura": 354.0
@@ -220,7 +224,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 27.0
+          "horas": 28.5
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -319,7 +323,7 @@
           "pesoTotalEstructura": 2497.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "9",
           "entrega": "TRAMEX",
           "pesoTotalEstructura": 1629.0
@@ -714,7 +718,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 331.5
+          "horas": 354.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -768,7 +772,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 14.0
+          "horas": 21.0
         },
         {
           "tecnico": "Javier de la Cruz",
