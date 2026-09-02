@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-01T19:14:27.0984473",
+  "fechaHoraActualizacion": "2026-09-02T10:07:04.8281538",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -45,10 +45,10 @@
           "pesoTotalEstructura": 56965.0
         },
         {
-          "estado": "Definida",
+          "estado": "Pdte.Registrar",
           "nEntrega": "3",
           "entrega": "CARRILES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 58413.0
         },
         {
           "estado": "Registrada",
@@ -718,7 +718,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 354.0
+          "horas": 362.25
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
