@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-02T10:07:04.8281538",
+  "fechaHoraActualizacion": "2026-09-03T10:29:05.2376415",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -45,7 +45,7 @@
           "pesoTotalEstructura": 56965.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "3",
           "entrega": "CARRILES",
           "pesoTotalEstructura": 58413.0
