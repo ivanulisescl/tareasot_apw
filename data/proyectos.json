@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-03T20:41:22.3869167",
+  "fechaHoraActualizacion": "2026-09-04T10:36:48.7164672",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -359,16 +359,16 @@
           "pesoTotalEstructura": 141.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "15",
           "entrega": "MALLA ANTICAIDA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 2420.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 383.0
+          "horas": 385.5
         },
         {
           "tecnico": "Fernando Bereguiain",
