@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-04T10:36:48.7164672",
+  "fechaHoraActualizacion": "2026-09-04T20:35:08.2144321",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -359,7 +359,7 @@
           "pesoTotalEstructura": 141.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Compras",
           "nEntrega": "15",
           "entrega": "MALLA ANTICAIDA",
           "pesoTotalEstructura": 2420.0
@@ -368,7 +368,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 385.5
+          "horas": 386.5
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -376,7 +376,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 215.166666
+          "horas": 219.666666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -705,10 +705,10 @@
           "pesoTotalEstructura": 1798.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Compras",
           "nEntrega": "12",
           "entrega": "ESCALERA DE GATO",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 5730.0
         }
       ],
       "tiempos": [
@@ -718,7 +718,7 @@
         },
         {
           "tecnico": "Daniel Rodriguez",
-          "horas": 370.5
+          "horas": 376.5
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -772,7 +772,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 21.0
+          "horas": 23.5
         },
         {
           "tecnico": "Javier de la Cruz",
