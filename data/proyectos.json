@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-09T10:11:04.6062017",
+  "fechaHoraActualizacion": "2026-09-10T13:52:51.4632886",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -772,7 +772,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 29.5
+          "horas": 37.75
         },
         {
           "tecnico": "Javier de la Cruz",
