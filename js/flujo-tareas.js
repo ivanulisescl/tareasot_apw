@@ -27,12 +27,28 @@
   var selectCategoria = document.getElementById('panelFlujoCategoria');
   var btnTabTabla = document.getElementById('btnFlujoTabla');
   var btnTabComparador = document.getElementById('btnFlujoComparador');
+  var btnTabGraficos = document.getElementById('btnFlujoGraficos');
+  var vistaGraficos = document.getElementById('vistaGraficos');
+  var selectAnioGraficos = document.getElementById('panelFlujoAnioGraficos');
 
   var datosGlobal = null;
   var aniosDisponibles = [];
   var categoriasDisponibles = [];
   var chartsInstances = [];
   var modoActual = 'tabla';
+
+  var PALETA_LINEAS = [
+    'rgb(59, 130, 246)',
+    'rgb(34, 197, 94)',
+    'rgb(251, 191, 36)',
+    'rgb(239, 68, 68)',
+    'rgb(168, 85, 247)',
+    'rgb(236, 72, 153)',
+    'rgb(45, 212, 191)',
+    'rgb(249, 115, 22)'
+  ];
+  var COLOR_TICK = 'rgb(148, 163, 184)';
+  var COLOR_GRID = 'rgba(148, 163, 184, 0.15)';
 
   function getAccionPorNombre(dataAnio, nombre) {
     if (!dataAnio || !Array.isArray(dataAnio)) return null;
@@ -57,6 +73,101 @@
   function obtenerCategorias(dataAnio) {
     if (!dataAnio || !Array.isArray(dataAnio)) return [];
     return dataAnio.map(function (a) { return a.accion; });
+  }
+
+  /** Ingeniería / Automáticos / ISAs / VEs según el texto de la acción */
+  function grupoAccion(nombre) {
+    if (!nombre) return null;
+    if (nombre.indexOf('Ingeniería') !== -1) return 'ing';
+    if (nombre.indexOf('Automáticos') !== -1) return 'aut';
+    if (nombre.indexOf('ISAs') !== -1) return 'isa';
+    if (nombre.indexOf('VEs') !== -1) return 've';
+    return null;
+  }
+
+  function accionesPorGrupo(dataAnio, claveGrupo) {
+    if (!dataAnio || !Array.isArray(dataAnio)) return [];
+    return dataAnio.filter(function (r) { return grupoAccion(r.accion) === claveGrupo; });
+  }
+
+  function opcionesChartLineasComunes() {
+    return {
+      responsive: true,
+      maintainAspectRatio: true,
+      aspectRatio: 2,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            color: COLOR_TICK,
+            boxWidth: 10,
+            font: { size: 9 },
+            padding: 8
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function (item) {
+              return item.dataset.label + ': ' + item.raw;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: COLOR_GRID },
+          ticks: { color: COLOR_TICK, maxRotation: 45 }
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: COLOR_GRID },
+          ticks: { color: COLOR_TICK }
+        }
+      }
+    };
+  }
+
+  function crearChartLineasPorGrupo(canvasId, filas) {
+    var canvas = document.getElementById(canvasId);
+    if (!canvas) return;
+    if (!filas || filas.length === 0) {
+      return;
+    }
+    var datasets = filas.map(function (row, idx) {
+      var color = PALETA_LINEAS[idx % PALETA_LINEAS.length];
+      return {
+        label: row.accion,
+        data: getValoresMes(row),
+        borderColor: color,
+        backgroundColor: color.replace('rgb', 'rgba').replace(')', ', 0.12)'),
+        fill: false,
+        tension: 0.25,
+        pointRadius: 2,
+        pointHoverRadius: 5,
+        borderWidth: 2
+      };
+    });
+    var chart = new Chart(canvas.getContext('2d'), {
+      type: 'line',
+      data: {
+        labels: MESES_LABEL,
+        datasets: datasets
+      },
+      options: opcionesChartLineasComunes()
+    });
+    chartsInstances.push(chart);
+  }
+
+  function actualizarVistaGraficos() {
+    destroyCharts();
+    var anio = selectAnioGraficos && selectAnioGraficos.value;
+    if (!anio) return;
+    var dataAnio = getDataAnio(anio);
+    crearChartLineasPorGrupo('chartFlujoIng', accionesPorGrupo(dataAnio, 'ing'));
+    crearChartLineasPorGrupo('chartFlujoAutom', accionesPorGrupo(dataAnio, 'aut'));
+    crearChartLineasPorGrupo('chartFlujoIsa', accionesPorGrupo(dataAnio, 'isa'));
+    crearChartLineasPorGrupo('chartFlujoVe', accionesPorGrupo(dataAnio, 've'));
   }
 
   function renderTabla(dataAnio) {
@@ -191,15 +302,30 @@
     if (modo === 'tabla') {
       vistaTabla.hidden = false;
       vistaComparador.hidden = true;
+      if (vistaGraficos) vistaGraficos.hidden = true;
       btnTabTabla.classList.add('active');
       btnTabComparador.classList.remove('active');
+      if (btnTabGraficos) btnTabGraficos.classList.remove('active');
       actualizarVistaTabla();
-    } else {
+    } else if (modo === 'comparador') {
       vistaTabla.hidden = true;
       vistaComparador.hidden = false;
+      if (vistaGraficos) vistaGraficos.hidden = true;
       btnTabTabla.classList.remove('active');
       btnTabComparador.classList.add('active');
+      if (btnTabGraficos) btnTabGraficos.classList.remove('active');
       actualizarVistaComparador();
+    } else if (modo === 'graficos') {
+      vistaTabla.hidden = true;
+      vistaComparador.hidden = true;
+      if (vistaGraficos) vistaGraficos.hidden = false;
+      btnTabTabla.classList.remove('active');
+      btnTabComparador.classList.remove('active');
+      if (btnTabGraficos) btnTabGraficos.classList.add('active');
+      if (selectAnioGraficos && selectAnio && selectAnio.value) {
+        selectAnioGraficos.value = selectAnio.value;
+      }
+      actualizarVistaGraficos();
     }
   }
 
@@ -244,6 +370,10 @@
     poblarselectsAnios(selectAnio);
     poblarselectsAnios(selectAnio1);
     poblarselectsAnios(selectAnio2);
+    if (selectAnioGraficos) {
+      selectAnioGraficos.innerHTML = '';
+      poblarselectsAnios(selectAnioGraficos);
+    }
     poblarselectsCategorias();
 
     if (aniosDisponibles.length > 0) {
@@ -253,6 +383,7 @@
       var idxActual = aniosDisponibles.indexOf(String(anioActual));
       var idxAnterior = aniosDisponibles.indexOf(String(anioAnterior));
       selectAnio.value = ultimo;
+      if (selectAnioGraficos) selectAnioGraficos.value = ultimo;
       selectAnio1.value = idxActual >= 0 ? aniosDisponibles[idxActual] : ultimo;
       selectAnio2.value = idxAnterior >= 0 ? aniosDisponibles[idxAnterior] : (idxActual > 0 ? aniosDisponibles[idxActual - 1] : (aniosDisponibles.length > 1 ? aniosDisponibles[aniosDisponibles.length - 2] : ultimo));
     }
@@ -314,6 +445,8 @@
   if (selectAnio1) selectAnio1.addEventListener('change', actualizarVistaComparador);
   if (selectAnio2) selectAnio2.addEventListener('change', actualizarVistaComparador);
   if (selectCategoria) selectCategoria.addEventListener('change', actualizarVistaComparador);
+  if (selectAnioGraficos) selectAnioGraficos.addEventListener('change', actualizarVistaGraficos);
   if (btnTabTabla) btnTabTabla.addEventListener('click', function () { cambiarModo('tabla'); });
   if (btnTabComparador) btnTabComparador.addEventListener('click', function () { cambiarModo('comparador'); });
+  if (btnTabGraficos) btnTabGraficos.addEventListener('click', function () { cambiarModo('graficos'); });
 })();

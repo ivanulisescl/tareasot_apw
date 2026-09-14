@@ -40,6 +40,7 @@
               <div class="panel-flujo-tabs">
                 <button type="button" class="panel-flujo-tab active" id="btnFlujoTabla" data-view="tabla">Tabla</button>
                 <button type="button" class="panel-flujo-tab" id="btnFlujoComparador" data-view="comparador">Comparador</button>
+                <button type="button" class="panel-flujo-tab" id="btnFlujoGraficos" data-view="graficos">Gráficos</button>
               </div>
 
               <div id="vistaTabla" class="panel-flujo-vista">
@@ -69,6 +70,32 @@
                 <div class="panel-flujo-chart panel-flujo-chart-comparador">
                   <h3 class="chart-title">Comparativa año vs año</h3>
                   <div class="chart-wrap"><canvas id="chartFlujoComparador"></canvas></div>
+                </div>
+              </div>
+
+              <div id="vistaGraficos" class="panel-flujo-vista" hidden>
+                <div class="panel-flujo-select-wrap">
+                  <label for="panelFlujoAnioGraficos">Año:</label>
+                  <select id="panelFlujoAnioGraficos" class="panel-flujo-select"></select>
+                </div>
+                <p class="panel-flujo-graficos-hint">Evolución mensual de todas las acciones del JSON, agrupadas por área (mismos datos que la tabla).</p>
+                <div class="panel-flujo-charts">
+                  <div class="panel-flujo-chart">
+                    <h3 class="chart-title">Ingeniería</h3>
+                    <div class="chart-wrap"><canvas id="chartFlujoIng"></canvas></div>
+                  </div>
+                  <div class="panel-flujo-chart">
+                    <h3 class="chart-title">Automáticos</h3>
+                    <div class="chart-wrap"><canvas id="chartFlujoAutom"></canvas></div>
+                  </div>
+                  <div class="panel-flujo-chart">
+                    <h3 class="chart-title">ISAs</h3>
+                    <div class="chart-wrap"><canvas id="chartFlujoIsa"></canvas></div>
+                  </div>
+                  <div class="panel-flujo-chart">
+                    <h3 class="chart-title">VEs</h3>
+                    <div class="chart-wrap"><canvas id="chartFlujoVe"></canvas></div>
+                  </div>
                 </div>
               </div>
             </div>

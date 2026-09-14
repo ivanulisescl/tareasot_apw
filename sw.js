@@ -1,5 +1,5 @@
 /* Service worker mínimo para que la PWA sea instalable. Cambiar VERSION al publicar. */
-const CACHE = 'tareasot-v1.43';
+const CACHE = 'tareasot-v1.43-icons';
 
 self.addEventListener('install', function (event) {
   event.waitUntil(

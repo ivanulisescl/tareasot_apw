@@ -887,6 +887,17 @@ body {
   min-height: 200px;
 }
 
+.panel-flujo-graficos-hint {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.45;
+}
+
+.panel-flujo.panel-estado--page .panel-flujo-content {
+  max-width: min(1100px, 100%);
+}
+
 @media (max-width: 640px) {
   .panel-flujo .panel-flujo-content {
     max-width: 100%;
