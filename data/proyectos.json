@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-15T17:01:58.2978832",
+  "fechaHoraActualizacion": "2026-09-15T17:31:58.3240164",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -790,7 +790,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 1.75
+          "horas": 10.0
         },
         {
           "tecnico": "Eduardo Gargantiel",
