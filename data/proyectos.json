@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-14T17:26:43.431307",
+  "fechaHoraActualizacion": "2026-09-15T08:45:54.2626597",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -772,7 +772,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 60.25
+          "horas": 65.75
         },
         {
           "tecnico": "Javier de la Cruz",
@@ -781,6 +781,10 @@
         {
           "tecnico": "Daniel Rodriguez",
           "horas": 33.416666
+        },
+        {
+          "tecnico": "Pablo Jesús Rodríguez",
+          "horas": 1.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
