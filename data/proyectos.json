@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-15T12:58:17.3777609",
+  "fechaHoraActualizacion": "2026-09-15T16:31:58.6460592",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -711,7 +711,7 @@
           "pesoTotalEstructura": 5730.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Registrada",
           "nEntrega": "13",
           "entrega": "SUJECCION LARGUEROS PASILLO",
           "pesoTotalEstructura": 174.0
@@ -732,7 +732,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 184.5
+          "horas": 186.25
         }
       ]
     },
@@ -794,7 +794,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 1.75
+          "horas": 8.25
         }
       ]
     },
