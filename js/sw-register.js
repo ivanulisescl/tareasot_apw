@@ -1,8 +1,6 @@
-/* Registro del service worker para PWA instalable. Fuerza comprobación de actualización al cargar. */
+/* Registro del service worker para PWA instalable (mismo patrón que Mareo). */
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
-    navigator.serviceWorker.register('sw.js?v=1.43.0', { scope: './' }).then(function (reg) {
-      reg.update();
-    }).catch(function () {});
+    navigator.serviceWorker.register('./sw.js', { scope: './' }).catch(function () {});
   });
 }
