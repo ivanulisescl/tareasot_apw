@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-15T12:27:32.6472302",
+  "fechaHoraActualizacion": "2026-09-15T12:58:17.3777609",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -709,6 +709,12 @@
           "nEntrega": "12",
           "entrega": "ESCALERA DE GATO",
           "pesoTotalEstructura": 5730.0
+        },
+        {
+          "estado": "Pdte.Codificar",
+          "nEntrega": "13",
+          "entrega": "SUJECCION LARGUEROS PASILLO",
+          "pesoTotalEstructura": 174.0
         }
       ],
       "tiempos": [
