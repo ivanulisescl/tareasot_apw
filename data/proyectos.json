@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-21T16:21:02.4270391",
+  "fechaHoraActualizacion": "2026-09-21T16:51:01.700653",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -98,7 +98,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 16.25
+          "horas": 22.5
         }
       ]
     },
@@ -784,7 +784,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 90.5
+          "horas": 98.75
         },
         {
           "tecnico": "Javier de la Cruz",
@@ -800,7 +800,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 30.75
+          "horas": 32.75
         }
       ]
     },
