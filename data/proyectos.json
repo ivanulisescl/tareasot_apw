@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-21T09:38:46.1192022",
+  "fechaHoraActualizacion": "2026-09-21T12:20:20.931979",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -35,7 +35,7 @@
         {
           "estado": "Registrada",
           "nEntrega": "1",
-          "entrega": "Total",
+          "entrega": "BASTIDORES",
           "pesoTotalEstructura": 67065.0
         },
         {
@@ -79,6 +79,12 @@
           "nEntrega": "8",
           "entrega": "COMERCIALIZADOS (TRAMEX)",
           "pesoTotalEstructura": 15539.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "0",
+          "entrega": "Planos de montaje",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -1166,7 +1172,7 @@
         },
         {
           "tecnico": "Alba Fernández",
-          "horas": 492.75
+          "horas": 495.25
         },
         {
           "tecnico": "Pablo Pérez",
