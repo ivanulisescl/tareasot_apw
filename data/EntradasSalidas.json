@@ -1,15 +1,15 @@
 {
-  "fechaHoraActualizacion": "2026-09-18T13:48:04.0703528",
+  "fechaHoraActualizacion": "2026-09-21T08:54:21.7569294",
   "categorias": {
     "Ingeniería": {
-      "ofertasEntradas": 9,
-      "ofertasSalidas": 13,
-      "pedidosEntradas": 2,
-      "pedidosSalidas": 2
+      "ofertasEntradas": 2,
+      "ofertasSalidas": 1,
+      "pedidosEntradas": 1,
+      "pedidosSalidas": 3
     },
     "Automáticos": {
-      "ofertasEntradas": 1,
-      "ofertasSalidas": 1,
+      "ofertasEntradas": 2,
+      "ofertasSalidas": 0,
       "pedidosEntradas": 0,
       "pedidosSalidas": 0
     },
@@ -23,7 +23,7 @@
       "ofertasEntradas": 0,
       "ofertasSalidas": 0,
       "pedidosEntradas": 0,
-      "pedidosSalidas": 2
+      "pedidosSalidas": 1
     }
   }
 }
