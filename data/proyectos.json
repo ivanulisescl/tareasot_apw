@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-22T09:45:22.5776885",
+  "fechaHoraActualizacion": "2026-09-22T10:37:38.369024",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -63,7 +63,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "6",
           "entrega": "PASILLOS",
           "pesoTotalEstructura": 0.0
