@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-24T08:55:24.1325318",
+  "fechaHoraActualizacion": "2026-09-24T11:36:38.801016",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -63,7 +63,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "6",
           "entrega": "PASILLOS",
           "pesoTotalEstructura": 13126.0
@@ -487,6 +487,12 @@
           "nEntrega": "10",
           "entrega": "NUEVOS POSTIZOS",
           "pesoTotalEstructura": 3246.0
+        },
+        {
+          "estado": "Pdte.Registrar",
+          "nEntrega": "11",
+          "entrega": "PLANTILLA RANURA CARRIL",
+          "pesoTotalEstructura": 2.0
         }
       ],
       "tiempos": [
