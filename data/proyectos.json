@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-24T15:49:58.5530317",
+  "fechaHoraActualizacion": "2026-09-24T16:01:19.7908469",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -853,7 +853,20 @@
       "planosMontajeRealizadosPorc": 100,
       "planosMontajePublicadosPorc": 100,
       "observacionesGlobal": "Tercera fase del PVP_1416",
-      "entregasMRP": [],
+      "entregasMRP": [
+        {
+          "estado": "Registrada",
+          "nEntrega": "1",
+          "entrega": "LARGUEROS BARANDILLA",
+          "pesoTotalEstructura": 38.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "2",
+          "entrega": "MATERIAL ADICIONAL",
+          "pesoTotalEstructura": 985.0
+        }
+      ],
       "tiempos": []
     },
     {
