@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-24T11:36:38.801016",
+  "fechaHoraActualizacion": "2026-09-24T15:49:58.5530317",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -63,10 +63,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "6",
           "entrega": "PASILLOS",
-          "pesoTotalEstructura": 13126.0
+          "pesoTotalEstructura": 13197.0
         },
         {
           "estado": "Asignada",
@@ -217,6 +217,12 @@
           "nEntrega": "13",
           "entrega": "COMPLEMENTOS II",
           "pesoTotalEstructura": 354.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "14",
+          "entrega": "ENCAUCE CARRIL",
+          "pesoTotalEstructura": 14.0
         }
       ],
       "tiempos": [
@@ -489,7 +495,7 @@
           "pesoTotalEstructura": 3246.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "11",
           "entrega": "PLANTILLA RANURA CARRIL",
           "pesoTotalEstructura": 2.0
@@ -781,9 +787,15 @@
       "observacionesGlobal": "Se retrasa el proyecto debido a la obra civil, hasta enero o febrero de 2027. Empezamos a sacar en breve, pero estamos a la espera de la aprobación explícita del plano.",
       "entregasMRP": [
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "2",
+          "entrega": "RIGIDIZADORES",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -841,20 +853,7 @@
       "planosMontajeRealizadosPorc": 100,
       "planosMontajePublicadosPorc": 100,
       "observacionesGlobal": "Tercera fase del PVP_1416",
-      "entregasMRP": [
-        {
-          "estado": "Registrada",
-          "nEntrega": "1",
-          "entrega": "LARGUEROS BARANDILLA",
-          "pesoTotalEstructura": 38.0
-        },
-        {
-          "estado": "Registrada",
-          "nEntrega": "2",
-          "entrega": "MATERIAL ADICIONAL",
-          "pesoTotalEstructura": 985.0
-        }
-      ],
+      "entregasMRP": [],
       "tiempos": []
     },
     {
