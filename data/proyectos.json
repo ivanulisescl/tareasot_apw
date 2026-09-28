@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-28T10:36:23.564145",
+  "fechaHoraActualizacion": "2026-09-28T11:06:23.1859197",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -797,12 +797,18 @@
           "nEntrega": "2",
           "entrega": "RIGIDIZADORES",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "3",
+          "entrega": "LARGUEROS",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 128.0
+          "horas": 136.25
         },
         {
           "tecnico": "Javier de la Cruz",
