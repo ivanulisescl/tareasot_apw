@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-28T11:36:23.3640707",
+  "fechaHoraActualizacion": "2026-09-28T12:06:27.3370129",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -787,10 +787,10 @@
       "observacionesGlobal": "Se retrasa el proyecto debido a la obra civil, hasta enero o febrero de 2027. Empezamos a sacar en breve, pero estamos a la espera de la aprobación explícita del plano.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Codificar",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
-          "pesoTotalEstructura": 341241.0
+          "pesoTotalEstructura": 319379.0
         },
         {
           "estado": "Asignada",
