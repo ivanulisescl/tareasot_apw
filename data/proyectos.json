@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-28T17:59:51.2776747",
+  "fechaHoraActualizacion": "2026-09-30T09:04:35.3490129",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -793,10 +793,10 @@
           "pesoTotalEstructura": 319379.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "2",
           "entrega": "RIGIDIZADORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 45476.0
         },
         {
           "estado": "Asignada",
@@ -808,7 +808,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 136.25
+          "horas": 144.5
         },
         {
           "tecnico": "Javier de la Cruz",
@@ -824,7 +824,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 41.0
+          "horas": 49.25
         }
       ]
     },
@@ -1079,7 +1079,7 @@
           "pesoTotalEstructura": 9410.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Montajes",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
