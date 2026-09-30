@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-09-30T16:33:55.11156",
+  "fechaHoraActualizacion": "2026-09-30T17:16:53.592228",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -808,7 +808,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 144.5
+          "horas": 151.75
         },
         {
           "tecnico": "Javier de la Cruz",
@@ -824,7 +824,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 49.25
+          "horas": 57.5
         }
       ]
     },
@@ -1322,7 +1322,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 397.25
+          "horas": 398.25
         },
         {
           "tecnico": "Gianluca Franceschini",
