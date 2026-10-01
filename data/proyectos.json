@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-01T11:13:05.8584857",
+  "fechaHoraActualizacion": "2026-10-01T17:03:47.845733",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -681,7 +681,7 @@
           "pesoTotalEstructura": 14254.0
         },
         {
-          "estado": "Pdte.Montajes",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
@@ -735,7 +735,7 @@
           "pesoTotalEstructura": 174.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "14",
           "entrega": "ANCLAJES",
           "pesoTotalEstructura": 1320.0
@@ -814,7 +814,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 151.75
+          "horas": 160.0
         },
         {
           "tecnico": "Javier de la Cruz",
@@ -830,7 +830,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 57.5
+          "horas": 65.75
         }
       ]
     },
