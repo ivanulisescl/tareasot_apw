@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-01T08:57:33.2100246",
+  "fechaHoraActualizacion": "2026-10-01T10:13:08.3198483",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -733,6 +733,12 @@
           "nEntrega": "13",
           "entrega": "SUJECCION LARGUEROS PASILLO",
           "pesoTotalEstructura": 174.0
+        },
+        {
+          "estado": "Pdte.Registrar",
+          "nEntrega": "14",
+          "entrega": "ANCLAJES",
+          "pesoTotalEstructura": 1320.0
         }
       ],
       "tiempos": [
