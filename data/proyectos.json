@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-02T11:24:31.2262558",
+  "fechaHoraActualizacion": "2026-10-02T12:26:27.3894894",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -681,7 +681,7 @@
           "pesoTotalEstructura": 14254.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Montajes",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
@@ -4490,7 +4490,20 @@
           "pesoTotalEstructura": 1.0
         }
       ],
-      "tiempos": []
+      "tiempos": [
+        {
+          "tecnico": "Gianluca Franceschini",
+          "horas": 2.5
+        },
+        {
+          "tecnico": "Daniel Rodriguez",
+          "horas": 279.333333
+        },
+        {
+          "tecnico": "Victor Fueyo",
+          "horas": 3.5
+        }
+      ]
     },
     {
       "idProyecto": 15,
