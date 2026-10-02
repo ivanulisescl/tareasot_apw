@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-02T10:54:31.1513194",
+  "fechaHoraActualizacion": "2026-10-02T11:24:31.2262558",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -4490,20 +4490,7 @@
           "pesoTotalEstructura": 1.0
         }
       ],
-      "tiempos": [
-        {
-          "tecnico": "Gianluca Franceschini",
-          "horas": 2.5
-        },
-        {
-          "tecnico": "Daniel Rodriguez",
-          "horas": 279.333333
-        },
-        {
-          "tecnico": "Victor Fueyo",
-          "horas": 3.5
-        }
-      ]
+      "tiempos": []
     },
     {
       "idProyecto": 15,
