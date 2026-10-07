@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-07T08:48:48.6670616",
+  "fechaHoraActualizacion": "2026-10-07T10:06:36.4961664",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -826,6 +826,12 @@
           "estado": "Asignada",
           "nEntrega": "6",
           "entrega": "TORRE ARRIOSTRADO IZQUIERDA",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "7",
+          "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 0.0
         }
       ],
