@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-08T12:03:03.7247392",
+  "fechaHoraActualizacion": "2026-10-08T12:33:03.0529924",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -1994,6 +1994,12 @@
           "nEntrega": "11",
           "entrega": "MATERIAL ADICIONAL ARRIOSTRADO ENTRE CERCHAS",
           "pesoTotalEstructura": 43.0
+        },
+        {
+          "estado": "Nueva",
+          "nEntrega": "1",
+          "entrega": "Total",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
