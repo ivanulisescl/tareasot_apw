@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-07T17:40:55.380295",
+  "fechaHoraActualizacion": "2026-10-08T10:33:02.7805466",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -817,10 +817,10 @@
           "pesoTotalEstructura": 76171.0
         },
         {
-          "estado": "Asignada",
+          "estado": "AsignadaProg",
           "nEntrega": "5",
           "entrega": "TORRE ARRIOSTRADO DERECHA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 36477.0
         },
         {
           "estado": "Asignada",
@@ -838,7 +838,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 190.75
+          "horas": 196.75
         },
         {
           "tecnico": "Javier de la Cruz",
