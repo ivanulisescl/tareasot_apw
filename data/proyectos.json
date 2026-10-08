@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-08T13:03:02.743079",
+  "fechaHoraActualizacion": "2026-10-08T16:36:27.6945078",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -739,6 +739,12 @@
           "nEntrega": "14",
           "entrega": "ANCLAJES",
           "pesoTotalEstructura": 1320.0
+        },
+        {
+          "estado": "Pdte.Registrar",
+          "nEntrega": "15",
+          "entrega": "MATERIAL ADICIONAL PASILLOS",
+          "pesoTotalEstructura": 42.0
         }
       ],
       "tiempos": [
@@ -817,7 +823,7 @@
           "pesoTotalEstructura": 76171.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "5",
           "entrega": "TORRE ARRIOSTRADO DERECHA",
           "pesoTotalEstructura": 36477.0
@@ -838,7 +844,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 196.75
+          "horas": 199.0
         },
         {
           "tecnico": "Javier de la Cruz",
