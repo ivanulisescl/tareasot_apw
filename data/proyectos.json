@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-09T08:53:48.8657541",
+  "fechaHoraActualizacion": "2026-10-09T10:05:24.2716203",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -741,7 +741,7 @@
           "pesoTotalEstructura": 1320.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "15",
           "entrega": "MATERIAL ADICIONAL PASILLOS",
           "pesoTotalEstructura": 42.0
@@ -2002,7 +2002,7 @@
           "pesoTotalEstructura": 43.0
         },
         {
-          "estado": "Nueva",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "Total",
           "pesoTotalEstructura": 0.0
