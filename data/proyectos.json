@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-09T13:16:44.2234359",
+  "fechaHoraActualizacion": "2026-10-13T10:09:25.2499604",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -98,7 +98,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 53.25
+          "horas": 56.75
         }
       ]
     },
@@ -745,6 +745,12 @@
           "nEntrega": "15",
           "entrega": "MATERIAL ADICIONAL PASILLOS",
           "pesoTotalEstructura": 42.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "16",
+          "entrega": "LARGUEROS ATADO",
+          "pesoTotalEstructura": 384.0
         }
       ],
       "tiempos": [
@@ -860,7 +866,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 91.75
+          "horas": 94.25
         }
       ]
     },
