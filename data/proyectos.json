@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-13T13:12:54.7112847",
+  "fechaHoraActualizacion": "2026-10-13T16:41:59.1861446",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -60,7 +60,7 @@
           "estado": "Pdte.Codificar",
           "nEntrega": "5",
           "entrega": "ELEVADORES",
-          "pesoTotalEstructura": 6780.0
+          "pesoTotalEstructura": 6795.0
         },
         {
           "estado": "Registrada",
@@ -98,7 +98,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 56.75
+          "horas": 60.0
         }
       ]
     },
@@ -850,7 +850,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 205.0
+          "horas": 213.25
         },
         {
           "tecnico": "Javier de la Cruz",
@@ -866,7 +866,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 94.25
+          "horas": 99.25
         }
       ]
     },
