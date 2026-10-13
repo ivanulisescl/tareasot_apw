@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-13T16:41:59.1861446",
+  "fechaHoraActualizacion": "2026-10-13T17:11:58.7813119",
   "proyectos": [
     {
       "idProyecto": 57,
@@ -57,7 +57,7 @@
           "pesoTotalEstructura": 15000.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "5",
           "entrega": "ELEVADORES",
           "pesoTotalEstructura": 6795.0
