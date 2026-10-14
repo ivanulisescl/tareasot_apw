@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-14T12:56:25.729472",
+  "fechaHoraActualizacion": "2026-10-14T16:19:59.8366624",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -58,8 +58,8 @@
       "ofertaReferencia": "OF2603350R0",
       "nombreProyecto": "FAMILY CASH",
       "pais": "España",
-      "fechaVenta": "2026-07-28",
-      "cliente": "FAMILY CASH",
+      "fechaVenta": "2026-07-26",
+      "cliente": "Family Cash",
       "integrador": "Toyota",
       "importeEur": 5345000.0,
       "pesoKg": 2524820.0,
@@ -76,9 +76,9 @@
       "duracionMontajeDias": 210,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
-      "planoValidacion": "",
+      "planoValidacion": "No",
       "fechaValidacionPlano": "",
-      "observacionesGlobal": "Todo preparado salvo los p´rticos de los conveyors. Empezaremos a sacar en breve.",
+      "observacionesGlobal": "Todo preparado salvo los pórticos de los conveyors. Empezaremos a sacar en breve.",
       "entregasMRP": [
         {
           "estado": "Asignada",
@@ -150,7 +150,7 @@
           "pesoTotalEstructura": 15000.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "5",
           "entrega": "ELEVADORES",
           "pesoTotalEstructura": 6795.0
