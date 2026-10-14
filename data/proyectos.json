@@ -1,6 +1,49 @@
 {
-  "fechaHoraActualizacion": "2026-10-14T09:54:05.996319",
+  "fechaHoraActualizacion": "2026-10-14T11:06:38.3351968",
   "proyectos": [
+    {
+      "idProyecto": 59,
+      "estado": "En desarrollo",
+      "numeroPedido": "PVP_1477",
+      "ofertaReferencia": "OF2603350R0",
+      "nombreProyecto": "FAMILY CASH",
+      "pais": "España",
+      "fechaVenta": "",
+      "cliente": "FAMILY CASH",
+      "integrador": "Toyota",
+      "importeEur": 5345000.0,
+      "pesoKg": 2524820.0,
+      "ratioEurKg": 3.36,
+      "sistema": "RACK CON TRASLO DOBLE FONDO",
+      "tipoInstalacion": "Interior de nave",
+      "numeroPaletas": 42420,
+      "alturaTotalMm": 32840,
+      "jefeProyecto": "Manuel D.",
+      "delineantePrincipal": "Daniel R.",
+      "delineanteApoyo1": "Nuria S.",
+      "delineanteApoyo2": "",
+      "inicioMontaje": "",
+      "duracionMontajeDias": 210,
+      "tipoTransporte": "Terrestre",
+      "transitoDias": 3,
+      "planoValidacion": "",
+      "fechaValidacionPlano": "",
+      "observacionesGlobal": "",
+      "entregasMRP": [
+        {
+          "estado": "Asignada",
+          "nEntrega": "1",
+          "entrega": "Total",
+          "pesoTotalEstructura": 0.0
+        }
+      ],
+      "tiempos": [
+        {
+          "tecnico": "Daniel Rodriguez",
+          "horas": 78.0
+        }
+      ]
+    },
     {
       "idProyecto": 57,
       "estado": "En desarrollo",
