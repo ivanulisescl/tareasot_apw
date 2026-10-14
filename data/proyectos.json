@@ -1,6 +1,56 @@
 {
-  "fechaHoraActualizacion": "2026-10-14T11:06:38.3351968",
+  "fechaHoraActualizacion": "2026-10-14T12:56:25.729472",
   "proyectos": [
+    {
+      "idProyecto": 62,
+      "estado": "En desarrollo",
+      "numeroPedido": "PVP_1478",
+      "ofertaReferencia": "OF2602886R2",
+      "nombreProyecto": "TAKEDA",
+      "pais": "Austria",
+      "fechaVenta": "2026-08-25",
+      "cliente": "STILL GESELLSCHAFT",
+      "integrador": "Kion Group",
+      "importeEur": 165008.0,
+      "pesoKg": 42972.0,
+      "ratioEurKg": 3.84,
+      "sistema": "CARRO SATÉLITE CON LANZADERA",
+      "tipoInstalacion": "Interior de nave",
+      "numeroPaletas": 696,
+      "alturaTotalMm": 14065,
+      "jefeProyecto": "Borja L.",
+      "delineantePrincipal": "Pablo Jesús",
+      "delineanteApoyo1": "Eduardo G.",
+      "delineanteApoyo2": "",
+      "inicioMontaje": "",
+      "tipoTransporte": "Terrestre",
+      "transitoDias": 3,
+      "planoValidacion": "",
+      "fechaValidacionPlano": "",
+      "observacionesGlobal": "",
+      "entregasMRP": [
+        {
+          "estado": "Asignada",
+          "nEntrega": "1",
+          "entrega": "Total",
+          "pesoTotalEstructura": 0.0
+        }
+      ],
+      "tiempos": [
+        {
+          "tecnico": "Borja Lombardero",
+          "horas": 49.75
+        },
+        {
+          "tecnico": "Pablo Jesús Rodríguez",
+          "horas": 134.0
+        },
+        {
+          "tecnico": "Eduardo Gargantiel",
+          "horas": 13.0
+        }
+      ]
+    },
     {
       "idProyecto": 59,
       "estado": "En desarrollo",
@@ -8,7 +58,7 @@
       "ofertaReferencia": "OF2603350R0",
       "nombreProyecto": "FAMILY CASH",
       "pais": "España",
-      "fechaVenta": "",
+      "fechaVenta": "2026-07-28",
       "cliente": "FAMILY CASH",
       "integrador": "Toyota",
       "importeEur": 5345000.0,
@@ -28,7 +78,7 @@
       "transitoDias": 3,
       "planoValidacion": "",
       "fechaValidacionPlano": "",
-      "observacionesGlobal": "",
+      "observacionesGlobal": "Todo preparado salvo los p´rticos de los conveyors. Empezaremos a sacar en breve.",
       "entregasMRP": [
         {
           "estado": "Asignada",
