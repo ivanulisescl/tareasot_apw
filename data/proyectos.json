@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-14T16:50:01.4534873",
+  "fechaHoraActualizacion": "2026-10-15T08:20:09.8901272",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -39,11 +39,11 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 49.75
+          "horas": 51.25
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 134.0
+          "horas": 141.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -91,6 +91,10 @@
         {
           "tecnico": "Daniel Rodriguez",
           "horas": 78.0
+        },
+        {
+          "tecnico": "Pablo Jesús Rodríguez",
+          "horas": 1.0
         }
       ]
     },
@@ -337,7 +341,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 53.0
+          "horas": 56.0
         }
       ]
     },
@@ -844,6 +848,12 @@
           "nEntrega": "16",
           "entrega": "LARGUEROS ATADO",
           "pesoTotalEstructura": 384.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "17",
+          "entrega": "SOPORTES CERCHA",
+          "pesoTotalEstructura": 288.0
         }
       ],
       "tiempos": [
