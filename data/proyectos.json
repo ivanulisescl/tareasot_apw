@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-15T12:59:30.2609201",
+  "fechaHoraActualizacion": "2026-10-15T17:31:42.2477691",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -195,7 +195,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 68.25
+          "horas": 76.5
         }
       ]
     },
@@ -948,12 +948,42 @@
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "8",
+          "entrega": "PASILLO",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "9",
+          "entrega": "BUFFER",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "10",
+          "entrega": "PORTICO",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "11",
+          "entrega": "COMERCIALIZADOS",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "12",
+          "entrega": "CERCHAS",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 221.5
+          "horas": 229.75
         },
         {
           "tecnico": "Javier de la Cruz",
