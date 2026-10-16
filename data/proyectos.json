@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-16T13:10:43.884754",
+  "fechaHoraActualizacion": "2026-10-16T13:40:43.6450204",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -94,7 +94,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 8.25
+          "horas": 10.25
         }
       ]
     },
@@ -154,7 +154,7 @@
           "pesoTotalEstructura": 15000.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "5",
           "entrega": "ELEVADORES",
           "pesoTotalEstructura": 6795.0
@@ -195,7 +195,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 76.5
+          "horas": 82.5
         }
       ]
     },
@@ -978,12 +978,18 @@
           "nEntrega": "12",
           "entrega": "CERCHAS",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "13",
+          "entrega": "CORREAS DE CUBIERTA",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 229.75
+          "horas": 235.75
         },
         {
           "tecnico": "Javier de la Cruz",
