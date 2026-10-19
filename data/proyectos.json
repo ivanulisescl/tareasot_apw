@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-19T11:17:51.5565318",
+  "fechaHoraActualizacion": "2026-10-19T11:47:54.5258442",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -166,7 +166,7 @@
           "pesoTotalEstructura": 13197.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 3623.0
