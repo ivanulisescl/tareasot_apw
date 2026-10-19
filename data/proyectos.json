@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-16T13:40:43.6450204",
+  "fechaHoraActualizacion": "2026-10-19T08:53:54.8614422",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -39,7 +39,7 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 51.25
+          "horas": 51.5
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -154,7 +154,7 @@
           "pesoTotalEstructura": 15000.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "5",
           "entrega": "ELEVADORES",
           "pesoTotalEstructura": 6795.0
@@ -181,6 +181,12 @@
           "estado": "Asignada",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "9",
+          "entrega": "ESCALERAS",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -341,7 +347,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 56.0
+          "horas": 57.0
         }
       ]
     },
