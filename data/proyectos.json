@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-20T16:46:58.0332526",
+  "fechaHoraActualizacion": "2026-10-20T17:42:05.0489907",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -39,11 +39,11 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 52.0
+          "horas": 53.5
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 141.25
+          "horas": 142.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -94,7 +94,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 18.5
+          "horas": 25.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -170,7 +170,7 @@
           "pesoTotalEstructura": 13197.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 3627.0
@@ -188,7 +188,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Aprobada",
           "nEntrega": "9",
           "entrega": "ESCALERAS",
           "pesoTotalEstructura": 0.0
