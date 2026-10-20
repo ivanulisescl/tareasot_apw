@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-20T13:32:48.3640672",
+  "fechaHoraActualizacion": "2026-10-20T16:46:58.0332526",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -98,7 +98,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 2.0
+          "horas": 3.5
         }
       ]
     },
@@ -170,10 +170,10 @@
           "pesoTotalEstructura": 13197.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Codificar",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
-          "pesoTotalEstructura": 3623.0
+          "pesoTotalEstructura": 3627.0
         },
         {
           "estado": "Registrada",
@@ -205,7 +205,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 88.75
+          "horas": 95.5
         }
       ]
     },
@@ -994,12 +994,18 @@
           "nEntrega": "13",
           "entrega": "CORREAS DE CUBIERTA",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "14",
+          "entrega": "FACHADAA",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 244.0
+          "horas": 252.25
         },
         {
           "tecnico": "Javier de la Cruz",
