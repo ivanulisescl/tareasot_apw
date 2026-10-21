@@ -1,6 +1,6 @@
 {
   "Actual": {
-    "Nuevas": 3,
+    "Nuevas": 6,
     "Incompletas": 13,
     "Definidas": 138,
     "Asignadas": 118,
@@ -8,11 +8,11 @@
     "Calculadas": 0,
     "PdteComercializados": 1,
     "Ofertas": 111,
-    "Pedidos": 52,
+    "Pedidos": 55,
     "Tareas Internas": 2,
     "Ofertas Ing": 96,
     "Ofertas Autom": 15,
-    "Pedidos Ing": 39,
+    "Pedidos Ing": 42,
     "Pedidos Autom": 13,
     "Ofertas ISA": 3,
     "Pedidos ISA": 117,
