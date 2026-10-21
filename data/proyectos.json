@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-21T16:45:53.3404273",
+  "fechaHoraActualizacion": "2026-10-21T17:15:49.1454362",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -81,9 +81,15 @@
       "observacionesGlobal": "Todo preparado salvo los pórticos de los conveyors. Empezaremos a sacar en breve.",
       "entregasMRP": [
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "2",
+          "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -418,7 +424,7 @@
           "pesoTotalEstructura": 2646.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
