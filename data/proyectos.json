@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-21T10:51:03.8085368",
+  "fechaHoraActualizacion": "2026-10-21T11:21:03.7680473",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -188,7 +188,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "9",
           "entrega": "ESCALERAS",
           "pesoTotalEstructura": 2539.0
