@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-21T13:07:13.5023628",
+  "fechaHoraActualizacion": "2026-10-21T16:45:53.3404273",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -83,7 +83,7 @@
         {
           "estado": "Asignada",
           "nEntrega": "1",
-          "entrega": "Total",
+          "entrega": "BASTIDORES",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -170,7 +170,7 @@
           "pesoTotalEstructura": 13197.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 3627.0
@@ -188,7 +188,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "9",
           "entrega": "ESCALERAS",
           "pesoTotalEstructura": 2539.0
@@ -205,7 +205,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 95.5
+          "horas": 103.75
         }
       ]
     },
@@ -1005,7 +1005,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 252.25
+          "horas": 260.5
         },
         {
           "tecnico": "Javier de la Cruz",
