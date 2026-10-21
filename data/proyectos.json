@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-20T17:42:05.0489907",
+  "fechaHoraActualizacion": "2026-10-21T08:40:04.9366039",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -188,10 +188,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "9",
           "entrega": "ESCALERAS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 2539.0
         }
       ],
       "tiempos": [
