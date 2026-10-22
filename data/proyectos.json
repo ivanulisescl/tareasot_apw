@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-22T10:31:50.1112249",
+  "fechaHoraActualizacion": "2026-10-22T12:50:38.9377973",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -336,6 +336,12 @@
           "nEntrega": "14",
           "entrega": "ENCAUCE CARRIL",
           "pesoTotalEstructura": 14.0
+        },
+        {
+          "estado": "AsignadaProg",
+          "nEntrega": "15",
+          "entrega": "ANGULARES REPARACION",
+          "pesoTotalEstructura": 118.0
         }
       ],
       "tiempos": [
@@ -2269,7 +2275,7 @@
           "pesoTotalEstructura": 233.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "7",
           "entrega": "REFUERZO CARRIL GS",
           "pesoTotalEstructura": 43.0
