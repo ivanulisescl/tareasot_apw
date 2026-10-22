@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-22T10:01:50.0420867",
+  "fechaHoraActualizacion": "2026-10-22T10:31:50.1112249",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -2269,7 +2269,7 @@
           "pesoTotalEstructura": 233.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "7",
           "entrega": "REFUERZO CARRIL GS",
           "pesoTotalEstructura": 43.0
