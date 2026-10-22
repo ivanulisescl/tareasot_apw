@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-22T08:53:03.5419879",
+  "fechaHoraActualizacion": "2026-10-22T10:01:50.0420867",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -87,7 +87,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 0.0
@@ -2269,10 +2269,10 @@
           "pesoTotalEstructura": 233.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "7",
           "entrega": "REFUERZO CARRIL GS",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 43.0
         }
       ],
       "tiempos": [
