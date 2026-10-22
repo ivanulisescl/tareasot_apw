@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-22T12:50:38.9377973",
+  "fechaHoraActualizacion": "2026-10-22T16:24:17.0018791",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -198,6 +198,12 @@
           "nEntrega": "9",
           "entrega": "ESCALERAS",
           "pesoTotalEstructura": 2539.0
+        },
+        {
+          "estado": "Compras",
+          "nEntrega": "10",
+          "entrega": "MALLA ANTICAIDA Y ESCALERA DE GATO",
+          "pesoTotalEstructura": 4986.0
         }
       ],
       "tiempos": [
@@ -338,7 +344,7 @@
           "pesoTotalEstructura": 14.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Registrada",
           "nEntrega": "15",
           "entrega": "ANGULARES REPARACION",
           "pesoTotalEstructura": 118.0
@@ -1011,6 +1017,12 @@
           "estado": "Asignada",
           "nEntrega": "14",
           "entrega": "FACHADAA",
+          "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "0",
+          "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
         }
       ],
@@ -2275,7 +2287,7 @@
           "pesoTotalEstructura": 233.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "7",
           "entrega": "REFUERZO CARRIL GS",
           "pesoTotalEstructura": 43.0
