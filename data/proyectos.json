@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-21T17:15:49.1454362",
+  "fechaHoraActualizacion": "2026-10-22T08:53:03.5419879",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -43,7 +43,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 142.25
+          "horas": 145.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -100,7 +100,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 25.75
+          "horas": 31.0
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -357,7 +357,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 57.0
+          "horas": 59.0
         }
       ]
     },
@@ -424,7 +424,7 @@
           "pesoTotalEstructura": 2646.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
@@ -2267,6 +2267,12 @@
           "nEntrega": "6",
           "entrega": "ELECTROGUIA",
           "pesoTotalEstructura": 233.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "7",
+          "entrega": "REFUERZO CARRIL GS",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
