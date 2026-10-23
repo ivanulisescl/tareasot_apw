@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-22T17:30:28.0735337",
+  "fechaHoraActualizacion": "2026-10-23T08:54:38.1555756",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -81,13 +81,13 @@
       "observacionesGlobal": "Todo preparado salvo los pórticos de los conveyors. Empezaremos a sacar en breve.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Rechazada",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 0.0
@@ -95,12 +95,16 @@
       ],
       "tiempos": [
         {
+          "tecnico": "Manuel Díaz",
+          "horas": 3.25
+        },
+        {
           "tecnico": "Daniel Rodriguez",
           "horas": 78.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 31.0
+          "horas": 38.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -369,7 +373,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 59.0
+          "horas": 62.0
         }
       ]
     },
@@ -517,7 +521,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 99.5
+          "horas": 102.5
         }
       ]
     },
