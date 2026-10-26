@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-26T16:49:12.7079996",
+  "fechaHoraActualizacion": "2026-10-26T17:19:12.5983493",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -34,7 +34,12 @@
           "pesoTotalEstructura": 0.0
         }
       ],
-      "tiempos": []
+      "tiempos": [
+        {
+          "tecnico": "Borja Lombardero",
+          "horas": 3.5
+        }
+      ]
     },
     {
       "idProyecto": 62,
@@ -74,7 +79,7 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 53.5
+          "horas": 54.25
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -568,7 +573,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 105.5
+          "horas": 106.5
         }
       ]
     },
