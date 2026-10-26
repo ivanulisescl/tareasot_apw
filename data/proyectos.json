@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-26T12:56:09.463754",
+  "fechaHoraActualizacion": "2026-10-26T13:26:09.2031563",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -204,7 +204,7 @@
           "pesoTotalEstructura": 2539.0
         },
         {
-          "estado": "Compras",
+          "estado": "Pdte.Registrar",
           "nEntrega": "10",
           "entrega": "MALLA ANTICAIDA Y ESCALERA DE GATO",
           "pesoTotalEstructura": 4986.0
@@ -510,12 +510,18 @@
           "nEntrega": "15",
           "entrega": "MALLA ANTICAIDA",
           "pesoTotalEstructura": 2420.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "16",
+          "entrega": "NIVEL 2 ESCALERA",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 391.0
+          "horas": 398.75
         },
         {
           "tecnico": "Fernando Bereguiain",
