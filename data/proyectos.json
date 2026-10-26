@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-26T09:46:18.2225617",
+  "fechaHoraActualizacion": "2026-10-26T11:11:10.6656503",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -87,10 +87,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Registrar",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 534315.0
         }
       ],
       "tiempos": [
@@ -352,6 +352,12 @@
           "nEntrega": "15",
           "entrega": "ANGULARES REPARACION",
           "pesoTotalEstructura": 118.0
+        },
+        {
+          "estado": "Pdte.Registrar",
+          "nEntrega": "16",
+          "entrega": "AMPLIACION ENTREPLANTA",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -1216,7 +1222,7 @@
           "pesoTotalEstructura": 7924.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Registrar",
           "nEntrega": "6",
           "entrega": "AMPLIACIÓN ENTREPLANTA",
           "pesoTotalEstructura": 0.0
