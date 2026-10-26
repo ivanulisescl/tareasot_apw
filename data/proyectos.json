@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-26T11:11:10.6656503",
+  "fechaHoraActualizacion": "2026-10-26T12:26:09.5220514",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -87,7 +87,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 534315.0
@@ -354,10 +354,10 @@
           "pesoTotalEstructura": 118.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "16",
           "entrega": "AMPLIACION ENTREPLANTA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 484.0
         }
       ],
       "tiempos": [
@@ -1222,10 +1222,10 @@
           "pesoTotalEstructura": 7924.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "6",
           "entrega": "AMPLIACIÓN ENTREPLANTA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 37023.0
         }
       ],
       "tiempos": [
