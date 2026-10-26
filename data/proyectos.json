@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-26T16:19:12.8089203",
+  "fechaHoraActualizacion": "2026-10-26T16:49:12.7079996",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -116,13 +116,13 @@
       "observacionesGlobal": "Todo preparado salvo los pórticos de los conveyors. Empezaremos a sacar en breve.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Compras",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 1251330.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 531761.0
@@ -256,7 +256,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 109.75
+          "horas": 113.25
         }
       ]
     },
@@ -1096,7 +1096,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 107.5
+          "horas": 112.25
         }
       ]
     },
