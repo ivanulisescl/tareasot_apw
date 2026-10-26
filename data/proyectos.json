@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-23T11:51:11.2681991",
+  "fechaHoraActualizacion": "2026-10-26T09:46:18.2225617",
   "proyectos": [
     {
       "idProyecto": 62,
@@ -104,7 +104,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 38.25
+          "horas": 44.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -509,7 +509,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 387.5
+          "horas": 391.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -521,7 +521,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 102.5
+          "horas": 105.5
         }
       ]
     },
@@ -1033,7 +1033,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 268.75
+          "horas": 271.25
         },
         {
           "tecnico": "Javier de la Cruz",
@@ -1049,7 +1049,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 101.5
+          "horas": 107.5
         }
       ]
     },
@@ -1214,6 +1214,12 @@
           "nEntrega": "5",
           "entrega": "CERRADURAS",
           "pesoTotalEstructura": 7924.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "6",
+          "entrega": "AMPLIACIÓN ENTREPLANTA",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
