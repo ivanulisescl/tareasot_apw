@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-27T08:44:44.2983355",
+  "fechaHoraActualizacion": "2026-10-27T09:44:52.6396689",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -122,7 +122,7 @@
       "observacionesGlobal": "Semana del 26/10 entregamos plano de los pórticos y continuamos con las entregas.",
       "entregasMRP": [
         {
-          "estado": "Compras",
+          "estado": "AsignadaProg",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 1251330.0
@@ -553,7 +553,7 @@
           "pesoTotalEstructura": 2420.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "16",
           "entrega": "NIVEL 2 ESCALERA",
           "pesoTotalEstructura": 0.0
