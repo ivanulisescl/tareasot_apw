@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-26T17:49:12.6879277",
+  "fechaHoraActualizacion": "2026-10-27T08:32:22.1895098",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -8,9 +8,10 @@
       "ofertaReferencia": "OF2407556R1",
       "nombreProyecto": "LACTALIS",
       "pais": "España",
-      "fechaVenta": "2026-10-17",
+      "fechaVenta": "2026-10-15",
       "cliente": "Lactalis",
       "integrador": "Signode",
+      "importeEur": 227000.0,
       "pesoKg": 71795.0,
       "ratioEurKg": 3.16,
       "sistema": "Carro satélite con lanzadera",
@@ -18,10 +19,10 @@
       "numeroPaletas": 1740,
       "alturaTotalMm": 11000,
       "jefeProyecto": "Borja L.",
-      "delineantePrincipal": "",
+      "delineantePrincipal": "Rubén S.",
       "delineanteApoyo1": "",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2027-01-09",
+      "inicioMontaje": "2027-01-07",
       "tipoTransporte": "",
       "planoValidacion": "",
       "fechaValidacionPlano": "",
@@ -48,7 +49,7 @@
       "ofertaReferencia": "OF2602886R2",
       "nombreProyecto": "TAKEDA",
       "pais": "Austria",
-      "fechaVenta": "2026-08-25",
+      "fechaVenta": "2026-08-23",
       "cliente": "STILL GESELLSCHAFT",
       "integrador": "Kion Group",
       "importeEur": 165008.0,
@@ -65,7 +66,7 @@
       "inicioMontaje": "",
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
-      "planoValidacion": "",
+      "planoValidacion": "Sí",
       "fechaValidacionPlano": "",
       "observacionesGlobal": "",
       "entregasMRP": [
@@ -98,7 +99,7 @@
       "ofertaReferencia": "OF2603350R0",
       "nombreProyecto": "FAMILY CASH",
       "pais": "España",
-      "fechaVenta": "2026-07-26",
+      "fechaVenta": "2026-07-24",
       "cliente": "Family Cash",
       "integrador": "Toyota",
       "importeEur": 5345000.0,
@@ -111,14 +112,14 @@
       "jefeProyecto": "Manuel D.",
       "delineantePrincipal": "Daniel R.",
       "delineanteApoyo1": "Nuria S.",
-      "delineanteApoyo2": "",
+      "delineanteApoyo2": "Pablo Jesús",
       "inicioMontaje": "",
       "duracionMontajeDias": 210,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
       "planoValidacion": "No",
       "fechaValidacionPlano": "",
-      "observacionesGlobal": "Todo preparado salvo los pórticos de los conveyors. Empezaremos a sacar en breve.",
+      "observacionesGlobal": "Semana del 26/10 entregamos plano de los pórticos y continuamos con las entregas.",
       "entregasMRP": [
         {
           "estado": "Compras",
@@ -136,7 +137,7 @@
       "tiempos": [
         {
           "tecnico": "Manuel Díaz",
-          "horas": 3.25
+          "horas": 7.5
         },
         {
           "tecnico": "Daniel Rodriguez",
@@ -144,7 +145,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 44.25
+          "horas": 52.5
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -159,7 +160,7 @@
       "ofertaReferencia": "OF255186R4",
       "nombreProyecto": "PAPASTRATOS",
       "pais": "Grecia",
-      "fechaVenta": "2026-03-02",
+      "fechaVenta": "2026-02-28",
       "cliente": "Papastratos",
       "integrador": "Viastore (Toyota)",
       "importeEur": 892000.0,
@@ -171,17 +172,17 @@
       "alturaTotalMm": 9000,
       "jefeProyecto": "Manuel D.",
       "delineantePrincipal": "Fernando B.",
-      "delineanteApoyo1": "",
-      "delineanteApoyo2": "",
-      "inicioMontaje": "2026-09-05",
+      "delineanteApoyo1": "Nuria S.",
+      "delineanteApoyo2": "Eduardo G.",
+      "inicioMontaje": "2026-09-03",
       "duracionMontajeDias": 45,
       "tipoTransporte": "Marítimo",
       "planoValidacion": "Sí",
-      "fechaValidacionPlano": "2026-05-15",
-      "entregadoProduccionPorc": 85,
-      "planosMontajeRealizadosPorc": 75,
-      "planosMontajePublicadosPorc": 0,
-      "observacionesGlobal": "Previsto terminar la semana del 13/10/26",
+      "fechaValidacionPlano": "2026-05-13",
+      "entregadoProduccionPorc": 90,
+      "planosMontajeRealizadosPorc": 90,
+      "planosMontajePublicadosPorc": 30,
+      "observacionesGlobal": "Pendiente sólo el vallado.",
       "entregasMRP": [
         {
           "estado": "Registrada",
