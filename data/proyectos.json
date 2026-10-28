@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-27T12:51:05.2675281",
+  "fechaHoraActualizacion": "2026-10-28T08:53:06.9170059",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -38,7 +38,7 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 3.5
+          "horas": 7.0
         }
       ]
     },
@@ -84,7 +84,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 145.25
+          "horas": 153.5
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -122,10 +122,10 @@
       "observacionesGlobal": "Semana del 26/10 entregamos plano de los pórticos y continuamos con las entregas.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Nueva",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
-          "pesoTotalEstructura": 1251330.0
+          "pesoTotalEstructura": 0.0
         },
         {
           "estado": "Registrada",
@@ -149,7 +149,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 3.5
+          "horas": 6.0
         }
       ]
     },
@@ -553,16 +553,16 @@
           "pesoTotalEstructura": 2420.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Registrar",
           "nEntrega": "16",
           "entrega": "NIVEL 2 ESCALERA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 294.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 398.75
+          "horas": 400.75
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -1086,7 +1086,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 271.25
+          "horas": 277.5
         },
         {
           "tecnico": "Javier de la Cruz",
@@ -1102,7 +1102,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 112.25
+          "horas": 118.0
         }
       ]
     },
@@ -4120,6 +4120,12 @@
           "nEntrega": "6",
           "entrega": "MATERIAL ADICIONAL",
           "pesoTotalEstructura": 1494.0
+        },
+        {
+          "estado": "Registrada",
+          "nEntrega": "7",
+          "entrega": "POSTIZOS",
+          "pesoTotalEstructura": 74.0
         }
       ],
       "tiempos": [
