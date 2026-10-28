@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-28T12:53:47.0938804",
+  "fechaHoraActualizacion": "2026-10-28T16:32:26.621634",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -84,7 +84,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 153.5
+          "horas": 157.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -122,7 +122,7 @@
       "observacionesGlobal": "Semana del 26/10 entregamos plano de los pórticos y continuamos con las entregas.",
       "entregasMRP": [
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 1250834.0
@@ -145,7 +145,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 52.5
+          "horas": 53.5
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -1086,7 +1086,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 281.0
+          "horas": 285.75
         },
         {
           "tecnico": "Javier de la Cruz",
@@ -1747,6 +1747,10 @@
         {
           "tecnico": "Nuria Suárez",
           "horas": 16.5
+        },
+        {
+          "tecnico": "Nieves González",
+          "horas": 0.75
         }
       ]
     },
