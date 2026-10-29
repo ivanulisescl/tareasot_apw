@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-28T17:02:26.8571673",
+  "fechaHoraActualizacion": "2026-10-29T08:48:29.9447383",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -8,7 +8,7 @@
       "ofertaReferencia": "OF2407556R1",
       "nombreProyecto": "LACTALIS",
       "pais": "España",
-      "fechaVenta": "2026-10-15",
+      "fechaVenta": "2026-10-13",
       "cliente": "Lactalis",
       "integrador": "Signode",
       "importeEur": 227000.0,
@@ -22,8 +22,9 @@
       "delineantePrincipal": "Rubén S.",
       "delineanteApoyo1": "",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2027-01-07",
-      "tipoTransporte": "",
+      "inicioMontaje": "2027-01-16",
+      "tipoTransporte": "Terrestre",
+      "transitoDias": 3,
       "planoValidacion": "",
       "fechaValidacionPlano": "",
       "observacionesGlobal": "",
@@ -38,7 +39,7 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 7.0
+          "horas": 8.0
         }
       ]
     },
@@ -80,7 +81,7 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 54.25
+          "horas": 56.5
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
