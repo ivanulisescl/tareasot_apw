@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-29T10:51:15.1845729",
+  "fechaHoraActualizacion": "2026-10-29T11:21:15.2642741",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -402,7 +402,7 @@
           "pesoTotalEstructura": 484.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Compras",
           "nEntrega": "17",
           "entrega": "TRAMEX MANTENIMIENTO",
           "pesoTotalEstructura": 1067.0
