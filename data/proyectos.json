@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-29T11:51:15.3807588",
+  "fechaHoraActualizacion": "2026-10-29T12:14:30.3928799",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -50,7 +50,7 @@
       "ofertaReferencia": "OF2602886R2",
       "nombreProyecto": "TAKEDA",
       "pais": "Austria",
-      "fechaVenta": "2026-08-23",
+      "fechaVenta": "2026-08-21",
       "cliente": "STILL GESELLSCHAFT",
       "integrador": "Kion Group",
       "importeEur": 165008.0,
@@ -64,10 +64,10 @@
       "delineantePrincipal": "Pablo Jesús",
       "delineanteApoyo1": "Eduardo G.",
       "delineanteApoyo2": "",
-      "inicioMontaje": "",
+      "inicioMontaje": "2027-10-02",
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
-      "planoValidacion": "Sí",
+      "planoValidacion": "No",
       "fechaValidacionPlano": "",
       "observacionesGlobal": "",
       "entregasMRP": [
