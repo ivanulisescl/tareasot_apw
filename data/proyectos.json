@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-29T08:52:53.4689688",
+  "fechaHoraActualizacion": "2026-10-29T09:51:15.181822",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -400,9 +400,19 @@
           "nEntrega": "16",
           "entrega": "AMPLIACION ENTREPLANTA",
           "pesoTotalEstructura": 484.0
+        },
+        {
+          "estado": "Pdte.Codificar",
+          "nEntrega": "17",
+          "entrega": "TRAMEX MANTENIMIENTO",
+          "pesoTotalEstructura": 1067.0
         }
       ],
       "tiempos": [
+        {
+          "tecnico": "Rubén Suárez",
+          "horas": 0.5
+        },
         {
           "tecnico": "Soraya Mañanes",
           "horas": 1.0
@@ -1087,7 +1097,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 285.75
+          "horas": 287.25
         },
         {
           "tecnico": "Javier de la Cruz",
