@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-30T10:00:53.0454121",
+  "fechaHoraActualizacion": "2026-10-30T10:30:52.4965424",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -123,7 +123,7 @@
       "observacionesGlobal": "Semana del 26/10 entregamos plano de los pórticos y continuamos con las entregas.",
       "entregasMRP": [
         {
-          "estado": "Registrada",
+          "estado": "Pdte.Revisar",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
           "pesoTotalEstructura": 1250834.0
