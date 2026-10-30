@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-29T14:36:59.3968",
+  "fechaHoraActualizacion": "2026-10-30T08:34:43.0976367",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -81,7 +81,7 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 56.5
+          "horas": 57.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -150,7 +150,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 6.0
+          "horas": 7.0
         }
       ]
     },
@@ -250,6 +250,12 @@
           "nEntrega": "10",
           "entrega": "MALLA ANTICAIDA Y ESCALERA DE GATO",
           "pesoTotalEstructura": 4986.0
+        },
+        {
+          "estado": "Compras",
+          "nEntrega": "11",
+          "entrega": "AMPLIACION TRAMEX",
+          "pesoTotalEstructura": 1272.0
         }
       ],
       "tiempos": [
@@ -263,7 +269,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 113.25
+          "horas": 119.5
         }
       ]
     },
@@ -431,7 +437,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 62.0
+          "horas": 66.0
         }
       ]
     },
@@ -1097,7 +1103,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 287.25
+          "horas": 293.5
         },
         {
           "tecnico": "Javier de la Cruz",
@@ -1113,7 +1119,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 126.25
+          "horas": 127.25
         }
       ]
     },
