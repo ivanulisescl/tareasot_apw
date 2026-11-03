@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-10-30T12:16:00.7273161",
+  "fechaHoraActualizacion": "2026-11-03T08:41:46.4077157",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -38,8 +38,12 @@
       ],
       "tiempos": [
         {
+          "tecnico": "Rubén Suárez",
+          "horas": 6.0
+        },
+        {
           "tecnico": "Borja Lombardero",
-          "horas": 8.0
+          "horas": 13.0
         }
       ]
     },
@@ -85,7 +89,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 157.75
+          "horas": 160.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -123,10 +127,10 @@
       "observacionesGlobal": "Semana del 26/10 entregamos plano de los pórticos y continuamos con las entregas.",
       "entregasMRP": [
         {
-          "estado": "Asignada",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "BASTIDORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 1249777.0
         },
         {
           "estado": "Registrada",
@@ -146,7 +150,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 58.75
+          "horas": 61.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -252,7 +256,7 @@
           "pesoTotalEstructura": 4986.0
         },
         {
-          "estado": "Compras",
+          "estado": "Registrada",
           "nEntrega": "11",
           "entrega": "AMPLIACION TRAMEX",
           "pesoTotalEstructura": 1272.0
@@ -408,7 +412,7 @@
           "pesoTotalEstructura": 484.0
         },
         {
-          "estado": "Compras",
+          "estado": "Pdte.Registrar",
           "nEntrega": "17",
           "entrega": "TRAMEX MANTENIMIENTO",
           "pesoTotalEstructura": 1067.0
@@ -1119,7 +1123,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 127.25
+          "horas": 133.25
         }
       ]
     },
