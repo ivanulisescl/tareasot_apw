@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-03T16:59:43.5727534",
+  "fechaHoraActualizacion": "2026-11-03T17:29:42.4001906",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -43,7 +43,7 @@
         },
         {
           "tecnico": "Borja Lombardero",
-          "horas": 13.0
+          "horas": 18.5
         }
       ]
     },
