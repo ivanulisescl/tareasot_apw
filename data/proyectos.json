@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-03T13:11:39.9728871",
+  "fechaHoraActualizacion": "2026-11-03T15:53:38.9222073",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -412,7 +412,7 @@
           "pesoTotalEstructura": 484.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "17",
           "entrega": "TRAMEX MANTENIMIENTO",
           "pesoTotalEstructura": 1067.0
@@ -702,6 +702,12 @@
           "nEntrega": "11",
           "entrega": "PLANTILLA RANURA CARRIL",
           "pesoTotalEstructura": 2.0
+        },
+        {
+          "estado": "Nueva",
+          "nEntrega": "1",
+          "entrega": "Total",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
