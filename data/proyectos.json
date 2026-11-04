@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-04T13:09:09.6461115",
+  "fechaHoraActualizacion": "2026-11-04T16:00:40.3968713",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -30,7 +30,7 @@
       "observacionesGlobal": "",
       "entregasMRP": [
         {
-          "estado": "Nueva",
+          "estado": "Asignada",
           "nEntrega": "1",
           "entrega": "Total",
           "pesoTotalEstructura": 0.0
