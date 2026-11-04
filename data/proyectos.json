@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-04T12:39:09.8401417",
+  "fechaHoraActualizacion": "2026-11-04T13:09:09.6461115",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -708,7 +708,7 @@
           "pesoTotalEstructura": 2.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Registrar",
           "nEntrega": "1",
           "entrega": "Total",
           "pesoTotalEstructura": 0.0
