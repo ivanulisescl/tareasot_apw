@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-04T08:59:35.0863396",
+  "fechaHoraActualizacion": "2026-11-04T09:41:14.3941515",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -994,7 +994,7 @@
       "ofertaReferencia": "OF2500882R4",
       "nombreProyecto": "TOMELLOSO",
       "pais": "ESPAÑA",
-      "fechaVenta": "2025-09-04",
+      "fechaVenta": "2025-09-02",
       "cliente": "VIRGEN DE LAS VIÑAS",
       "integrador": "SIGNODE",
       "importeEur": 2445000.0,
@@ -1008,13 +1008,13 @@
       "delineantePrincipal": "Rubén S.",
       "delineanteApoyo1": "Eduardo G.",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2026-12-24",
+      "inicioMontaje": "2026-12-22",
       "duracionMontajeDias": 150,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
       "planoValidacion": "No",
       "fechaValidacionPlano": "",
-      "entregadoProduccionPorc": 0,
+      "entregadoProduccionPorc": 70,
       "planosMontajeRealizadosPorc": 0,
       "planosMontajePublicadosPorc": 0,
       "observacionesGlobal": "Se retrasa el proyecto debido a la obra civil, hasta enero o febrero de 2027. Sacado el 70%, falta la aprobación para sacar el resto.",
