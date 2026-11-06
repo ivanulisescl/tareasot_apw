@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-06T12:50:10.4167769",
+  "fechaHoraActualizacion": "2026-11-06T13:20:10.1880156",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -426,6 +426,12 @@
           "nEntrega": "17",
           "entrega": "TRAMEX MANTENIMIENTO",
           "pesoTotalEstructura": 1067.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "18",
+          "entrega": "INCREMENTO ALTURA",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
