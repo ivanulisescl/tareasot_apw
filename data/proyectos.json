@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-06T08:49:17.095481",
+  "fechaHoraActualizacion": "2026-11-06T10:04:50.2125294",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -264,6 +264,12 @@
           "nEntrega": "11",
           "entrega": "AMPLIACION TRAMEX",
           "pesoTotalEstructura": 1272.0
+        },
+        {
+          "estado": "Compras",
+          "nEntrega": "12",
+          "entrega": "VALLADO PERIMETRAL",
+          "pesoTotalEstructura": 2563.0
         }
       ],
       "tiempos": [
