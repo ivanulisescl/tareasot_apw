@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-06T13:20:10.1880156",
+  "fechaHoraActualizacion": "2026-11-06T13:50:10.6310196",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -279,7 +279,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 24.75
+          "horas": 31.0
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -437,7 +437,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 0.5
+          "horas": 6.5
         },
         {
           "tecnico": "Soraya Mañanes",
