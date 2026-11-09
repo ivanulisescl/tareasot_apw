@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-09T12:24:37.0133471",
+  "fechaHoraActualizacion": "2026-11-09T16:07:30.8203909",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -428,16 +428,16 @@
           "pesoTotalEstructura": 1067.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "AsignadaProg",
           "nEntrega": "18",
           "entrega": "INCREMENTO ALTURA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 1064.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 6.5
+          "horas": 10.0
         },
         {
           "tecnico": "Soraya Mañanes",
