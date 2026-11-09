@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-09T16:37:30.8689795",
+  "fechaHoraActualizacion": "2026-11-09T17:07:30.8037996",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -39,7 +39,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 30.75
+          "horas": 33.0
         },
         {
           "tecnico": "Borja Lombardero",
@@ -428,7 +428,7 @@
           "pesoTotalEstructura": 1067.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "18",
           "entrega": "INCREMENTO ALTURA",
           "pesoTotalEstructura": 1064.0
