@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-10T13:53:29.8411756",
+  "fechaHoraActualizacion": "2026-11-10T17:56:37.7534685",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -39,7 +39,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 33.0
+          "horas": 42.25
         },
         {
           "tecnico": "Borja Lombardero",
@@ -266,16 +266,16 @@
           "pesoTotalEstructura": 1272.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "12",
           "entrega": "VALLADO PERIMETRAL",
           "pesoTotalEstructura": 2563.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "13",
           "entrega": "AMPLIACION BASTIDORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 6874.0
         }
       ],
       "tiempos": [
@@ -285,7 +285,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 34.683333
+          "horas": 38.683333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -455,7 +455,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 33.066666
+          "horas": 35.816666
         },
         {
           "tecnico": "Eduardo Gargantiel",
