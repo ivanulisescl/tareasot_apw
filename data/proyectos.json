@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-10T12:53:29.9353339",
+  "fechaHoraActualizacion": "2026-11-10T13:23:29.756513",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -270,6 +270,12 @@
           "nEntrega": "12",
           "entrega": "VALLADO PERIMETRAL",
           "pesoTotalEstructura": 2563.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "13",
+          "entrega": "AMPLIACION BASTIDORES",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
