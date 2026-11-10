@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-09T17:37:30.7726585",
+  "fechaHoraActualizacion": "2026-11-10T10:24:49.8235863",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -266,7 +266,7 @@
           "pesoTotalEstructura": 1272.0
         },
         {
-          "estado": "Compras",
+          "estado": "AsignadaProg",
           "nEntrega": "12",
           "entrega": "VALLADO PERIMETRAL",
           "pesoTotalEstructura": 2563.0
@@ -279,7 +279,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 31.0
+          "horas": 34.683333
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -428,7 +428,7 @@
           "pesoTotalEstructura": 1067.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "18",
           "entrega": "INCREMENTO ALTURA",
           "pesoTotalEstructura": 1064.0
@@ -449,7 +449,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 28.5
+          "horas": 33.066666
         },
         {
           "tecnico": "Eduardo Gargantiel",
