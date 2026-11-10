@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-10T13:23:29.756513",
+  "fechaHoraActualizacion": "2026-11-10T13:53:29.8411756",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -266,7 +266,7 @@
           "pesoTotalEstructura": 1272.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "12",
           "entrega": "VALLADO PERIMETRAL",
           "pesoTotalEstructura": 2563.0
