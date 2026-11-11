@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-10T17:56:37.7534685",
+  "fechaHoraActualizacion": "2026-11-11T09:49:24.4741575",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -272,7 +272,7 @@
           "pesoTotalEstructura": 2563.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Registrada",
           "nEntrega": "13",
           "entrega": "AMPLIACION BASTIDORES",
           "pesoTotalEstructura": 6874.0
