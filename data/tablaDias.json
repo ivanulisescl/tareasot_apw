@@ -1,9 +1,9 @@
 {
   "Actual": {
-    "Nuevas": 8,
+    "Nuevas": 13,
     "Incompletas": 10,
-    "Definidas": 111,
-    "Asignadas": 124,
+    "Definidas": 90,
+    "Asignadas": 141,
     "PdteRevComercial": 27,
     "Calculadas": 0,
     "PdteComercializados": 0,
@@ -15,7 +15,7 @@
     "Pedidos Ing": 29,
     "Pedidos Autom": 19,
     "Ofertas ISA": 2,
-    "Pedidos ISA": 109,
+    "Pedidos ISA": 110,
     "Ofertas VE": 1,
     "Pedidos VE": 15
   },
