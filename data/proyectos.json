@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-12T16:05:57.1150726",
+  "fechaHoraActualizacion": "2026-11-12T16:35:57.0393412",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -39,7 +39,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 42.25
+          "horas": 50.5
         },
         {
           "tecnico": "Borja Lombardero",
