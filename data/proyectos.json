@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-16T16:52:31.1233458",
+  "fechaHoraActualizacion": "2026-11-16T17:55:06.6817654",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -39,11 +39,11 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 56.5
+          "horas": 64.75
         },
         {
           "tecnico": "Borja Lombardero",
-          "horas": 34.5
+          "horas": 35.25
         }
       ]
     },
@@ -613,7 +613,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 220.666666
+          "horas": 228.916666
         },
         {
           "tecnico": "Javier Rodríguez",
