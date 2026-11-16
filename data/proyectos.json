@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-16T12:32:01.1529308",
+  "fechaHoraActualizacion": "2026-11-16T13:02:18.2521475",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -8,7 +8,7 @@
       "ofertaReferencia": "OF2407556R1",
       "nombreProyecto": "LACTALIS",
       "pais": "España",
-      "fechaVenta": "2026-10-11",
+      "fechaVenta": "2026-10-09",
       "cliente": "Lactalis",
       "integrador": "Signode",
       "importeEur": 227000.0,
@@ -22,12 +22,12 @@
       "delineantePrincipal": "Rubén S.",
       "delineanteApoyo1": "",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2027-01-14",
+      "inicioMontaje": "2027-01-12",
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
       "planoValidacion": "Sí",
       "fechaValidacionPlano": "",
-      "observacionesGlobal": "",
+      "observacionesGlobal": "La semana del 16/11 queda desarrollado",
       "entregasMRP": [
         {
           "estado": "Asignada",
@@ -107,7 +107,7 @@
       "ofertaReferencia": "OF2603350R0",
       "nombreProyecto": "FAMILY CASH",
       "pais": "España",
-      "fechaVenta": "2026-07-22",
+      "fechaVenta": "2026-07-20",
       "cliente": "Family Cash",
       "integrador": "Toyota",
       "importeEur": 5345000.0,
@@ -128,7 +128,7 @@
       "planoValidacion": "No",
       "fechaValidacionPlano": "",
       "entregadoProduccionPorc": 70,
-      "observacionesGlobal": "Rematando los pórticos todavía.",
+      "observacionesGlobal": "Esta semana sacaremos rigidizadores y torre de la derecha. Pendiente validación pórticos.",
       "entregasMRP": [
         {
           "estado": "Registrada",
@@ -169,7 +169,7 @@
       "ofertaReferencia": "OF255186R4",
       "nombreProyecto": "PAPASTRATOS",
       "pais": "Grecia",
-      "fechaVenta": "2026-02-26",
+      "fechaVenta": "2026-02-24",
       "cliente": "Papastratos",
       "integrador": "Viastore (Toyota)",
       "importeEur": 892000.0,
@@ -183,15 +183,15 @@
       "delineantePrincipal": "Fernando B.",
       "delineanteApoyo1": "Nuria S.",
       "delineanteApoyo2": "Eduardo G.",
-      "inicioMontaje": "2026-09-01",
+      "inicioMontaje": "2026-08-30",
       "duracionMontajeDias": 45,
       "tipoTransporte": "Marítimo",
       "planoValidacion": "Sí",
-      "fechaValidacionPlano": "2026-05-11",
-      "entregadoProduccionPorc": 90,
+      "fechaValidacionPlano": "2026-05-09",
+      "entregadoProduccionPorc": 100,
       "planosMontajeRealizadosPorc": 100,
-      "planosMontajePublicadosPorc": 30,
-      "observacionesGlobal": "Pendiente sólo el vallado. Esta semana estará todo sacado y planos de montaje publicados.",
+      "planosMontajePublicadosPorc": 100,
+      "observacionesGlobal": "Faltan planos demontaje de ampliación del bastidor",
       "entregasMRP": [
         {
           "estado": "Registrada",
