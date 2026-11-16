@@ -1,9 +1,9 @@
 {
-  "fechaHoraActualizacion": "2026-11-16T13:02:30.8549817",
+  "fechaHoraActualizacion": "2026-11-16T13:32:29.3952816",
   "categorias": {
     "Ingeniería": {
       "ofertasEntradas": 7,
-      "ofertasSalidas": 13,
+      "ofertasSalidas": 14,
       "pedidosEntradas": 3,
       "pedidosSalidas": 5
     },
@@ -23,7 +23,7 @@
       "ofertasEntradas": 0,
       "ofertasSalidas": 0,
       "pedidosEntradas": 2,
-      "pedidosSalidas": 2
+      "pedidosSalidas": 3
     }
   }
 }
