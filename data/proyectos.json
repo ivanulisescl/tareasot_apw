@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-13T13:45:27.375541",
+  "fechaHoraActualizacion": "2026-11-16T08:24:53.7691895",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -88,7 +88,7 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 59.5
+          "horas": 61.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -1799,7 +1799,7 @@
         },
         {
           "tecnico": "Nieves González",
-          "horas": 0.75
+          "horas": 1.0
         }
       ]
     },
