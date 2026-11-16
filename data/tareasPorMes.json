@@ -1,5 +1,5 @@
 {
-  "fechaHoraCreacion": "2026-11-16T09:18:46.9441329",
+  "fechaHoraCreacion": "2026-11-16T09:48:46.9503342",
   "tareasPorAnio": {
     "2024": [
       {
@@ -498,7 +498,7 @@
         "agosto": 180,
         "septiembre": 282,
         "octubre": 280,
-        "noviembre": 116,
+        "noviembre": 118,
         "diciembre": 0
       },
       {
@@ -528,7 +528,7 @@
         "agosto": 182,
         "septiembre": 155,
         "octubre": 204,
-        "noviembre": 110,
+        "noviembre": 111,
         "diciembre": 0
       },
       {
@@ -543,7 +543,7 @@
         "agosto": 165,
         "septiembre": 123,
         "octubre": 160,
-        "noviembre": 86,
+        "noviembre": 87,
         "diciembre": 0
       },
       {
@@ -723,7 +723,7 @@
         "agosto": 7,
         "septiembre": 13,
         "octubre": 21,
-        "noviembre": 15,
+        "noviembre": 16,
         "diciembre": 0
       }
     ],
