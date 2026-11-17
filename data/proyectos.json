@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-17T15:48:23.344259",
+  "fechaHoraActualizacion": "2026-11-17T18:12:09.0140562",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -88,11 +88,11 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 61.0
+          "horas": 61.5
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 168.5
+          "horas": 170.916666
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -455,7 +455,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 41.316666
+          "horas": 42.65
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -530,7 +530,7 @@
           "pesoTotalEstructura": 2646.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Montajes",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
@@ -605,7 +605,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 400.75
+          "horas": 409.0
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -613,7 +613,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 228.916666
+          "horas": 233.416666
         },
         {
           "tecnico": "Javier Rodríguez",
@@ -1151,7 +1151,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 133.25
+          "horas": 141.5
         }
       ]
     },
@@ -2936,7 +2936,7 @@
         },
         {
           "tecnico": "Manuel Díaz",
-          "horas": 52.75
+          "horas": 55.75
         },
         {
           "tecnico": "Daniel Rodriguez",
