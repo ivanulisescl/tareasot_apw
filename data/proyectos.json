@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-17T11:58:40.9326219",
+  "fechaHoraActualizacion": "2026-11-17T12:28:40.9637544",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -356,7 +356,7 @@
           "pesoTotalEstructura": 20223.0
         },
         {
-          "estado": "Pdte.Montajes",
+          "estado": "Asignada",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
