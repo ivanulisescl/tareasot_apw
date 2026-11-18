@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-18T10:29:35.1009115",
+  "fechaHoraActualizacion": "2026-11-18T11:12:08.5360882",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -141,6 +141,12 @@
           "nEntrega": "2",
           "entrega": "LARGUEROS DE CARGA",
           "pesoTotalEstructura": 531761.0
+        },
+        {
+          "estado": "Pdte.Aprobacion",
+          "nEntrega": "3",
+          "entrega": "RIGIDIZADORES",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
