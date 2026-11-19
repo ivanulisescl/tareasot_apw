@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-19T08:48:02.026409",
+  "fechaHoraActualizacion": "2026-11-19T10:37:34.0342319",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -30,13 +30,13 @@
       "observacionesGlobal": "La semana del 16/11 queda desarrollado",
       "entregasMRP": [
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "1",
           "entrega": "Total",
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Definida",
+          "estado": "Asignada",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
@@ -45,7 +45,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 73.0
+          "horas": 76.0
         },
         {
           "tecnico": "Borja Lombardero",
