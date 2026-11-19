@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-18T12:42:08.5592284",
+  "fechaHoraActualizacion": "2026-11-19T08:48:02.026409",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -34,16 +34,26 @@
           "nEntrega": "1",
           "entrega": "Total",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Definida",
+          "nEntrega": "0",
+          "entrega": "Planos de montaje",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 64.75
+          "horas": 73.0
         },
         {
           "tecnico": "Borja Lombardero",
-          "horas": 35.25
+          "horas": 37.75
+        },
+        {
+          "tecnico": "Eduardo Gargantiel",
+          "horas": 1.25
         }
       ]
     },
@@ -88,11 +98,11 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 61.5
+          "horas": 62.0
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 170.916666
+          "horas": 175.416666
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -143,10 +153,10 @@
           "pesoTotalEstructura": 531761.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Registrar",
           "nEntrega": "3",
           "entrega": "RIGIDIZADORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 75114.0
         }
       ],
       "tiempos": [
@@ -160,7 +170,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 67.25
+          "horas": 71.0
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -285,6 +295,10 @@
         }
       ],
       "tiempos": [
+        {
+          "tecnico": "Manuel Díaz",
+          "horas": 5.0
+        },
         {
           "tecnico": "Fernando Bereguiain",
           "horas": 296.183333
@@ -469,7 +483,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 81.0
+          "horas": 86.0
         }
       ]
     },
@@ -1157,7 +1171,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 141.5
+          "horas": 148.5
         }
       ]
     },
