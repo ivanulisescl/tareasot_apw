@@ -1,6 +1,32 @@
 {
-  "fechaHoraActualizacion": "2026-11-20T12:19:18.8362161",
+  "fechaHoraActualizacion": "2026-11-20T12:50:32.708152",
   "proyectos": [
+    {
+      "idProyecto": 70,
+      "estado": "En desarrollo",
+      "numeroPedido": "PVP_14XX",
+      "ofertaReferencia": "OF2602716R1",
+      "nombreProyecto": "GOLDEN PET FOODS",
+      "pais": "España",
+      "fechaVenta": "2026-11-18",
+      "cliente": "SIGNODE",
+      "integrador": "",
+      "importeEur": 244391.0,
+      "pesoKg": 70476.0,
+      "sistema": "",
+      "tipoInstalacion": "",
+      "jefeProyecto": "",
+      "delineantePrincipal": "",
+      "delineanteApoyo1": "",
+      "delineanteApoyo2": "",
+      "inicioMontaje": "",
+      "tipoTransporte": "",
+      "planoValidacion": "",
+      "fechaValidacionPlano": "",
+      "observacionesGlobal": "",
+      "entregasMRP": [],
+      "tiempos": []
+    },
     {
       "idProyecto": 67,
       "estado": "En desarrollo",
@@ -1092,13 +1118,13 @@
           "pesoTotalEstructura": 36477.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "6",
           "entrega": "TORRE ARRIOSTRADO IZQUIERDA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 33986.0
         },
         {
-          "estado": "Asignada",
+          "estado": "Pdte.Aprobacion",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 0.0
