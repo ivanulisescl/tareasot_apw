@@ -1,30 +1,42 @@
 {
-  "fechaHoraActualizacion": "2026-11-20T12:50:32.708152",
+  "fechaHoraActualizacion": "2026-11-20T13:20:32.6101036",
   "proyectos": [
     {
       "idProyecto": 70,
       "estado": "En desarrollo",
-      "numeroPedido": "PVP_14XX",
+      "numeroPedido": "PVP_1484",
       "ofertaReferencia": "OF2602716R1",
       "nombreProyecto": "GOLDEN PET FOODS",
       "pais": "España",
-      "fechaVenta": "2026-11-18",
+      "fechaVenta": "2026-11-16",
       "cliente": "SIGNODE",
-      "integrador": "",
+      "integrador": "SIGNODE",
       "importeEur": 244391.0,
       "pesoKg": 70476.0,
-      "sistema": "",
-      "tipoInstalacion": "",
-      "jefeProyecto": "",
+      "ratioEurKg": 3.16,
+      "sistema": "Carro satélite con lanzadera",
+      "tipoInstalacion": "Interior de nave",
+      "numeroPaletas": 2104,
+      "alturaTotalMm": 7900,
+      "jefeProyecto": "Manuel D.",
       "delineantePrincipal": "",
       "delineanteApoyo1": "",
       "delineanteApoyo2": "",
-      "inicioMontaje": "",
-      "tipoTransporte": "",
-      "planoValidacion": "",
+      "inicioMontaje": "2027-03-06",
+      "duracionMontajeDias": 30,
+      "tipoTransporte": "Terrestre",
+      "transitoDias": 3,
+      "planoValidacion": "No",
       "fechaValidacionPlano": "",
       "observacionesGlobal": "",
-      "entregasMRP": [],
+      "entregasMRP": [
+        {
+          "estado": "Nueva",
+          "nEntrega": "1",
+          "entrega": "Total",
+          "pesoTotalEstructura": 0.0
+        }
+      ],
       "tiempos": []
     },
     {
@@ -56,7 +68,7 @@
       "observacionesGlobal": "La semana del 16/11 queda desarrollado",
       "entregasMRP": [
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "1",
           "entrega": "Total",
           "pesoTotalEstructura": 65820.0
@@ -71,7 +83,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 76.0
+          "horas": 77.0
         },
         {
           "tecnico": "Borja Lombardero",
@@ -1118,13 +1130,13 @@
           "pesoTotalEstructura": 36477.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "Pdte.Registrar",
           "nEntrega": "6",
           "entrega": "TORRE ARRIOSTRADO IZQUIERDA",
           "pesoTotalEstructura": 33986.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 0.0
@@ -1181,7 +1193,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 298.75
+          "horas": 303.75
         },
         {
           "tecnico": "Javier de la Cruz",
