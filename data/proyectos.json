@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-20T09:18:57.6124035",
+  "fechaHoraActualizacion": "2026-11-20T10:20:31.6230525",
   "proyectos": [
     {
       "idProyecto": 67,
@@ -30,10 +30,10 @@
       "observacionesGlobal": "La semana del 16/11 queda desarrollado",
       "entregasMRP": [
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "AsignadaProg",
           "nEntrega": "1",
           "entrega": "Total",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 65820.0
         },
         {
           "estado": "Asignada",
