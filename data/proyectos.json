@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-20T13:20:32.6101036",
+  "fechaHoraActualizacion": "2026-11-23T09:08:20.238668",
   "proyectos": [
     {
       "idProyecto": 70,
@@ -87,11 +87,11 @@
         },
         {
           "tecnico": "Borja Lombardero",
-          "horas": 37.75
+          "horas": 39.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 6.5
+          "horas": 12.5
         }
       ]
     },
@@ -208,7 +208,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 79.25
+          "horas": 85.25
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -1130,16 +1130,16 @@
           "pesoTotalEstructura": 36477.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "6",
           "entrega": "TORRE ARRIOSTRADO IZQUIERDA",
           "pesoTotalEstructura": 33986.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 10947.0
         },
         {
           "estado": "Asignada",
