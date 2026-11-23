@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-23T16:08:14.2529292",
+  "fechaHoraActualizacion": "2026-11-23T16:38:13.2208468",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -161,7 +161,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 77.0
+          "horas": 78.25
         },
         {
           "tecnico": "Borja Lombardero",
@@ -169,7 +169,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 12.5
+          "horas": 16.5
         }
       ]
     },
@@ -297,7 +297,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 7.0
+          "horas": 11.25
         }
       ]
     },
@@ -1221,7 +1221,7 @@
           "pesoTotalEstructura": 33986.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "7",
           "entrega": "NUCLEO ESCALERA",
           "pesoTotalEstructura": 10947.0
@@ -1278,7 +1278,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 303.75
+          "horas": 310.5
         },
         {
           "tecnico": "Javier de la Cruz",
