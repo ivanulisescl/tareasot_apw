@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-23T12:43:57.7702182",
+  "fechaHoraActualizacion": "2026-11-23T13:13:57.8516936",
   "proyectos": [
     {
       "idProyecto": 70,
@@ -198,6 +198,12 @@
           "nEntrega": "3",
           "entrega": "RIGIDIZADORES",
           "pesoTotalEstructura": 75114.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "0",
+          "entrega": "Planos de montaje",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
