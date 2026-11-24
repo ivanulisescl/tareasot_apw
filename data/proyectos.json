@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-24T13:42:18.1443077",
+  "fechaHoraActualizacion": "2026-11-24T16:33:47.3076635",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -113,7 +113,12 @@
           "pesoTotalEstructura": 0.0
         }
       ],
-      "tiempos": []
+      "tiempos": [
+        {
+          "tecnico": "Rubén Suárez",
+          "horas": 4.25
+        }
+      ]
     },
     {
       "idProyecto": 67,
