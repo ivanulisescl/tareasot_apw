@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-24T10:04:12.5456897",
+  "fechaHoraActualizacion": "2026-11-24T11:12:19.3660375",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -8,7 +8,7 @@
       "ofertaReferencia": "OF2504155R15",
       "nombreProyecto": "CAPUA",
       "pais": "Italia",
-      "fechaVenta": "2026-11-17",
+      "fechaVenta": "2026-11-15",
       "cliente": "Nolecom",
       "integrador": "Zikoo",
       "importeEur": 1950000.0,
@@ -18,11 +18,11 @@
       "tipoInstalacion": "Interior de nave",
       "numeroPaletas": 10243,
       "alturaTotalMm": 11750,
-      "jefeProyecto": "Pablo Jesús",
-      "delineantePrincipal": "",
+      "jefeProyecto": "Javier R.",
+      "delineantePrincipal": "Pablo Jesús",
       "delineanteApoyo1": "",
       "delineanteApoyo2": "",
-      "inicioMontaje": "2027-03-04",
+      "inicioMontaje": "2027-03-02",
       "duracionMontajeDias": 90,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
