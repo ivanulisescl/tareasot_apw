@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-24T11:12:19.3660375",
+  "fechaHoraActualizacion": "2026-11-24T11:42:18.1495715",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -158,7 +158,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Rechazada",
           "nEntrega": "2",
           "entrega": "DISTANCIADORES",
           "pesoTotalEstructura": 0.0
