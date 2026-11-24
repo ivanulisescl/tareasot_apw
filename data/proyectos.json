@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-24T08:51:53.2170328",
+  "fechaHoraActualizacion": "2026-11-24T10:04:12.5456897",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -156,12 +156,18 @@
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Pdte.Aprobacion",
+          "nEntrega": "2",
+          "entrega": "DISTANCIADORES",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 78.25
+          "horas": 80.25
         },
         {
           "tecnico": "Borja Lombardero",
@@ -1278,7 +1284,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 310.5
+          "horas": 311.5
         },
         {
           "tecnico": "Javier de la Cruz",
