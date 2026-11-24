@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-24T13:12:56.0068448",
+  "fechaHoraActualizacion": "2026-11-24T13:42:18.1443077",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -240,7 +240,7 @@
       "ofertaReferencia": "OF2603350R0",
       "nombreProyecto": "FAMILY CASH",
       "pais": "España",
-      "fechaVenta": "2026-07-18",
+      "fechaVenta": "2026-07-16",
       "cliente": "Family Cash",
       "integrador": "Toyota",
       "importeEur": 5345000.0,
@@ -254,12 +254,12 @@
       "delineantePrincipal": "Daniel R.",
       "delineanteApoyo1": "Nuria S.",
       "delineanteApoyo2": "Pablo Jesús",
-      "inicioMontaje": "2026-02-27",
+      "inicioMontaje": "2026-02-25",
       "duracionMontajeDias": 210,
       "tipoTransporte": "Terrestre",
       "transitoDias": 3,
-      "planoValidacion": "No",
-      "fechaValidacionPlano": "",
+      "planoValidacion": "Sí",
+      "fechaValidacionPlano": "2026-11-22",
       "entregadoProduccionPorc": 75,
       "observacionesGlobal": "Esta semana sacaremos rigidizadores y torre de la derecha. Pendiente validación pórticos.",
       "entregasMRP": [
