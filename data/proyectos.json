@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-25T11:18:25.7536697",
+  "fechaHoraActualizacion": "2026-11-25T11:48:25.6849334",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -163,7 +163,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Codificar",
+          "estado": "AsignadaProg",
           "nEntrega": "2",
           "entrega": "DISTANCIADORES",
           "pesoTotalEstructura": 66.0
