@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-25T12:48:25.5676544",
+  "fechaHoraActualizacion": "2026-11-25T16:58:23.1733015",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -116,7 +116,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 5.25
+          "horas": 13.5
         }
       ]
     },
@@ -163,7 +163,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Pdte.Registrar",
+          "estado": "Registrada",
           "nEntrega": "2",
           "entrega": "DISTANCIADORES",
           "pesoTotalEstructura": 66.0
@@ -291,6 +291,12 @@
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
+        },
+        {
+          "estado": "Asignada",
+          "nEntrega": "4",
+          "entrega": "TORRE DE ARRIOSTRADO 1",
+          "pesoTotalEstructura": 0.0
         }
       ],
       "tiempos": [
@@ -308,7 +314,7 @@
         },
         {
           "tecnico": "Eduardo Gargantiel",
-          "horas": 16.5
+          "horas": 24.75
         }
       ]
     },
@@ -771,7 +777,7 @@
         },
         {
           "tecnico": "Javier Rodríguez",
-          "horas": 106.5
+          "horas": 109.5
         }
       ]
     },
