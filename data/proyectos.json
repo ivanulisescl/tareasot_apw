@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-24T17:33:47.8378002",
+  "fechaHoraActualizacion": "2026-11-25T09:47:14.4721216",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -163,10 +163,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Rechazada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "2",
           "entrega": "DISTANCIADORES",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 66.0
         }
       ],
       "tiempos": [
@@ -304,7 +304,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 93.5
+          "horas": 101.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -392,7 +392,7 @@
           "pesoTotalEstructura": 15539.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Montajes",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
