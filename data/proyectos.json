@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-25T16:58:23.1733015",
+  "fechaHoraActualizacion": "2026-11-26T08:54:36.7366118",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -176,7 +176,7 @@
         },
         {
           "tecnico": "Borja Lombardero",
-          "horas": 39.75
+          "horas": 40.75
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -226,7 +226,7 @@
       "tiempos": [
         {
           "tecnico": "Borja Lombardero",
-          "horas": 64.5
+          "horas": 66.75
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
@@ -310,7 +310,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 101.75
+          "horas": 110.0
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -437,7 +437,7 @@
       "tiempos": [
         {
           "tecnico": "Manuel Díaz",
-          "horas": 5.0
+          "horas": 8.25
         },
         {
           "tecnico": "Fernando Bereguiain",
