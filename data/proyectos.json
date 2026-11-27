@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-27T12:19:36.038256",
+  "fechaHoraActualizacion": "2026-11-27T12:49:37.0103746",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -75,7 +75,12 @@
           "pesoTotalEstructura": 0.0
         }
       ],
-      "tiempos": []
+      "tiempos": [
+        {
+          "tecnico": "Rubén Suárez",
+          "horas": 1.5
+        }
+      ]
     },
     {
       "idProyecto": 70,
@@ -116,7 +121,7 @@
       "tiempos": [
         {
           "tecnico": "Rubén Suárez",
-          "horas": 21.75
+          "horas": 26.25
         }
       ]
     },
@@ -293,7 +298,7 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "AsignadaProg",
+          "estado": "Pdte.Registrar",
           "nEntrega": "4",
           "entrega": "TORRE DE ARRIOSTRADO 1",
           "pesoTotalEstructura": 104179.0
