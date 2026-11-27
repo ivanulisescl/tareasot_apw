@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-27T12:49:37.0103746",
+  "fechaHoraActualizacion": "2026-11-27T13:19:36.1522366",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -1046,6 +1046,12 @@
       "planosMontajePublicadosPorc": 100,
       "observacionesGlobal": "",
       "entregasMRP": [
+        {
+          "estado": "Nueva",
+          "nEntrega": "1",
+          "entrega": "BASTIDORES Y RIGIDIZADORES",
+          "pesoTotalEstructura": 0.0
+        },
         {
           "estado": "Registrada",
           "nEntrega": "1",
