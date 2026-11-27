@@ -1,5 +1,5 @@
 {
-  "fechaHoraActualizacion": "2026-11-26T17:52:56.2617724",
+  "fechaHoraActualizacion": "2026-11-27T10:19:36.025173",
   "proyectos": [
     {
       "idProyecto": 78,
@@ -157,7 +157,7 @@
           "pesoTotalEstructura": 65820.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Pdte.Montajes",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
@@ -230,7 +230,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 175.416666
+          "horas": 182.666666
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -293,10 +293,10 @@
           "pesoTotalEstructura": 0.0
         },
         {
-          "estado": "Aprobada",
+          "estado": "Pdte.Codificar",
           "nEntrega": "4",
           "entrega": "TORRE DE ARRIOSTRADO 1",
-          "pesoTotalEstructura": 0.0
+          "pesoTotalEstructura": 104179.0
         }
       ],
       "tiempos": [
@@ -310,7 +310,7 @@
         },
         {
           "tecnico": "Pablo Jesús Rodríguez",
-          "horas": 110.0
+          "horas": 111.0
         },
         {
           "tecnico": "Eduardo Gargantiel",
@@ -437,7 +437,7 @@
       "tiempos": [
         {
           "tecnico": "Manuel Díaz",
-          "horas": 8.25
+          "horas": 12.25
         },
         {
           "tecnico": "Fernando Bereguiain",
@@ -516,7 +516,7 @@
           "pesoTotalEstructura": 20223.0
         },
         {
-          "estado": "Pdte.Aprobacion",
+          "estado": "Aprobada",
           "nEntrega": "0",
           "entrega": "Planos de montaje",
           "pesoTotalEstructura": 0.0
